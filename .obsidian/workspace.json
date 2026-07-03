@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "0bc1682b0a7c6638",
+    "type": "split",
+    "children": [
+      {
+        "id": "9040da94d2804028",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6f4e0e625a3250b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "315bf69e244161d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "61c5510a6af2ef0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ca4af7a01f19306",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d4e24debd70dfee1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6846227ca968e611",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5
+  },
+  "right": {
+    "id": "314db642c21ad232",
+    "type": "split",
+    "children": [
+      {
+        "id": "5da72793ca2a79d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8158b3e9ea7b5468",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "646d513b114c057d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "e1d69da0398f3428",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "18ee623aaa340940",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4bdc18a3a0c82a7b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d6f4e0e625a3250b",
+  "lastOpenFiles": [
+    "00_Spec/spec.md",
+    "wiki/sources/julie_hammond_breakout.md",
+    "wiki/sources/golf_decoded_six_phases_swing.md",
+    "wiki/sources/anatomy_trains_myofascial_thomas_w_myers.md",
+    "00_Spec",
+    "00_Project_Reports/Six_Phases_Swing_Graph_Extraction.md",
+    "00_Project_Reports/Connective_Structure_Hub_Report.md",
+    "wiki/movements/golf_swing.md",
+    "wiki/movement_patterns/ground_reaction_force.md",
+    "wiki/movement_patterns/golf.md",
+    "wiki/movement_patterns/force_transmission.md",
+    "wiki/movement_patterns/energy_transfer.md",
+    "wiki/movement_patterns/end_pelvis_rotation.md",
+    "wiki/movement_patterns/address_position.md",
+    "wiki/golf_phases/impact_to_hands_chest_height.md",
+    "wiki/golf_phases/max_unweighting_to_impact.md",
+    "wiki/golf_phases/end_pelvis_rotation_to_top_backswing.md",
+    "wiki/movements/golf_swing_transition.md",
+    "wiki/golf_phases/shaft_parallel_to_end_pelvis_rotation.md",
+    "wiki/golf_phases/address_to_shaft_parallel.md",
+    "wiki/movement_patterns/hands_chest_height_position.md",
+    "wiki/movement_patterns/impact_position.md",
+    "wiki/movement_patterns/max_unweighting.md",
+    "wiki/movement_patterns/top_backswing_position.md",
+    "wiki/movement_patterns/shaft_parallel_position.md",
+    "wiki/movement_patterns/movement_sequencing.md",
+    "wiki/movement_patterns",
+    "wiki/golf_phases",
+    "wiki/index.md",
+    "raw/literature/Anatomy_Trains_Myofascial_Thomas_W_Myers.pdf",
+    "scripts/update_graph_metrics.py",
+    "scripts",
+    "wiki/templates",
+    "wiki/connective_structures",
+    "00_Project_Reports",
+    "wiki/lines"
+  ]
+}

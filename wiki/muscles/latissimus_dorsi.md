@@ -1,0 +1,40 @@
+---
+type: muscle
+associated_lines:
+  - "[[functional_line]]"
+  - "[[superficial_front_arm_line]]"
+joints_crossed:
+  - "[[shoulder_joint]]"
+  - "[[thoracic_spine]]"
+  - "[[lumbar_spine]]"
+  - "[[sacrum]]"
+biomechanical_actions:
+  - "[[shoulder_internal_rotation]]"
+  - "[[shoulder_adduction]]"
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 10
+hub_score: 26
+centrality: 0.204
+updated: 2026-06-27
+---
+
+# Muscle: Latissimus Dorsi
+
+Bridges upper extremity to lumbar pelvis via the thoracolumbar fascia.
+
+## ⚙️ Biomechanical Role
+- **Primary Actions (Joint Movements)**:
+  - [[shoulder_internal_rotation]]
+  - [[shoulder_adduction]]
+- **Joints Acted Upon**: [[shoulder_joint]], [[thoracic_spine]], [[lumbar_spine]], [[sacrum]]
+
+## 🕸️ Myofascial Integration
+This muscle is a component of the following **myofascial lines**:
+- [[functional_line]]
+- [[superficial_front_arm_line]]
+
+---
+
+## 📋 Diagnostic Links
+- Back to main index: `[[index]]`
