@@ -1,0 +1,708 @@
+{
+  "version": "1.0",
+  "description": "Knowledge mapping between posture measurements and possible Anatomy Trains / myofascial line interpretations.",
+  "global_caution": "Static posture analysis cannot diagnose fascial restriction, pain source, or pathology. Findings are pattern suggestions only and should be confirmed by clinical assessment and movement testing.",
+  "line_definitions": {
+    "Superficial Back Line": "A posterior Anatomy Trains line model connecting plantar foot structures, calves, hamstrings, sacral region, spinal extensors, and posterior head tissues. In posture reports, it may be referenced for posterior-chain loading patterns only, not as a diagnosis.",
+    "Superficial Front Line": "An anterior Anatomy Trains line model connecting the anterior lower leg, quadriceps region, anterior trunk, sternum, and anterior neck. In posture reports, it may be referenced for anterior-chain loading patterns only.",
+    "Lateral Line": "A lateral Anatomy Trains line model relating the lateral foot and leg, iliotibial tract region, lateral pelvis, lateral trunk, ribs, and neck. In posture reports, it may be referenced for side-bending, frontal-plane balance, or left-right loading patterns.",
+    "Spiral Line": "A rotational Anatomy Trains line model linking foot, leg, pelvis, trunk, scapular, and neck relationships. In posture reports, it may be referenced for rotational asymmetry and cross-body compensation patterns.",
+    "Functional Lines": "An Anatomy Trains line model describing cross-body force-transfer relationships between shoulder girdle, trunk, pelvis, and lower limb. In posture reports, it may be referenced for diagonal loading and sport-related force transfer.",
+    "Deep Front Line": "A deep Anatomy Trains line model relating inner foot, deep leg, adductors, pelvis, psoas/diaphragm region, deep neck, and jaw-related structures. In posture reports, it may be referenced for deep support, breath-posture relationships, and axial organization."
+  },
+  "structure_definitions": {
+    "sacrotuberous ligament": "A posterior pelvic ligament relevant to sacrum, pelvis, and posterior-chain force transmission. Static posture can only suggest possible loading relationships.",
+    "plantar fascia": "A plantar foot connective tissue structure involved in arch support and force transfer through the foot. Static visual analysis cannot confirm plantar fascia restriction.",
+    "Achilles tendon": "A posterior ankle tendon connecting calf complex force to the heel. Visual heel or ankle alignment may suggest possible loading patterns but cannot diagnose tendon status.",
+    "hamstrings": "Posterior thigh muscles that cross the hip and knee and relate to posterior-chain posture and pelvic position. Static posture cannot determine hamstring tightness or weakness.",
+    "thoracolumbar fascia": "A broad posterior trunk fascial structure involved in force transfer between trunk, pelvis, and shoulder/hip regions. Static posture may suggest possible loading relationships only.",
+    "iliotibial band": "A lateral thigh fascial structure relating hip, thigh, and knee mechanics. Static posture cannot confirm IT band tension.",
+    "abdominal fascia": "Connective tissue layers of the abdominal wall involved in trunk support and force transfer. Static posture can only suggest possible abdominal-wall loading patterns.",
+    "adductors": "Medial thigh muscles and fascial tissues related to hip position, pelvis support, and Deep Front Line relationships. Static posture cannot confirm adductor restriction.",
+    "pelvic floor": "A deep pelvic support system relevant to pelvic organization, breathing, and pressure management. Static posture cannot assess pelvic floor function directly.",
+    "diaphragm": "Primary breathing muscle and deep trunk support structure related to rib cage, spine, and pressure regulation. Static posture cannot determine diaphragm function.",
+    "cervical fascia": "Connective tissue structures of the neck region that may relate to head, jaw, and thoracic posture. Static posture cannot identify specific cervical fascia restriction."
+  },
+  "findings": [
+    {
+      "finding_id": "head_tilt",
+      "measurement_names": ["head_tilt", "ear_line_tilt", "head_angle_front"],
+      "views": ["front"],
+      "regions": ["head", "neck", "cervical spine"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line", "Superficial Back Line"],
+      "possible_related_structures": ["cervical fascia", "nuchal ligament", "sternocleidomastoid region", "scalenes", "upper trapezius region"],
+      "interpretation_template": "Head tilt may suggest an asymmetrical loading strategy through the neck and lateral fascial continuities.",
+      "clinical_reasoning": "In a front-view image, head tilt may be consistent with side-to-side cervical loading, visual strategy, vestibular strategy, or compensation from thorax or pelvis asymmetry.",
+      "severity_notes": {
+        "mild": "Mild head tilt may reflect normal positional variation or habitual posture.",
+        "moderate": "Moderate head tilt may suggest a stronger left-right compensation pattern through the neck or trunk.",
+        "significant": "Significant head tilt should be interpreted carefully and confirmed with clinical assessment."
+      },
+      "report_language": "The head appears tilted relative to the horizontal line. This may suggest altered loading through the neck and lateral myofascial system.",
+      "caution_note": "This is not a diagnosis. Static posture cannot confirm which tissues are restricted, overactive, or painful."
+    },
+    {
+      "finding_id": "head_offset_from_midline",
+      "measurement_names": ["head_offset_from_midline", "head_offset_from_pelvis_center", "nose_pelvis_center_offset"],
+      "views": ["front"],
+      "regions": ["head", "neck", "thorax", "pelvis"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line"],
+      "possible_related_structures": ["cervical fascia", "rib cage", "pelvis", "thoracolumbar fascia"],
+      "interpretation_template": "Head offset from the midline may be consistent with a whole-body shift pattern rather than an isolated neck issue.",
+      "clinical_reasoning": "A head position shifted relative to the pelvis center may suggest a relationship between cervical posture, trunk shift, pelvic position, and frontal-plane balance.",
+      "severity_notes": {
+        "mild": "Mild offset may reflect stance variation or image capture angle.",
+        "moderate": "Moderate offset may suggest a more visible head-trunk-pelvis alignment strategy.",
+        "significant": "Significant offset should be confirmed across multiple views and with movement testing."
+      },
+      "report_language": "The head appears offset from the body midline. This may suggest a possible relationship between neck position, trunk shift, and pelvic alignment.",
+      "caution_note": "Camera angle, stance, and marker detection can influence this finding. It does not diagnose fascial restriction."
+    },
+    {
+      "finding_id": "eye_line_tilt",
+      "measurement_names": ["eye_line_tilt", "eye_height_difference", "orbital_line_angle"],
+      "views": ["front"],
+      "regions": ["head", "eyes", "neck"],
+      "possible_myofascial_lines": ["Spiral Line", "Lateral Line", "Deep Front Line"],
+      "possible_related_structures": ["cervical fascia", "suboccipital region", "jaw region", "nuchal ligament"],
+      "interpretation_template": "Eye line tilt may be consistent with head tilt, cervical rotation, or visual-postural compensation.",
+      "clinical_reasoning": "In static posture, a tilted eye line may accompany head tilt or neck side-bending and may relate to broader Spiral Line or Lateral Line asymmetry.",
+      "severity_notes": {
+        "mild": "Mild eye line tilt may reflect facial asymmetry, camera angle, or normal posture variation.",
+        "moderate": "Moderate eye line tilt may suggest a more consistent head-neck orientation pattern.",
+        "significant": "Significant eye line tilt should be interpreted carefully and confirmed clinically."
+      },
+      "report_language": "The eye line appears tilted. This may suggest a possible head-neck alignment strategy rather than a local eye issue.",
+      "caution_note": "This finding is highly sensitive to camera angle and landmark detection and is not diagnostic."
+    },
+    {
+      "finding_id": "shoulder_height_difference",
+      "measurement_names": ["shoulder_height_difference", "left_right_shoulder_height", "shoulder_level"],
+      "views": ["front", "back"],
+      "regions": ["shoulders", "scapulae", "thorax", "neck"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Functional Lines", "Superficial Back Line"],
+      "possible_related_structures": ["thoracolumbar fascia", "cervical fascia", "scapular fascia", "rib cage", "upper trapezius region"],
+      "interpretation_template": "Shoulder height difference may suggest asymmetrical thorax, scapular, or neck loading.",
+      "clinical_reasoning": "Uneven shoulder height may be consistent with side-bending, rib cage shift, scapular elevation/depression, or compensation from pelvic asymmetry.",
+      "severity_notes": {
+        "mild": "Mild shoulder height difference is common and may reflect habitual stance.",
+        "moderate": "Moderate difference may suggest a stronger asymmetrical loading pattern through the upper trunk.",
+        "significant": "Significant difference should be interpreted with back and side views and clinical assessment."
+      },
+      "report_language": "One shoulder appears higher than the other. This may suggest asymmetrical loading through the neck, rib cage, and shoulder girdle.",
+      "caution_note": "Static shoulder height cannot determine whether a muscle or fascial line is tight, weak, or painful."
+    },
+    {
+      "finding_id": "pelvic_height_difference",
+      "measurement_names": ["pelvic_height_difference", "left_right_hip_height", "iliac_crest_height_proxy"],
+      "views": ["front"],
+      "regions": ["pelvis", "lumbar spine", "hips"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line", "Superficial Back Line"],
+      "possible_related_structures": ["pelvis", "sacrotuberous ligament", "thoracolumbar fascia", "iliotibial band", "adductors"],
+      "interpretation_template": "Pelvic height difference may be consistent with frontal-plane loading asymmetry through the pelvis, lumbar spine, and lower limbs.",
+      "clinical_reasoning": "A height difference between pelvic landmarks may relate to stance, leg loading, hip strategy, trunk side-bend, or foot position.",
+      "severity_notes": {
+        "mild": "Mild pelvic height difference may reflect stance or normal asymmetry.",
+        "moderate": "Moderate difference may suggest a more visible pelvic loading strategy.",
+        "significant": "Significant pelvic height difference should be confirmed clinically and across multiple views."
+      },
+      "report_language": "The pelvis appears uneven from left to right. This may suggest asymmetrical loading through the pelvis, trunk, and lower limbs.",
+      "caution_note": "Static posture cannot determine structural leg length, pelvic torsion, or fascial restriction."
+    },
+    {
+      "finding_id": "trunk_side_bend",
+      "measurement_names": ["trunk_side_bend", "trunk_lean", "shoulder_pelvis_angle"],
+      "views": ["front"],
+      "regions": ["thorax", "lumbar spine", "pelvis"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Functional Lines"],
+      "possible_related_structures": ["rib cage", "thoracolumbar fascia", "abdominal fascia", "iliotibial band"],
+      "interpretation_template": "Trunk side-bend may suggest a possible lateral loading strategy through the rib cage, pelvis, and lateral fascial system.",
+      "clinical_reasoning": "A side-bent trunk may occur with pelvic height difference, shoulder height difference, lateral hip strategy, or compensatory head position.",
+      "severity_notes": {
+        "mild": "Mild side-bend may reflect relaxed stance.",
+        "moderate": "Moderate side-bend may suggest a more organized compensation pattern.",
+        "significant": "Significant side-bend should be confirmed with movement testing and clinical assessment."
+      },
+      "report_language": "The trunk appears side-bent. This may suggest altered loading through the lateral trunk and pelvis.",
+      "caution_note": "Static side-bend does not confirm the cause or tissue source of the posture."
+    },
+    {
+      "finding_id": "rib_cage_shift",
+      "measurement_names": ["rib_cage_shift", "thorax_shift", "rib_pelvis_offset"],
+      "views": ["front"],
+      "regions": ["rib cage", "thorax", "pelvis"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line", "Functional Lines"],
+      "possible_related_structures": ["rib cage", "diaphragm", "abdominal fascia", "thoracolumbar fascia", "intercostal region"],
+      "interpretation_template": "Rib cage shift may suggest altered relationship between thorax position, breathing mechanics, and pelvic organization.",
+      "clinical_reasoning": "A rib cage shifted relative to the pelvis may be consistent with frontal-plane compensation, trunk rotation, breath strategy, or asymmetrical loading.",
+      "severity_notes": {
+        "mild": "Mild rib cage shift may reflect stance or breathing phase.",
+        "moderate": "Moderate shift may suggest a visible thorax-pelvis organization pattern.",
+        "significant": "Significant shift should be confirmed across views and with breathing and movement assessment."
+      },
+      "report_language": "The rib cage appears shifted relative to the pelvis. This may suggest altered loading through the trunk and breathing-related fascial system.",
+      "caution_note": "A static image cannot confirm diaphragm function, rib mobility, or fascial tension."
+    },
+    {
+      "finding_id": "knee_valgus_varus",
+      "measurement_names": ["knee_valgus_varus", "knee_alignment", "frontal_knee_angle"],
+      "views": ["front"],
+      "regions": ["knee", "hip", "ankle", "foot"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line", "Superficial Back Line"],
+      "possible_related_structures": ["iliotibial band", "adductors", "plantar fascia", "pelvis", "hip complex"],
+      "interpretation_template": "Knee valgus or varus may be consistent with altered loading through the hip, foot, and lateral or deep fascial continuities.",
+      "clinical_reasoning": "Frontal knee alignment may reflect hip rotation, foot position, arch strategy, stance width, or habitual loading.",
+      "severity_notes": {
+        "mild": "Mild knee alignment variation may be normal and stance-dependent.",
+        "moderate": "Moderate valgus or varus may suggest a stronger lower-limb loading pattern.",
+        "significant": "Significant knee alignment change should be confirmed clinically and dynamically."
+      },
+      "report_language": "The knee alignment appears shifted inward or outward. This may suggest altered loading through the hip-foot chain.",
+      "caution_note": "Static knee alignment cannot diagnose joint pathology, ligament injury, or specific fascial restriction."
+    },
+    {
+      "finding_id": "ankle_alignment",
+      "measurement_names": ["ankle_alignment", "ankle_midline", "medial_lateral_ankle_deviation"],
+      "views": ["front"],
+      "regions": ["ankle", "foot", "knee"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Deep Front Line", "Lateral Line", "Spiral Line"],
+      "possible_related_structures": ["plantar fascia", "Achilles tendon", "tibialis posterior region", "peroneal region", "ankle retinacula"],
+      "interpretation_template": "Ankle alignment changes may suggest possible foot-ankle loading differences that influence fascial-line loading upward.",
+      "clinical_reasoning": "Visible ankle deviation may relate to arch strategy, pronation/supination tendency, knee alignment, or hip loading.",
+      "severity_notes": {
+        "mild": "Mild ankle alignment difference may reflect stance or footwear history.",
+        "moderate": "Moderate difference may suggest a more visible foot-ankle loading strategy.",
+        "significant": "Significant ankle deviation should be confirmed clinically and dynamically."
+      },
+      "report_language": "The ankle alignment appears asymmetrical. This may suggest altered loading through the foot, ankle, and lower-limb myofascial system.",
+      "caution_note": "Static visual analysis cannot diagnose pronation, supination, tendon dysfunction, or ligament status."
+    },
+    {
+      "finding_id": "foot_turnout_asymmetry",
+      "measurement_names": ["foot_turnout_asymmetry", "foot_rotation", "left_right_foot_angle"],
+      "views": ["front"],
+      "regions": ["foot", "ankle", "hip", "pelvis"],
+      "possible_myofascial_lines": ["Spiral Line", "Lateral Line", "Deep Front Line", "Superficial Back Line"],
+      "possible_related_structures": ["plantar fascia", "iliotibial band", "adductors", "hip capsule", "sacrotuberous ligament"],
+      "interpretation_template": "Foot turnout asymmetry may suggest a possible rotational loading difference through the foot, hip, pelvis, or Spiral Line.",
+      "clinical_reasoning": "Different foot angles may relate to hip rotation, tibial rotation, foot strategy, stance comfort, or compensation from the pelvis.",
+      "severity_notes": {
+        "mild": "Mild turnout difference is common and may be habitual.",
+        "moderate": "Moderate asymmetry may suggest a stronger rotational loading preference.",
+        "significant": "Significant asymmetry should be assessed dynamically and clinically."
+      },
+      "report_language": "The feet appear turned out differently. This may suggest asymmetrical rotational loading through the lower limbs.",
+      "caution_note": "Foot angle in a static image cannot identify the source of rotation or tissue restriction."
+    },
+    {
+      "finding_id": "elbow_height_difference",
+      "measurement_names": ["elbow_height_difference", "left_right_elbow_height", "elbow_position"],
+      "views": ["front"],
+      "regions": ["elbow", "shoulder", "arm"],
+      "possible_myofascial_lines": ["Arm Lines", "Functional Lines", "Spiral Line"],
+      "possible_related_structures": ["shoulder complex", "scapular fascia", "thoracolumbar fascia", "palmar aponeurosis"],
+      "interpretation_template": "Elbow height difference may suggest asymmetrical arm carriage or shoulder girdle loading.",
+      "clinical_reasoning": "Elbow position may reflect shoulder height, scapular position, arm tension, habitual posture, or trunk asymmetry.",
+      "severity_notes": {
+        "mild": "Mild elbow height difference may reflect relaxed arm position.",
+        "moderate": "Moderate difference may suggest more visible shoulder or arm-line asymmetry.",
+        "significant": "Significant difference should be interpreted with shoulder, wrist, and trunk findings."
+      },
+      "report_language": "The elbows appear positioned at different heights. This may suggest asymmetrical arm or shoulder-girdle loading.",
+      "caution_note": "Static elbow position cannot determine shoulder, nerve, tendon, or fascial status."
+    },
+    {
+      "finding_id": "wrist_height_difference",
+      "measurement_names": ["wrist_height_difference", "left_right_wrist_height", "hand_height_difference"],
+      "views": ["front"],
+      "regions": ["wrist", "hand", "arm", "shoulder"],
+      "possible_myofascial_lines": ["Arm Lines", "Functional Lines", "Spiral Line"],
+      "possible_related_structures": ["palmar aponeurosis", "forearm fascia", "shoulder complex", "scapular fascia"],
+      "interpretation_template": "Wrist height difference may be consistent with asymmetrical arm carriage or shoulder girdle positioning.",
+      "clinical_reasoning": "Uneven wrist height may reflect shoulder elevation, elbow bend, hand posture, trunk lean, or habitual arm tension.",
+      "severity_notes": {
+        "mild": "Mild wrist height difference may reflect relaxed posture.",
+        "moderate": "Moderate difference may suggest visible upper-limb asymmetry.",
+        "significant": "Significant difference should be interpreted with elbow, shoulder, and trunk findings."
+      },
+      "report_language": "The wrists appear at different heights. This may suggest asymmetrical loading through the arms and shoulder girdle.",
+      "caution_note": "Static wrist height cannot confirm tissue restriction or neurological involvement."
+    },
+    {
+      "finding_id": "arm_symmetry",
+      "measurement_names": ["arm_symmetry", "arm_position_symmetry", "left_right_arm_symmetry"],
+      "views": ["front"],
+      "regions": ["arm", "shoulder", "thorax"],
+      "possible_myofascial_lines": ["Arm Lines", "Functional Lines", "Spiral Line", "Lateral Line"],
+      "possible_related_structures": ["shoulder complex", "scapula", "thoracolumbar fascia", "forearm fascia"],
+      "interpretation_template": "Arm asymmetry may suggest a possible relationship between shoulder girdle, trunk posture, and arm-line loading.",
+      "clinical_reasoning": "Different arm positions may be influenced by shoulder height, trunk lean, hand dominance, habit, or protective strategy.",
+      "severity_notes": {
+        "mild": "Mild arm asymmetry may reflect natural dominance or relaxed stance.",
+        "moderate": "Moderate arm asymmetry may suggest a more visible upper-quarter loading pattern.",
+        "significant": "Significant arm asymmetry should be interpreted with clinical history and movement testing."
+      },
+      "report_language": "The arms appear asymmetrical in resting position. This may suggest altered loading through the shoulder girdle and arm fascial lines.",
+      "caution_note": "Static arm position cannot diagnose shoulder dysfunction or fascial restriction."
+    },
+    {
+      "finding_id": "left_right_asymmetry",
+      "measurement_names": ["left_right_asymmetry", "asymmetry_flag", "global_asymmetry"],
+      "views": ["front", "side", "back"],
+      "regions": ["whole body"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Functional Lines", "Deep Front Line", "Superficial Back Line", "Superficial Front Line"],
+      "possible_related_structures": ["pelvis", "rib cage", "thoracolumbar fascia", "plantar fascia", "cervical fascia"],
+      "interpretation_template": "A left-right asymmetry flag may suggest a global loading pattern that should be interpreted across multiple regions.",
+      "clinical_reasoning": "Global asymmetry can emerge from many small positional differences and should be mapped across head, trunk, pelvis, limbs, and feet.",
+      "severity_notes": {
+        "mild": "Mild global asymmetry may reflect normal human variation.",
+        "moderate": "Moderate asymmetry may suggest a stronger whole-body loading pattern.",
+        "significant": "Significant asymmetry should be confirmed with multi-view assessment and movement testing."
+      },
+      "report_language": "A left-right asymmetry pattern is visible. This may suggest a whole-body loading preference rather than one isolated issue.",
+      "caution_note": "A global asymmetry flag is a screening signal only and does not identify a diagnosis or tissue source."
+    },
+    {
+      "finding_id": "forward_head_posture",
+      "measurement_names": ["forward_head_posture", "neck_angle", "ear_shoulder_hip_alignment"],
+      "views": ["side"],
+      "regions": ["head", "neck", "thorax"],
+      "possible_myofascial_lines": ["Superficial Front Line", "Deep Front Line", "Superficial Back Line"],
+      "possible_related_structures": ["cervical fascia", "suprahyoid region", "infrahyoid region", "deep cervical flexors", "thoracic extensors"],
+      "interpretation_template": "Forward head posture may be consistent with altered balance between the anterior neck, deep cervical support system, and posterior cervical/thoracic tissues.",
+      "clinical_reasoning": "In a side-view posture image, anterior translation of the head relative to the shoulder and hip may suggest increased loading through cervical and thoracic fascial continuities.",
+      "severity_notes": {
+        "mild": "Mild forward head posture may reflect habitual loading or visual/postural strategy.",
+        "moderate": "Moderate forward head posture may suggest a stronger compensation pattern through the neck and upper thorax.",
+        "significant": "Significant forward head posture should be interpreted carefully and confirmed with clinical assessment."
+      },
+      "report_language": "The head appears positioned forward relative to the trunk. This may suggest altered loading through the neck and upper thoracic myofascial system.",
+      "caution_note": "This is not a diagnosis. Static posture cannot confirm which tissues are restricted or overactive."
+    },
+    {
+      "finding_id": "neck_angle",
+      "measurement_names": ["neck_angle", "cervical_angle", "head_neck_angle"],
+      "views": ["side"],
+      "regions": ["neck", "head", "thorax"],
+      "possible_myofascial_lines": ["Superficial Front Line", "Deep Front Line", "Superficial Back Line", "Spiral Line"],
+      "possible_related_structures": ["cervical fascia", "nuchal ligament", "deep cervical flexors", "scalenes", "thoracic extensors"],
+      "interpretation_template": "An altered neck angle may be consistent with changed cervical loading or head-thorax organization.",
+      "clinical_reasoning": "The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position.",
+      "severity_notes": {
+        "mild": "Mild neck angle change may reflect normal posture variation.",
+        "moderate": "Moderate change may suggest a clearer head-neck-thorax alignment pattern.",
+        "significant": "Significant change should be confirmed clinically and interpreted with symptoms and movement tests."
+      },
+      "report_language": "The neck angle appears altered. This may suggest a possible relationship between head position, cervical loading, and upper thoracic posture.",
+      "caution_note": "Neck angle from a static image cannot diagnose cervical dysfunction or fascial restriction."
+    },
+    {
+      "finding_id": "ear_shoulder_hip_alignment",
+      "measurement_names": ["ear_shoulder_hip_alignment", "vertical_alignment_side", "ear_acromion_hip_line"],
+      "views": ["side"],
+      "regions": ["head", "shoulder", "hip", "whole body"],
+      "possible_myofascial_lines": ["Superficial Front Line", "Superficial Back Line", "Deep Front Line"],
+      "possible_related_structures": ["cervical fascia", "rib cage", "pelvis", "thoracolumbar fascia", "diaphragm"],
+      "interpretation_template": "Ear-shoulder-hip alignment may suggest how the head, trunk, and pelvis are stacked under gravity.",
+      "clinical_reasoning": "A side-view vertical alignment measure may reflect whole-body strategy involving head position, rib cage position, pelvis position, and foot loading.",
+      "severity_notes": {
+        "mild": "Mild deviation may be normal or stance-related.",
+        "moderate": "Moderate deviation may suggest a clearer sagittal-plane postural strategy.",
+        "significant": "Significant deviation should be interpreted with side-view clinical assessment."
+      },
+      "report_language": "The ear, shoulder, and hip are not fully vertically aligned. This may suggest altered whole-body stacking under gravity.",
+      "caution_note": "Vertical alignment does not identify a specific tissue cause or pathology."
+    },
+    {
+      "finding_id": "shoulder_protraction_proxy",
+      "measurement_names": ["shoulder_protraction_proxy", "shoulder_forward_position", "acromion_forward_offset"],
+      "views": ["side"],
+      "regions": ["shoulder", "scapula", "thorax"],
+      "possible_myofascial_lines": ["Superficial Front Line", "Functional Lines", "Spiral Line", "Arm Lines"],
+      "possible_related_structures": ["pectoralis fascia", "scapular fascia", "thoracic fascia", "rib cage", "shoulder capsule"],
+      "interpretation_template": "Shoulder protraction proxy may be consistent with altered scapula-thorax organization and anterior chest loading.",
+      "clinical_reasoning": "A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage.",
+      "severity_notes": {
+        "mild": "Mild protraction may reflect habitual posture.",
+        "moderate": "Moderate protraction may suggest a more visible shoulder-thorax loading pattern.",
+        "significant": "Significant protraction should be assessed with scapular motion and shoulder function."
+      },
+      "report_language": "The shoulder appears positioned forward. This may suggest altered loading through the chest, shoulder girdle, and upper thorax.",
+      "caution_note": "A static shoulder protraction proxy cannot diagnose pectoral tightness, scapular dysfunction, or fascial restriction."
+    },
+    {
+      "finding_id": "scapular_position_proxy",
+      "measurement_names": ["scapular_position_proxy", "scapula_proxy", "shoulder_blade_position_proxy"],
+      "views": ["side"],
+      "regions": ["scapula", "shoulder", "thorax"],
+      "possible_myofascial_lines": ["Spiral Line", "Functional Lines", "Superficial Back Line", "Arm Lines"],
+      "possible_related_structures": ["scapular fascia", "thoracolumbar fascia", "serratus anterior region", "rhomboid region", "shoulder complex"],
+      "interpretation_template": "Scapular position proxy may suggest altered scapula-thorax force transmission.",
+      "clinical_reasoning": "Scapular position is difficult to infer from MediaPipe landmarks, but shoulder and thorax proxies may suggest possible scapular organization patterns.",
+      "severity_notes": {
+        "mild": "Mild proxy change should be treated as low-confidence.",
+        "moderate": "Moderate proxy change may justify closer visual or clinical scapular assessment.",
+        "significant": "Significant proxy change should be confirmed manually or with more direct imaging/observation."
+      },
+      "report_language": "The shoulder/scapular proxy suggests a possible change in shoulder blade positioning. This may relate to thorax and shoulder-girdle loading.",
+      "caution_note": "MediaPipe does not directly measure scapular position. This is a low-confidence proxy."
+    },
+    {
+      "finding_id": "thoracic_kyphosis_proxy",
+      "measurement_names": ["thoracic_kyphosis_proxy", "upper_back_curve_proxy", "thoracic_curve_side"],
+      "views": ["side"],
+      "regions": ["thoracic spine", "rib cage", "shoulder"],
+      "possible_myofascial_lines": ["Superficial Front Line", "Superficial Back Line", "Deep Front Line", "Spiral Line"],
+      "possible_related_structures": ["rib cage", "thoracic fascia", "thoracolumbar fascia", "diaphragm", "cervical fascia"],
+      "interpretation_template": "Thoracic kyphosis proxy may suggest altered upper-back and rib cage organization.",
+      "clinical_reasoning": "A side-view upper-back curve proxy may relate to head position, shoulder protraction, rib cage orientation, and breathing strategy.",
+      "severity_notes": {
+        "mild": "Mild increase may reflect habitual posture or camera angle.",
+        "moderate": "Moderate increase may suggest a more visible upper-thoracic loading pattern.",
+        "significant": "Significant change should be confirmed clinically and not inferred from landmarks alone."
+      },
+      "report_language": "The upper back appears more rounded in the side view. This may suggest altered loading through the thoracic spine and rib cage.",
+      "caution_note": "This proxy cannot diagnose spinal curvature or tissue restriction."
+    },
+    {
+      "finding_id": "pelvic_anterior_posterior_tilt_proxy",
+      "measurement_names": ["pelvic_anterior_posterior_tilt_proxy", "pelvic_tilt_side", "ASIS_PSIS_proxy"],
+      "views": ["side"],
+      "regions": ["pelvis", "lumbar spine", "hip"],
+      "possible_myofascial_lines": ["Superficial Front Line", "Superficial Back Line", "Deep Front Line", "Functional Lines"],
+      "possible_related_structures": ["pelvis", "psoas", "hamstrings", "sacrotuberous ligament", "thoracolumbar fascia", "abdominal fascia"],
+      "interpretation_template": "Pelvic tilt proxy may be consistent with altered sagittal-plane loading through the pelvis, hip, and lumbar region.",
+      "clinical_reasoning": "Pelvic tilt can influence lumbar posture, hip position, abdominal wall loading, posterior-chain loading, and whole-body vertical alignment.",
+      "severity_notes": {
+        "mild": "Mild pelvic tilt variation may be normal or stance-dependent.",
+        "moderate": "Moderate tilt may suggest a more visible pelvis-lumbar loading pattern.",
+        "significant": "Significant tilt should be confirmed clinically and with movement assessment."
+      },
+      "report_language": "The pelvis appears tilted in the side view. This may suggest altered loading through the hip, lumbar spine, and pelvic fascial system.",
+      "caution_note": "MediaPipe landmarks provide only a proxy and cannot confirm true pelvic tilt or tissue cause."
+    },
+    {
+      "finding_id": "knee_hyperextension_flexion",
+      "measurement_names": ["knee_hyperextension_flexion", "side_knee_angle", "knee_extension_angle"],
+      "views": ["side"],
+      "regions": ["knee", "hip", "ankle"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Superficial Front Line", "Deep Front Line"],
+      "possible_related_structures": ["hamstrings", "quadriceps region", "Achilles tendon", "plantar fascia", "knee capsule"],
+      "interpretation_template": "Knee hyperextension or flexion posture may suggest altered sagittal-plane loading through the lower limb.",
+      "clinical_reasoning": "Knee angle in standing may relate to foot pressure, ankle strategy, hamstring/quadriceps loading, pelvic position, or habitual stance.",
+      "severity_notes": {
+        "mild": "Mild knee angle variation may reflect natural stance.",
+        "moderate": "Moderate hyperextension or flexion may suggest a clearer lower-limb loading strategy.",
+        "significant": "Significant knee angle change should be confirmed clinically."
+      },
+      "report_language": "The knee appears positioned toward hyperextension or flexion. This may suggest altered loading through the lower limb.",
+      "caution_note": "Static knee angle cannot diagnose ligament laxity, muscle tightness, or joint pathology."
+    },
+    {
+      "finding_id": "ankle_dorsiflexion_plantarflexion_proxy",
+      "measurement_names": ["ankle_dorsiflexion_plantarflexion_proxy", "side_ankle_angle", "ankle_angle_side"],
+      "views": ["side"],
+      "regions": ["ankle", "foot", "calf"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Deep Front Line", "Lateral Line"],
+      "possible_related_structures": ["Achilles tendon", "plantar fascia", "gastrocnemius region", "soleus region", "ankle capsule"],
+      "interpretation_template": "Ankle angle proxy may suggest a possible sagittal-plane foot-ankle loading strategy.",
+      "clinical_reasoning": "Side-view ankle angle may relate to knee position, foot loading, calf-Achilles loading, or whole-body vertical alignment.",
+      "severity_notes": {
+        "mild": "Mild ankle angle variation may be stance-related.",
+        "moderate": "Moderate variation may suggest a more visible foot-ankle loading pattern.",
+        "significant": "Significant variation should be confirmed clinically and dynamically."
+      },
+      "report_language": "The ankle angle appears altered in the side view. This may suggest a possible loading relationship through the foot, ankle, and posterior chain.",
+      "caution_note": "This proxy cannot diagnose ankle mobility, Achilles status, or plantar fascia restriction."
+    },
+    {
+      "finding_id": "whole_body_vertical_alignment",
+      "measurement_names": ["whole_body_vertical_alignment", "plumb_line_alignment", "side_posture_stack"],
+      "views": ["side"],
+      "regions": ["whole body", "head", "thorax", "pelvis", "feet"],
+      "possible_myofascial_lines": ["Superficial Front Line", "Superficial Back Line", "Deep Front Line", "Functional Lines"],
+      "possible_related_structures": ["plantar fascia", "Achilles tendon", "pelvis", "diaphragm", "cervical fascia", "thoracolumbar fascia"],
+      "interpretation_template": "Whole-body vertical alignment may suggest how the body is organizing itself against gravity.",
+      "clinical_reasoning": "A plumb-line style view may show relationships among head position, rib cage, pelvis, knees, ankles, and foot loading.",
+      "severity_notes": {
+        "mild": "Mild deviation may be common and posture-dependent.",
+        "moderate": "Moderate deviation may suggest a more visible whole-body stacking pattern.",
+        "significant": "Significant deviation should be confirmed with clinical assessment and movement testing."
+      },
+      "report_language": "The body appears shifted relative to a vertical reference line. This may suggest altered whole-body loading under gravity.",
+      "caution_note": "Vertical alignment is a screening observation and cannot identify a specific tissue cause."
+    },
+    {
+      "finding_id": "posterior_head_tilt",
+      "measurement_names": ["posterior_head_tilt", "back_view_head_tilt", "occiput_tilt"],
+      "views": ["back"],
+      "regions": ["head", "neck"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Spiral Line", "Lateral Line", "Deep Front Line"],
+      "possible_related_structures": ["nuchal ligament", "cervical fascia", "suboccipital region", "upper trapezius region"],
+      "interpretation_template": "Posterior head tilt may suggest asymmetrical posterior cervical loading.",
+      "clinical_reasoning": "Back-view head tilt may relate to neck side-bend, upper thorax position, shoulder height, or visual/vestibular strategy.",
+      "severity_notes": {
+        "mild": "Mild tilt may reflect normal variation or camera angle.",
+        "moderate": "Moderate tilt may suggest a more consistent head-neck loading pattern.",
+        "significant": "Significant tilt should be confirmed clinically."
+      },
+      "report_language": "From the back view, the head appears tilted. This may suggest altered posterior neck or upper thoracic loading.",
+      "caution_note": "This finding cannot identify the cause of head tilt or diagnose tissue restriction."
+    },
+    {
+      "finding_id": "neck_midline_deviation",
+      "measurement_names": ["neck_midline_deviation", "cervical_midline_offset", "neck_center_line"],
+      "views": ["back"],
+      "regions": ["neck", "thorax", "head"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line"],
+      "possible_related_structures": ["cervical fascia", "nuchal ligament", "rib cage", "thoracic spine"],
+      "interpretation_template": "Neck midline deviation may suggest a possible relationship between cervical position and trunk alignment.",
+      "clinical_reasoning": "A neck offset from the body midline may accompany shoulder height difference, rib cage shift, or head tilt.",
+      "severity_notes": {
+        "mild": "Mild deviation may be positional.",
+        "moderate": "Moderate deviation may suggest a more visible cervical-thoracic pattern.",
+        "significant": "Significant deviation should be confirmed clinically and across views."
+      },
+      "report_language": "The neck appears shifted from the midline. This may suggest altered loading through the neck and upper trunk.",
+      "caution_note": "Static midline deviation cannot diagnose spinal pathology or fascial restriction."
+    },
+    {
+      "finding_id": "scapular_height_asymmetry_proxy",
+      "measurement_names": ["scapular_height_asymmetry_proxy", "shoulder_blade_height_proxy", "back_shoulder_height"],
+      "views": ["back"],
+      "regions": ["scapula", "shoulder", "thorax"],
+      "possible_myofascial_lines": ["Spiral Line", "Functional Lines", "Lateral Line", "Superficial Back Line"],
+      "possible_related_structures": ["scapular fascia", "thoracolumbar fascia", "rib cage", "upper trapezius region", "serratus anterior region"],
+      "interpretation_template": "Scapular height asymmetry proxy may suggest altered scapula-thorax loading.",
+      "clinical_reasoning": "Back-view scapular height differences may relate to shoulder girdle position, rib cage shape, neck loading, or trunk side-bend.",
+      "severity_notes": {
+        "mild": "Mild scapular proxy asymmetry should be treated cautiously.",
+        "moderate": "Moderate asymmetry may justify closer shoulder blade assessment.",
+        "significant": "Significant asymmetry should be confirmed clinically because MediaPipe does not directly track scapulae."
+      },
+      "report_language": "The shoulder blade region appears uneven. This may suggest asymmetrical loading through the shoulder girdle and upper back.",
+      "caution_note": "This is a proxy. MediaPipe landmarks do not directly measure scapular position."
+    },
+    {
+      "finding_id": "scapular_winging_proxy",
+      "measurement_names": ["scapular_winging_proxy", "shoulder_blade_winging_proxy", "posterior_scapula_proxy"],
+      "views": ["back"],
+      "regions": ["scapula", "shoulder", "thorax"],
+      "possible_myofascial_lines": ["Spiral Line", "Functional Lines", "Arm Lines"],
+      "possible_related_structures": ["scapular fascia", "serratus anterior region", "rhomboid region", "thoracic fascia"],
+      "interpretation_template": "Scapular winging proxy may suggest altered scapula-thorax control or loading, but it requires clinical confirmation.",
+      "clinical_reasoning": "A visual proxy for scapular winging may relate to scapular control, rib cage position, shoulder loading, or arm position.",
+      "severity_notes": {
+        "mild": "Mild proxy change is low-confidence and may reflect lighting or landmark limits.",
+        "moderate": "Moderate proxy change may suggest the need for direct scapular observation.",
+        "significant": "Significant proxy change should be confirmed clinically."
+      },
+      "report_language": "The shoulder blade proxy suggests possible winging or altered scapular position. This may relate to shoulder and thoracic loading.",
+      "caution_note": "This is not a diagnosis. MediaPipe cannot directly assess scapular winging."
+    },
+    {
+      "finding_id": "thoracic_shift",
+      "measurement_names": ["thoracic_shift", "back_view_thorax_shift", "rib_cage_shift_back"],
+      "views": ["back"],
+      "regions": ["thorax", "rib cage", "spine", "pelvis"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Functional Lines", "Deep Front Line"],
+      "possible_related_structures": ["rib cage", "thoracolumbar fascia", "diaphragm", "abdominal fascia"],
+      "interpretation_template": "Thoracic shift may suggest a possible trunk-pelvis alignment strategy.",
+      "clinical_reasoning": "Back-view thorax shift may relate to rib cage position, pelvis position, spinal midline, or side-to-side loading.",
+      "severity_notes": {
+        "mild": "Mild thoracic shift may reflect stance or breathing phase.",
+        "moderate": "Moderate shift may suggest a more visible trunk organization pattern.",
+        "significant": "Significant shift should be confirmed across views and with clinical assessment."
+      },
+      "report_language": "The thorax appears shifted from center. This may suggest altered loading through the rib cage, spine, and pelvis.",
+      "caution_note": "Static thoracic shift cannot diagnose spinal curvature or fascial restriction."
+    },
+    {
+      "finding_id": "spinal_midline_deviation_proxy",
+      "measurement_names": ["spinal_midline_deviation_proxy", "back_midline_deviation", "spine_line_proxy"],
+      "views": ["back"],
+      "regions": ["spine", "thorax", "pelvis"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Lateral Line", "Spiral Line", "Deep Front Line"],
+      "possible_related_structures": ["thoracolumbar fascia", "nuchal ligament", "sacrotuberous ligament", "rib cage", "pelvis"],
+      "interpretation_template": "Spinal midline deviation proxy may suggest an asymmetrical trunk loading pattern.",
+      "clinical_reasoning": "A back-view midline proxy may be influenced by head position, shoulder height, thoracic shift, pelvic height, and stance.",
+      "severity_notes": {
+        "mild": "Mild midline deviation may reflect natural asymmetry or landmark noise.",
+        "moderate": "Moderate deviation may suggest a clearer trunk-pelvis pattern.",
+        "significant": "Significant deviation should be evaluated clinically and not inferred from landmarks alone."
+      },
+      "report_language": "The spinal midline proxy appears shifted. This may suggest asymmetrical loading through the trunk.",
+      "caution_note": "This proxy cannot diagnose scoliosis, spinal pathology, or fascial restriction."
+    },
+    {
+      "finding_id": "waist_crease_asymmetry",
+      "measurement_names": ["waist_crease_asymmetry", "waist_angle_asymmetry", "side_waist_space"],
+      "views": ["back", "front"],
+      "regions": ["waist", "lumbar spine", "pelvis", "rib cage"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line", "Functional Lines"],
+      "possible_related_structures": ["abdominal fascia", "thoracolumbar fascia", "pelvis", "rib cage", "iliotibial band"],
+      "interpretation_template": "Waist crease asymmetry may suggest a possible side-bending or trunk-pelvis loading pattern.",
+      "clinical_reasoning": "Waist asymmetry may accompany pelvic height difference, rib cage shift, trunk side-bend, or lower-limb asymmetry.",
+      "severity_notes": {
+        "mild": "Mild waist asymmetry may be normal.",
+        "moderate": "Moderate asymmetry may suggest a visible lateral loading strategy.",
+        "significant": "Significant asymmetry should be confirmed clinically."
+      },
+      "report_language": "The waist creases appear asymmetrical. This may suggest altered side-to-side loading through the trunk and pelvis.",
+      "caution_note": "Waist crease appearance is influenced by body shape, clothing, camera angle, and stance."
+    },
+    {
+      "finding_id": "pelvic_height_difference_back",
+      "measurement_names": ["pelvic_height_difference_back", "back_pelvic_height", "posterior_hip_height_difference"],
+      "views": ["back"],
+      "regions": ["pelvis", "lumbar spine", "hips"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Superficial Back Line", "Deep Front Line"],
+      "possible_related_structures": ["sacrotuberous ligament", "thoracolumbar fascia", "pelvis", "iliotibial band", "adductors"],
+      "interpretation_template": "Posterior pelvic height difference may suggest asymmetrical loading through the pelvis and posterior chain.",
+      "clinical_reasoning": "Back-view pelvic height differences may relate to stance, hip loading, foot position, trunk side-bend, or pelvic rotation.",
+      "severity_notes": {
+        "mild": "Mild difference may be stance-related.",
+        "moderate": "Moderate difference may suggest a stronger posterior pelvic loading pattern.",
+        "significant": "Significant difference should be confirmed clinically and across views."
+      },
+      "report_language": "The pelvis appears uneven from the back view. This may suggest asymmetrical loading through the pelvis, lumbar region, and lower limbs.",
+      "caution_note": "Static pelvic height cannot determine structural asymmetry or fascial restriction."
+    },
+    {
+      "finding_id": "pelvic_rotation_proxy",
+      "measurement_names": ["pelvic_rotation_proxy", "pelvis_rotation_back", "ASIS_PSIS_rotation_proxy"],
+      "views": ["back", "front"],
+      "regions": ["pelvis", "hip", "lumbar spine"],
+      "possible_myofascial_lines": ["Spiral Line", "Functional Lines", "Deep Front Line", "Lateral Line"],
+      "possible_related_structures": ["sacrotuberous ligament", "thoracolumbar fascia", "adductors", "iliotibial band", "pelvic floor"],
+      "interpretation_template": "Pelvic rotation proxy may suggest asymmetrical rotational loading through the pelvis and hips.",
+      "clinical_reasoning": "Pelvis rotation may relate to hip rotation strategy, foot turnout, trunk rotation, or standing habit.",
+      "severity_notes": {
+        "mild": "Mild proxy rotation may reflect stance or landmark noise.",
+        "moderate": "Moderate proxy rotation may suggest a visible rotational loading preference.",
+        "significant": "Significant proxy rotation should be confirmed clinically."
+      },
+      "report_language": "The pelvis appears rotated. This may suggest a rotational loading pattern through the hips, pelvis, and trunk.",
+      "caution_note": "MediaPipe provides only a proxy for pelvic rotation and cannot diagnose pelvic torsion."
+    },
+    {
+      "finding_id": "femur_rotation_proxy",
+      "measurement_names": ["femur_rotation_proxy", "thigh_rotation_proxy", "hip_rotation_proxy"],
+      "views": ["back", "front"],
+      "regions": ["hip", "thigh", "knee"],
+      "possible_myofascial_lines": ["Spiral Line", "Lateral Line", "Deep Front Line", "Functional Lines"],
+      "possible_related_structures": ["iliotibial band", "adductors", "hip capsule", "pelvis", "sacrotuberous ligament"],
+      "interpretation_template": "Femur rotation proxy may suggest altered rotational loading between the hip, knee, and foot.",
+      "clinical_reasoning": "Thigh rotation proxies may relate to foot turnout, knee valgus/varus, pelvic rotation, or hip strategy.",
+      "severity_notes": {
+        "mild": "Mild proxy rotation may be normal or stance-related.",
+        "moderate": "Moderate proxy rotation may suggest a clearer hip-thigh loading pattern.",
+        "significant": "Significant proxy rotation should be confirmed clinically and dynamically."
+      },
+      "report_language": "The thigh appears rotated relative to the lower limb. This may suggest altered rotational loading through the hip and knee.",
+      "caution_note": "This is a visual proxy and cannot determine true femoral version, joint structure, or tissue restriction."
+    },
+    {
+      "finding_id": "knee_valgus_varus_back",
+      "measurement_names": ["knee_valgus_varus_back", "posterior_knee_alignment", "back_knee_angle"],
+      "views": ["back"],
+      "regions": ["knee", "hip", "ankle", "foot"],
+      "possible_myofascial_lines": ["Lateral Line", "Spiral Line", "Deep Front Line", "Superficial Back Line"],
+      "possible_related_structures": ["iliotibial band", "adductors", "plantar fascia", "Achilles tendon", "hip complex"],
+      "interpretation_template": "Back-view knee valgus or varus may suggest altered lower-limb loading from hip to foot.",
+      "clinical_reasoning": "Posterior knee alignment may be influenced by hip rotation, tibial rotation, foot position, ankle alignment, or stance strategy.",
+      "severity_notes": {
+        "mild": "Mild variation may be stance-related.",
+        "moderate": "Moderate variation may suggest a stronger lower-limb alignment pattern.",
+        "significant": "Significant variation should be confirmed with dynamic assessment."
+      },
+      "report_language": "From the back view, the knees appear shifted inward or outward. This may suggest altered loading through the hip-knee-foot chain.",
+      "caution_note": "Static knee alignment cannot diagnose ligament status, joint pathology, or fascial restriction."
+    },
+    {
+      "finding_id": "calf_asymmetry_proxy",
+      "measurement_names": ["calf_asymmetry_proxy", "posterior_calf_shape", "calf_size_symmetry_proxy"],
+      "views": ["back"],
+      "regions": ["calf", "ankle", "knee"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Lateral Line", "Deep Front Line"],
+      "possible_related_structures": ["Achilles tendon", "plantar fascia", "gastrocnemius region", "soleus region", "peroneal region"],
+      "interpretation_template": "Calf asymmetry proxy may suggest a possible difference in lower-leg loading history or stance strategy.",
+      "clinical_reasoning": "Visible calf asymmetry may be influenced by muscle size, stance, lighting, prior activity, foot loading, or ankle strategy.",
+      "severity_notes": {
+        "mild": "Mild asymmetry is common and often non-specific.",
+        "moderate": "Moderate asymmetry may justify comparison with ankle and foot alignment.",
+        "significant": "Significant asymmetry should be clinically reviewed, especially with symptoms."
+      },
+      "report_language": "The calves appear asymmetrical. This may suggest different loading patterns through the lower legs.",
+      "caution_note": "Visual calf asymmetry cannot diagnose muscle, tendon, nerve, or fascial issues."
+    },
+    {
+      "finding_id": "achilles_tendon_angle_proxy",
+      "measurement_names": ["achilles_tendon_angle_proxy", "heel_calf_line", "posterior_achilles_angle"],
+      "views": ["back"],
+      "regions": ["Achilles", "heel", "ankle", "calf"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Deep Front Line", "Lateral Line"],
+      "possible_related_structures": ["Achilles tendon", "plantar fascia", "calcaneus", "gastrocnemius region", "soleus region"],
+      "interpretation_template": "Achilles tendon angle proxy may suggest altered rearfoot or ankle loading.",
+      "clinical_reasoning": "A posterior heel-calf line angle may relate to heel eversion/inversion, ankle pronation/supination proxy, calf loading, or foot posture.",
+      "severity_notes": {
+        "mild": "Mild angle variation may reflect stance or landmark noise.",
+        "moderate": "Moderate variation may suggest a visible rearfoot loading pattern.",
+        "significant": "Significant variation should be confirmed clinically."
+      },
+      "report_language": "The Achilles/heel alignment appears angled. This may suggest altered loading through the rearfoot and posterior chain.",
+      "caution_note": "This proxy cannot diagnose Achilles tendon pathology or confirm tendon loading."
+    },
+    {
+      "finding_id": "heel_eversion_inversion_proxy",
+      "measurement_names": ["heel_eversion_inversion_proxy", "rearfoot_angle", "heel_alignment"],
+      "views": ["back"],
+      "regions": ["heel", "ankle", "foot"],
+      "possible_myofascial_lines": ["Superficial Back Line", "Deep Front Line", "Lateral Line", "Spiral Line"],
+      "possible_related_structures": ["plantar fascia", "Achilles tendon", "tibialis posterior region", "peroneal region", "ankle retinacula"],
+      "interpretation_template": "Heel eversion or inversion proxy may suggest altered rearfoot loading and lower-limb force transmission.",
+      "clinical_reasoning": "Rearfoot position may influence arch strategy, ankle alignment, knee alignment, and hip loading.",
+      "severity_notes": {
+        "mild": "Mild rearfoot variation may be normal.",
+        "moderate": "Moderate variation may suggest a clearer foot-ankle loading strategy.",
+        "significant": "Significant variation should be clinically assessed."
+      },
+      "report_language": "The heel appears angled inward or outward. This may suggest altered rearfoot loading and possible influence up the lower limb.",
+      "caution_note": "A static heel proxy cannot diagnose pronation, supination, tendon dysfunction, or ligament status."
+    },
+    {
+      "finding_id": "ankle_pronation_supination_proxy",
+      "measurement_names": ["ankle_pronation_supination_proxy", "arch_alignment_proxy", "ankle_roll_proxy"],
+      "views": ["back"],
+      "regions": ["ankle", "foot", "arch"],
+      "possible_myofascial_lines": ["Deep Front Line", "Lateral Line", "Spiral Line", "Superficial Back Line"],
+      "possible_related_structures": ["plantar fascia", "tibialis posterior region", "peroneal region", "Achilles tendon", "ankle retinacula"],
+      "interpretation_template": "Ankle pronation or supination proxy may suggest altered foot-ankle loading that could influence the knee, hip, and pelvis.",
+      "clinical_reasoning": "Foot-ankle roll proxies may relate to arch support, toe loading, knee alignment, hip rotation, and whole-body balance.",
+      "severity_notes": {
+        "mild": "Mild proxy change may be stance-related.",
+        "moderate": "Moderate proxy change may suggest a more visible foot strategy.",
+        "significant": "Significant proxy change should be confirmed with clinical foot assessment."
+      },
+      "report_language": "The ankle/arch proxy suggests possible pronation or supination tendency. This may influence loading through the lower limb.",
+      "caution_note": "MediaPipe cannot directly measure arch mechanics or diagnose pronation/supination."
+    },
+    {
+      "finding_id": "foot_turnout_asymmetry_back",
+      "measurement_names": ["foot_turnout_asymmetry_back", "posterior_foot_rotation", "back_foot_angle_difference"],
+      "views": ["back"],
+      "regions": ["foot", "ankle", "knee", "hip"],
+      "possible_myofascial_lines": ["Spiral Line", "Lateral Line", "Deep Front Line", "Superficial Back Line"],
+      "possible_related_structures": ["plantar fascia", "Achilles tendon", "iliotibial band", "adductors", "hip complex"],
+      "interpretation_template": "Back-view foot turnout asymmetry may suggest a rotational loading difference through the foot, ankle, knee, and hip.",
+      "clinical_reasoning": "Different foot angles from the back may reflect hip rotation strategy, tibial rotation, foot comfort, stance habit, or compensation.",
+      "severity_notes": {
+        "mild": "Mild turnout difference may be habitual.",
+        "moderate": "Moderate difference may suggest a more visible rotational loading pattern.",
+        "significant": "Significant difference should be confirmed dynamically and clinically."
+      },
+      "report_language": "From the back view, the feet appear rotated differently. This may suggest asymmetrical rotational loading through the lower limbs.",
+      "caution_note": "Static foot turnout cannot identify the source of rotation or confirm fascial restriction."
+    }
+  ]
+}
