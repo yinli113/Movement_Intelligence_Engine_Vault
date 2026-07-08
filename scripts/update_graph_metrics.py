@@ -18,7 +18,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WIKI = ROOT / "wiki"
+DIRS = ["00_Spec", "01_Fascial_Lines", "02_Body_Structures", "03_Movement_Functions", "04_Golf_Swing", "05_App_Logic"]
 SKIP_DIRS = {"templates"}
 METRIC_KEYS = {"relationship_count", "hub_score", "centrality"}
 DEFAULT_CONFIDENCE = "medium"
@@ -105,12 +105,16 @@ def parse_relationship_refs(frontmatter: str) -> set[str]:
 
 def node_files() -> list[Path]:
     paths: list[Path] = []
-    for path in WIKI.rglob("*.md"):
-        if any(part in SKIP_DIRS for part in path.relative_to(WIKI).parts):
+    for d in DIRS:
+        dir_path = ROOT / d
+        if not dir_path.exists():
             continue
-        if path.name in {"index.md", "log.md"}:
-            continue
-        paths.append(path)
+        for path in dir_path.rglob("*.md"):
+            if any(part in SKIP_DIRS for part in path.relative_to(dir_path).parts):
+                continue
+            if path.name in {"index.md", "log.md"}:
+                continue
+            paths.append(path)
     return sorted(paths)
 
 

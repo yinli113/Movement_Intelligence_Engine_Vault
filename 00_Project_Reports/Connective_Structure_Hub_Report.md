@@ -70,7 +70,7 @@ This is the computed top 20 across all current node types. It shows where the ex
 | 5 | [[lateral_line]] | Fascial Line | 35 | 100 | 0.778 |
 | 6 | [[cervical_spine]] | Joint | 23 | 99 | 0.511 |
 | 7 | [[superficial_back_line]] | Fascial Line | 32 | 96 | 0.711 |
-| 8 | [[functional_line]] | Fascial Line | 31 | 85 | 0.689 |
+| 8 | [[functional_lines]] | Fascial Line | 31 | 85 | 0.689 |
 | 9 | [[shoulder_joint]] | Joint | 22 | 84 | 0.489 |
 | 10 | [[knee_joint]] | Joint | 21 | 82 | 0.467 |
 | 11 | [[hip_internal_rotation]] | mechanic | 22 | 78 | 0.489 |
@@ -130,7 +130,7 @@ Example golf traversal:
 [[trail_shoulder_external_rotation]]
 -> [[latissimus_dorsi]]
 -> [[thoracolumbar_fascia]]
--> [[functional_line]]
+-> [[functional_lines]]
 -> [[hip_internal_rotation]]
 -> [[toe_loading]]
 -> [[plantar_fascia]]

@@ -8,11 +8,11 @@ relationships:
   governs: [fascial_line_model, golf_swing, movement_sequencing, force_transmission, energy_transfer, mediapipe_landmark_mapping]
   separates: [stable_anatomical_knowledge, golf_application_interpretation, app_logic_hypothesis]
   supported_by: [anatomy_trains_myers_2009, julie_hammond_breakout, golf_decoded_six_phases_swing]
-relationship_count: 0
-hub_score: 0
-centrality: 0.0
 confidence: high
 review_status: active_spec
+relationship_count: 9
+hub_score: 11
+centrality: 0.18
 updated: 2026-07-01
 ---
 

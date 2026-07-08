@@ -104,7 +104,7 @@ Do not create these until they are needed by assessments or additional sources.
 -> [[end_pelvis_rotation_to_top_backswing]]
 -> [[top_backswing_position]]
 -> [[trail_shoulder_external_rotation]]
--> [[functional_line]]
+-> [[functional_lines]]
 -> [[thoracolumbar_fascia]]
 ```
 
