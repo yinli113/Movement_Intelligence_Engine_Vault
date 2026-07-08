@@ -12,9 +12,9 @@ biomechanical_actions:
   - "[[hip_abduction]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 10
-hub_score: 28
-centrality: 0.2
+relationship_count: 11
+hub_score: 33
+centrality: 0.22
 updated: 2026-06-27
 ---
 

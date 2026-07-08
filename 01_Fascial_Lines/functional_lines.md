@@ -15,16 +15,16 @@ evidence:
     supports: "Provides the biomechanical basis for how foot-ground reaction forces create moments about the Center of Mass that require cross-body slings to transmit rotational torque."
 relationships:
   parent_concepts: [fascial_line_model]
-  child_concepts: [back_functional_line, front_functional_line]
+  child_concepts: [back_functional_line, front_functional_line, ipsilateral_functional_line]
   related_concepts: [ground_reaction_moment, torque, energy_transfer, force_transmission]
   stable_anatomy: [latissimus_dorsi, gluteus_maximus, pectoralis_major, rectus_abdominis, adductor_longus, thoracolumbar_fascia]
   golf_interpretation: [golf_swing_transition]
   app_hypotheses: [functional_line_loading_index]
 confidence: high
 review_status: active_spec
-relationship_count: 45
-hub_score: 125
-centrality: 0.9
+relationship_count: 48
+hub_score: 140
+centrality: 0.96
 updated: 2026-07-08
 ---
 
@@ -35,9 +35,9 @@ updated: 2026-07-08
 The **Functional Lines** are myofascial tracks described by Thomas Myers that extend across the body to connect the limbs, forming diagonal "slings" across the anterior and posterior aspects of the trunk. Unlike other fascial lines that act as postural stabilizers during quiet standing, the Functional Lines are active primarily during athletic movements, running, and rotation.
 
 They are divided into three tracks:
-1. **Back Functional Line (BFL)**: Latissimus Dorsi → contralateral Thoracolumbar Fascia → contralateral Gluteus Maximus → Vastus Lateralis.
-2. **Front Functional Line (FFL)**: Pectoralis Major → contralateral Rectus Abdominis (and rectus sheath) → contralateral Adductor Longus.
-3. **Ipsilateral Functional Line (IFL)**: Latissimus Dorsi → external oblique → ipsilateral Sartorius.
+1. **[[back_functional_line|Back Functional Line (BFL)]]**: Latissimus Dorsi → contralateral Thoracolumbar Fascia → contralateral Gluteus Maximus → Vastus Lateralis.
+2. **[[front_functional_line|Front Functional Line (FFL)]]**: Pectoralis Major → contralateral Rectus Abdominis (and rectus sheath) → contralateral Adductor Longus.
+3. **[[ipsilateral_functional_line|Ipsilateral Functional Line (IFL)]]**: Latissimus Dorsi → external oblique → ipsilateral Sartorius.
 
 ---
 

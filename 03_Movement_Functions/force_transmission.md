@@ -19,9 +19,9 @@ relationships:
   relevant_to: [movement_sequencing, energy_transfer]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 23
-hub_score: 61
-centrality: 0.46
+relationship_count: 26
+hub_score: 76
+centrality: 0.52
 updated: 2026-06-30
 ---
 

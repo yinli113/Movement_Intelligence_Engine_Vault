@@ -19,9 +19,9 @@ relationships:
   relevant_to: [top_backswing_position, max_unweighting, impact_position]
 confidence: low
 review_status: draft_graph_mvp
-relationship_count: 21
-hub_score: 67
-centrality: 0.42
+relationship_count: 24
+hub_score: 82
+centrality: 0.48
 updated: 2026-06-30
 ---
 

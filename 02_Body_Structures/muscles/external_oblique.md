@@ -11,9 +11,9 @@ biomechanical_actions:
   - "[[thoracic_rotation]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 7
-hub_score: 22
-centrality: 0.14
+relationship_count: 8
+hub_score: 27
+centrality: 0.16
 updated: 2026-06-27
 ---
 

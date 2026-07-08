@@ -11,14 +11,10 @@
             "id": "d6f4e0e625a3250b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -185,6 +181,10 @@
   },
   "active": "d6f4e0e625a3250b",
   "lastOpenFiles": [
+    "01_Fascial_Lines/ipsilateral_functional_line.md",
+    "01_Fascial_Lines/front_functional_line.md",
+    "01_Fascial_Lines/back_functional_line.md",
+    "index.md",
     "AGENTS.md",
     "03_Movement_Functions/movement_sequencing.md",
     "03_Movement_Functions/movement_chain_model.md",
@@ -202,7 +202,6 @@
     "00_Spec/naming_conventions.md",
     "00_Spec/sources/dr_kwon_golfer_ground_interaction.md",
     "00_Spec/log.md",
-    "index.md",
     "00_Spec/templates/connective_structure_template.md",
     "00_Spec/templates",
     "05_App_Logic/interventions/glute_max_releases.md",
@@ -210,9 +209,6 @@
     "05_App_Logic/assessments/glute_max_tests.md",
     "04_Golf_Swing/phases/shaft_parallel_to_end_pelvis_rotation.md",
     "04_Golf_Swing/phases/max_unweighting_to_impact.md",
-    "04_Golf_Swing/phases/impact_to_hands_chest_height.md",
-    "04_Golf_Swing/phases/end_pelvis_rotation_to_top_backswing.md",
-    "04_Golf_Swing/phases/address_to_shaft_parallel.md",
     "04_Golf_Swing/positions",
     "05_App_Logic/interventions",
     "05_App_Logic/assessments",

@@ -23,7 +23,8 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
 
 ### 🗺️ 01. Myofascial Lines (`01_Fascial_Lines/`)
 Anatomy Trains lines representing continuous myofascial force-transmission paths:
-- `[[functional_lines]]` - Front, Back, and Ipsilateral slings for cross-body force transmission.
+- `[[functional_lines]]` - The core Functional Lines hub note.
+  - `[[back_functional_line]]` | `[[front_functional_line]]` | `[[ipsilateral_functional_line]]`
 - `[[superficial_back_line]]` - Posterior postural line and vertical bracing pathway.
 - `[[superficial_front_line]]` - Anterior line balancing postural extension.
 - `[[lateral_line]]` - Lateral balance and rotational braking line.

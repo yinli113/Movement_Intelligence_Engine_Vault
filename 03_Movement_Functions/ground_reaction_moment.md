@@ -16,9 +16,9 @@ relationships:
   related_concepts: [ground_reaction_force, torque, moment_arm, center_of_mass, center_of_pressure, angular_momentum]
 confidence: high
 review_status: active_spec
-relationship_count: 11
-hub_score: 25
-centrality: 0.22
+relationship_count: 14
+hub_score: 40
+centrality: 0.28
 updated: 2026-07-08
 ---
 

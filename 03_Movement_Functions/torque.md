@@ -16,9 +16,9 @@ relationships:
   related_concepts: [moment_arm, center_of_mass, angular_momentum, kinematic_sequence]
 confidence: high
 review_status: active_spec
-relationship_count: 10
-hub_score: 23
-centrality: 0.2
+relationship_count: 13
+hub_score: 38
+centrality: 0.26
 updated: 2026-07-08
 ---
 

@@ -19,9 +19,9 @@ relationships:
   relevant_to: [functional_lines, spiral_line, plantar_fascia]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 13
-hub_score: 36
-centrality: 0.26
+relationship_count: 14
+hub_score: 41
+centrality: 0.28
 updated: 2026-06-30
 ---
 

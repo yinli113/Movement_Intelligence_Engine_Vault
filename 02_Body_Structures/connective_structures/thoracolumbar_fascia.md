@@ -20,9 +20,9 @@ relationships:
   relevant_to: [trail_shoulder_external_rotation, functional_lines, spiral_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 16
-hub_score: 41
-centrality: 0.32
+relationship_count: 17
+hub_score: 46
+centrality: 0.34
 updated: 2026-06-29
 ---
 

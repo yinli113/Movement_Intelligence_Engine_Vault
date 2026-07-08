@@ -13,9 +13,9 @@ biomechanical_actions:
   - "[[shoulder_adduction]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 10
-hub_score: 26
-centrality: 0.2
+relationship_count: 12
+hub_score: 36
+centrality: 0.24
 updated: 2026-06-27
 ---
 

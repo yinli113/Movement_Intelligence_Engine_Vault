@@ -12,9 +12,9 @@ biomechanical_actions:
   - "[[knee_flexion]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 7
-hub_score: 16
-centrality: 0.14
+relationship_count: 8
+hub_score: 21
+centrality: 0.16
 updated: 2026-06-27
 ---
 

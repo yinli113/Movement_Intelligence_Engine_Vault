@@ -33,9 +33,9 @@ evidence:
     supports: "Fascial-line nodes used by this phase are supported by Myers as source model references."
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 30
-hub_score: 89
-centrality: 0.6
+relationship_count: 33
+hub_score: 104
+centrality: 0.66
 updated: 2026-06-29
 ---
 
