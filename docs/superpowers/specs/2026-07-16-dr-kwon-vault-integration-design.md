@@ -1,7 +1,7 @@
 # Dr. Kwon Golf Biomechanics Vault Integration Design
 
-**Date:** 2026-07-16  
-**Status:** Approved design, pending implementation plan  
+**Date:** 2026-07-16
+**Status:** Approved design, pending implementation plan
 **Scope:** `Movement_Intelligence_Engine_Vault` only; no changes to the current gait application
 
 ## Objective
@@ -170,4 +170,3 @@ The implementation will be accepted when:
 - **Fascial causality overreach:** use stable anatomy plus explicitly labelled golf interpretation.
 - **Source fragility:** prefer peer-reviewed papers and stable primary pages; store complete bibliographic data and access dates.
 - **Graph sprawl:** reuse existing nodes and create only concepts that support multiple traversals.
-
