@@ -15,14 +15,14 @@ relationships:
   active_during: [shaft_parallel_to_end_pelvis_rotation, end_pelvis_rotation_to_top_backswing]
   assessed_by: [planned_pelvis_rotation_timing_screen]
   improved_by: []
-  supported_by: [golf_decoded_six_phases_swing]
-  relevant_to: [functional_lines, spiral_line]
+  supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, functional_lines, spiral_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 12
-hub_score: 29
-centrality: 0.24
-updated: 2026-06-30
+relationship_count: 17
+hub_score: 35
+centrality: 0.347
+updated: 2026-07-16
 ---
 
 # End Pelvis Rotation
@@ -48,6 +48,10 @@ The [[golf_decoded_six_phases_swing]] screenshot labels End Pelvis Rotation as t
 | connects_to | [[hip_joint]] |
 | related_to | [[thoracic_rotation]] |
 | relevant_to | [[functional_lines]], [[spiral_line]] |
+| relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]] |
+| crosswalks_to | Kwon EPR event |
+
+This is a kinematic timing boundary. Pelvis motion does not measure [[ground_reaction_force]] or the force's moment about [[center_of_mass]]; that calculation requires measured GRF and [[moment_arm|line-of-action geometry]] within the [[golfer_ground_interaction_model]].
 
 ## Parent Concepts
 

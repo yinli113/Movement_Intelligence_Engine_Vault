@@ -15,8 +15,8 @@ relationships:
   active_during: []
   assessed_by: [planned_transition_observation_screen]
   improved_by: [planned_transition_sequence_drill]
-  supported_by: [golf_movement_reasoning_mvp, golf_decoded_six_phases_swing]
-  relevant_to: [deep_front_line, lateral_line, functional_lines, spiral_line, superficial_back_line, jaw_clenching, neck_tension, force_transmission, energy_transfer]
+  supported_by: [golf_movement_reasoning_mvp, golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, linear_impulse, angular_impulse, deep_front_line, lateral_line, functional_lines, spiral_line, superficial_back_line, jaw_clenching, neck_tension, force_transmission, energy_transfer]
 golf_relevance: "Primary MVP hub for testing whether the vault can reason from a swing phase through ground contact, hip rotation, trunk rotation, fascial-line transfer, and compensation signals."
 evidence:
   - source_id: golf_decoded_six_phases_swing
@@ -33,13 +33,29 @@ evidence:
     supports: "Fascial-line nodes used by this phase are supported by Myers as source model references."
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 33
+relationship_count: 37
 hub_score: 104
-centrality: 0.66
-updated: 2026-06-29
+centrality: 0.755
+updated: 2026-07-16
 ---
 
 # Golf Transition Phase
+
+## Source-Defined Boundary
+
+This Level 4 vault phase runs from [[top_backswing_position|TB]] to [[max_unweighting]]. TB is a supported Kwon event match; Max Unweighting is not yet mapped. Kwon's practical downswing and extended-downswing conventions therefore must not replace this source-defined transition interval.
+
+## Golf Biomechanics (Level 3)
+
+TB can anchor the start timing, but a complete Kwon-equivalent interval is unavailable. With synchronised instruments, measured [[ground_reaction_force|GRF]] and the external moments classified by [[golfer_ground_interaction_model]] may be integrated over declared event bounds as [[linear_impulse]] and [[angular_impulse]]. The source does not support a universal force or moment direction for this vault interval.
+
+## Myofascial-Line Interpretation
+
+The [[deep_front_line]], [[lateral_line]], [[functional_lines]], [[spiral_line]] and [[superficial_back_line]] remain the primary structural pathways for the vault's transition interpretation. Kwon does not establish myofascial-line loading, fascial recoil or tissue-specific force transfer.
+
+## App Observability (Level 5)
+
+**Camera-observable:** TB and the source-labelled Max Unweighting boundary may be timed as kinematic events only when their required landmarks are visible. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, impulse, pressure or tissue state. **Hypothesised:** loading, recoil, energy-flow and kinetic-efficiency scores remain Level 5.
 
 ## Relationships
 
@@ -60,6 +76,10 @@ updated: 2026-06-29
 - possible_compensation -> [[jaw_clenching]]
 - connects_to -> [[golf_swing]]
 - supported_by -> [[golf_decoded_six_phases_swing]]
+- relevant_to -> [[golfer_ground_interaction_model]]
+- relevant_to -> [[ground_reaction_force]] / [[moment_arm]] / [[center_of_mass]]
+- relevant_to -> [[linear_impulse]] / [[angular_impulse]]
+- supported_by -> [[dr_kwon_golfer_ground_interaction]]
 
 ## MVP Traversal
 

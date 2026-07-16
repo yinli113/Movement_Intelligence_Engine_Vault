@@ -14,7 +14,7 @@ phases:
   - impact_to_hands_chest_height
 relationships:
   contains: [address_to_shaft_parallel, shaft_parallel_to_end_pelvis_rotation, end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height]
-  connects_to: [movement_sequencing, force_transmission, energy_transfer]
+  connects_to: [movement_sequencing, force_transmission, energy_transfer, golfer_ground_interaction_model]
   produces: [clubhead_speed, ball_flight]
   assists: []
   stabilizes: []
@@ -23,14 +23,14 @@ relationships:
   active_during: []
   assessed_by: [planned_transition_observation_screen]
   improved_by: [planned_transition_sequence_drill]
-  supported_by: [golf_decoded_six_phases_swing]
+  supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
   relevant_to: [functional_lines, spiral_line, deep_front_line, lateral_line, superficial_back_line]
 confidence: medium
 review_status: graph_mvp_updated
-relationship_count: 31
-hub_score: 94
-centrality: 0.62
-updated: 2026-06-30
+relationship_count: 32
+hub_score: 93
+centrality: 0.653
+updated: 2026-07-16
 ---
 
 # Golf Swing
@@ -58,6 +58,20 @@ graph TD
 
 The [[golf_decoded_six_phases_swing]] screenshot defines six swing intervals from Address through Hands Chest Height.
 
+## Kwon Event Crosswalk
+
+The six vault phases remain the Level 4 intervals defined by [[golf_decoded_six_phases_swing]]. This table crosswalks boundary events only; it does not replace those phases with Kwon's research phases. A Kwon label is used only where the operational event is supported by [[dr_kwon_golfer_ground_interaction]].
+
+| Vault boundary event | Kwon terminology | Crosswalk status |
+| :--- | :--- | :--- |
+| [[address_position|Address]] | not yet mapped | The vault position and Kwon's beginning events have not been shown to use the same operational definition. |
+| [[shaft_parallel_position|Shaft Parallel]] | not yet mapped | No supported equivalence has been established. |
+| [[end_pelvis_rotation|End Pelvis Rotation]] | EPR | Supported event match; Kwon also uses EPR to begin the extended downswing, without changing the vault's phase boundary. |
+| [[top_backswing_position|Top Backswing]] | TB | Supported event match. |
+| [[max_unweighting|Max Unweighting]] | not yet mapped | This source-defined vault event is not established as a Kwon event. |
+| [[impact_position|Impact]] | BI (ball impact) | Supported event match. |
+| [[hands_chest_height_position|Hands Chest Height]] | not yet mapped | It must not be substituted for Kwon's MF or LF events without matching definitions. |
+
 ## Relationship Table
 
 | Relationship | Target |
@@ -71,6 +85,8 @@ The [[golf_decoded_six_phases_swing]] screenshot defines six swing intervals fro
 | connects_to | [[movement_sequencing]] |
 | connects_to | [[force_transmission]] |
 | connects_to | [[energy_transfer]] |
+| connects_to | [[golfer_ground_interaction_model]] |
+| supported_by | [[dr_kwon_golfer_ground_interaction]] |
 
 ## Related Concepts
 

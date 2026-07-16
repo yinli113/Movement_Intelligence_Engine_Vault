@@ -15,14 +15,14 @@ relationships:
   active_during: [end_pelvis_rotation_to_top_backswing, golf_swing_transition]
   assessed_by: [planned_top_backswing_load_screen]
   improved_by: []
-  supported_by: [golf_decoded_six_phases_swing]
-  relevant_to: [neck_tension, jaw_clenching]
+  supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, angular_impulse, neck_tension, jaw_clenching]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 11
-hub_score: 35
-centrality: 0.22
-updated: 2026-06-30
+relationship_count: 17
+hub_score: 41
+centrality: 0.347
+updated: 2026-07-16
 ---
 
 # Top Backswing Position
@@ -48,6 +48,10 @@ The [[golf_decoded_six_phases_swing]] screenshot labels Top Backswing as the end
 | contains | [[thoracic_rotation]] |
 | contains | [[trail_shoulder_external_rotation]] |
 | possible_compensation | [[neck_tension]], [[jaw_clenching]] |
+| relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]], [[angular_impulse]] |
+| crosswalks_to | Kwon TB event |
+
+TB is a source-supported kinematic timing event. It can bound instrumented analysis, but posture at TB does not disclose GRF, moment direction, [[angular_impulse]] or tissue loading without the required sensors and models.
 
 ## Parent Concepts
 

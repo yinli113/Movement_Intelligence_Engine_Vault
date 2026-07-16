@@ -15,14 +15,14 @@ relationships:
   active_during: [golf_swing]
   assessed_by: [planned_address_setup_screen, planned_early_backswing_sequence_screen]
   improved_by: [planned_tripod_foot_transition_drill]
-  supported_by: [golf_decoded_six_phases_swing]
-  relevant_to: [ground_reaction_force, plantar_fascia]
+  supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, center_of_pressure, plantar_fascia]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 10
-hub_score: 20
-centrality: 0.2
-updated: 2026-06-30
+relationship_count: 13
+hub_score: 23
+centrality: 0.265
+updated: 2026-07-16
 ---
 
 # Address to Shaft Parallel
@@ -39,6 +39,22 @@ This interval establishes starting conditions for pressure, posture, and early s
 
 The [[golf_decoded_six_phases_swing]] screenshot labels the first interval as Address -> Shaft Parallel.
 
+## Source-Defined Boundary
+
+This Level 4 vault phase begins at [[address_position]] and ends at [[shaft_parallel_position]]. Neither boundary is yet mapped to a Kwon event because equivalence between the operational definitions has not been established.
+
+## Golf Biomechanics (Level 3)
+
+[[dr_kwon_golfer_ground_interaction]] defines [[ground_reaction_force|GRF]] by magnitude, direction and point of action at [[center_of_pressure|COP]], within the [[golfer_ground_interaction_model]]. The dossier does not provide a phase-specific force or moment direction for this vault interval, so none is assigned here.
+
+## Myofascial-Line Interpretation
+
+[[plantar_fascia]] provides a Level 1 structural pathway for linking the foot to the vault's line model during this interval. Any phase-specific loading interpretation is a separate vault hypothesis; Kwon does not establish myofascial-line loading.
+
+## App Observability (Level 5)
+
+**Camera-observable:** address and shaft-parallel timing may be labelled when the golfer and club are visible. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, COP, pressure or tissue state. **Hypothesised:** any score for [[toe_loading]] or fascial loading must be labelled Level 5 rather than direct measurement.
+
 ## Related Concepts
 
 | Relationship | Target |
@@ -47,6 +63,7 @@ The [[golf_decoded_six_phases_swing]] screenshot labels the first interval as Ad
 | ends_at | [[shaft_parallel_position]] |
 | precedes | [[shaft_parallel_to_end_pelvis_rotation]] |
 | relevant_to | [[toe_loading]], [[plantar_fascia]], [[ground_reaction_force]] |
+| relevant_to | [[golfer_ground_interaction_model]], [[center_of_pressure]] |
 
 ## Parent Concepts
 

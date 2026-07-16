@@ -15,14 +15,14 @@ relationships:
   active_during: [golf_swing]
   assessed_by: [planned_top_backswing_load_screen]
   improved_by: [planned_thoracic_rotation_breath_drill]
-  supported_by: [golf_decoded_six_phases_swing]
-  relevant_to: [functional_lines, spiral_line, neck_tension, jaw_clenching]
+  supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, functional_lines, spiral_line, neck_tension, jaw_clenching]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 14
-hub_score: 41
-centrality: 0.28
-updated: 2026-06-30
+relationship_count: 19
+hub_score: 46
+centrality: 0.388
+updated: 2026-07-16
 ---
 
 # End Pelvis Rotation to Top Backswing
@@ -39,6 +39,22 @@ It lets the graph reason about continued upper-body loading after pelvis rotatio
 
 The [[golf_decoded_six_phases_swing]] screenshot labels the third interval as End Pelvis Rotation -> Top of Backswing.
 
+## Source-Defined Boundary
+
+This Level 4 vault phase runs from [[end_pelvis_rotation|EPR]] to [[top_backswing_position|TB]], both supported Kwon event matches. Kwon's extended-downswing convention begins at EPR, whereas this vault preserves the source-defined EPR-to-TB interval; the event crosswalk therefore does not claim phase equivalence.
+
+## Golf Biomechanics (Level 3)
+
+The EPR and TB events can bound timing comparisons when their operational definitions are applied consistently. The [[golfer_ground_interaction_model]] permits a measured [[ground_reaction_force|GRF]] moment about [[center_of_mass|COM]] to be formed from the force and [[moment_arm]], but the dossier does not assign a universal force or moment direction to this vault interval.
+
+## Myofascial-Line Interpretation
+
+[[functional_lines]] and the [[spiral_line]] provide Level 1 structural pathways for the vault's interpretation of continued trunk and shoulder organisation. Kwon does not establish myofascial-line loading, stored fascial energy or tissue state during EPR-to-TB.
+
+## App Observability (Level 5)
+
+**Camera-observable:** EPR and TB timing and qualified pelvis/thorax orientations may be estimated with suitable visibility and a declared rotation convention. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, impulse or tissue state. **Hypothesised:** fascial loading and energy-storage language remains Level 5.
+
 ## Related Concepts
 
 | Relationship | Target |
@@ -48,6 +64,7 @@ The [[golf_decoded_six_phases_swing]] screenshot labels the third interval as En
 | follows | [[shaft_parallel_to_end_pelvis_rotation]] |
 | precedes | [[golf_swing_transition]] |
 | relevant_to | [[thoracic_rotation]], [[trail_shoulder_external_rotation]] |
+| relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]] |
 
 ## Parent Concepts
 

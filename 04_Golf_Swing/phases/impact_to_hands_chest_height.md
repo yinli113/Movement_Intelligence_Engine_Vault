@@ -15,14 +15,14 @@ relationships:
   active_during: [golf_swing]
   assessed_by: [planned_post_impact_deceleration_screen]
   improved_by: []
-  supported_by: [golf_decoded_six_phases_swing]
-  relevant_to: [functional_lines, spiral_line, superficial_back_line]
+  supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, linear_impulse, angular_impulse, functional_lines, spiral_line, superficial_back_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 11
-hub_score: 30
-centrality: 0.22
-updated: 2026-06-30
+relationship_count: 18
+hub_score: 37
+centrality: 0.367
+updated: 2026-07-16
 ---
 
 # Impact to Hands Chest Height
@@ -39,6 +39,22 @@ It gives the graph an early deceleration and follow-through checkpoint that can 
 
 The [[golf_decoded_six_phases_swing]] screenshot labels the sixth interval as Impact -> Hands Chest Height.
 
+## Source-Defined Boundary
+
+This Level 4 vault phase begins at [[impact_position]], which crosswalks to Kwon's BI event, and ends at [[hands_chest_height_position]], which is not yet mapped. Hands Chest Height must not be treated as Kwon's MF or LF event without matching operational definitions.
+
+## Golf Biomechanics (Level 3)
+
+BI provides a supported start-time anchor. With compatible kinetic sensors, external forces and moments may be integrated over a declared post-impact interval through [[linear_impulse]] and [[angular_impulse]], using the moment classes in [[golfer_ground_interaction_model]]. The dossier does not establish a phase-specific force or moment direction for BI-to-Hands-Chest-Height.
+
+## Myofascial-Line Interpretation
+
+[[functional_lines]], the [[spiral_line]] and [[superficial_back_line]] provide Level 1 structural pathways for the vault's post-impact interpretation. Kwon does not establish myofascial-line loading, fascial release or tissue state in this interval.
+
+## App Observability (Level 5)
+
+**Camera-observable:** BI and Hands Chest Height can be labelled as kinematic events when the club, ball and hands are visible. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, impulse, energy dissipation or tissue state. **Hypothesised:** deceleration quality, line loading and release remain Level 5 interpretations.
+
 ## Related Concepts
 
 | Relationship | Target |
@@ -47,6 +63,7 @@ The [[golf_decoded_six_phases_swing]] screenshot labels the sixth interval as Im
 | ends_at | [[hands_chest_height_position]] |
 | follows | [[max_unweighting_to_impact]] |
 | related_to | [[force_transmission]], [[energy_transfer]] |
+| relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]], [[linear_impulse]], [[angular_impulse]] |
 
 ## Parent Concepts
 

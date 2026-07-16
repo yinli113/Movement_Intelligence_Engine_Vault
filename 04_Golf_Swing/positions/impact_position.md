@@ -15,14 +15,14 @@ relationships:
   active_during: [max_unweighting_to_impact, impact_to_hands_chest_height]
   assessed_by: [planned_impact_sequence_screen]
   improved_by: []
-  supported_by: [golf_decoded_six_phases_swing]
-  relevant_to: [functional_lines, spiral_line]
+  supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, linear_impulse, angular_impulse, functional_lines, spiral_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 8
-hub_score: 27
-centrality: 0.16
-updated: 2026-06-30
+relationship_count: 15
+hub_score: 33
+centrality: 0.306
+updated: 2026-07-16
 ---
 
 # Impact Position
@@ -47,6 +47,10 @@ The [[golf_decoded_six_phases_swing]] screenshot labels Impact as the end of [[m
 | starts | [[impact_to_hands_chest_height]] |
 | produces | ball flight |
 | related_to | [[force_transmission]], [[energy_transfer]] |
+| relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]], [[linear_impulse]], [[angular_impulse]] |
+| crosswalks_to | Kwon BI event |
+
+BI is a source-supported kinematic timing event. It can bound instrumented force and moment integration, but an impact frame does not measure GRF, external moment, impulse, energy transfer or tissue state.
 
 ## Parent Concepts
 
