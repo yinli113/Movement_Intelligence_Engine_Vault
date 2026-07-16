@@ -33,7 +33,7 @@ Top Backswing Position is the source-defined boundary between backswing completi
 
 ## Why It Matters
 
-It anchors the point where stored rotation, shoulder loading, neck bracing, and later force redirection must be interpreted as sequencing relationships.
+It anchors the point where stored rotation, shoulder loading, neck bracing, and later force redirection were historically interpreted as sequencing relationships. “Shoulder loading” is historical/vault interpretation, not an available tissue-load measurement from ordinary video under the golf kinetics observability boundary.
 
 ## Supporting Evidence From Source
 

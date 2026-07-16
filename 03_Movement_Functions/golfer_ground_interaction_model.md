@@ -10,7 +10,7 @@ evidence_level: 3
 evidence:
   - source_id: dr_kwon_golfer_ground_interaction
     evidence_level: 3
-    supports: "Defines the three classes of golfer-ground interaction moment and their measurement boundaries."
+    supports: "Defines the non-overlapping axis-specific components of golfer-ground interaction moment and their measurement boundaries."
 relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: [pivoting_moment, foot_contact_moment, linear_impulse, angular_impulse]
@@ -30,20 +30,24 @@ updated: 2026-07-16
 
 ## Definition
 
-The **Golfer-Ground Interaction Model** describes how external foot-ground forces and moments act on the golfer. Its exact moment taxonomy is:
+The **Golfer-Ground Interaction Model** describes how external foot-ground forces and moments act on the golfer. Its non-overlapping, axis-specific moment formulation is:
 
 ```text
-External moment about golfer COM
-├── GRF moment: r(COM→foot COP) × foot GRF
-├── Pivoting moment: individual foot GRFs about the combined COP/vertical axis
-└── Foot-contact moment: direct torsional GRM at the foot-ground interface
+Reported external interaction-moment components
+├── Frontal-plane / F-B-axis GRF moment: combined GRF through combined COP about golfer COM
+├── Vertical-axis pivoting moment: individual horizontal foot GRFs about the vertical axis through combined COP
+└── Foot-contact moment: direct/residual torsional GRM at the foot-ground interface
 ```
 
-The first class is the moment of each measured [[ground_reaction_force|GRF]] about whole-body [[center_of_mass|COM]], with its geometry defined by the [[moment_arm]] from COM to the GRF line of action. The second is the couple-like moment produced by the individual-foot GRFs about the combined [[center_of_pressure|COP]] and vertical axis. The third is the [[foot_contact_moment]], whose underlying measured quantity is the residual/direct [[ground_reaction_moment|GRM]] associated with the resultant GRF at each foot COP. These classes are mechanically distinct and must not be collapsed into a single magnitude.
+The first component is the moment of the combined/resultant measured [[ground_reaction_force|GRF]] acting through combined [[center_of_pressure|COP]] about whole-body [[center_of_mass|COM]], projected to the frontal-plane F/B axis. The second is the vertical-axis couple-like [[pivoting_moment]] produced by the individual feet's horizontal GRFs about the vertical axis through combined COP. The third is the [[foot_contact_moment]], whose underlying measured quantity is the residual/direct [[ground_reaction_moment|GRM]] at the foot-ground interface. These components are mechanically distinct, axis-specific and must not be collapsed into a single magnitude.
 
 Only external moments change whole-system angular momentum. Internal joint or muscular moments redistribute momentum between segments but cancel in the whole-system balance. A vertical GRF can create a non-zero moment about COM when its line of action does not pass through COM:
 
-$$\mathbf{M}_{\mathrm{GRF},COM}=\mathbf{r}_{COM\rightarrow COP}\times\mathbf{F}_{GRF}$$
+$$M_{\mathrm{GRF},F/B}=\left[\left(\mathbf{r}_{COM\rightarrow combined\ COP}\times\mathbf{F}_{combined}\right)\cdot\hat{\mathbf e}_{F/B}\right]$$
+
+$$M_{pivot,z}=\sum_i\left[\left(\mathbf{r}_{combined\ COP\rightarrow COP_i}\times\mathbf{F}_{i,horizontal}\right)\cdot\hat{\mathbf e}_z\right]$$
+
+Do not add pivoting moment to a full foot-by-foot COM moment sum $\sum_i\mathbf r_{COM\rightarrow COP_i}\times\mathbf F_i$: its vertical-axis component already contains the separated-foot force couple, so adding $M_{pivot,z}$ again would double-count pivoting. When pivoting is reported separately, use the combined-COP/resultant-GRF formulation above for the frontal-plane F/B-axis GRF component.
 
 ## Why It Matters
 
@@ -51,7 +55,7 @@ The model prevents three common errors: treating GRF and GRM as synonyms, treati
 
 ## Supporting Evidence
 
-[[dr_kwon_golfer_ground_interaction]] provides Level 3 claim anchors for the taxonomy, the vertical-GRF moment, COP/COM distinctions and instrumentation. These golf-biomechanics claims do not establish myofascial loading.
+[[dr_kwon_golfer_ground_interaction]] provides Level 3 claim anchors for the axis-specific taxonomy, the combined-GRF frontal-plane/F-B-axis component, COP/COM distinctions and instrumentation. These golf-biomechanics claims do not establish myofascial loading.
 
 ## Measurement Boundary
 
@@ -61,10 +65,10 @@ A force plate measures three force components and moment components; two plates 
 
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
-| calculates_from | [[ground_reaction_force]] | The GRF moment about COM uses the measured force vector. |
-| references | [[center_of_mass]] | COM is the reference for the first moment class. |
-| uses_geometry_from | [[moment_arm]] | The GRF line of action determines the first class's leverage. |
-| decomposes_into | [[pivoting_moment]] | Individual-foot GRFs about combined COP. |
+| calculates_from | [[ground_reaction_force]] | The frontal-plane F/B-axis GRF component uses the combined measured force vector through combined COP. |
+| references | [[center_of_mass]] | COM is the reference for the frontal-plane F/B-axis GRF component. |
+| uses_geometry_from | [[moment_arm]] | The combined GRF line of action determines the frontal-plane F/B-axis component's leverage. |
+| decomposes_into | [[pivoting_moment]] | Individual horizontal foot GRFs about the vertical axis through combined COP. |
 | decomposes_into | [[foot_contact_moment]] | Direct torsional foot-contact GRM. |
 | measures_contact_residual_as | [[ground_reaction_moment]] | Underlying GRM for foot-contact moment; not an additional fourth class. |
 | integrates_as | [[linear_impulse]] | External force over time changes linear momentum. |

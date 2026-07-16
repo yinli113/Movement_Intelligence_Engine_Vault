@@ -51,7 +51,7 @@ A force plate measures three force components and moment components; two plates 
 | acts_at | [[center_of_pressure]] | COP is the resultant GRF's point of application. |
 | creates_moment_about | [[center_of_mass]] | Its COM moment depends on the measured force and line-of-action geometry. |
 | uses_geometry_from | [[moment_arm]] | The perpendicular distance to the force line determines leverage. |
-| contributes_to | [[pivoting_moment]] | Foot-specific GRFs create this moment about combined COP. |
+| contributes_to | [[pivoting_moment]] | Foot-specific horizontal GRFs create this vertical-axis moment about combined COP. |
 | co_measured_with | [[foot_contact_moment]] | Force-plate moment components distinguish direct torsional contact moment. |
 | integrates_as | [[linear_impulse]] | External force integrated over time changes linear momentum. |
 | supported_by | [[dr_kwon_golfer_ground_interaction]] | Level 3 golf mechanics source. |

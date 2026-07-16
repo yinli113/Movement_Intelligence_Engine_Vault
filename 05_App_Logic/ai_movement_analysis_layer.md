@@ -48,11 +48,11 @@ Level 3 Kwon relationships validate instrumented golf mechanics; they do not val
 
 ### Historical design context
 
-The historical concept attempted to combine ground reaction forces and external moments into a scalar score around whole-body COM:
+The historical concept attempted to combine ground reaction forces and external moments into a scalar score. Its component equation is corrected here to preserve traceability without preserving the old overlap:
 
-$$\mathbf{M}_{ext,COM}=\sum_i\mathbf{r}_{COM\rightarrow COP_i}\times\mathbf{F}_i+\mathbf{M}_{pivot}+\mathbf{M}_{foot-contact}$$
+$$\mathbf M_{ext,reported}=\left[\left(\mathbf r_{COM\rightarrow combined\ COP}\times\mathbf F_{combined}\right)\cdot\hat{\mathbf e}_{F/B}\right]\hat{\mathbf e}_{F/B}+M_{pivot,z}\hat{\mathbf e}_z+\sum_i\mathbf M_{foot-contact,i}$$
 
-This expression is retained only to preserve the original design intent. The exact taxonomy comes from [[golfer_ground_interaction_model]]: the GRF moment about COM, [[pivoting_moment]] and [[foot_contact_moment]] are three distinct external-moment classes. [[ground_reaction_moment|GRM]] is the residual/direct moment at COP underlying foot-contact moment, not a fourth additive class.
+This corrected historical expression uses the combined/resultant GRF through combined COP for the frontal-plane F/B-axis moment, individual horizontal foot GRFs about the vertical axis through combined COP for [[pivoting_moment]], and direct/residual torsional [[ground_reaction_moment|GRM]] for [[foot_contact_moment]]. Do not add pivoting to a full foot-by-foot COM moment sum: its vertical-axis component already contains the separated-foot force couple, so doing both would double-count pivoting.
 
 The former knee-extension and pelvis-rotation proposals are camera kinematic descriptors. They cannot estimate GRF, external moment or an efficiency score from ordinary video, and the former ±15% accuracy claim has no validation support and is retired.
 
@@ -66,7 +66,7 @@ Unavailable. Implement only after the register's bilateral force-plate, calibrat
 
 ### Historical design context
 
-The concept was intended to describe geometry relevant to a vertical GRF moment:
+The concept was intended to describe geometry relevant to the combined-GRF frontal-plane/F-B-axis moment:
 
 $$M=F_zd$$
 

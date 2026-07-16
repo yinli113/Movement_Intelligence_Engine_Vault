@@ -29,8 +29,8 @@
 ### New files
 
 - `03_Movement_Functions/golfer_ground_interaction_model.md` — central Level 3 model and graph traversal hub.
-- `03_Movement_Functions/pivoting_moment.md` — horizontal-plane moment from individual foot GRFs about combined COP.
-- `03_Movement_Functions/foot_contact_moment.md` — direct torsional foot-ground moment, kept distinct from pivoting and GRF moments.
+- `03_Movement_Functions/pivoting_moment.md` — vertical-axis moment from individual horizontal foot GRFs about combined COP.
+- `03_Movement_Functions/foot_contact_moment.md` — direct/residual torsional foot-ground moment, kept distinct from pivoting and the combined-GRF frontal-plane/F-B-axis moment.
 - `03_Movement_Functions/linear_impulse.md` — time integral of net external force, including sensor requirements.
 - `03_Movement_Functions/angular_impulse.md` — time integral of external moment and its relation to angular-momentum change.
 - `05_App_Logic/golf_kinetics_observability_boundary.md` — direct-measurement/proxy/prohibited-claim matrix.
@@ -106,7 +106,7 @@ Required markdown sections:
 ## Open Questions
 ```
 
-The claim table must include: GRF versus GRM; COP versus COM; COP shift versus weight shift; vertical GRF moment about COM; pivoting moment; foot-contact moment; force magnitude versus direction; pressure-mat versus force-plate capability; event/phase timing; and the difference between kinematics and kinetics.
+The claim table must include: GRF versus GRM; COP versus COM; COP shift versus weight shift; combined-GRF frontal-plane/F-B-axis moment about COM; vertical-axis pivoting moment; foot-contact moment; force magnitude versus direction; pressure-mat versus force-plate capability; event/phase timing; and the difference between kinematics and kinetics.
 
 - [ ] **Step 3: Remove or qualify unsupported source claims**
 
@@ -167,13 +167,13 @@ git commit -m "Expand Dr Kwon evidence dossier"
 Create `golfer_ground_interaction_model.md` with required frontmatter and sections from `00_Spec/spec.md`. Include this taxonomy:
 
 ```text
-External moment about golfer COM
-├── GRF moment: r(COM→foot COP) × foot GRF
-├── Pivoting moment: individual foot GRFs about the combined COP/vertical axis
-└── Foot-contact moment: direct torsional GRM at the foot-ground interface
+Reported external interaction-moment components
+├── Frontal-plane / F-B-axis GRF moment: r(COM→combined COP) × F_combined, projected to the F/B axis
+├── Vertical-axis pivoting moment: individual horizontal foot GRFs about the vertical axis through combined COP
+└── Foot-contact moment: direct/residual torsional GRM at the foot-ground interface
 ```
 
-State that only external moments change whole-system angular momentum, and that a vertical GRF can create a non-zero moment when its line of action does not pass through COM. Do not state that large GRF automatically means efficient interaction.
+State that only external moments change whole-system angular momentum, and that a vertical GRF can create a non-zero moment when its line of action does not pass through COM. Explicitly warn that adding pivoting moment to a full foot-by-foot COM moment sum would double-count the separated-foot vertical-axis effect. Do not state that large GRF automatically means efficient interaction.
 
 - [ ] **Step 2: Create focused pivoting- and foot-contact-moment nodes**
 
@@ -192,7 +192,7 @@ Linear impulse: J = ∫F_ext dt = Δp
 Angular impulse about COM: J_H = ∫M_ext,COM dt = ΔH_COM
 ```
 
-Each note must separate direct force-plate integration from camera-observed timing. Link `angular_impulse` to all three moment classes and `angular_momentum`; link `linear_impulse` to `ground_reaction_force` and `center_of_mass`.
+Each note must separate direct force-plate integration from camera-observed timing. Link `angular_impulse` to all three non-overlapping axis-specific moment components and `angular_momentum`; link `linear_impulse` to `ground_reaction_force` and `center_of_mass`.
 
 - [ ] **Step 4: Correct the existing GRF/GRM/COP/COM/moment terminology**
 
@@ -521,4 +521,3 @@ git diff --name-only HEAD~6..HEAD
 ```
 
 Expected: task commits are visible; status shows only the user's pre-existing `.obsidian/workspace.json` change; changed-file list contains only the design, plan, and intended vault integration paths.
-

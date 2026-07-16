@@ -38,7 +38,7 @@ Only external moments change whole-system angular momentum. Internal joint and m
 
 ## Supporting Evidence
 
-[[dr_kwon_golfer_ground_interaction]] supplies Level 3 golf-specific evidence for the moment of [[ground_reaction_force|GRF]] about COM, [[pivoting_moment]] and [[foot_contact_moment]]. The residual [[ground_reaction_moment|GRM]] is already represented within foot-contact moment and is not a fourth additive class. This evidence does not establish how angular momentum is transferred through fascial tissues.
+[[dr_kwon_golfer_ground_interaction]] supplies Level 3 golf-specific evidence for the non-overlapping axis-specific formulation: combined [[ground_reaction_force|GRF]] through combined COP about COM projected to the frontal-plane F/B axis, vertical-axis [[pivoting_moment]] from individual horizontal foot GRFs about combined COP, and direct/residual torsional [[foot_contact_moment]]. The residual [[ground_reaction_moment|GRM]] is already represented within foot-contact moment. Pivoting must not be added to a full foot-by-foot COM moment sum because that would double-count its separated-foot vertical-axis effect. This evidence does not establish how angular momentum is transferred through fascial tissues.
 
 ## Measurement Boundary
 
@@ -53,7 +53,7 @@ Whole-system angular momentum requires calibrated 3D kinematics, segment inertia
 | changes_via | [[pivoting_moment]] | Foot-specific force geometry contributes externally. |
 | changes_via | [[foot_contact_moment]] | Direct torsional GRM contributes externally. |
 | distinguished_from | [[kinematic_sequence]] | Peak angular-velocity order is not angular-momentum transfer. |
-| classified_by | [[golfer_ground_interaction_model]] | Defines the external-moment classes. |
+| classified_by | [[golfer_ground_interaction_model]] | Defines the non-overlapping axis-specific external-moment components. |
 
 ## Parent Concepts
 

@@ -33,7 +33,7 @@ Impact Position is the boundary event where club and ball contact occurs.
 
 ## Why It Matters
 
-It is the output checkpoint for force transmission and energy transfer through the preceding phases.
+It is the output checkpoint for what the historical vault described as force transmission and energy transfer through the preceding phases. Those phrases are historical/vault interpretation; under the golf kinetics observability boundary, measured energy transfer is unavailable from ordinary video and requires compatible kinetic and kinematic instrumentation.
 
 ## Supporting Evidence From Source
 
@@ -50,7 +50,7 @@ The [[golf_decoded_six_phases_swing]] screenshot labels Impact as the end of [[m
 | relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]], [[linear_impulse]], [[angular_impulse]] |
 | crosswalks_to | Kwon BI event |
 
-BI is a source-supported kinematic timing event. It can bound instrumented force and moment integration, but an impact frame does not measure GRF, external moment, impulse, energy transfer or tissue state.
+BI is a source-supported kinematic timing event. It can bound instrumented force and moment integration, but an impact frame does not measure GRF, external moment, impulse, energy transfer or tissue state. Camera event time is bounded by frame rate and visibility; exact contact may fall between frames, and timing uncertainty must be reported.
 
 ## Parent Concepts
 

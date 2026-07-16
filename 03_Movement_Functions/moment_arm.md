@@ -9,7 +9,7 @@ evidence_level: 2
 evidence:
   - source_id: dr_kwon_golfer_ground_interaction
     evidence_level: 3
-    supports: "Defines moment arm and the 3D line-of-action requirement for GRF moment about COM."
+    supports: "Defines moment arm and the 3D line-of-action requirement for the combined-GRF frontal-plane/F-B-axis moment about COM."
 relationships:
   parent_concepts: [golfer_ground_interaction_model]
   child_concepts: []
@@ -49,7 +49,7 @@ Calculating a GRF moment arm requires the chosen reference point, force-plate CO
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
 | defines_geometry_for | [[torque]] | Perpendicular distance scales moment magnitude. |
-| defines_geometry_for | [[golfer_ground_interaction_model]] | The model's GRF moment about COM requires this geometry. |
+| defines_geometry_for | [[golfer_ground_interaction_model]] | The model's combined-GRF frontal-plane/F-B-axis moment about COM requires this geometry. |
 | references | [[center_of_mass]] | COM may be the chosen centre. |
 | uses | [[center_of_pressure]] | COP supplies a point on the measured GRF line. |
 | classified_by | [[golfer_ground_interaction_model]] | Places the term in the external-moment model. |

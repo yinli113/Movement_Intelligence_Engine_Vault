@@ -51,7 +51,7 @@ A pressure mat measures vertical sensor forces and COP, not full 3D GRF/GRM. A f
 | referenced_by | [[pivoting_moment]] | Combined COP is its calculation reference. |
 | locates | [[foot_contact_moment]] | Direct torsional GRM is represented at foot COP. |
 | contributes_to | [[moment_arm]] | Geometry and force line of action determine the arm. |
-| classified_by | [[golfer_ground_interaction_model]] | Separates COP, COM and moment classes. |
+| classified_by | [[golfer_ground_interaction_model]] | Separates COP, COM and the axis-specific moment components. |
 
 ## Parent Concepts
 

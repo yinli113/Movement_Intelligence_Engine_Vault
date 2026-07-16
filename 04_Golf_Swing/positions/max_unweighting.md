@@ -50,7 +50,7 @@ The [[golf_decoded_six_phases_swing]] screenshot labels Max Unweighting as the e
 | possible_related_to | [[toe_loading]], [[plantar_fascia]] |
 | relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[center_of_mass]], [[center_of_pressure]] |
 
-Max Unweighting is not yet mapped to a Kwon event. Ordinary pose landmarks may support a qualified kinematic timing label, but the [[golfer_ground_interaction_model]] does not permit vertical GRF, COP, impulse or tissue state to be inferred from that label.
+Max Unweighting is not yet mapped to a Kwon event. The label may be emitted only under a separately declared annotation rule specifying camera view, required landmarks, operational event criterion, reliability gate and timing uncertainty; visibility alone is insufficient. The [[golfer_ground_interaction_model]] does not permit vertical GRF, COP, impulse or tissue state to be inferred from that label.
 
 ## Parent Concepts
 

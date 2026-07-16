@@ -26,11 +26,11 @@ updated: 2026-07-16
 
 ## Definition
 
-**Ground reaction moment (GRM)** has one responsibility in this vault: it is the residual/direct GRM associated with the resultant [[ground_reaction_force|GRF]] represented at [[center_of_pressure|COP]]. It is the direct torsional interaction underlying [[foot_contact_moment]], not the separate GRF moment about golfer COM and not [[pivoting_moment]].
+**Ground reaction moment (GRM)** has one responsibility in this vault: it is the residual/direct GRM associated with the resultant [[ground_reaction_force|GRF]] represented at [[center_of_pressure|COP]]. It is the direct torsional interaction underlying [[foot_contact_moment]], not the combined-GRF moment about golfer COM projected to the frontal-plane F/B axis and not the vertical-axis [[pivoting_moment]].
 
 ## Why It Matters
 
-This binding prevents the COP residual from being counted once as GRM and again as foot-contact moment. The GRF moment about golfer COM is represented separately by the equation and relationships among [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]] and [[golfer_ground_interaction_model]].
+This binding prevents the contact residual from being counted once as GRM and again as foot-contact moment. The frontal-plane F/B-axis GRF component uses the combined/resultant GRF through combined COP about golfer COM and is represented separately by [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]] and [[golfer_ground_interaction_model]].
 
 ## Supporting Evidence
 
@@ -47,7 +47,7 @@ A force plate measures three force components and moment components; two plates 
 | underlies | [[foot_contact_moment]] | This residual/direct COP moment is the measured quantity for that taxonomy class. |
 | associated_with | [[ground_reaction_force]] | The residual moment accompanies the resultant GRF representation at COP. |
 | represented_at | [[center_of_pressure]] | COP is the representation point for the resultant force and residual moment. |
-| classified_by | [[golfer_ground_interaction_model]] | The model keeps this quantity within foot-contact moment, not the GRF-about-COM class. |
+| classified_by | [[golfer_ground_interaction_model]] | The model keeps this quantity within foot-contact moment, not the combined-GRF frontal-plane/F-B-axis component. |
 | supported_by | [[dr_kwon_golfer_ground_interaction]] | Level 3 mechanics source. |
 
 ## Parent Concepts
@@ -72,7 +72,7 @@ A force plate measures three force components and moment components; two plates 
 
 ## App Use
 
-Reserve GRM for compatible force-plate moment data at COP. Do not use the label for a camera-derived GRF moment about COM or as a duplicate of foot-contact moment.
+Reserve GRM for compatible force-plate moment data at the foot-ground interface. Do not use the label for a camera-derived combined-GRF frontal-plane/F-B-axis moment about COM or as a duplicate of foot-contact moment.
 
 ## Open Questions
 

@@ -45,7 +45,7 @@ This Level 4 vault phase begins at [[shaft_parallel_position]], which is not yet
 
 ## Golf Biomechanics (Level 3)
 
-EPR can provide a source-defined timing anchor for instrumented analysis. In the [[golfer_ground_interaction_model]], any moment of [[ground_reaction_force|GRF]] about [[center_of_mass|COM]] requires the measured force vector and [[moment_arm|line-of-action geometry]]; visible pelvis rotation does not establish that moment or its direction.
+EPR can provide a source-defined timing anchor for instrumented analysis. In the [[golfer_ground_interaction_model]], the frontal-plane F/B-axis moment of combined [[ground_reaction_force|GRF]] through combined COP about [[center_of_mass|COM]] requires the measured force vector and [[moment_arm|line-of-action geometry]]; visible pelvis rotation does not establish that moment or its direction.
 
 ## Myofascial-Line Interpretation
 

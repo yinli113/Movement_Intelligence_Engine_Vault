@@ -96,7 +96,7 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 
 ## [2026-07-16] Integration | Dr Kwon Golfer-Ground Mechanics
 - **Research scope and primary sources**: Converted the Dr Kwon research-program dossier into bounded Level 3 claims with source and sample anchors, while retaining the five-level evidence hierarchy.
-- **New mechanics nodes**: Added [[golfer_ground_interaction_model]], [[pivoting_moment]], [[foot_contact_moment]], [[linear_impulse]], and [[angular_impulse]], preserving direct/residual GRM at COP as distinct from the GRF moment about COM.
+- **New mechanics nodes**: Added [[golfer_ground_interaction_model]], [[pivoting_moment]], [[foot_contact_moment]], [[linear_impulse]], and [[angular_impulse]], preserving direct/residual foot-interface GRM as distinct from the combined-GRF frontal-plane/F-B-axis moment about COM.
 - **Six-phase integration**: Connected the measured mechanics and conservative event crosswalk to the existing six source-defined golf phases without substituting unmatched events or inferring kinetics from video.
 - **Myofascial-line integration and evidence boundary**: Kept myofascial lines as the primary anatomical structure and labelled mechanics-to-line mappings by evidence level rather than as measured tissue loading.
 - **App observability safeguards**: Added [[golf_kinetics_observability_boundary]] as the authoritative allow-list separating instrumented kinetics, camera-observable descriptors, and Level 5 hypotheses; no diagnosis or treatment claims were added.

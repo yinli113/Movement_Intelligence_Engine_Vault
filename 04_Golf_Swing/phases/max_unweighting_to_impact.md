@@ -45,7 +45,7 @@ This Level 4 vault phase begins at [[max_unweighting]], which is not yet mapped 
 
 ## Golf Biomechanics (Level 3)
 
-BI provides a supported timing anchor. Instrumented [[ground_reaction_force|GRF]] and the external moments in the [[golfer_ground_interaction_model]] can be analysed over explicitly defined intervals; GRF moment about [[center_of_mass|COM]] traverses [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]] and the central model, not [[ground_reaction_moment]]. No universal force or moment direction is assigned to this partially mapped vault interval.
+BI provides a supported timing anchor. Instrumented [[ground_reaction_force|GRF]] and the external moments in the [[golfer_ground_interaction_model]] can be analysed over explicitly defined intervals; the frontal-plane F/B-axis moment of combined GRF through combined COP about [[center_of_mass|COM]] traverses [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]] and the central model, not [[ground_reaction_moment]]. No universal force or moment direction is assigned to this partially mapped vault interval.
 
 ## Myofascial-Line Interpretation
 
@@ -53,7 +53,7 @@ BI provides a supported timing anchor. Instrumented [[ground_reaction_force|GRF]
 
 ## App Observability (Level 5)
 
-**Camera-observable:** the source-labelled Max Unweighting boundary and BI may be timed kinematically when visible. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, [[linear_impulse]], [[angular_impulse]] or tissue state. **Hypothesised:** any unweighting, fascial loading or energy-flow score remains Level 5; pose landmarks do not establish measured vertical GRF or a jump.
+**Camera-observable:** the source-labelled Max Unweighting boundary may be emitted only under a separately declared annotation rule specifying camera view, required landmarks, operational event criterion, reliability gate and timing uncertainty; visibility alone is insufficient. BI timing must likewise retain its event rule and uncertainty. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, [[linear_impulse]], [[angular_impulse]] or tissue state. **Hypothesised:** any unweighting, fascial loading or energy-flow score remains Level 5; pose landmarks do not establish measured vertical GRF or a jump.
 
 ## Related Concepts
 

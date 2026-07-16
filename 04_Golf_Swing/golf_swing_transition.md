@@ -55,7 +55,7 @@ The [[deep_front_line]], [[lateral_line]], [[functional_lines]], [[spiral_line]]
 
 ## App Observability (Level 5)
 
-**Camera-observable:** TB and the source-labelled Max Unweighting boundary may be timed as kinematic events only when their required landmarks are visible. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, impulse, pressure or tissue state. **Hypothesised:** loading, recoil, energy-flow and kinetic-efficiency scores remain Level 5.
+**Camera-observable:** TB may be timed when its operational criterion is met. The source-labelled Max Unweighting boundary may be emitted only under a separately declared annotation rule specifying camera view, required landmarks, operational event criterion, reliability gate and timing uncertainty; visibility alone is insufficient. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, impulse, pressure or tissue state. **Hypothesised:** loading, recoil, energy-flow and kinetic-efficiency scores remain Level 5.
 
 ## Relationships
 

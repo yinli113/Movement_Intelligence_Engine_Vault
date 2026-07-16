@@ -33,7 +33,7 @@ End Pelvis Rotation is the source-defined boundary event where the pelvis has co
 
 ## Why It Matters
 
-It lets the graph separate pelvis-driven loading from upper-body completion of the backswing. This matters for sequencing, elastic energy storage, and later transition timing.
+It lets the graph separate what the historical vault called pelvis-driven loading from upper-body completion of the backswing. “Pelvis-driven loading” and “elastic energy storage” are historical/vault interpretation, not measurements available from ordinary video; the golf kinetics observability boundary permits only qualified geometry and timing descriptors without compatible kinetic or tissue-level instrumentation.
 
 ## Supporting Evidence From Source
 
@@ -51,7 +51,7 @@ The [[golf_decoded_six_phases_swing]] screenshot labels End Pelvis Rotation as t
 | relevant_to | [[golfer_ground_interaction_model]], [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]] |
 | crosswalks_to | Kwon EPR event |
 
-This is a kinematic timing boundary. Pelvis motion does not measure [[ground_reaction_force]] or the force's moment about [[center_of_mass]]; that calculation requires measured GRF and [[moment_arm|line-of-action geometry]] within the [[golfer_ground_interaction_model]].
+This is a kinematic timing boundary. Pelvis motion does not measure [[ground_reaction_force]] or the combined-GRF frontal-plane/F-B-axis moment about [[center_of_mass]]; that calculation requires measured GRF and [[moment_arm|line-of-action geometry]] within the [[golfer_ground_interaction_model]].
 
 ## Parent Concepts
 

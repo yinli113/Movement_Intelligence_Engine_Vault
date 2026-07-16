@@ -45,7 +45,7 @@ This Level 4 vault phase begins at [[impact_position]], which crosswalks to Kwon
 
 ## Golf Biomechanics (Level 3)
 
-BI provides a supported start-time anchor. With compatible kinetic sensors, external forces and moments may be integrated over a declared post-impact interval through [[linear_impulse]] and [[angular_impulse]], using the moment classes in [[golfer_ground_interaction_model]]. The dossier does not establish a phase-specific force or moment direction for BI-to-Hands-Chest-Height.
+BI provides a supported start-time anchor. With compatible kinetic sensors, external forces and moments may be integrated over a declared post-impact interval through [[linear_impulse]] and [[angular_impulse]], using the non-overlapping axis-specific moment components in [[golfer_ground_interaction_model]]. The dossier does not establish a phase-specific force or moment direction for BI-to-Hands-Chest-Height.
 
 ## Myofascial-Line Interpretation
 
@@ -53,7 +53,7 @@ BI provides a supported start-time anchor. With compatible kinetic sensors, exte
 
 ## App Observability (Level 5)
 
-**Camera-observable:** BI and Hands Chest Height can be labelled as kinematic events when the club, ball and hands are visible. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, impulse, energy dissipation or tissue state. **Hypothesised:** deceleration quality, line loading and release remain Level 5 interpretations.
+**Camera-observable:** BI and Hands Chest Height can be labelled as kinematic events when their operational criteria are met and the club, ball and hands are visible. Camera event time is bounded by frame rate and visibility; exact contact may fall between frames, and timing uncertainty must be reported. **Unavailable from ordinary video:** ordinary video cannot measure force, moment, impulse, energy dissipation or tissue state. **Hypothesised:** deceleration quality, line loading and release remain Level 5 interpretations.
 
 ## Related Concepts
 

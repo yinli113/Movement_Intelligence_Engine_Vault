@@ -50,14 +50,14 @@ The status vocabulary is closed: `unavailable`, `camera-observable descriptor`, 
 | Concept | Gold-standard measurement | Single-camera status | Permitted app label | Prohibited inference |
 | :--- | :--- | :--- | :--- | :--- |
 | GRF | Synchronised force plate measuring each foot's three-component ground-reaction-force vector and COP. | unavailable | `sensor-derived GRF` only with compatible force-plate data; no video-only GRF output. | Knee extension, vertical landmark motion, foot motion or phase timing as force magnitude, direction, rate or effectiveness. |
-| GRM | Force-plate moment components transformed to the residual/direct ground reaction moment represented at the foot COP. | unavailable | `sensor-derived GRM at COP` only with compatible force-plate moment data. | Pelvis rotation, foot rotation or a camera-derived GRF-about-COM calculation as GRM. |
+| GRM | Force-plate moment components transformed to the residual/direct ground reaction moment at the foot-ground interface. | unavailable | `sensor-derived foot-interface GRM` only with compatible force-plate moment data. | Pelvis rotation, foot rotation or a camera-derived combined-GRF frontal-plane/F-B-axis calculation as GRM. |
 | COP | Force plate or validated pressure platform calculating the point of application from measured contact forces. | unavailable | `sensor-derived COP`; a foot or ankle landmark may be named only as that landmark. | A visible foot point, ankle point, hip position, apparent balance or body shift as COP, pressure or weight shift. |
 | COM | Calibrated 3-D motion capture with a declared whole-body segment model and mass parameters. | unavailable | `hip-midpoint image-plane coordinate` or displacement when that is the actual calculation. | Hip midpoint, torso midpoint or COP as measured whole-body COM. |
 | moment arm | Synchronised 3-D force plate and calibrated motion-capture data establishing the chosen reference and measured force line of action. | unavailable | `landmark separation descriptor` when only landmark geometry is available. | COM-COP, hip-ankle or other point separation as the perpendicular moment arm without the measured force vector and compatible coordinates. |
 | pivoting moment | Two synchronised force plates resolving each foot's 3-D GRF and COP about combined COP and the vertical axis. | unavailable | `sensor-derived pivoting moment` only after the required bilateral calculation. | Pelvis angular motion, foot orientation, apparent pivoting or single-plate/pressure-mat output as pivoting moment. |
-| foot-contact moment | Force-plate residual/direct torsional GRM at each foot COP. | unavailable | `sensor-derived foot-contact moment` only with compatible force-plate moment data. | Foot turn, shoe motion, friction appearance or pivoting moment as direct torsional foot-contact moment. |
+| foot-contact moment | Force-plate direct/residual torsional GRM at each foot-ground interface. | unavailable | `sensor-derived foot-contact moment` only with compatible force-plate moment data. | Foot turn, shoe motion, friction appearance or pivoting moment as direct torsional foot-contact moment. |
 | linear impulse | Time integral of synchronised measured external force over explicitly defined event bounds. | unavailable | `sensor-derived linear impulse` with force data, time base and declared interval. | Displacement, velocity, event duration or unweighting appearance as impulse or change in momentum. |
-| angular impulse | Time integral of measured external moment about a stated reference over explicitly defined event bounds. | unavailable | `sensor-derived angular impulse` with all three external moment classes handled without duplicate GRM counting. | Rotation amount, angular velocity, phase duration or sequence timing as angular impulse. |
+| angular impulse | Time integral of measured external moment about a stated reference over explicitly defined event bounds. | unavailable | `sensor-derived angular impulse` with the non-overlapping axis-specific GRF, pivoting and foot-contact components handled without duplicate counting. | Rotation amount, angular velocity, phase duration or sequence timing as angular impulse. |
 | angular momentum | Calibrated 3-D multi-segment kinematics, segment inertial parameters and a declared golfer-only or golfer-club system and reference. | unavailable | `model-derived angular momentum` only from a validated compatible 3-D model. | Segment angle, angular velocity, deceleration or peak sequence as angular momentum or momentum transfer. |
 | pelvis orientation | Calibrated 3-D motion capture using a defined pelvis coordinate system. | Level 5 hypothesis | `image-plane hip-line angle descriptor`, with camera view and confidence. | A 2-D hip-line angle as anatomical 3-D pelvis orientation, moment, force or pelvic torque. |
 | thorax orientation | Calibrated 3-D motion capture using a defined thorax coordinate system. | Level 5 hypothesis | `image-plane shoulder-line angle descriptor`, with camera view and confidence. | A 2-D shoulder-line angle as anatomical 3-D thorax orientation, energy transfer or tissue loading. |
@@ -70,16 +70,16 @@ The status vocabulary is closed: `unavailable`, `camera-observable descriptor`, 
 
 ## Exact Mechanics Taxonomy Consumed
 
-The matrix consumes [[golfer_ground_interaction_model]] without changing its three-class taxonomy:
+The matrix consumes the non-overlapping axis-specific formulation from [[golfer_ground_interaction_model]]:
 
 ```text
-External moment about golfer COM
-├── GRF moment: r(COM→foot COP) × foot GRF
-├── Pivoting moment: individual foot GRFs about the combined COP/vertical axis
-└── Foot-contact moment: direct torsional GRM at the foot-ground interface
+Reported external interaction-moment components
+├── Frontal-plane / F-B-axis GRF moment: r(COM→combined COP) × F_combined, projected to the F/B axis
+├── Vertical-axis pivoting moment: individual horizontal foot GRFs about the vertical axis through combined COP
+└── Foot-contact moment: direct/residual torsional GRM at the foot-ground interface
 ```
 
-[[ground_reaction_force]] (GRF) and [[ground_reaction_moment]] (GRM) remain distinct. GRM is the residual/direct moment at COP that underlies [[foot_contact_moment]]; it is not a duplicate fourth class and is not the GRF moment about COM. [[pivoting_moment]], [[linear_impulse]], [[angular_impulse]] and [[angular_momentum]] retain their stated sensors, reference systems and integration bounds.
+[[ground_reaction_force]] (GRF) and [[ground_reaction_moment]] (GRM) remain distinct. GRM is the direct/residual moment at the foot-ground interface that underlies [[foot_contact_moment]]; it is not the combined-GRF frontal-plane/F-B-axis moment about COM. Do not add [[pivoting_moment]] to a full foot-by-foot COM moment sum because its vertical-axis component already contains the separated-foot force couple; adding both would double-count pivoting. [[linear_impulse]], [[angular_impulse]] and [[angular_momentum]] retain their stated sensors, reference systems and integration bounds.
 
 ## Six-Phase Hooks
 

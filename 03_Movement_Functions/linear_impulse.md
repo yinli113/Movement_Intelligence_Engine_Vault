@@ -11,6 +11,13 @@ evidence:
   - source_id: dr_kwon_golfer_ground_interaction
     evidence_level: 3
     supports: "Provides the measured external-force and swing-event context required for golf-specific impulse analysis."
+  - source_id: external_open_textbook_openstax_university_physics_volume_1
+    source_type: open_textbook
+    evidence_level: 2
+    citation: "Moebs, William; Ling, Samuel J.; and Sanny, Jeff. University Physics Volume 1. OpenStax, 2016."
+    url: https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions
+    locator: "Section 9.2, Equations 9.3 and 9.7: impulse is the time integral of force and equals the system's change in momentum."
+    supports: "Provides Level 2 general-mechanics support for the linear impulse-momentum identity."
 relationships:
   parent_concepts: [golfer_ground_interaction_model]
   child_concepts: []
@@ -42,7 +49,7 @@ Impulse distinguishes the effect accumulated across an interval from an instanta
 
 ## Supporting Evidence
 
-[[dr_kwon_golfer_ground_interaction]] supplies Level 3 GRF definitions, measurement requirements and operational swing events. The impulse-momentum identity is general mechanics; golf-specific integration requires those measured forces and defined time bounds.
+[[dr_kwon_golfer_ground_interaction]] supplies Level 3 GRF definitions, measurement requirements and operational swing events. [OpenStax University Physics Volume 1, Section 9.2](https://openstax.org/books/university-physics-volume-1/pages/9-2-impulse-and-collisions), Equations 9.3 and 9.7, supplies Level 2 general-mechanics support for impulse as the time integral of force and for the impulse-momentum identity. Golf-specific integration still requires measured forces and defined time bounds.
 
 ## Measurement Boundary
 
@@ -75,7 +82,7 @@ Impulse distinguishes the effect accumulated across an interval from an instanta
 
 ## Evidence Level
 
-**Level 3 for golf-specific application; general mechanics for the impulse-momentum identity.** It is not evidence of fascial loading.
+**Level 2 for the general impulse-momentum identity; Level 3 for golf-specific application.** It is not evidence of fascial loading.
 
 ## App Use
 

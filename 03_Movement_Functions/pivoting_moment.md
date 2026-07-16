@@ -32,9 +32,11 @@ updated: 2026-07-16
 
 The **pivoting moment** is the vertical-axis component of the external moment produced by the individual-foot [[ground_reaction_force|GRF]] vectors about the combined [[center_of_pressure|COP]]. A vector description is:
 
-$$M_{pivot,z}=\sum_i\left[(\mathbf{r}_{combined\ COP\rightarrow COP_i}\times\mathbf{F}_i)\cdot\hat{\mathbf{z}}\right]$$
+$$M_{pivot,z}=\sum_i\left[(\mathbf{r}_{combined\ COP\rightarrow COP_i}\times\mathbf{F}_{i,horizontal})\cdot\hat{\mathbf{z}}\right]$$
 
 It is a moment from separated force vectors, not the direct torsional [[foot_contact_moment]] measured at a foot.
+
+Do not add this pivoting component to a full foot-by-foot moment sum about golfer COM. The vertical-axis part of that sum already contains the separated-foot force couple, so doing both would double-count pivoting.
 
 ## Why It Matters
 
@@ -58,7 +60,7 @@ The moment can be integrated across source-defined swing intervals to form a con
 
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
-| class_of | [[golfer_ground_interaction_model]] | One of three external moment classes. |
+| class_of | [[golfer_ground_interaction_model]] | The non-overlapping vertical-axis pivoting component. |
 | calculated_from | [[ground_reaction_force]] | Requires each foot's 3D force vector. |
 | distinguished_from | [[ground_reaction_moment]] | Not the free moment at a single COP. |
 | referenced_to | [[center_of_pressure]] | Calculated about combined COP and the vertical axis. |

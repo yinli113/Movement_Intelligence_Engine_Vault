@@ -52,7 +52,7 @@ Ordinary video can measure or estimate qualified kinematics, but it cannot measu
 | specialised_as | [[ground_reaction_moment]] | A measured external foot-ground moment. |
 | changes | [[angular_momentum]] | Net external moment changes whole-system momentum. |
 | integrates_as | [[angular_impulse]] | External moment integrated over time. |
-| classified_by | [[golfer_ground_interaction_model]] | Separates external moment classes. |
+| classified_by | [[golfer_ground_interaction_model]] | Separates the axis-specific external-moment components. |
 
 ## Parent Concepts
 

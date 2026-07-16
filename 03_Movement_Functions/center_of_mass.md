@@ -46,7 +46,7 @@ COM requires a stated segment model, mass parameters and calibrated kinematics, 
 | :--- | :--- | :--- |
 | distinguished_from | [[center_of_pressure]] | COM is mass-weighted; COP is force application. |
 | changes_via | [[linear_impulse]] | Net external impulse changes linear momentum. |
-| reference_for | [[golfer_ground_interaction_model]] | The model forms the GRF moment about this chosen centre. |
+| reference_for | [[golfer_ground_interaction_model]] | The model forms the combined-GRF frontal-plane/F-B-axis moment about this chosen centre. |
 | reference_for | [[angular_impulse]] | External moment is integrated about COM. |
 | classified_by | [[golfer_ground_interaction_model]] | Defines the whole-system mechanics context. |
 

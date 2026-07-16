@@ -30,11 +30,11 @@ updated: 2026-07-16
 
 ## Definition
 
-The **foot-contact moment** is the taxonomy class represented by the residual/direct [[ground_reaction_moment|GRM]] associated with the resultant [[ground_reaction_force|GRF]] at a foot's [[center_of_pressure|COP]]. Its relevant vertical-axis component can be described as the measured free moment $M_{contact,z}$ at the interface. It is not the [[pivoting_moment]] created by separated individual-foot GRF vectors, nor the GRF moment about golfer COM.
+The **foot-contact moment** is the direct/residual torsional [[ground_reaction_moment|GRM]] at a foot-ground interface. Its relevant vertical-axis component can be described as the measured free moment $M_{contact,z}$. It is not the [[pivoting_moment]] created by separated individual horizontal foot GRFs, nor the combined-GRF moment through combined COP about golfer COM projected to the frontal-plane F/B axis.
 
 ## Why It Matters
 
-Keeping this class separate prevents direct torsional contact mechanics from being mislabelled as a GRF moment about whole-body COM or as a two-foot pivoting couple. The reported magnitude ranking in Kwon's skilled-male sample is sample-specific, not universal across golfers, footwear, surfaces or tasks.
+Keeping this component separate prevents direct torsional contact mechanics from being mislabelled as the combined-GRF frontal-plane/F-B-axis moment about whole-body COM or as a two-foot vertical-axis pivoting couple. The reported magnitude ranking in Kwon's skilled-male sample is sample-specific, not universal across golfers, footwear, surfaces or tasks.
 
 ## Supporting Evidence
 
@@ -54,7 +54,7 @@ Foot-contact moment may be integrated over a defined swing interval as one contr
 
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
-| class_of | [[golfer_ground_interaction_model]] | One of three external moment classes. |
+| class_of | [[golfer_ground_interaction_model]] | The direct/residual torsional foot-ground component in the axis-specific formulation. |
 | represented_by | [[ground_reaction_moment]] | The residual/direct GRM is the measured quantity underlying this class, not an additional moment contribution. |
 | co_measured_with | [[ground_reaction_force]] | Force and moment components come from the force plate. |
 | located_at | [[center_of_pressure]] | Represented at the foot COP. |
