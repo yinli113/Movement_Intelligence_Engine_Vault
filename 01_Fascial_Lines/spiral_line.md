@@ -62,7 +62,7 @@ Ordinary video may describe foot orientation, pelvis/thorax orientation, phase t
 - contains -> [[tibialis_anterior]], [[peroneus_longus]], [[external_oblique]], [[internal_oblique]], [[serratus_anterior]], [[rhomboids]]
 - connects_to -> [[plantar_fascia]], [[ankle_joint]], [[hip_joint]], rib cage, [[shoulder_joint]]
 - interpreted_during -> [[golf_swing_transition]]
-- supported_by -> [[anatomy_trains_myers_2009]]
+- supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]]
 
 ## Open Questions
 

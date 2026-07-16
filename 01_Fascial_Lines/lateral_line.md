@@ -60,14 +60,14 @@ The lower traversal is foot/ankle -> [[plantar_fascia]]/deep leg -> [[lateral_li
 
 ## App Hypotheses (Level 5)
 
-Camera-derived observations may include pelvis translation, trunk side bend, foot orientation, and phase timing. They cannot measure COP, pressure, force, moments, muscle activation, fascial tension, or Lateral Line loading. A lateral-shift descriptor must not be reported as proof of tissue weakness, restriction, or pain source.
+Camera-derived observations may include pelvis translation, trunk side bend, foot orientation, and phase timing. They cannot measure COP, pressure, force, moments, muscle activation, fascial tension, Lateral Line loading, or energy storage, transfer, release, or dissipation. A lateral-shift descriptor must not be reported as proof of tissue weakness, restriction, or pain source.
 
 ## Relationships
 
 - contains -> [[peroneus_longus]], [[iliotibial_tract]], [[gluteus_medius]], [[external_oblique]], [[intercostals]]
 - connects_to -> [[ankle_joint]], [[hip_joint]], rib cage
 - interpreted_during -> [[golf_swing_transition]]
-- supported_by -> [[anatomy_trains_myers_2009]], [[julie_hammond_breakout]]
+- supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]], [[julie_hammond_breakout]]
 
 ## Open Questions
 

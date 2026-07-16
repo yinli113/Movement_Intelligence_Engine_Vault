@@ -60,14 +60,14 @@ The explicit bridge is foot/ankle -> [[plantar_fascia]]/deep leg -> [[deep_front
 
 ## App Hypotheses (Level 5)
 
-Camera data may describe foot geometry, hip-midpoint motion, pelvis orientation, and phase timing under declared view limits. Ordinary video cannot measure pressure, GRF, moments, breathing mechanics, muscle activation, fascial tension, or DFL loading. Neck or jaw landmarks must not be used to diagnose bracing or prescribe treatment.
+Camera data may describe foot geometry, hip-midpoint motion, pelvis orientation, and phase timing under declared view limits. Ordinary video cannot measure pressure, GRF, moments, breathing mechanics, muscle activation, fascial tension, DFL loading, or energy storage, transfer, release, or dissipation. Neck or jaw landmarks must not be used to diagnose bracing or prescribe treatment.
 
 ## Relationships
 
 - contains -> [[plantar_fascia]], [[tibialis_posterior]], [[adductor_longus]], [[psoas_major]], [[diaphragm]]
 - connects_to -> [[ankle_joint]], [[hip_joint]], rib cage
 - interpreted_during -> [[golf_swing_transition]]
-- supported_by -> [[anatomy_trains_myers_2009]], [[julie_hammond_breakout]]
+- supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]], [[julie_hammond_breakout]]
 
 ## Open Questions
 

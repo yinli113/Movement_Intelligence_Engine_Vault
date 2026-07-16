@@ -62,7 +62,7 @@ Camera data may describe ankle, knee, hip, trunk, and head landmarks plus phase 
 - contains -> [[plantar_fascia]], [[gastrocnemius]], [[soleus]], [[sacrotuberous_ligament]], [[nuchal_ligament]]
 - connects_to -> [[ankle_joint]], [[hip_joint]], [[thoracic_spine]]
 - interpreted_during -> [[golf_swing_transition]]
-- supported_by -> [[anatomy_trains_myers_2009]]
+- supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]]
 
 ## Open Questions
 
