@@ -34,7 +34,7 @@ relationships:
   relevant_to: [golf_swing, golf_swing_transition, movement_chain_model]
 confidence: high
 review_status: active_spec
-relationship_count: 12
+relationship_count: 10
 hub_score: 23
 centrality: 0.2
 updated: 2026-07-16
@@ -59,9 +59,9 @@ Access date for every entry: **2026-07-16**.
 | `kwon_moment` | [Moment of Force (Torque)](https://drkwongolf.info/biom/moment.html) | Equation 1 and Figures 1–5; moment arm, line/plane of action, vector direction, and GRF moment about body COM. | Live fetch was unavailable; the indexed primary page was available. Claims below are limited to that primary-page text. |
 | `kwon_orientation_angles` | [Orientation Angles](https://drkwongolf.info/biom/oa.html) | Opening definition and Figure 1; rotation-sequence dependence of pelvis and thorax orientation angles. | Live fetch timed out; the indexed primary page was available. Claims below are limited to that primary-page text. |
 | `kwon_functional_swing_plane` | [Functional Swing Plane](https://drkwongolf.info/biom/fsp.html) | Definition and Figures 1–5; best-fit plane from the MD–MF clubhead trajectory and on-/off-plane motion. | Live fetch timed out; the indexed primary page was available. Claims below are limited to that primary-page text. |
-| `han_etal_2019_ground_interaction` | [Effects of the golfer–ground interaction on clubhead speed in skilled male golfers](https://doi.org/10.1080/14763141.2019.1586983) | *Sports Biomechanics* 18(2), 115–134; abstract, methods, and reported force/moment associations. | DOI resolved to the stated Taylor & Francis publication; PubMed PMID 31042142 independently matches the DOI and title. |
-| `han_etal_2019_torsional_separation` | [Effects of pelvis-shoulders torsional separation style on kinematic sequence in golf driving](https://doi.org/10.1080/14763141.2019.1629617) | *Sports Biomechanics* 18(6), 663–685; abstract and reported sequence definitions/results. | DOI resolved to the stated Taylor & Francis publication; PubMed PMID 31543063 independently matches the DOI and title. |
-| `kwon_etal_2012_planarity` | [Assessment of planarity of the golf swing based on the functional swing plane of the clubhead and motion planes of the body points](https://doi.org/10.1080/14763141.2012.660799) | *Sports Biomechanics* 11(2), 127–148; abstract and FSP/trajectory-plane method. | DOI resolved to the stated Taylor & Francis publication. |
+| `han_etal_2019_ground_interaction` | [Effects of the golfer–ground interaction on clubhead speed in skilled male golfers](https://doi.org/10.1080/14763141.2019.1586983) | *Sports Biomechanics* 18(2), 115–134; abstract, methods, and reported force/moment associations. | Direct DOI-resolver access was unavailable in this environment. Bibliographic identity was independently matched through the Taylor & Francis record and PubMed PMID 31042142. |
+| `han_etal_2019_torsional_separation` | [Effects of pelvis-shoulders torsional separation style on kinematic sequence in golf driving](https://doi.org/10.1080/14763141.2019.1629617) | *Sports Biomechanics* 18(6), 663–685; abstract and reported sequence definitions/results. | Direct DOI-resolver access was unavailable in this environment. Bibliographic identity was independently matched through the Taylor & Francis record and PubMed PMID 31543063. |
+| `kwon_etal_2012_planarity` | [Assessment of planarity of the golf swing based on the functional swing plane of the clubhead and motion planes of the body points](https://doi.org/10.1080/14763141.2012.660799) | *Sports Biomechanics* 11(2), 127–148; abstract and FSP/trajectory-plane method. | Direct DOI-resolver access was unavailable in this environment. Bibliographic identity was independently matched through the Taylor & Francis record. |
 
 No secondary coaching summary is used to restore a claim from an unavailable page.
 
