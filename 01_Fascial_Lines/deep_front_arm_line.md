@@ -5,17 +5,14 @@ preferred_name: Deep Front Arm Line
 aliases: [DFAL, deep anterior arm line]
 category: Fascial Line
 short_definition: "A provisional legacy graph mapping linking deep anterior shoulder structures with the anterior arm."
-evidence_level: 1
-evidence:
-  - source_id: anatomy_trains_myers_2009
-    evidence_level: 1
-    locator: "Candidate source only; exact arm-line locator not yet verified"
-    supports: "Candidate Level 1 source for the provisional legacy mapping; exact membership remains unverified."
+evidence_level: null
+evidence: []
 relationships:
   parent_concepts: []
   child_concepts: []
   related_concepts: [functional_lines, front_functional_line, thoracic_spine, shoulder_joint, elbow_joint]
-  stable_anatomy: [pectoralis_minor, subclavius, biceps_brachii, shoulder_joint, elbow_joint]
+  stable_anatomy: []
+  candidate_anatomy: [pectoralis_minor, subclavius, biceps_brachii, shoulder_joint, elbow_joint]
   golf_interpretation: [end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height]
   app_hypotheses: [planned_arm_line_kinematic_descriptor]
 confidence: low

@@ -5,17 +5,14 @@ preferred_name: Superficial Back Arm Line
 aliases: [SBAL, superficial posterior arm line]
 category: Fascial Line
 short_definition: "A provisional legacy graph mapping linking the posterior neck and shoulder region with the superficial posterior arm."
-evidence_level: 1
-evidence:
-  - source_id: anatomy_trains_myers_2009
-    evidence_level: 1
-    locator: "Candidate source only; exact arm-line locator not yet verified"
-    supports: "Candidate Level 1 source for the provisional legacy mapping; exact membership remains unverified."
+evidence_level: null
+evidence: []
 relationships:
   parent_concepts: []
   child_concepts: []
   related_concepts: [functional_lines, spiral_line, shoulder_joint, cervical_spine, thoracic_spine]
-  stable_anatomy: [trapezius, deltoid, shoulder_joint, cervical_spine, thoracic_spine]
+  stable_anatomy: []
+  candidate_anatomy: [trapezius, deltoid, shoulder_joint, cervical_spine, thoracic_spine]
   golf_interpretation: [end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height]
   app_hypotheses: [planned_arm_line_kinematic_descriptor]
 confidence: low
