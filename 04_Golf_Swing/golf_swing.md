@@ -27,9 +27,9 @@ relationships:
   relevant_to: [functional_lines, spiral_line, deep_front_line, lateral_line, superficial_back_line]
 confidence: medium
 review_status: graph_mvp_updated
-relationship_count: 32
-hub_score: 93
-centrality: 0.653
+relationship_count: 33
+hub_score: 95
+centrality: 0.569
 updated: 2026-07-16
 ---
 

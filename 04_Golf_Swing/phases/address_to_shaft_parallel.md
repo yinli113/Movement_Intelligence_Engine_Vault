@@ -19,9 +19,9 @@ relationships:
   relevant_to: [golfer_ground_interaction_model, ground_reaction_force, center_of_pressure, plantar_fascia]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 13
-hub_score: 23
-centrality: 0.265
+relationship_count: 17
+hub_score: 40
+centrality: 0.293
 updated: 2026-07-16
 ---
 

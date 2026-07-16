@@ -14,11 +14,11 @@ relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: []
   related_concepts: [angular_momentum, energy_transfer, force_transmission, movement_sequencing, functional_lines]
-relationship_count: 9
-hub_score: 17
-centrality: 0.184
 confidence: high
 review_status: active_spec
+relationship_count: 10
+hub_score: 19
+centrality: 0.172
 updated: 2026-07-16
 ---
 

@@ -29,9 +29,9 @@ evidence:
     supports: "Basic jaw-closing anatomy only; not a claim that jaw clenching diagnoses a swing fault."
 confidence: low
 review_status: draft_graph_mvp
-relationship_count: 18
-hub_score: 55
-centrality: 0.36
+relationship_count: 17
+hub_score: 50
+centrality: 0.293
 updated: 2026-06-29
 ---
 

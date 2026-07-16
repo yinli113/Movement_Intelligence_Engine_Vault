@@ -15,7 +15,7 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
 - `[[naming_conventions]]` - Standard naming and wikilink conventions.
 - `[[evidence_levels]]` - The 5-level Evidence Hierarchy.
 - **Evidence Sources**:
-  - `[[dr_kwon_golfer_ground_interaction]]` - Dr. Kwon's ground force and moment analysis.
+  - `[[dr_kwon_golfer_ground_interaction]]` - Research-program dossier for Dr Young-Hoo Kwon's golfer-ground interaction mechanics, primary sources, and claim anchors.
   - `[[anatomy_trains_myofascial_thomas_w_myers]]` - Primary fascial-line evidence source.
   - `[[julie_hammond_breakout]]` - Breakout lecture summary on Anatomy Trains and BodyReading.
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference.
@@ -68,8 +68,13 @@ The physiological segments, muscles, joints, and joint actions of the kinetic ch
 ### ⚙️ 03. Movement Biomechanics (`03_Movement_Functions/`)
 Rotational forces, physics vectors, and transmission dynamics:
 - `[[movement_chain_model]]` - The central force flow model.
+- `[[golfer_ground_interaction_model]]` - The central golfer-ground interaction model and three-class external-moment taxonomy.
 - `[[ground_reaction_force]]` - Net vertical and shear ground forces.
-- `[[ground_reaction_moment]]` - Moments (FGMOM) generated about the COM.
+- `[[ground_reaction_moment]]` - The direct/residual GRM represented at COP, distinct from a GRF moment about COM.
+- `[[pivoting_moment]]` - The vertical-axis moment from individual-foot GRFs about combined COP.
+- `[[foot_contact_moment]]` - The direct torsional contact-moment class underlain by GRM at each foot COP.
+- `[[linear_impulse]]` - The time integral of net external force and change in linear momentum.
+- `[[angular_impulse]]` - The time integral of net external moment about COM and change in angular momentum.
 - `[[torque]]` - Net rotational force.
 - `[[moment_arm]]` - The horizontal COM-COP separation vector.
 - `[[center_of_mass]]` - The body's concentrated balance center.
@@ -100,6 +105,7 @@ Golf-specific movement patterns and swing interval segmentation:
 
 ### 🤖 05. AI Application Logic (`05_App_Logic/`)
 Scoring metrics, assessments, and remedial exercises:
+- `[[golf_kinetics_observability_boundary]]` - Authoritative boundary between instrumented kinetics, camera-observable descriptors, and Level 5 hypotheses.
 - `[[ai_movement_analysis_layer]]` - Metrics framework defining:
   - **Torque Generation Score (TGS)**
   - **COM-COP Separation Score (CCS)**

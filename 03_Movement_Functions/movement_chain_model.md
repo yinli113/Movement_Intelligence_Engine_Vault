@@ -17,11 +17,11 @@ relationships:
   parent_concepts: []
   child_concepts: [golfer_ground_interaction_model, ground_reaction_force, ground_reaction_moment, force_transmission, energy_transfer, functional_lines]
   related_concepts: [linear_impulse, angular_impulse, angular_momentum, kinematic_sequence]
-relationship_count: 12
-hub_score: 24
-centrality: 0.245
 confidence: high
 review_status: active_spec
+relationship_count: 12
+hub_score: 24
+centrality: 0.207
 updated: 2026-07-16
 ---
 

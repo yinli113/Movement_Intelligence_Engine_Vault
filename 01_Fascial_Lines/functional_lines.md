@@ -22,8 +22,8 @@ relationships:
   app_hypotheses: [functional_line_loading_index]
 confidence: high
 review_status: active_spec
-relationship_count: 56
-hub_score: 168
+relationship_count: 58
+hub_score: 172
 centrality: 1.0
 updated: 2026-07-16
 ---

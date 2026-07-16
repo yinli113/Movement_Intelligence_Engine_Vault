@@ -14,11 +14,11 @@ relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: [ground_reaction_moment]
   related_concepts: [golfer_ground_interaction_model, moment_arm, center_of_mass, angular_impulse, angular_momentum]
-relationship_count: 13
-hub_score: 34
-centrality: 0.265
 confidence: high
 review_status: active_spec
+relationship_count: 8
+hub_score: 12
+centrality: 0.138
 updated: 2026-07-16
 ---
 

@@ -17,11 +17,11 @@ relationships:
   stable_anatomy: [plantar_fascia, ankle_joint, knee_joint, hip_joint]
   golf_interpretation: []
   app_hypotheses: []
-relationship_count: 23
-hub_score: 49
-centrality: 0.469
 confidence: high
 review_status: active_spec
+relationship_count: 39
+hub_score: 121
+centrality: 0.672
 updated: 2026-07-16
 ---
 

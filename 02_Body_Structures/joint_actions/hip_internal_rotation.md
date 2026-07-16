@@ -8,9 +8,9 @@ compensations: [knee_valgus, foot_pronation, pelvic_sway, early_extension]
 golf_role: lead_side_pivot
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 27
-hub_score: 91
-centrality: 0.54
+relationship_count: 25
+hub_score: 81
+centrality: 0.431
 updated: 2026-06-29
 ---
 

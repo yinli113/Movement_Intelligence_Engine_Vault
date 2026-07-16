@@ -17,11 +17,11 @@ relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: []
   related_concepts: [golfer_ground_interaction_model, ground_reaction_force, energy_transfer, kinematic_sequence, functional_lines, plantar_fascia, thoracolumbar_fascia]
-relationship_count: 26
-hub_score: 75
-centrality: 0.531
 confidence: medium
 review_status: active_spec
+relationship_count: 26
+hub_score: 75
+centrality: 0.448
 updated: 2026-07-16
 ---
 

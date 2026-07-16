@@ -19,9 +19,9 @@ relationships:
   relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, functional_lines, spiral_line, neck_tension, jaw_clenching]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 19
-hub_score: 46
-centrality: 0.388
+relationship_count: 28
+hub_score: 90
+centrality: 0.483
 updated: 2026-07-16
 ---
 

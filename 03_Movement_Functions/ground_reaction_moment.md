@@ -14,11 +14,11 @@ relationships:
   parent_concepts: [foot_contact_moment, movement_chain_model]
   child_concepts: []
   related_concepts: [golfer_ground_interaction_model, ground_reaction_force, center_of_pressure, torque]
-relationship_count: 17
-hub_score: 46
-centrality: 0.347
 confidence: high
 review_status: active_spec
+relationship_count: 18
+hub_score: 46
+centrality: 0.31
 updated: 2026-07-16
 ---
 

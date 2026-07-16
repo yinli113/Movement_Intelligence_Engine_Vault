@@ -14,11 +14,11 @@ relationships:
   parent_concepts: [golfer_ground_interaction_model]
   child_concepts: []
   related_concepts: [ground_reaction_force, ground_reaction_moment, pivoting_moment, foot_contact_moment, center_of_mass, moment_arm]
-relationship_count: 9
-hub_score: 18
-centrality: 0.184
 confidence: high
 review_status: active_spec
+relationship_count: 13
+hub_score: 30
+centrality: 0.224
 updated: 2026-07-16
 ---
 

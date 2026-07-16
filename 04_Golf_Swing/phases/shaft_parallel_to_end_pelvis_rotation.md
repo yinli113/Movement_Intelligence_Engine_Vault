@@ -19,9 +19,9 @@ relationships:
   relevant_to: [golfer_ground_interaction_model, ground_reaction_force, center_of_mass, moment_arm, hip_joint, lateral_line, spiral_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 19
-hub_score: 43
-centrality: 0.388
+relationship_count: 23
+hub_score: 63
+centrality: 0.397
 updated: 2026-07-16
 ---
 

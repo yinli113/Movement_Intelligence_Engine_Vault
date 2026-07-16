@@ -14,11 +14,11 @@ relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: []
   related_concepts: [golfer_ground_interaction_model, ground_reaction_moment, pivoting_moment, foot_contact_moment, torque, center_of_mass, angular_impulse, kinematic_sequence]
-relationship_count: 12
-hub_score: 20
-centrality: 0.245
 confidence: high
 review_status: active_spec
+relationship_count: 14
+hub_score: 24
+centrality: 0.241
 updated: 2026-07-16
 ---
 

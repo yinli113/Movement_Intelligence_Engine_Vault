@@ -33,9 +33,9 @@ evidence:
     supports: "Myers model connects foot structures into fascial-line tracks relevant to ground contact."
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 29
-hub_score: 88
-centrality: 0.58
+relationship_count: 28
+hub_score: 82
+centrality: 0.483
 updated: 2026-06-29
 ---
 

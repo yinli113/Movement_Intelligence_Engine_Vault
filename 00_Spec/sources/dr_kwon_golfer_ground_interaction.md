@@ -34,9 +34,9 @@ relationships:
   relevant_to: [golf_swing, golf_swing_transition, movement_chain_model]
 confidence: high
 review_status: active_spec
-relationship_count: 19
-hub_score: 42
-centrality: 0.388
+relationship_count: 27
+hub_score: 79
+centrality: 0.466
 updated: 2026-07-16
 ---
 

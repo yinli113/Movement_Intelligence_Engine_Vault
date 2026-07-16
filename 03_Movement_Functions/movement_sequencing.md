@@ -19,9 +19,9 @@ relationships:
   relevant_to: [thoracic_rotation, hip_internal_rotation, trail_shoulder_external_rotation]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 20
+relationship_count: 21
 hub_score: 61
-centrality: 0.4
+centrality: 0.362
 updated: 2026-06-30
 ---
 

@@ -8,9 +8,9 @@ compensations: [lumbar_twist, pelvic_sway, shoulder_elevation, neck_tension]
 golf_role: trunk_separation
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 23
-hub_score: 80
-centrality: 0.46
+relationship_count: 21
+hub_score: 70
+centrality: 0.362
 updated: 2026-06-29
 ---
 

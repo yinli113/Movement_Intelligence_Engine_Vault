@@ -14,11 +14,11 @@ relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: [elastic_energy]
   related_concepts: [golfer_ground_interaction_model, force_transmission, kinematic_sequence, angular_momentum, functional_lines]
-relationship_count: 25
-hub_score: 79
-centrality: 0.51
 confidence: medium
 review_status: active_spec
+relationship_count: 22
+hub_score: 63
+centrality: 0.379
 updated: 2026-07-16
 ---
 
@@ -66,7 +66,7 @@ Ordinary video cannot measure energy transfer, force, pressure, moments, impulse
 
 ## Child Concepts
 
-- [[elastic_energy]]
+- Elastic energy remains a legacy unresolved YAML relationship; no standalone concept node currently exists.
 
 ## Related Concepts
 

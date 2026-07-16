@@ -18,11 +18,11 @@ relationships:
   stable_anatomy: []
   golf_interpretation: []
   app_hypotheses: []
-relationship_count: 6
-hub_score: 11
-centrality: 0.122
 confidence: high
 review_status: active_spec
+relationship_count: 11
+hub_score: 33
+centrality: 0.19
 updated: 2026-07-16
 ---
 

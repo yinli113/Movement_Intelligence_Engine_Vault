@@ -25,9 +25,9 @@ associated_mechanics:
   - "[[shoulder_adduction]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 22
-hub_score: 83
-centrality: 0.44
+relationship_count: 25
+hub_score: 99
+centrality: 0.431
 updated: 2026-06-27
 ---
 

@@ -29,9 +29,9 @@ associated_mechanics:
   - "[[thoracic_rotation]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 27
-hub_score: 110
-centrality: 0.54
+relationship_count: 29
+hub_score: 120
+centrality: 0.5
 updated: 2026-06-27
 ---
 

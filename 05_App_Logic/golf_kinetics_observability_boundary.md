@@ -21,11 +21,11 @@ relationships:
   stable_anatomy: [functional_lines]
   golf_interpretation: [golf_swing, address_to_shaft_parallel, shaft_parallel_to_end_pelvis_rotation, end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height]
   app_hypotheses: [torque_generation_score, com_cop_separation_score, functional_line_loading_index, energy_transmission_efficiency]
+confidence: high
+review_status: active_spec
 relationship_count: 22
 hub_score: 51
 centrality: 0.379
-confidence: high
-review_status: active_spec
 updated: 2026-07-16
 ---
 

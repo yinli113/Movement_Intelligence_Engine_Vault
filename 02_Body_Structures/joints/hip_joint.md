@@ -32,9 +32,9 @@ associated_mechanics:
   - "[[hip_adduction]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 34
-hub_score: 121
-centrality: 0.68
+relationship_count: 35
+hub_score: 126
+centrality: 0.603
 updated: 2026-06-27
 ---
 

@@ -33,9 +33,9 @@ evidence:
     supports: "Myers model includes cervical/neck structures in fascial-line continuity."
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 22
-hub_score: 72
-centrality: 0.44
+relationship_count: 20
+hub_score: 62
+centrality: 0.345
 updated: 2026-06-29
 ---
 

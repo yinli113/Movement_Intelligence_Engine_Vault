@@ -27,7 +27,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 23
 hub_score: 99
-centrality: 0.46
+centrality: 0.397
 updated: 2026-06-27
 ---
 
