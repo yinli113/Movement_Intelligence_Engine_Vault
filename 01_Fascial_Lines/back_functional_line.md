@@ -4,73 +4,66 @@ type: Fascial Line
 preferred_name: Back Functional Line
 aliases: [BFL, back functional sling]
 category: Fascial Line
-short_definition: "An Anatomy Trains fascial line connecting the latissimus dorsi, across the thoracolumbar fascia, to the contralateral gluteus maximus and vastus lateralis."
+short_definition: "An Anatomy Trains line connecting latissimus dorsi through the thoracolumbar fascia to contralateral gluteus maximus and vastus lateralis."
 evidence_level: 1
 evidence:
-  - source_id: anatomy_trains_myofascial_thomas_w_myers
+  - source_id: anatomy_trains_myers_2009
     evidence_level: 1
-    supports: "Identifies BFL muscle and fascial tracks: Latissimus Dorsi, Thoracolumbar Fascia, contralateral Gluteus Maximus, Vastus Lateralis."
+    supports: "Identifies the Back Functional Line muscular and fascial track."
 relationships:
   parent_concepts: [functional_lines]
   child_concepts: []
-  related_concepts: [ground_reaction_moment, torque, energy_transfer, force_transmission]
-  stable_anatomy: [latissimus_dorsi, gluteus_maximus, vastus_lateralis, thoracolumbar_fascia]
-  golf_interpretation: [golf_swing_transition]
+  related_concepts: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, force_transmission]
+  stable_anatomy: [latissimus_dorsi, gluteus_maximus, vastus_lateralis, thoracolumbar_fascia, shoulder_joint]
+  golf_interpretation: [end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height]
   app_hypotheses: [functional_line_loading_index]
 confidence: high
 review_status: active_spec
-relationship_count: 9
-hub_score: 21
-centrality: 0.18
-updated: 2026-07-08
+relationship_count: 17
+hub_score: 49
+centrality: 0.304
+updated: 2026-07-16
 ---
 
 # Back Functional Line
 
 ## Definition
 
-The **Back Functional Line (BFL)** is a major posterior diagonal sling connecting the shoulder girdle of one side to the pelvis and lower limb of the contralateral side. It runs from the humerus through the latissimus dorsi, crosses the midline at the sacral level via the thoracolumbar fascia, and continues down through the gluteus maximus and vastus lateralis.
-
----
+The Back Functional Line is a posterior diagonal Anatomy Trains pathway from one upper limb across the posterior trunk to the contralateral pelvis and lower limb.
 
 ## Why It Matters
 
-In rotational sports like golf, the BFL is the primary mechanical conduit for **transmitting power from the lower body to the upper body** in the downswing. The deceleration of the lead hip and explosive contraction of the lead gluteus maximus transmit force across the lumbodorsal fascia to accelerate the contralateral trail shoulder and arm during club delivery.
+It supplies an anatomical route for reasoning between the hip/sacral region, posterior trunk, and contralateral shoulder without treating that route as a direct kinetic finding.
 
----
+## Stable Anatomy (Level 1 & 2)
 
-## Stable Anatomy (Level 1 & 2 Evidence)
+The line tracks shaft of humerus -> [[latissimus_dorsi]] -> [[thoracolumbar_fascia]] crossing the sacral region -> contralateral [[gluteus_maximus]] -> vastus lateralis -> patella and tibial tuberosity. This structural membership does not establish loading, activation, or stored energy in a swing.
 
-The line tracks:
-1. **Shaft of Humerus** (Latissimus Dorsi insertion)
-2. **[[latissimus_dorsi]]** muscle
-3. **[[thoracolumbar_fascia]]** (crosses midline at S2-S4 level)
-4. **[[gluteus_maximus]]** muscle (contralateral)
-5. **Vastus Lateralis** muscle
-6. **Patella & Tibial Tuberosity** (via patellar tendon)
+## Golf Application Interpretation (Level 3 & 4 context)
 
----
+Kwon describes the external mechanics; the following line mapping is the vault's Anatomy Trains-based golf interpretation.
 
-## Golf Biomechanics & Rotational Interpretation (Level 3 & 4 Evidence)
+The explicit bridge is hip/sacrum -> [[thoracolumbar_fascia]] -> [[back_functional_line]] -> [[latissimus_dorsi]] -> rib cage/scapula/[[shoulder_joint]]. A GRF moment about COM must traverse [[ground_reaction_force]], [[moment_arm]], [[center_of_mass]], and [[golfer_ground_interaction_model]]; it is not direct/residual [[ground_reaction_moment|GRM]] at COP.
 
-- **Transition Sling**: During the early downswing, the BFL is rapidly stretched (loaded) as the lead hip rotates target-ward while the trail shoulder is held back. Pushing the lead foot into the ground generates a vertical Ground Reaction Force ($F_z$) and Moment (GRM). This force is transmitted up the lead leg, loads the lead gluteus maximus, and is transferred diagonally across the lumbodorsal fascia to pull the trail shoulder forward.
-- **De-rotation and Acceleration**: The stored elastic energy in the BFL is released, whipping the trail side forward and driving high clubhead acceleration.
+| Swing phase | External/mechanical context | Anatomical bridge | Line role | Evidence boundary |
+|---|---|---|---|---|
+| [[end_pelvis_rotation_to_top_backswing]] | EPR and TB support timing comparison, not a universal force direction. | Hip/sacrum -> thoracolumbar fascia -> contralateral latissimus | loading | Line role is interpreted; tissue tension and energy storage are unknown. |
+| [[golf_swing_transition]] | Instrumented GRF and moment data may be analysed over declared bounds. | Gluteal/sacral region -> thoracolumbar fascia -> shoulder girdle | stabilising | Kwon does not establish BFL loading or muscle activation. |
+| [[max_unweighting_to_impact]] | BI can anchor timing; ordinary video supplies no kinetics. | Posterior trunk bridge -> rib cage/scapula/shoulder | releasing/decelerating | Deceleration role is a vault interpretation, not measured tissue release. |
+| [[impact_to_hands_chest_height]] | External post-impact impulse requires compatible sensors. | Shoulder girdle -> posterior trunk -> pelvis | releasing/decelerating | No quantified elastic-energy claim is supported. |
 
----
+## App Hypotheses (Level 5)
 
-## App Hypotheses & App Logic (Level 5 Evidence)
-
-- **FLLI Integration**: The Back Functional Line stretch is calculated as the lateral diagonal distance between the lead hip (S1/S2 hip boundary proxy) and the trail shoulder.
-- **Sling Timing**: Peak loading of the BFL must occur during the transition phase, immediately prior to thoracic peak acceleration. A delay or lack of separation indicates a sequence block.
-
----
+The lead-hip-to-trail-shoulder distance may be reported only as a **camera-derived diagonal-distance descriptor; tissue loading remains unknown**. Its timing relative to pelvis and thorax orientation may support a Level 5 sequence hypothesis, but it cannot measure BFL stretch, activation, force, energy, or kinetic transfer and cannot diagnose a sequence block.
 
 ## Relationships
 
 | Relationship | Target | Description |
-| :--- | :--- | :--- |
-| parent_of | [[functional_lines]] | Core sub-track of the Functional Lines. |
-| contains | [[latissimus_dorsi]] | Upper muscular driver. |
-| contains | [[gluteus_maximus]] | Contralateral lower muscular driver. |
-| contains | [[thoracolumbar_fascia]] | Structural crossing fascia. |
-| active_during | [[golf_swing_transition]] | Stretches to store elastic energy. |
+|---|---|---|
+| part_of | [[functional_lines]] | Posterior diagonal sub-line. |
+| contains | [[latissimus_dorsi]], [[thoracolumbar_fascia]], [[gluteus_maximus]] | Stable Anatomy Trains pathway. |
+| anatomical_bridge_for | [[golf_swing_transition]] | Phase-specific vault interpretation only. |
+
+## Open Questions
+
+- Which instrumented study could test the proposed phase roles independently of camera geometry?

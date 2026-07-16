@@ -4,73 +4,66 @@ type: Fascial Line
 preferred_name: Front Functional Line
 aliases: [FFL, front functional sling]
 category: Fascial Line
-short_definition: "An Anatomy Trains fascial line connecting the pectoralis major, across the rectus sheath, to the contralateral adductor longus."
+short_definition: "An Anatomy Trains line connecting pectoralis major through the abdominal wall and rectus sheath to contralateral adductor longus."
 evidence_level: 1
 evidence:
-  - source_id: anatomy_trains_myofascial_thomas_w_myers
+  - source_id: anatomy_trains_myers_2009
     evidence_level: 1
-    supports: "Identifies FFL muscle and fascial tracks: Pectoralis Major, Rectus Abdominis, rectus sheath, contralateral Adductor Longus."
+    supports: "Identifies the Front Functional Line muscular and fascial track."
 relationships:
   parent_concepts: [functional_lines]
   child_concepts: []
-  related_concepts: [ground_reaction_moment, torque, energy_transfer, force_transmission]
-  stable_anatomy: [pectoralis_major, rectus_abdominis, adductor_longus]
-  golf_interpretation: [golf_swing_transition, max_unweighting_to_impact]
+  related_concepts: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, force_transmission]
+  stable_anatomy: [pectoralis_major, rectus_abdominis, adductor_longus, shoulder_joint]
+  golf_interpretation: [end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height]
   app_hypotheses: [functional_line_loading_index]
 confidence: high
 review_status: active_spec
-relationship_count: 10
-hub_score: 28
-centrality: 0.2
-updated: 2026-07-08
+relationship_count: 17
+hub_score: 55
+centrality: 0.304
+updated: 2026-07-16
 ---
 
 # Front Functional Line
 
 ## Definition
 
-The **Front Functional Line (FFL)** is a major anterior diagonal sling connecting the shoulder girdle on one side to the pelvis and contralateral inner thigh. It runs from the humerus through the pectoralis major, across the rectus abdominis sheath, crossing the pubic symphysis, and down into the contralateral adductor longus.
-
----
+The Front Functional Line is an anterior diagonal Anatomy Trains pathway connecting one upper limb and chest to the contralateral inner thigh.
 
 ## Why It Matters
 
-In rotational sports like golf, the FFL is critical for **anterior trunk stability and chest deceleration**. As the club accelerates through the downswing, the FFL stabilizes the torso against excessive lateral tilt and extension, locking the lead hip to the trail chest to maintain a compressed, powerful dynamic posture through impact.
+It supplies the vault's anatomical bridge from adductors and abdominal wall to the chest and shoulder during phase-specific golf interpretation.
 
----
+## Stable Anatomy (Level 1 & 2)
 
-## Stable Anatomy (Level 1 & 2 Evidence)
+The line tracks shaft of humerus -> [[pectoralis_major]] -> [[rectus_abdominis|abdominal wall and rectus sheath]] -> pubic region -> contralateral [[adductor_longus]] -> linea aspera. The pathway is Level 1 structure; it does not establish tissue loading or activation.
 
-The line tracks:
-1. **Shaft of Humerus** (Pectoralis Major insertion)
-2. **[[pectoralis_major]]** muscle
-3. **[[rectus_abdominis]]** muscle (and abdominal rectus sheath)
-4. **Pubic Tubercle** (crosses midline at symphysis)
-5. **[[adductor_longus]]** muscle (contralateral)
-6. **Linea Aspera** of femur
+## Golf Application Interpretation (Level 3 & 4 context)
 
----
+Kwon describes the external mechanics; the following line mapping is the vault's Anatomy Trains-based golf interpretation.
 
-## Golf Biomechanics & Rotational Interpretation (Level 3 & 4 Evidence)
+The explicit bridge is adductors/abdominal wall -> [[front_functional_line]] -> [[pectoralis_major]] -> rib cage/[[shoulder_joint]]. Measured external mechanics may contextualise this route, but they do not show that the route produces or transfers a specified kinetic quantity.
 
-- **Backswing Loading**: As the golfer turns their shoulders during the backswing while resisting with the hips (X-Factor), the FFL on the trail side (trail chest to lead inner thigh) is eccentrically stretched.
-- **Downswing Deceleration**: During impact and follow-through, the FFL acts to decelerate the rotational whip of the shoulders. If the FFL is weak or inactive, the lead hip will slide laterally (slide) rather than rotate, and the chest will "open up" too early, losing compression.
+| Swing phase | External/mechanical context | Anatomical bridge | Line role | Evidence boundary |
+|---|---|---|---|---|
+| [[shaft_parallel_to_end_pelvis_rotation]] | EPR is a timing anchor; no universal force direction is assigned. | Adductors -> abdominal wall -> contralateral chest | stabilising | Level 1 structure plus a golf interpretation; activation is unknown. |
+| [[end_pelvis_rotation_to_top_backswing]] | Pelvis and thorax kinematics may be described under declared conventions. | Inner thigh -> abdominal wall -> shoulder | loading | Tissue stretch and stored energy are not established. |
+| [[golf_swing_transition]] | External kinetics require synchronised instrumentation. | Adductors/abdominal wall -> chest and shoulder | stabilising | Kwon does not establish FFL loading or weakness. |
+| [[impact_to_hands_chest_height]] | Post-impact external impulse requires measured forces and moments. | Shoulder/chest -> abdominal wall -> adductors | releasing/decelerating | Role is interpretive; tissue release is not directly measured. |
 
----
+## App Hypotheses (Level 5)
 
-## App Hypotheses & App Logic (Level 5 Evidence)
-
-- **FLLI Integration**: FFL loading is observed by evaluating the diagonal stretch between the lead shoulder (acromion) and the trail hip during late backswing, and trail shoulder to lead hip during downswing.
-- **Compensation Detection**: Weakness or poor loading of the FFL is linked to pelvic **slide** patterns (inability to decelerate the hip, leading to early extension).
-
----
+Contralateral shoulder-to-hip distance is a **camera-derived diagonal-distance descriptor; tissue loading remains unknown**. Pelvis translation, torso orientation, and phase timing may be described when visible, but ordinary video cannot establish FFL activation, weakness, fascial tension, force, energy, GRF, or moment. App output must not diagnose pelvic slide or prescribe treatment from this descriptor.
 
 ## Relationships
 
 | Relationship | Target | Description |
-| :--- | :--- | :--- |
-| parent_of | [[functional_lines]] | Core sub-track of the Functional Lines. |
-| contains | [[pectoralis_major]] | Upper muscular driver. |
-| contains | [[rectus_abdominis]] | Central trunk muscle. |
-| contains | [[adductor_longus]] | Contralateral lower muscular driver. |
-| active_during | [[max_unweighting_to_impact]] | Active to stabilize torso during high-velocity rotation. |
+|---|---|---|
+| part_of | [[functional_lines]] | Anterior diagonal sub-line. |
+| contains | [[pectoralis_major]], [[rectus_abdominis]], [[adductor_longus]] | Stable Anatomy Trains pathway. |
+| anatomical_bridge_for | [[golf_swing_transition]] | Golf interpretation only. |
+
+## Open Questions
+
+- Can multi-view kinematics improve the repeatability of the diagonal-distance descriptor without implying tissue loading?

@@ -3,63 +3,72 @@ id: lateral_line
 type: Fascial Line
 preferred_name: Lateral Line
 aliases: [LL, lateral fascial line]
-short_definition: "An Anatomy Trains fascial line model describing a lateral body pathway from the foot through the lateral leg, pelvis, ribs, and neck."
-relationships:
-  contains: [peroneus_longus, peroneus_brevis, iliotibial_tract, tensor_fasciae_latae, gluteus_maximus, gluteus_medius, external_oblique, internal_oblique, intercostals, splenius_capitis, sternocleidomastoid]
-  connects_to: [ankle_joint, knee_joint, hip_joint, lumbar_spine, thoracic_spine, cervical_spine, iliotibial_tract]
-  stabilizes: [toe_loading, hip_internal_rotation, thoracic_rotation]
-  limits: [pelvic_sway, lumbar_twist]
-  compensates_for: []
-  active_during: [golf_swing_transition]
-  assessed_by: [planned_lateral_shift_rotation_screen]
-  improved_by: [planned_lateral_line_balance_drill]
-  supported_by: [anatomy_trains_myers_2009, julie_hammond_breakout]
-  relevant_to: [toe_loading, neck_tension, golf_swing_transition]
-golf_relevance: "Useful for reasoning about side-to-side balance, lateral shift, rotational braking, and neck involvement when transition becomes sway."
+category: Fascial Line
+short_definition: "An Anatomy Trains line describing a lateral pathway from the foot through the lateral leg, pelvis, ribs, and neck."
+evidence_level: 1
 evidence:
   - source_id: anatomy_trains_myers_2009
     source_type: textbook_pdf
+    evidence_level: 1
     locator: "Chapter 5, Lateral Line; extracted local PDF pages 130-132"
-    supports: "Myers describes lateral-line continuity through peroneals/fibularii, lateral knee tissues, iliotibial tract, lateral abdominal obliques, intercostals, scalenes, SCM, and splenii."
+    supports: "Describes lateral continuity through fibularii/peroneals, lateral knee tissues, iliotibial tract, obliques, intercostals, and neck structures."
   - source_id: julie_hammond_breakout
     source_type: source_summary
+    evidence_level: 1
     locator: "Key Lines Explored; Lateral Line"
-    supports: "Summary describes LL as balancing front/back and left/right and acting as a rotational brake."
+    supports: "Summarises Lateral Line structural balance roles."
+relationships:
+  contains: [peroneus_longus, peroneus_brevis, iliotibial_tract, tensor_fasciae_latae, gluteus_maximus, gluteus_medius, external_oblique, internal_oblique, intercostals, splenius_capitis, sternocleidomastoid]
+  connects_to: [plantar_fascia, ankle_joint, knee_joint, hip_joint, lumbar_spine, thoracic_spine, cervical_spine]
+  related_concepts: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass]
+  golf_interpretation: [address_to_shaft_parallel, shaft_parallel_to_end_pelvis_rotation, golf_swing_transition, max_unweighting_to_impact]
+  app_hypotheses: [planned_lateral_shift_rotation_screen]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 38
-hub_score: 113
-centrality: 0.76
-updated: 2026-06-29
+relationship_count: 41
+hub_score: 118
+centrality: 0.732
+updated: 2026-07-16
 ---
 
 # Lateral Line
 
+## Definition
+
+The Lateral Line is an Anatomy Trains model of continuity along the outer foot and leg, lateral pelvis, abdominal wall, ribs, and neck.
+
+## Why It Matters
+
+It provides a stable route for interpreting side-to-side organisation while avoiding causal claims from a visible sway or side-bend pattern.
+
+## Stable Anatomy (Level 1 & 2)
+
+The cited pathway includes [[peroneus_longus]] and peroneus brevis, lateral knee tissues, iliotibial tract and tensor fasciae latae, gluteal region, abdominal obliques, intercostals, and lateral neck structures. Structural membership does not establish a golf-phase braking or stabilising action.
+
+## Golf Application Interpretation (Level 3 & 4 context)
+
+Kwon describes the external mechanics; the following line mapping is the vault's Anatomy Trains-based golf interpretation.
+
+The lower traversal is foot/ankle -> [[plantar_fascia]]/deep leg -> [[lateral_line]] through the fibularii/peroneals -> lateral hip/pelvis -> rib cage. Plantar fascia is an entry bridge in the vault graph, not direct Lateral Line membership. External mechanics may contextualise this route but do not identify tissue loading.
+
+| Swing phase | External/mechanical context | Anatomical bridge | Line role | Evidence boundary |
+|---|---|---|---|---|
+| [[address_to_shaft_parallel]] | No phase-specific kinetic direction is assigned. | Foot/ankle -> lateral leg -> pelvis/ribs | stabilising | Line role is interpretive; pressure and tension are unknown. |
+| [[shaft_parallel_to_end_pelvis_rotation]] | GRF moment about COM requires measured force and 3-D geometry. | Lateral foot/leg -> hip/pelvis -> oblique trunk | stabilising | Kwon does not establish Lateral Line loading. |
+| [[golf_swing_transition]] | External kinetics require compatible instruments. | Foot/ankle -> lateral hip -> rib cage | loading | Tissue loading and activation remain unknown. |
+| [[max_unweighting_to_impact]] | BI supplies a timing anchor only. | Lateral pelvis/trunk pathway | releasing/decelerating | Deceleration role is not a direct tissue measure. |
+
+## App Hypotheses (Level 5)
+
+Camera-derived observations may include pelvis translation, trunk side bend, foot orientation, and phase timing. They cannot measure COP, pressure, force, moments, muscle activation, fascial tension, or Lateral Line loading. A lateral-shift descriptor must not be reported as proof of tissue weakness, restriction, or pain source.
+
 ## Relationships
 
-- contains -> [[peroneus_longus]]
-- contains -> [[peroneus_brevis]]
-- contains -> [[iliotibial_tract]]
-- contains -> [[tensor_fasciae_latae]]
-- contains -> [[gluteus_maximus]]
-- contains -> [[gluteus_medius]]
-- contains -> [[external_oblique]], [[internal_oblique]], [[intercostals]]
-- contains -> [[splenius_capitis]], [[sternocleidomastoid]]
-- stabilizes -> [[toe_loading]]
-- stabilizes -> [[hip_internal_rotation]]
-- limits -> pelvic sway during [[golf_swing_transition]]
-- connects_to -> [[deep_front_line]] through lateral deep structures discussed by Myers
-- supported_by -> `raw/literature/Anatomy_Trains_Myofascial_Thomas_W_Myers.pdf`
-
-## Golf Reasoning
-
-Use this node when a transition fault looks like sway, side bend, or lateral balance loss rather than pure rotation loss. The Lateral Line helps decide whether a foot/hip issue is creating upper-body compensation.
-
-## Evidence Notes
-
-This note uses Myers for fascial-line modeling and should not be treated as a claim that all lateral pain or asymmetry comes from this line.
+- contains -> [[peroneus_longus]], [[iliotibial_tract]], [[gluteus_medius]], [[external_oblique]], [[intercostals]]
+- connects_to -> [[ankle_joint]], [[hip_joint]], rib cage
+- interpreted_during -> [[golf_swing_transition]]
+- supported_by -> [[anatomy_trains_myers_2009]], [[julie_hammond_breakout]]
 
 ## Open Questions
 
-- Create `pelvic_sway` as a Limitation Pattern node.
-- Create a lateral shift and rib-pelvis rotation assessment node.
+- How should camera view alter confidence in pelvis-translation and side-bend descriptors?
