@@ -1,7 +1,7 @@
 ---
 id: anatomy_trains_myers_2009
 type: Evidence Source
-preferred_name: Anatomy Trains: Myofascial Meridians for Manual and Movement Therapists
+preferred_name: "Anatomy Trains: Myofascial Meridians for Manual and Movement Therapists"
 aliases: [Anatomy Trains, Thomas Myers Anatomy Trains, Anatomy_Trains_Myofascial_Thomas_W_Myers]
 short_definition: "Primary fascial-line reference source for the MVP golf movement knowledge graph."
 author: Thomas W. Myers
