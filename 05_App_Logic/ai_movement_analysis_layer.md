@@ -3,149 +3,144 @@ id: ai_movement_analysis_layer
 type: App Logic
 preferred_name: AI Movement Analysis Layer Spec
 aliases: [ai metrics, scoring logic, TGS, CCS, FLLI, ETE]
+tags: []
 category: App Logic
-short_definition: "Theoretical specification defining future movement assessment metrics for the AI reasoning engine."
+short_definition: "Historical design register for four unvalidated movement scores governed by the golf kinetics observability boundary."
 evidence_level: 5
 evidence:
   - source_id: dr_kwon_golfer_ground_interaction
     evidence_level: 3
-    supports: "Provides the underlying physics (forces, moments, COM-COP arms) behind the TGS and CCS metrics."
+    supports: "Defines instrumented forces, moments, COP, COM-referenced mechanics and their measurement requirements; it does not validate the four app scores."
   - source_id: anatomy_trains_myers_2009
     evidence_level: 1
-    supports: "Provides the anatomical structures (cross-body myofascial slings) behind the FLLI metric."
+    supports: "Defines Functional Line structure; it does not validate camera-derived tissue loading."
 relationships:
-  governs: []
+  governed_by: [golf_kinetics_observability_boundary, evidence_levels]
   contains: []
-  connects_to: [ground_reaction_force, ground_reaction_moment, torque, moment_arm, center_of_mass, center_of_pressure, functional_lines, kinematic_sequence]
-confidence: medium
-review_status: active_spec
-relationship_count: 8
-hub_score: 11
-centrality: 0.16
-updated: 2026-07-08
+  connects_to: [golfer_ground_interaction_model, ground_reaction_force, ground_reaction_moment, moment_arm, center_of_mass, center_of_pressure, functional_lines, kinematic_sequence]
+  app_hypotheses: [torque_generation_score, com_cop_separation_score, functional_line_loading_index, energy_transmission_efficiency]
+relationship_count: 12
+hub_score: 17
+centrality: 0.207
+confidence: low
+review_status: retired_unvalidated_concepts
+updated: 2026-07-16
 ---
 
 # AI Movement Analysis Layer
 
-This specification defines the logical and mathematical frameworks for the future AI Movement Analysis layer. These metrics move beyond simple kinematic reports (such as reporting body joint angles) to explain **why** movement occurs, evaluating the efficiency of force generation, elastic loading, and energy transmission from first principles.
+## Current Status
 
----
+The four scores below are retained as **Historical design context**, not as implementable metrics or validated report outputs. Each is an unvalidated Level 5 concept and is not implementable from the current gait-only, single-camera pipeline. [[golf_kinetics_observability_boundary]] is the controlling future-golf measurement and reporting policy.
+
+Level 3 Kwon relationships validate instrumented golf mechanics; they do not validate these score formulas, thresholds, labels or camera proxies. Level 1 Anatomy Trains evidence validates structural line membership; it does not validate visible line loading, activation, recoil or energy storage. No score may be exposed, thresholded or used for diagnosis or treatment until every listed prerequisite is met.
+
+## Retirement and Prerequisite Register
+
+| Historical score | Status | Instrumentation prerequisites | Validation prerequisites |
+| :--- | :--- | :--- | :--- |
+| Torque Generation Score | unvalidated Level 5 concept; not implementable from the current single-camera pipeline | Two synchronised 3-D force plates plus calibrated high-speed 3-D motion capture, whole-body modelling and declared coordinate systems. | A prespecified criterion definition and representative force-plate validation study covering error, calibration, repeatability, camera view and relevant subgroups. |
+| COM–COP Separation Score | unvalidated Level 5 concept; not implementable from the current single-camera pipeline | Synchronised force plates or a validated pressure platform for COP plus calibrated 3-D motion capture and a declared segment-mass model for COM. | Independent validation against simultaneous sensor-derived COP and modelled COM, including threshold rationale, error, repeatability, view and subgroup analyses. |
+| Functional Line Loading Index | unvalidated Level 5 concept; not implementable from the current single-camera pipeline | Calibrated 3-D motion capture plus an independently justified tissue-loading reference method; EMG may measure muscle activation but not fascia, and ultrasound/elastography would require its own construct validation. | A validated definition and criterion for line loading, preregistered mapping from structure to outcome, repeatability and error studies; diagonal geometry alone is insufficient validation. |
+| Energy Transmission Efficiency | unvalidated Level 5 concept; not implementable from the current single-camera pipeline | Synchronised high-speed calibrated 3-D golfer-and-club motion capture, force plates, segment inertial parameters and validated inverse-dynamics or power methods. | Criterion validation for the claimed energy quantity and efficiency denominator, with uncertainty, repeatability, filtering, timing, error, subgroup and system-boundary analyses. |
 
 ## 1. Torque Generation Score (TGS)
 
-### Theoretical Basis
-The Torque Generation Score measures the efficiency of converting ground reaction forces into rotational torque ($\tau_{\text{COM}}$) about the body's Center of Mass (COM). Rotational acceleration of the pelvis is driven by:
+### Historical design context
 
-$$\tau_{\text{COM}} = M_{\text{frontal}} + M_{\text{sagittal}} + M_{\text{horizontal}} + T_{\text{pivoting}}$$
+The historical concept attempted to combine ground reaction forces and external moments into a scalar score around whole-body COM:
 
-The score rates whether the golfer generates the peak vertical force ($F_z$) and horizontal shear force ($F_y$) at the correct phase intervals (transition to max unweighting) to maximize pelvic angular velocity.
+$$\mathbf{M}_{ext,COM}=\sum_i\mathbf{r}_{COM\rightarrow COP_i}\times\mathbf{F}_i+\mathbf{M}_{pivot}+\mathbf{M}_{foot-contact}$$
 
-### Required Measurements
-- **Ideal Data (Level 3)**: Dual 3D force plates syncing vertical force ($F_z$), horizontal shear forces ($F_x, F_y$), and Center of Pressure (COP) pathways with high-speed 3D motion capture.
-- **MediaPipe skeletal proxies (Level 5)**: 
-  - **Lead Knee Flexion-Extension Velocity**: Rapid lead knee extension serves as a proxy for the vertical push-off rate ($F_z$).
-  - **Pelvic Axial Rotational Acceleration ($\alpha_{\text{pelvis}}$)**: Derived from the left-right hip line.
+This expression is retained only to preserve the original design intent. The exact taxonomy comes from [[golfer_ground_interaction_model]]: the GRF moment about COM, [[pivoting_moment]] and [[foot_contact_moment]] are three distinct external-moment classes. [[ground_reaction_moment|GRM]] is the residual/direct moment at COP underlying foot-contact moment, not a fourth additive class.
 
-### Evidence & Validation Status
-- **Biomechanical Grounding (Level 3)**: High. Dr. Kwon's golfer-ground interaction model mathematically proves that vertical forces generate the primary rotational moments about the COM during the downswing.
-- **App Algorithm (Level 5)**: In progress. We hypothesize that kinematic indicators (knee extension and pelvic rotation) can estimate TGS within a $\pm 15\%$ margin of error compared to force plates.
+The former knee-extension and pelvis-rotation proposals are camera kinematic descriptors. They cannot estimate GRF, external moment or an efficiency score from ordinary video, and the former ±15% accuracy claim has no validation support and is retired.
 
-### Key Limitations
-- Cannot measure absolute ground force magnitude (Newtons) from video alone.
-- Heavily affected by camera frame rates; a standard 30fps camera may miss the exact peak velocity point of the knee extension.
+The historical score was intended to rate the phase alignment of peak vertical force, horizontal shear force and pelvic angular velocity from transition towards Max Unweighting. That design aim is preserved for traceability only; neither the force peaks nor their proposed efficiency relationship are available from the camera descriptors.
 
----
+### Implementation status
+
+Unavailable. Implement only after the register's bilateral force-plate, calibrated 3-D motion-capture and independent validation prerequisites are satisfied. Until then, a future golf app may report separately defined image-plane knee or pelvis motion descriptors without a torque label.
 
 ## 2. COM–COP Separation Score (CCS)
 
-### Theoretical Basis
-The COM–COP Separation Score measures the horizontal leverage arm ($r_{\text{lever}}$) between the body's Center of Mass (COM) projection on the ground and the Center of Pressure (COP). A larger lateral separation during the transition multiplies the torque generated by the vertical Ground Reaction Force ($F_z$):
+### Historical design context
 
-$$\tau_{\text{vertical}} = F_z \times d_{\text{COM-COP}}$$
+The concept was intended to describe geometry relevant to a vertical GRF moment:
 
-If $d_{\text{COM-COP}}$ is too small (e.g., the golfer's pelvis slides too far target-ward, placing the COM directly over the lead foot), the moment arm shrinks to zero, and pushing down vertically generates no rotational torque.
+$$M=F_zd$$
 
-```mermaid
-graph TD
-    COM[Center of Mass COM] ---|d = Horizontal Moment Arm| COP[Center of Pressure COP]
-    Fz[Vertical GRF Fz] -->|Acts at| COP
-    Torque[\"Torque = Fz * d"\]
-    COM --> Torque
-    COP --> Torque
-```
+The equation applies only when $d$ is the perpendicular distance from the chosen reference to the measured force line of action in compatible coordinates. Horizontal COM-COP separation is not a universal moment arm. [[center_of_mass|COM]] is mass-weighted; [[center_of_pressure|COP]] is the measured GRF point of application. A camera hip midpoint and an ankle landmark are neither quantity.
 
-### Required Measurements
-- **Ideal Data (Level 3)**: Center of Mass 3D trajectory tracking and 3D force plate Center of Pressure coordinate paths.
-- **MediaPipe skeletal proxies (Level 5)**:
-  - **Horizontal separation distance**: The lateral distance between the pelvic center (proxy for S2/COM) and the lead ankle joint (proxy for the lead COP boundary) at the transition.
-  - **Stance Width Ratio**: The separation distance normalized against the golfer's ankle-to-ankle stance width.
+The former proposed threshold placed the camera hip midpoint at 35%–45% of stance width relative to the lead ankle. That threshold and the hip-to-ankle substitution are unvalidated and retired. They are preserved only as study hypotheses, not production logic.
 
-### Evidence & Validation Status
-- **Biomechanical Grounding (Level 3)**: High. Classical physics and Dr. Kwon's moment calculations validate that COM-COP separation is the primary rotational moment arm.
-- **App Algorithm (Level 5)**: Initial hypothesis. We define an optimal CCS threshold where the pelvic center is located at $35\% - 45\%$ of the stance width relative to the lead ankle during peak downswing loading.
+### Implementation status
 
-### Key Limitations
-- Parallax error: A camera angle that is not perfectly face-on (frontal plane) will distort the measured horizontal distance.
-- Soft ground (turf) shifts the physical COP in ways that skeletal joints cannot reflect.
-
----
+Unavailable. Implement only after simultaneous sensor-derived COP, calibrated model-derived COM and independent validation establish the construct. A camera may report an explicitly named hip-midpoint or hip-to-ankle image-plane separation descriptor without COM, COP, pressure, moment-arm or torque language.
 
 ## 3. Functional Line Loading Index (FLLI)
 
-### Theoretical Basis
-The Functional Line Loading Index evaluates the timing, amplitude, and release of elastic tension in the Front, Back, and Ipsilateral Functional Lines. Fascial tissue behaves like a viscoelastic spring; stretching the cross-body sling (e.g., lead hip to trail shoulder) stores strain energy that is released during the recoil. FLLI rates:
+### Historical design context
 
-$$\text{FLLI} = f(\text{Sling Stretch Distance}, \text{Rate of Stretch}, \text{Recoil Timing})$$
+The concept proposed combining shoulder-to-contralateral-hip diagonal distance, its rate of change and phase timing. Anatomy Trains supports [[functional_lines]] as structural pathways; it does not establish that greater visible endpoint separation means fascial stretch, loading, elastic energy or muscle activation.
 
-### Required Measurements
-- **Ideal Data (Level 2)**: High-density surface EMG on the Latissimus Dorsi, contralateral Gluteus Maximus, Pectoralis Major, and contralateral Adductor Longus to measure muscle firing relative to joint stretching.
-- **MediaPipe skeletal proxies (Level 5)**:
-  - **Sling Length Proxy**: The geometric distance from the trail shoulder (acromion) to the lead hip (anterior superior iliac spine) for the Front Functional Line, and lead shoulder to trail hip for the Back Functional Line.
-  - **Stretch Velocity**: The rate of change of this diagonal distance during Phase 4 (transition).
+$$\mathrm{FLLI}_{historical}=f(\text{diagonal distance},\text{rate of change},\text{phase timing})$$
 
-### Evidence & Validation Status
-- **Biomechanical Grounding (Level 1 & 2)**: Moderate. Myers' Anatomy Trains defines the anatomical existence of these slings. Sports science literature validates the stretch-shortening cycle in diagonal muscle slings.
-- **App Algorithm (Level 5)**: Speculative hypothesis. FLLI uses the maximum diagonal separation change (stretch) normalized against spine length to evaluate dynamic loading.
+This historical functional form does not define or validate a tissue-loading outcome.
 
-### Key Limitations
-- Muscle activation tone cannot be measured without EMG. The app must assume the fascia is active when the skeletal segments move apart.
-- Clothing blocks accurate shoulder/pelvis landmark tracking, introducing coordinate noise.
+The only permitted camera wording is **camera-derived diagonal-distance descriptor; tissue loading remains unknown**. EMG can provide muscle-activation evidence under an appropriate protocol, but it does not directly measure fascia. No current accepted gold-standard Functional Line loading quantity is specified here.
 
----
+### Implementation status
+
+Unavailable as a loading index. Implement only if a defensible tissue-loading construct, independent reference instrumentation and validation protocol are established. Diagonal geometry may be implemented separately as a view-dependent descriptor with landmark, confidence and phase provenance.
 
 ## 4. Energy Transmission Efficiency (ETE)
 
-### Theoretical Basis
-Energy Transmission Efficiency evaluates the execution of the Kinematic Sequence, measuring how effectively rotational velocity and kinetic energy are transferred from the ground up through the segments to the club. It calculates the deceleration slope of the proximal segment relative to the acceleration slope of the distal segment:
+### Historical design context
 
-$$\text{ETE} = \frac{\omega_{\text{thorax, peak}}}{\omega_{\text{pelvis, peak}}} \times \left(1 - \text{Timing Delay Deviation}\right)$$
+The concept proposed a ratio based on pelvis and thorax angular-velocity peaks and their timing. [[kinematic_sequence]] may describe ordered segment angular-velocity peaks, but sequence, deceleration or temporal coincidence does not by itself measure kinetic energy transfer, energy flow, mechanical power, angular momentum transfer or efficiency.
 
-A high ETE indicates clean proximal-to-distal sequencing with sharp segment deceleration, indicating no energy is "lost" or bled off.
+$$\mathrm{ETE}_{historical}=\frac{\omega_{\text{thorax,peak}}}{\omega_{\text{pelvis,peak}}}\left(1-\text{timing-delay deviation}\right)$$
 
-### Required Measurements
-- **Ideal Data (Level 3)**: 3D high-speed electromagnetic or optical joint sensors mapping segment angular velocities at 240Hz+.
-- **MediaPipe skeletal proxies (Level 5)**:
-  - **Segment Rotational Velocities**: Calculated from the rate of change of 2D/3D angles of the hip line, shoulder line, and lead arm line.
+This historical formula has no validated energy numerator, denominator or transfer measure and is not production logic.
 
-### Evidence & Validation Status
-- **Biomechanical Grounding (Level 3)**: High. The kinematic sequence is a widely accepted biomechanical standard in golf research (TPI, Kwon).
-- **App Algorithm (Level 5)**: High confidence. segment velocity tracking is kinematically observable.
+Single-camera image-plane line-angle rates are view- and frame-rate-dependent. At common 30 fps capture, short peak delays may be unresolved; even high frame rate does not supply forces, segment inertial properties, 3-D rotations or an efficiency denominator.
 
-### Key Limitations
-- 30fps video has a temporal resolution of 33.3ms, which is too slow to capture the exact peaks of a sequence where delays are 20–40ms. A camera capture speed of at least 60fps (preferably 120fps or 240fps) is required for ETE validation.
+### Implementation status
 
----
+Unavailable. Implement only after synchronised force, calibrated high-speed 3-D golfer-and-club kinematics, inertial modelling, a declared system boundary and criterion validation support the specific energy and efficiency claims. Camera timing and angle-rate descriptors must remain separately labelled.
 
-## Summary of AI Metrics Architecture
+## Historical Architecture Boundary
 
-```mermaid
-graph TD
-    GRF[Ground Reaction Force GRF] -->|creates| GRM[Ground Reaction Moment GRM]
-    COM[Center of Mass COM] -->|lever arm| CCS[COM-COP Separation Score]
-    COP[Center of Pressure COP] -->|lever arm| CCS
-    GRM -->|drives pelvic rotation| TGS[Torque Generation Score]
-    CCS -->|multiplies vertical GRF| TGS
-    TGS -->|loads diagonal fascia| FLLI[Functional Line Loading Index]
-    FLLI -->|releases elastic recoil| ETE[Energy Transmission Efficiency]
-    ETE -->|accelerates segments| ClubSpeed[Clubhead Speed]
+The original design linked the scores as if each proved the next. That causal chain is retired. The permitted graph is instead:
+
+```text
+instrumented mechanics -> sensor-derived kinetic outputs, after validation
+camera geometry/timing -> explicitly named motion descriptors
+camera descriptor + Level 3 relationship -> Level 5 hypothesis, never an upgraded kinetic variable
+fascial structure + golf context -> separately labelled vault interpretation, tissue state unknown
 ```
+
+## Relationships
+
+| Relationship | Target | Boundary |
+| :--- | :--- | :--- |
+| governed_by | [[golf_kinetics_observability_boundary]] | Controls labels, sensors, validation and unavailable states. |
+| historical_context_from | [[golfer_ground_interaction_model]] | Supplies measured mechanics but does not validate the scores. |
+| distinguishes | [[ground_reaction_force]] / [[ground_reaction_moment]] | Keeps force and residual/direct moment quantities separate. |
+| distinguishes | [[center_of_mass]] / [[center_of_pressure]] / [[moment_arm]] | Prevents landmark substitutions for mass, pressure and force-line geometry. |
+| bounded_by | [[functional_lines]] | Structural membership does not establish loading or activation. |
+| bounded_by | [[kinematic_sequence]] | Peak order is not energy or momentum transfer. |
+
+## Evidence Level
+
+**Level 5 — unvalidated retired concepts.** Related Level 1 or Level 3 evidence does not increase their evidence level.
+
+## App Use
+
+Do not expose TGS, CCS, FLLI or ETE from the current single-camera pipeline. Use only the allow-listed labels in [[golf_kinetics_observability_boundary]], return unavailable when prerequisites fail, and preserve evidence and uncertainty.
+
+## Open Questions
+
+- Is there a scientifically and mechanically defensible criterion construct for any one historical score?
+- Which non-kinetic camera descriptors are repeatable enough to retain after view-specific golf validation?
