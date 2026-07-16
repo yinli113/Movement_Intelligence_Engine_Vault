@@ -41,7 +41,7 @@ Every note containing golf swing relevance, movement patterns, or diagnostic hyp
 ### Golf Interpretation (Level 3 & 4)
 - Details how the anatomical structure loads, stabilizes, or transfers energy during the swing phases.
 - Explains how joint limitations affect performance or cause compensations.
-- *Example:* Limited lead hip internal rotation prevents proper pelvic deceleration, causing early arm release and blocking back functional line loading.
+- *Boundary example — golf/app hypothesis (Level 5, not established Level 3–4 causation):* Limited lead-hip internal rotation may co-occur with altered pelvic-deceleration timing or earlier arm release in a given capture. That co-occurrence cannot establish that the hip limitation caused either pattern, and camera data cannot confirm Functional Line loading. Any causal or tissue-loading claim requires independent evidence and appropriate instrumentation.
 
 ### App Hypotheses (Level 5)
 - Defines what sensors or skeletal tracking landmarks (MediaPipe) observe as proxies.

@@ -2,8 +2,10 @@
 
 Welcome to the compounding knowledge engine for the AI-powered Functional Movement Assessment application. This vault integrates Thomas Myers' Anatomy Trains myofascial lines and structural anatomy with Dr. Young-Hoo Kwon's golf biomechanics, foot-ground interaction, forces, and moments.
 
-The vault is structured as a movement reasoning engine mapping:
-$$\text{Ground Reaction Forces (GRF)} \rightarrow \text{Ground Reaction Moments (GRM)} \rightarrow \text{External Torque} \rightarrow \text{Body Loading} \rightarrow \text{Myofascial Line Loading} \rightarrow \text{Energy Transmission} \rightarrow \text{Joint Motion} \rightarrow \text{Functional Movement} \rightarrow \text{Performance / Compensation}$$
+The vault uses an evidence-separated reasoning traversal:
+$$\text{source/evidence} \rightarrow \text{external mechanics} \rightarrow \text{swing phase/position} \rightarrow \text{joint/connective anatomical bridge} \rightarrow \text{explicitly labelled myofascial-line interpretation} \rightarrow \text{camera-observable descriptor or unavailable kinetic variable} \rightarrow \text{cautious app-report boundary}$$
+
+Each arrow is a navigation step, not proof that one layer establishes the next. Measured or model-derived kinetics require compatible instrumentation; camera observations remain descriptors. [[center_of_mass|COM]] and [[center_of_pressure|COP]] are distinct quantities and must not be substituted for one another.
 
 ---
 
@@ -75,8 +77,8 @@ Rotational forces, physics vectors, and transmission dynamics:
 - `[[foot_contact_moment]]` - The direct torsional contact-moment class underlain by GRM at each foot COP.
 - `[[linear_impulse]]` - The time integral of net external force and change in linear momentum.
 - `[[angular_impulse]]` - The time integral of net external moment about COM and change in angular momentum.
-- `[[torque]]` - Net rotational force.
-- `[[moment_arm]]` - The horizontal COM-COP separation vector.
+- `[[torque]]` - A moment of force about a selected axis or centre.
+- `[[moment_arm]]` - The perpendicular distance from the selected axis or centre to a force line of action; it is not inherently a horizontal COM–COP separation.
 - `[[center_of_mass]]` - The body's concentrated balance center.
 - `[[center_of_pressure]]` - Net vector ground application point.
 - `[[angular_momentum]]` - Conservation and rotational velocity values.
@@ -106,11 +108,11 @@ Golf-specific movement patterns and swing interval segmentation:
 ### 🤖 05. AI Application Logic (`05_App_Logic/`)
 Scoring metrics, assessments, and remedial exercises:
 - `[[golf_kinetics_observability_boundary]]` - Authoritative boundary between instrumented kinetics, camera-observable descriptors, and Level 5 hypotheses.
-- `[[ai_movement_analysis_layer]]` - Metrics framework defining:
-  - **Torque Generation Score (TGS)**
-  - **COM-COP Separation Score (CCS)**
-  - **Functional Line Loading Index (FLLI)**
-  - **Energy Transmission Efficiency (ETE)**
+- `[[ai_movement_analysis_layer]]` - Historical record of TGS, CCS, FLLI, and ETE—retired, unvalidated historical Level 5 concepts controlled by [[golf_kinetics_observability_boundary]], not a current metrics framework:
+  - **Torque Generation Score (TGS)** — retired and unvalidated.
+  - **COM-COP Separation Score (CCS)** — retired and unvalidated.
+  - **Functional Line Loading Index (FLLI)** — retired and unvalidated.
+  - **Energy Transmission Efficiency (ETE)** — retired and unvalidated.
 - **Assessments**:
   - `[[glute_max_tests]]` - Strength and length test protocols.
 - **Interventions**:
