@@ -79,8 +79,8 @@ Rotational forces, physics vectors, and transmission dynamics:
 - `[[angular_impulse]]` - The time integral of net external moment about COM and change in angular momentum.
 - `[[torque]]` - A moment of force about a selected axis or centre.
 - `[[moment_arm]]` - The perpendicular distance from the selected axis or centre to a force line of action; it is not inherently a horizontal COM–COP separation.
-- `[[center_of_mass]]` - The body's concentrated balance center.
-- `[[center_of_pressure]]` - Net vector ground application point.
+- `[[center_of_mass]]` - The mass-weighted mean position of the defined body system.
+- `[[center_of_pressure]]` - The point of application of the resultant ground-reaction force.
 - `[[angular_momentum]]` - Conservation and rotational velocity values.
 - `[[kinematic_sequence]]` - segment coordination timing (Pelvis → Thorax → Lead Arm).
 - `[[force_transmission]]` - General vector transfer.
