@@ -14,9 +14,9 @@ relationships:
   parent_concepts: [golfer_ground_interaction_model]
   child_concepts: []
   related_concepts: [ground_reaction_force, ground_reaction_moment, torque, center_of_mass, center_of_pressure]
-relationship_count: 8
-hub_score: 15
-centrality: 0.163
+relationship_count: 9
+hub_score: 17
+centrality: 0.184
 confidence: high
 review_status: active_spec
 updated: 2026-07-16
@@ -49,7 +49,7 @@ Calculating a GRF moment arm requires the chosen reference point, force-plate CO
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
 | defines_geometry_for | [[torque]] | Perpendicular distance scales moment magnitude. |
-| defines_geometry_for | [[ground_reaction_moment]] | GRF moment about COM requires this geometry. |
+| defines_geometry_for | [[golfer_ground_interaction_model]] | The model's GRF moment about COM requires this geometry. |
 | references | [[center_of_mass]] | COM may be the chosen centre. |
 | uses | [[center_of_pressure]] | COP supplies a point on the measured GRF line. |
 | classified_by | [[golfer_ground_interaction_model]] | Places the term in the external-moment model. |

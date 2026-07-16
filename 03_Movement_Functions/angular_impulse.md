@@ -4,6 +4,7 @@ type: Movement Pattern
 preferred_name: Angular Impulse
 aliases: [moment impulse, rotational impulse, J_H]
 category: Physics
+tags: []
 short_definition: "The time integral of net external moment about COM, equal to the change in whole-system angular momentum about COM."
 evidence_level: 3
 evidence:
@@ -13,13 +14,13 @@ evidence:
 relationships:
   parent_concepts: [golfer_ground_interaction_model]
   child_concepts: []
-  related_concepts: [ground_reaction_moment, pivoting_moment, foot_contact_moment, angular_momentum]
+  related_concepts: [ground_reaction_force, moment_arm, center_of_mass, pivoting_moment, foot_contact_moment, angular_momentum]
   stable_anatomy: []
   golf_interpretation: []
   app_hypotheses: []
-relationship_count: 10
-hub_score: 20
-centrality: 0.204
+relationship_count: 12
+hub_score: 21
+centrality: 0.245
 confidence: high
 review_status: active_spec
 updated: 2026-07-16
@@ -37,7 +38,7 @@ It relates external moment to the change in whole-system [[angular_momentum|angu
 
 ## Why It Matters
 
-Angular impulse captures both moment magnitude and duration. It also requires the three moment classes to remain explicit: [[ground_reaction_moment|GRF moment about COM]], [[pivoting_moment]] and [[foot_contact_moment]].
+Angular impulse captures both moment magnitude and duration. It also requires the three moment classes to remain explicit: the moment of [[ground_reaction_force|GRF]] about [[center_of_mass|COM]] using the [[moment_arm|GRF line-of-action geometry]], [[pivoting_moment]], and [[foot_contact_moment]]. The residual [[ground_reaction_moment|GRM]] at COP underlies the foot-contact class and must not be added again as a separate fourth contribution.
 
 ## Supporting Evidence
 
@@ -53,7 +54,9 @@ Angular impulse captures both moment magnitude and duration. It also requires th
 
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
-| integrates | [[ground_reaction_moment]] | GRF moment about COM contributes to angular impulse. |
+| integrates | [[ground_reaction_force]] | GRF and its line of action produce the first moment class about COM. |
+| references | [[center_of_mass]] | The net external moment is formed about COM. |
+| uses_geometry_from | [[moment_arm]] | Perpendicular force-line geometry defines the GRF moment. |
 | integrates | [[pivoting_moment]] | Pivoting moment contributes to angular impulse. |
 | integrates | [[foot_contact_moment]] | Direct torsional GRM contributes to angular impulse. |
 | changes | [[angular_momentum]] | Net external angular impulse equals its change about COM. |
@@ -69,7 +72,9 @@ Angular impulse captures both moment magnitude and duration. It also requires th
 
 ## Related Concepts
 
-- [[ground_reaction_moment]]
+- [[ground_reaction_force]]
+- [[moment_arm]]
+- [[center_of_mass]]
 - [[pivoting_moment]]
 - [[foot_contact_moment]]
 - [[angular_momentum]]

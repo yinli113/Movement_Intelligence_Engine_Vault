@@ -17,9 +17,9 @@ relationships:
   stable_anatomy: [plantar_fascia, ankle_joint, knee_joint, hip_joint]
   golf_interpretation: []
   app_hypotheses: []
-relationship_count: 21
-hub_score: 45
-centrality: 0.429
+relationship_count: 23
+hub_score: 49
+centrality: 0.469
 confidence: high
 review_status: active_spec
 updated: 2026-07-16
@@ -49,7 +49,8 @@ A force plate measures three force components and moment components; two plates 
 | :--- | :--- | :--- |
 | classified_by | [[golfer_ground_interaction_model]] | Places GRF within the whole-system mechanics model. |
 | acts_at | [[center_of_pressure]] | COP is the resultant GRF's point of application. |
-| creates | [[ground_reaction_moment]] | Its moment about COM depends on 3D geometry. |
+| creates_moment_about | [[center_of_mass]] | Its COM moment depends on the measured force and line-of-action geometry. |
+| uses_geometry_from | [[moment_arm]] | The perpendicular distance to the force line determines leverage. |
 | contributes_to | [[pivoting_moment]] | Foot-specific GRFs create this moment about combined COP. |
 | co_measured_with | [[foot_contact_moment]] | Force-plate moment components distinguish direct torsional contact moment. |
 | integrates_as | [[linear_impulse]] | External force integrated over time changes linear momentum. |

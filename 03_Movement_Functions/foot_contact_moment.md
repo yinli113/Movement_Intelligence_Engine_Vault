@@ -4,6 +4,7 @@ type: Movement Pattern
 preferred_name: Foot-Contact Moment
 aliases: [foot contact moment, torsional GRM, free moment]
 category: Biomechanics
+tags: []
 short_definition: "The direct torsional ground reaction moment acting on a foot at the foot-ground interface."
 evidence_level: 3
 evidence:
@@ -18,7 +19,7 @@ relationships:
   golf_interpretation: []
   app_hypotheses: []
 relationship_count: 8
-hub_score: 15
+hub_score: 16
 centrality: 0.163
 confidence: high
 review_status: active_spec
@@ -29,7 +30,7 @@ updated: 2026-07-16
 
 ## Definition
 
-The **foot-contact moment** is the direct torsional [[ground_reaction_moment|GRM]] remaining at a foot's [[center_of_pressure|COP]] after the distributed foot-ground reactions are represented by a resultant [[ground_reaction_force|GRF]]. Its relevant vertical-axis component can be described as the measured free moment $M_{contact,z}$ at the interface. It is not the [[pivoting_moment]] created by separated individual-foot GRF vectors.
+The **foot-contact moment** is the taxonomy class represented by the residual/direct [[ground_reaction_moment|GRM]] associated with the resultant [[ground_reaction_force|GRF]] at a foot's [[center_of_pressure|COP]]. Its relevant vertical-axis component can be described as the measured free moment $M_{contact,z}$ at the interface. It is not the [[pivoting_moment]] created by separated individual-foot GRF vectors, nor the GRF moment about golfer COM.
 
 ## Why It Matters
 
@@ -54,7 +55,7 @@ Foot-contact moment may be integrated over a defined swing interval as one contr
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
 | class_of | [[golfer_ground_interaction_model]] | One of three external moment classes. |
-| measured_with | [[ground_reaction_moment]] | It is the direct torsional GRM at the foot. |
+| represented_by | [[ground_reaction_moment]] | The residual/direct GRM is the measured quantity underlying this class, not an additional moment contribution. |
 | co_measured_with | [[ground_reaction_force]] | Force and moment components come from the force plate. |
 | located_at | [[center_of_pressure]] | Represented at the foot COP. |
 | integrates_as | [[angular_impulse]] | Its time integral contributes to change in angular momentum. |

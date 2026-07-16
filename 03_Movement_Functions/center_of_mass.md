@@ -15,7 +15,7 @@ relationships:
   child_concepts: []
   related_concepts: [center_of_pressure, ground_reaction_force, ground_reaction_moment, moment_arm, linear_impulse, angular_impulse, angular_momentum]
 relationship_count: 11
-hub_score: 21
+hub_score: 22
 centrality: 0.224
 confidence: high
 review_status: active_spec
@@ -46,7 +46,7 @@ COM requires a stated segment model, mass parameters and calibrated kinematics, 
 | :--- | :--- | :--- |
 | distinguished_from | [[center_of_pressure]] | COM is mass-weighted; COP is force application. |
 | changes_via | [[linear_impulse]] | Net external impulse changes linear momentum. |
-| reference_for | [[ground_reaction_moment]] | GRF moment about COM uses this chosen centre. |
+| reference_for | [[golfer_ground_interaction_model]] | The model forms the GRF moment about this chosen centre. |
 | reference_for | [[angular_impulse]] | External moment is integrated about COM. |
 | classified_by | [[golfer_ground_interaction_model]] | Defines the whole-system mechanics context. |
 

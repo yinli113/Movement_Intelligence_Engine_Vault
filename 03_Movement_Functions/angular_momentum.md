@@ -14,9 +14,9 @@ relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: []
   related_concepts: [golfer_ground_interaction_model, ground_reaction_moment, pivoting_moment, foot_contact_moment, torque, center_of_mass, angular_impulse, kinematic_sequence]
-relationship_count: 11
+relationship_count: 12
 hub_score: 20
-centrality: 0.224
+centrality: 0.245
 confidence: high
 review_status: active_spec
 updated: 2026-07-16
@@ -38,7 +38,7 @@ Only external moments change whole-system angular momentum. Internal joint and m
 
 ## Supporting Evidence
 
-[[dr_kwon_golfer_ground_interaction]] supplies Level 3 golf-specific evidence for external [[ground_reaction_moment|GRF moment]], [[pivoting_moment]] and [[foot_contact_moment]]. It does not establish how angular momentum is transferred through fascial tissues.
+[[dr_kwon_golfer_ground_interaction]] supplies Level 3 golf-specific evidence for the moment of [[ground_reaction_force|GRF]] about COM, [[pivoting_moment]] and [[foot_contact_moment]]. The residual [[ground_reaction_moment|GRM]] is already represented within foot-contact moment and is not a fourth additive class. This evidence does not establish how angular momentum is transferred through fascial tissues.
 
 ## Measurement Boundary
 
@@ -49,7 +49,7 @@ Whole-system angular momentum requires calibrated 3D kinematics, segment inertia
 | Relationship | Target | Role |
 | :--- | :--- | :--- |
 | changes_via | [[angular_impulse]] | External moment integrated over time changes angular momentum. |
-| changes_via | [[ground_reaction_moment]] | GRF moment about COM contributes externally. |
+| changes_via | [[golfer_ground_interaction_model]] | GRF, COM and line-of-action geometry define the first external-moment class. |
 | changes_via | [[pivoting_moment]] | Foot-specific force geometry contributes externally. |
 | changes_via | [[foot_contact_moment]] | Direct torsional GRM contributes externally. |
 | distinguished_from | [[kinematic_sequence]] | Peak angular-velocity order is not angular-momentum transfer. |

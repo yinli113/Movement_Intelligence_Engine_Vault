@@ -4,6 +4,7 @@ type: Movement Pattern
 preferred_name: Linear Impulse
 aliases: [force impulse, translational impulse, J]
 category: Physics
+tags: []
 short_definition: "The time integral of net external force, equal to the change in linear momentum."
 evidence_level: 3
 evidence:
