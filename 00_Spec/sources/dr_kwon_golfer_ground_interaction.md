@@ -20,7 +20,7 @@ peer_reviewed_dois:
 accessed: 2026-07-16
 relationships:
   governs: []
-  contains: [ground_reaction_force, ground_reaction_moment, torque, center_of_mass, center_of_pressure, angular_momentum, golf_swing_event, golf_swing_phase, functional_swing_plane]
+  contains: [golfer_ground_interaction_model, ground_reaction_force, ground_reaction_moment, pivoting_moment, foot_contact_moment, linear_impulse, angular_impulse, torque, center_of_mass, center_of_pressure, angular_momentum, golf_swing_event, golf_swing_phase, functional_swing_plane]
   connects_to: [functional_lines]
   produces: []
   assists: []
@@ -34,9 +34,9 @@ relationships:
   relevant_to: [golf_swing, golf_swing_transition, movement_chain_model]
 confidence: high
 review_status: active_spec
-relationship_count: 10
-hub_score: 23
-centrality: 0.2
+relationship_count: 19
+hub_score: 42
+centrality: 0.388
 updated: 2026-07-16
 ---
 
@@ -118,8 +118,13 @@ Kwon supports the external-force and external-moment description of golfer-groun
 
 | Relationship | Target | Evidence boundary |
 | :--- | :--- | :--- |
+| contains | [[golfer_ground_interaction_model]] | Level 3 taxonomy for external golfer-ground force and moment mechanics. |
 | contains | [[ground_reaction_force]] | Direct Level 3 external-force construct. |
 | contains | [[ground_reaction_moment]] | Direct Level 3 external-moment construct. |
+| contains | [[pivoting_moment]] | Direct Level 3 moment class requiring foot-specific force plates. |
+| contains | [[foot_contact_moment]] | Direct Level 3 torsional contact-moment class. |
+| contains | [[linear_impulse]] | General impulse identity applied to measured Level 3 golf forces and events. |
+| contains | [[angular_impulse]] | General angular-impulse identity applied to measured Level 3 golf moments and events. |
 | contains | [[center_of_pressure]] | Direct Level 3 force-plate/pressure-mat construct. |
 | contains | [[center_of_mass]] | Direct biomechanical reference point; not interchangeable with COP. |
 | relevant_to | [[golf_swing_transition]] | Kwon event definitions and measured timing can anchor Level 3 phase descriptions. |

@@ -2,84 +2,82 @@
 id: center_of_pressure
 type: Movement Pattern
 preferred_name: Center of Pressure
-aliases: [COP, pressure center, foot pressure, weight distribution]
+aliases: [COP, pressure centre]
 category: Physics
-short_definition: "The point on the ground through which the net vertical ground reaction force vector acts; represents the average location of all contact pressures."
+short_definition: "The point of application of a resultant ground reaction force."
 evidence_level: 2
 evidence:
   - source_id: dr_kwon_golfer_ground_interaction
     evidence_level: 3
-    supports: "Analyses how the Center of Pressure (COP) location under the feet serves as the application point for the net Ground Reaction Force vector."
+    supports: "Defines COP, combined COP and the pressure-mat versus force-plate boundary."
 relationships:
-  parent_concepts: [movement_chain_model]
+  parent_concepts: [golfer_ground_interaction_model]
   child_concepts: []
-  related_concepts: [ground_reaction_force, ground_reaction_moment, torque, moment_arm, center_of_mass]
+  related_concepts: [ground_reaction_force, ground_reaction_moment, pivoting_moment, foot_contact_moment, center_of_mass, moment_arm]
+relationship_count: 9
+hub_score: 18
+centrality: 0.184
 confidence: high
 review_status: active_spec
-relationship_count: 8
-hub_score: 14
-centrality: 0.16
-updated: 2026-07-08
+updated: 2026-07-16
 ---
 
 # Center of Pressure
 
 ## Definition
 
-The **Center of Pressure (COP)** is the point location of the vertical ground reaction force vector's net application. It represents the spatial average of all pressures acting on the contact surface (the soles of the feet). 
+**COP is the point of application of the resultant GRF, not the body's COM.** For a pressure surface, COP is calculated from the distribution of measured normal forces.
 
-While the **Center of Mass (COM)** is a physical balance point inside the body, the COP is an external point of contact on the ground. When both feet are on the ground, the net COP is a combined point situated somewhere between the two feet.
-
----
+Combined COP location reflects relative vertical forces under the feet; “COP shift” and “weight shift” are not synonyms. Combined COP does not locate body mass.
 
 ## Why It Matters
 
-The COP is the steering wheel of the golf swing. A golfer shifts their pressure (COP) to manipulate the ground reaction force vectors, directing the forces to generate torque. The relationship between where the pressure is applied (COP) and where the body's weight is balanced (COM) determines the magnitude of the moment arm that drives rotation.
+COP supplies point-of-application information for force and moment calculations. COP trajectory alone does not reveal full 3D GRF, GRM, COM, moment or mechanical efficiency.
 
----
+## Supporting Evidence
 
-## Biomechanical Relevance (Level 3 Evidence)
+[[dr_kwon_golfer_ground_interaction]] anchors COP/COM and instrument distinctions at `kwon_grf_grm`, Figures 3–4.
 
-The trajectory of the COP during a high-velocity golf swing is highly coordinated:
+## Measurement Boundary
 
-### 1. Address to Backswing
-- At address, the net COP is centered between the feet.
-- During the backswing, the COP shifts towards the trail heel, representing a transfer of pressure to the trail side (reaching roughly 70–80% trail-foot pressure).
-
-### 2. Transition and Downswing
-- **Early Shift**: Before the backswing is complete, the COP shifts rapidly target-ward, moving towards the lead toe (lateral pressure shift).
-- **Heel Target**: As the downswing progresses, the COP under the lead foot moves from the toe/midfoot back towards the lead heel, facilitating pelvic clearance and rotation.
-
-### 3. COP-COM Contrast
-- **COM** represents the displacement of body mass.
-- **COP** represents the application of contact force.
-- The COP shifts first, acting as the driver that pushes the body to shift the COM. In a proper downswing sequence, the COP shifts to the lead side well before the COM arrives.
-
----
-
-## App Hypotheses & App Logic (Level 5 Evidence)
-
-### Metrics Integration
-The spatial relationship and timing sequence between the COM and COP are evaluated by the **COM–COP Separation Score (CCS)**.
-
-### MediaPipe Proxies
-Because standard cameras cannot measure contact pressure, the app estimates COP activity using:
-- **Joint Flexion and Weight Distribution Hypotheses**: If the lead knee is flexed and the lead ankle is directly under the pelvis, the app assumes a lead midfoot/toe COP. If the lead leg is extended and the hips are clearing backward, the app infers the COP has shifted to the lead heel.
-- **Dynamic Posture Foot Loading**: Tracking ankle and knee joint angles serves as a proxy to model whether pressure is loaded in the toes or heels.
-
----
+A pressure mat measures vertical sensor forces and COP, not full 3D GRF/GRM. A force plate measures three force components and moment components; two plates permit foot-specific analysis. Ordinary video cannot measure pressure or COP; a visible foot or ankle landmark is not COP.
 
 ## Relationships
 
-| Relationship | Target | Description |
+| Relationship | Target | Role |
 | :--- | :--- | :--- |
-| connects_to | [[ground_reaction_moment]] | COP is the starting point of the GRF vector that generates the moment. |
-| connects_to | [[moment_arm]] | The distance between the COP and the vertical line of COM defines the moment arm. |
-| connects_to | [[center_of_mass]] | The spatial delta between COM and COP determines rotational leverage. |
-| supported_by | [[dr_kwon_golfer_ground_interaction]] | Authoritative source for golfer-ground contact pressure analysis. |
+| point_of_application_for | [[ground_reaction_force]] | Locates the resultant GRF. |
+| distinguished_from | [[center_of_mass]] | COP is not body COM. |
+| referenced_by | [[pivoting_moment]] | Combined COP is its calculation reference. |
+| locates | [[foot_contact_moment]] | Direct torsional GRM is represented at foot COP. |
+| contributes_to | [[moment_arm]] | Geometry and force line of action determine the arm. |
+| classified_by | [[golfer_ground_interaction_model]] | Separates COP, COM and moment classes. |
 
----
+## Parent Concepts
+
+- [[golfer_ground_interaction_model]]
+
+## Child Concepts
+
+- None currently.
+
+## Related Concepts
+
+- [[ground_reaction_force]]
+- [[ground_reaction_moment]]
+- [[pivoting_moment]]
+- [[foot_contact_moment]]
+- [[center_of_mass]]
+- [[moment_arm]]
+
+## Evidence Level
+
+General COP mechanics are Level 2; golf instrumentation distinctions are Level 3.
+
+## App Use
+
+Use COP labels only with pressure or force-platform data. In video-only mode describe visible kinematics without pressure, COP or weight-shift claims.
 
 ## Open Questions
 
-- Can consumer-grade smart insoles (measuring pressure) be integrated with skeletal tracking to provide real-time, high-accuracy COP data to the AI engine?
+- Which pressure-sensor quality criteria are sufficient for app COP reporting?
