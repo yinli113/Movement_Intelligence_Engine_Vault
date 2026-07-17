@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 340.5
   },
   "right": {
     "id": "314db642c21ad232",
@@ -181,11 +181,15 @@
   },
   "active": "d6f4e0e625a3250b",
   "lastOpenFiles": [
+    "00_Project_Reports/Six_Phases_Swing_Graph_Extraction.md",
+    "00_Project_Reports/Vault_Audit_and_Graph_Conversion_Plan.md",
+    "AGENTS.md",
+    "docs/superpowers/plans/2026-07-16-dr-kwon-vault-integration.md",
+    "docs/superpowers/plans",
+    "01_Fascial_Lines/back_functional_line.md",
     "01_Fascial_Lines/ipsilateral_functional_line.md",
     "01_Fascial_Lines/front_functional_line.md",
-    "01_Fascial_Lines/back_functional_line.md",
     "index.md",
-    "AGENTS.md",
     "03_Movement_Functions/movement_sequencing.md",
     "03_Movement_Functions/movement_chain_model.md",
     "03_Movement_Functions/moment_arm.md",
@@ -206,16 +210,12 @@
     "00_Spec/templates",
     "05_App_Logic/interventions/glute_max_releases.md",
     "05_App_Logic/interventions/glute_max_activations.md",
-    "05_App_Logic/assessments/glute_max_tests.md",
-    "04_Golf_Swing/phases/shaft_parallel_to_end_pelvis_rotation.md",
-    "04_Golf_Swing/phases/max_unweighting_to_impact.md",
     "04_Golf_Swing/positions",
     "05_App_Logic/interventions",
     "05_App_Logic/assessments",
     "05_App_Logic",
     "04_Golf_Swing/phases",
     "04_Golf_Swing",
-    "03_Movement_Functions",
-    "02_Body_Structures/muscles"
+    "03_Movement_Functions"
   ]
 }
