@@ -101,3 +101,33 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - **Myofascial-line integration and evidence boundary**: Kept myofascial lines as the primary anatomical structure and labelled mechanics-to-line mappings by evidence level rather than as measured tissue loading.
 - **App observability safeguards**: Added [[golf_kinetics_observability_boundary]] as the authoritative allow-list separating instrumented kinetics, camera-observable descriptors, and Level 5 hypotheses; no diagnosis or treatment claims were added.
 - **Verification performed**: Recalculated graph metrics, checked index and contextual backlinks, compared unresolved wikilinks with the four-target legacy baseline, searched for unsupported camera-kinetics or fascial claims, and ran diff, status, and repository-scope checks.
+
+## [2026-07-22] Spec | Generalize Evidence Hierarchy to Cross-Domain Foundational Frameworks
+- Revised `[[evidence_levels]]`: Level 1 redefined as **Foundational Frameworks** (philosophy, terminology, observational logic, interpretation boundaries) — foundational to the engine's reasoning, *not* "highest-quality evidence" and *not* necessarily gold-standard biomechanics.
+- Renamed Levels 2-4: L2 Domain Taxonomies & General Movement Models; L3 Domain-Specific Instrumented Biomechanics; L4 Applied Coaching/Clinical/Practice Frameworks (must never override L1-3 or upgrade a 2D proxy into a measured kinetic/causal claim).
+- Added `source_role` field with values: foundational_anatomical_framework, foundational_clinical_philosophy, foundational_movement_framework, foundational_domain_taxonomy, domain_biomechanics, applied_practice.
+- Updated "Current domain population" table: gait and static posture now have Level 1 foundations but still lack Level 3 instrumented sources (recorded as future domain-expansion, not MVP blockers); Gray Cook supports future squat/functional-movement modules but is not an instrumented squat-biomechanics source.
+- Strengthened Content Separation Rule: a foundational source may define philosophy/terminology/taxonomy/observability limits but does not automatically support every measurement, causal interpretation, treatment, or report statement; claims must be traced to the specific source and source_role.
+- Updated `[[index]]` to present the vault as a cross-domain movement-intelligence engine with the five Level 1 sources and the app philosophy ("How does your body organise movement?").
+
+## [2026-07-22] Sources | Five Level 1 Foundational Source Notes
+- `[[gray_cook_movement_2010]]` — evidence_level 1, source_role foundational_movement_framework (raw/literature/Movement.pdf).
+- `[[chambers_sutherland_gait_analysis_2002]]` — evidence_level 1, source_role foundational_domain_taxonomy (raw/literature/A_Practical_Guide_to_Gait_Analysis.9.pdf).
+- `[[czaprowski_nonstructural_posture_2018]]` — evidence_level 1, source_role foundational_clinical_philosophy, is_philosophy_source true (raw/literature/Non-structural misalignments of body posture in the sagittal plane.pdf).
+- `[[anatomy_trains_myofascial_thomas_w_myers]]` — set evidence_level 1, source_role foundational_anatomical_framework.
+- `[[julie_hammond_breakout]]` — set evidence_level 1, source_role foundational_clinical_philosophy.
+- Renamed the three new source files so filename == id slug (vault convention).
+
+## [2026-07-22] Concepts | Minimum Scaffold Stubs (status: scaffold)
+- Movement/FMS (03_Movement_Functions): functional_movement_screen, selective_functional_movement_assessment, deep_squat, hurdle_step, inline_lunge, shoulder_mobility_reaching, active_straight_leg_raise, trunk_stability_pushup, rotary_stability, joint_by_joint_concept, performance_pyramid, movement_screening, movement_assessment, corrective_strategy, squat_assessment.
+- Gait (03_Movement_Functions): gait_cycle, stance_phase, swing_phase, gait_cycle_events, gait_temporal_parameters, determinants_of_gait, gait_kinematics, gait_kinetics, gait_emg, foot_pressure, gait_energetics, gait_analysis, gait_assessment, observational_gait_analysis.
+- Posture (03_Movement_Functions): lordotic_posture, kyphotic_posture, kyphotic_lordotic_posture, flat_back_posture, sway_back_posture, stabilizer_mobilizer_classification, local_stabilizers, global_stabilizers, mobilizers, hypoactivity, hyperactivity, head_line, base_line, sagittal_posture_types, posture_assessment, app_philosophy, corrective_exercise, muscle_length_strength_assessment.
+- Future domain-expansion source stubs (00_Spec/sources, status: future_source, NOT yet in vault): kendall_muscles_testing_function, sahrmann_movement_impairment_syndromes, bergmark_lumbar_stability, richardson_lumbopelvic_stabilization, perry_burnfield_gait_analysis, whittle_gait_analysis.
+- All 187 wikilinks across the Level 1 source notes, evidence_levels.md, and index.md now resolve to a vault node. Stubs are concise and marked status: scaffold; no detailed corrective protocols or unsupported muscle-by-muscle conclusions were created.
+
+## [2026-07-22] Spec | Align Vault spec.md + Cross-Workspace Links to Generalized Hierarchy
+- Aligned `00_Spec/spec.md` (Foundational Rules, Evidence Hierarchy table, source-role table) with the generalized `evidence_levels.md` (Level 1 = Foundational Frameworks; five Level 1 sources with source_role; Levels 2-4 renamed).
+- Workspace-root docs updated to reflect cross-domain scope: `TillYes_Workspace/README.md` (§7.2 vault description, tree comment, "which folder" row, operating checklist), `ACTIVE_PROJECTS.md`, `NEW_COMPUTER_SETUP.md`, `scripts/bootstrap_new_computer.sh`.
+- `tillyes_doc` evidence hierarchy aligned to the vault: `shared/terminology.md` (Evidence Level Hierarchy 1-5) and `MASTER_BIBLE.md` (Evidence Separation Philosophy table). `shared/clinical_principles.md` unchanged (uses app evidence-state tags, already consistent).
+- Fixed stale `tillyes_apps/static_posture_app/config.yaml` `fascial_lines_path` (was pointing at non-existent `/Users/yinli/Desktop/myofascial_line_vault/...`) to the vault's current location; the app's only vault link is `fascial_knowledge.json`, which was not modified by the generalization.
+- No app code changes required: the static_posture_app and movement_assessment apps do not reference evidence_levels, source_role, or the new concept nodes; their `evidence` field is the app's own Level-5 proxy vocabulary, already aligned with the observability boundary.

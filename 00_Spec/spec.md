@@ -36,25 +36,29 @@ The vault is not a textbook summary library. Markdown notes are the view. The pr
 
 ## Foundational Rules
 
-1. Use Thomas Myers' Anatomy Trains and Julie Hammond as the anatomical foundation for fascial-line structure.
-2. Treat fascial lines as the primary knowledge structure, not isolated muscles.
+1. The vault is a **cross-domain movement-intelligence engine** serving golf, gait, static posture, squat, and future movement assessments. Use Thomas Myers' Anatomy Trains and Julie Hammond as the anatomical/clinical-philosophy foundation for fascial-line structure; Gray Cook for general movement screening; Chambers & Sutherland for gait terminology and the observational-vs-instrumented boundary; Czaprowski et al. for non-structural posture taxonomy and the app philosophy.
+2. Treat fascial lines as a primary knowledge structure, not isolated muscles — but do not treat fascial lines as the only structure.
 3. Use Davide Bertoli's golf swing video/transcript as a golf-application reference, not as anatomical truth.
-4. Separate stable anatomical knowledge from golf-specific interpretation.
+4. Separate stable anatomical/taxonomic knowledge from domain-specific interpretation and from app hypotheses.
 5. Do not invent facts. Mark inferred relationships as `hypothesis`, `clinical_interpretation`, or Level 5 app logic.
-6. Use consistent Obsidian markdown structure, backlinks, aliases, tags, and YAML frontmatter.
+6. Use consistent Obsidian markdown structure, backlinks, aliases, tags, and YAML frontmatter. Each source carries `evidence_level` and `source_role`.
 7. Every note should be useful later for AI, MediaPipe, and movement-analysis app development.
 
 ## Evidence Hierarchy
 
+See `evidence_levels.md` for the authoritative spec. Summary:
+
 | Level | Label | Meaning | Allowed Use |
 |---:|---|---|---|
-| 1 | Anatomy Trains anatomical structure | Anatomy Trains / Julie Hammond fascial-line anatomy and structural relationships | Stable fascial-line definitions and structure membership |
-| 2 | Peer-reviewed fascia and biomechanics research | Research literature on fascia, biomechanics, motor control, anatomy, or force transmission | Strengthen anatomy and biomechanics relationships |
-| 3 | Golf biomechanics research | Golf-specific biomechanics research | Validate swing phase mechanics, sequencing, kinetics, and kinematics |
-| 4 | Davide Bertoli golf application interpretation | Golf coaching/application interpretation from Davide Bertoli material | Golf relevance and applied swing interpretation only |
-| 5 | Our AI app hypothesis | Project inference for app logic, MediaPipe proxies, report wording, or clinical reasoning | Must be marked as hypothesis; never anatomical fact |
+| 1 | Foundational Frameworks | Sources that define the engine's core philosophy, terminology, observational logic, and interpretation boundaries (Anatomy Trains, Julie Hammond, Gray Cook, Chambers & Sutherland, Czaprowski et al.). Foundational to reasoning — **not** "highest-quality evidence" and **not** necessarily gold-standard biomechanics. | Define philosophy, terminology, taxonomy, observational structure, observability limits. Do not, by themselves, authorise measurement, causal interpretation, treatment, or report claims. |
+| 2 | Domain Taxonomies & General Movement Models | Accepted classifications, phase models, screening structures, and general biomechanical concepts within a domain. | Classification, phase/segment definitions, screening structures, general concept definitions. |
+| 3 | Domain-Specific Instrumented Biomechanics | Research using 3D motion capture, force plates, pressure systems, EMG, validated kinematics/kinetics. | Measured/model-derived kinetics, kinematics, EMG, pressure, energetics for that domain. |
+| 4 | Applied Coaching, Clinical, or Practice Frameworks | Domain-specific interpretation and applied practice models. Must never override Levels 1-3 or upgrade a 2D proxy into a measured kinetic or causal claim. | Domain phase descriptions, applied relevance, coaching cues, practice models. |
+| 5 | App-Logic Hypotheses | Project inference for app logic, MediaPipe proxies, report wording, or clinical reasoning. | Must be marked as hypothesis; never anatomical fact. |
 
-Do not present Level 4 or Level 5 claims as anatomical facts.
+`source_role` records why a source is included (e.g., `foundational_anatomical_framework`, `foundational_clinical_philosophy`, `foundational_movement_framework`, `foundational_domain_taxonomy`, `domain_biomechanics`, `applied_practice`); `evidence_level` alone cannot explain it.
+
+Do not present Level 4 or Level 5 claims as anatomical facts. A foundational (Level 1) source may define philosophy, terminology, taxonomy, or observability limits, but every claim must still be traced to the specific source and `source_role` that supports it.
 
 ## Required Top-Level Structure
 
@@ -311,14 +315,18 @@ Whenever possible:
 
 ## Source Roles
 
-| Source | Role |
-|---|---|
-| [[anatomy_trains_myofascial_thomas_w_myers]] | Level 1 source for Anatomy Trains fascial-line structure |
-| [[julie_hammond_breakout]] | Level 1 supporting source summary for Anatomy Trains concepts and BodyReading language |
-| [[golf_decoded_six_phases_swing]] | Level 4 golf-application source for six-phase swing interpretation |
-| Future peer-reviewed fascia/biomechanics papers | Level 2 support |
-| Future golf biomechanics papers | Level 3 support |
-| App logic notes | Level 5 hypothesis |
+| Source | evidence_level | source_role |
+|---|---|---|
+| [[anatomy_trains_myofascial_thomas_w_myers]] | 1 | foundational_anatomical_framework |
+| [[julie_hammond_breakout]] | 1 | foundational_clinical_philosophy |
+| [[gray_cook_movement_2010]] | 1 | foundational_movement_framework |
+| [[chambers_sutherland_gait_analysis_2002]] | 1 | foundational_domain_taxonomy |
+| [[czaprowski_nonstructural_posture_2018]] | 1 | foundational_clinical_philosophy |
+| [[dr_kwon_golfer_ground_interaction]] | 3 | domain_biomechanics (golf) |
+| [[golf_decoded_six_phases_swing]] | 4 | applied_practice (golf) |
+| Future peer-reviewed fascia/biomechanics papers | 2-3 | domain taxonomy / domain_biomechanics |
+| Future gait / posture depth sources (Perry & Burnfield, Whittle, Kendall, Sahrmann) | 3-4 | domain_biomechanics / applied_practice |
+| App logic notes | 5 | (app-logic hypothesis) |
 
 ## MediaPipe Readiness
 

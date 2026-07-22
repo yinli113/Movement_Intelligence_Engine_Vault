@@ -8,6 +8,9 @@ author: Thomas W. Myers
 publication_year: 2009
 format: textbook_pdf
 raw_file: raw/literature/Anatomy_Trains_Myofascial_Thomas_W_Myers.pdf
+domain: all
+evidence_level: 1
+source_role: foundational_anatomical_framework
 relationships:
   contains: [superficial_back_line, lateral_line, spiral_line, functional_lines, deep_front_line, sacrotuberous_ligament, thoracolumbar_fascia, plantar_fascia, nuchal_ligament, iliotibial_tract]
   connects_to: [golf_swing_transition]
@@ -39,7 +42,9 @@ updated: 2026-06-29
 
 ## Source Role
 
-This source should be used as the primary fascial-line reference for the golf movement knowledge graph. It should not be used as a standalone medical authority, and it should not replace standard anatomy references for muscle actions, joint definitions, or clinical claims.
+This source is a **Level 1 foundational framework** for the engine. It defines the whole-body myofascial-continuity model and the BodyReading framework that the engine uses to reason about structural continuity and static-posture patterns across all domains. It is foundational to the engine's reasoning, **not** "highest-quality evidence" and **not** a gold-standard biomechanics reference.
+
+A foundational anatomical framework does not, by itself, authorise every measurement, causal interpretation, treatment recommendation, or report statement in a domain; claims must be traced to this source and `source_role: foundational_anatomical_framework` only for the structural/myofascial continuity and BodyReading pattern hypotheses they support. It should not be used as a standalone medical authority and should not replace standard anatomy references for muscle actions, joint definitions, or clinical claims. Use [[chambers_sutherland_gait_analysis_2002]] for gait terminology, [[gray_cook_movement_2010]] for movement screening, and [[dr_kwon_golfer_ground_interaction]] for golf instrumented kinetics.
 
 Important terminology caveat: the book title uses "myofascial meridians". In this vault, use `Fascial Line` as the canonical graph type and avoid treating fascial lines and other meridian systems as the same system.
 

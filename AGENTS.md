@@ -4,6 +4,8 @@ This document defines the structure, metadata conventions, and workflows for mai
 
 Before major graph changes, read `00_Spec/spec.md`. That file is the controlling project specification for evidence hierarchy, fascial-line-first reasoning, golf interpretation boundaries, and app-readiness requirements.
 
+> **Cross-repo consistency (read first):** This vault is the knowledge source-of-truth for the whole TillYes workspace. When you change a canonical fact here (evidence hierarchy in `00_Spec/evidence_levels.md`, vault scope in `index.md`, source-note ids/filenames, or the location of `fascial_knowledge.json`), the same fact is duplicated in `tillyes_doc`, `tillyes_web`, `tillyes_apps/*`, and the workspace-root docs — and those copies must be updated in the same session. Before and after editing, read `../../AGENTS.md` and `../../CONSISTENCY_MAP.md`, then run `../../scripts/check_consistency.sh`. This vault's `id == filename` convention applies to **new** source notes; the legacy `anatomy_trains_myofascial_thomas_w_myers` note uses `id: anatomy_trains_myers_2009` (citation slug used as `source_id` in evidence blocks) — see `../../CONSISTENCY_MAP.md` §3.
+
 ---
 
 ## 1. Directory Structure

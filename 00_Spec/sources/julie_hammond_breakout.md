@@ -1,9 +1,13 @@
 ---
+id: julie_hammond_breakout
 type: source
 author: Julie Hammond
 title: Introduction to Anatomy Trains
 format: PDF Lecture Presentation
 raw_file: raw/literature/Julie Hammond Breakout.pdf
+domain: static_posture
+evidence_level: 1
+source_role: foundational_clinical_philosophy
 confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 5
@@ -13,6 +17,10 @@ updated: 2026-06-27
 ---
 
 # Source: Introduction to Anatomy Trains (Julie Hammond)
+
+This source is a **Level 1 foundational framework** for the engine. It defines the clinical translation of Anatomy Trains that the engine uses to reason about posture: posture as a **question** rather than a final conclusion, and **adaptability** (ease, balance, resilience) rather than idealised alignment. It is foundational to the engine's reasoning across all domains, **not** "highest-quality evidence" and **not** a gold-standard biomechanics reference.
+
+A foundational clinical philosophy does not, by itself, authorise every measurement, causal interpretation, treatment recommendation, or report statement in a domain; claims must be traced to this source and `source_role: foundational_clinical_philosophy` only for the posture-as-a-question philosophy and the BodyReading-as-hypothesis rules they support.
 
 Summary of the lecture notes covering the core concepts of Thomas Myers' Anatomy Trains, Fascia, Tensegrity, BodyReading, and myofascial meridians (SBL, SFL, LL, DFL).
 

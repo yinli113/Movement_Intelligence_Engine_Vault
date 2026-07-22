@@ -1,6 +1,6 @@
 # Myofascial Movement Intelligence Vault Index
 
-Welcome to the compounding knowledge engine for the AI-powered Functional Movement Assessment application. This vault integrates Thomas Myers' Anatomy Trains myofascial lines and structural anatomy with Dr. Young-Hoo Kwon's golf biomechanics, foot-ground interaction, forces, and moments.
+Welcome to the compounding knowledge engine for the AI-powered Functional Movement Assessment application. The vault is a **cross-domain movement-intelligence engine**: it integrates Thomas Myers' Anatomy Trains myofascial lines and structural anatomy with Dr. Young-Hoo Kwon's golf biomechanics, and with general movement-science, gait, and static-posture sources so the same engine can drive golf, gait, static-posture, squat, and future movement assessments. The app's guiding question is not "What posture do you have?" but "How does your body organize movement?" (see [[czaprowski_nonstructural_posture_2018]]).
 
 The vault uses an evidence-separated reasoning traversal:
 $$\text{source/evidence} \rightarrow \text{external mechanics} \rightarrow \text{swing phase/position} \rightarrow \text{joint/connective anatomical bridge} \rightarrow \text{explicitly labelled myofascial-line interpretation} \rightarrow \text{camera-observable descriptor or unavailable kinetic variable} \rightarrow \text{cautious app-report boundary}$$
@@ -16,11 +16,14 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
 - `[[spec]]` - Authoritative project specification.
 - `[[naming_conventions]]` - Standard naming and wikilink conventions.
 - `[[evidence_levels]]` - The 5-level Evidence Hierarchy.
-- **Evidence Sources**:
-  - `[[dr_kwon_golfer_ground_interaction]]` - Research-program dossier for Dr Young-Hoo Kwon's golfer-ground interaction mechanics, primary sources, and claim anchors.
-  - `[[anatomy_trains_myofascial_thomas_w_myers]]` - Primary fascial-line evidence source.
-  - `[[julie_hammond_breakout]]` - Breakout lecture summary on Anatomy Trains and BodyReading.
-  - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference.
+- **Evidence Sources** (each carries a `domain` field; Levels 1, 2, and 5 are domain-neutral, Levels 3–4 are parameterised by domain — see [[evidence_levels]]):
+  - `[[anatomy_trains_myofascial_thomas_w_myers]]` - Primary fascial-line / structural-model evidence source (domain: all).
+  - `[[julie_hammond_breakout]]` - Breakout lecture summary on Anatomy Trains and BodyReading (domain: static posture).
+  - `[[gray_cook_movement_2010]]` - Functional Movement Screen (FMS) and Selective Functional Movement Assessment (SFMA) framework; the vault's general movement-screening and squat-assessment anchor (domain: general movement / squat).
+  - `[[chambers_sutherland_gait_analysis_2002]]` - Peer-reviewed gait-cycle, kinematics, kinetics, and observational-vs-instrumented boundary reference; the gait-domain anchor (domain: gait).
+  - `[[czaprowski_nonstructural_posture_2018]]` - Open-access review of the four sagittal posture types and the Bergmark/Richardson stabilizer/mobilizer classification; the vault's static-posture literature and canonical app-philosophy source (domain: static posture).
+  - `[[dr_kwon_golfer_ground_interaction]]` - Research-program dossier for Dr Young-Hoo Kwon's golfer-ground interaction mechanics, primary sources, and claim anchors (domain: golf).
+  - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
   - `[[log]]` - Compilation log of vault updates.
 
 ### 🗺️ 01. Myofascial Lines (`01_Fascial_Lines/`)
