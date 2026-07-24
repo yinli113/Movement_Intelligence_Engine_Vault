@@ -8,7 +8,7 @@ relationships:
   governs: [vault_spec, golf_kinetics_observability_boundary, ai_movement_analysis_layer]
   contains: []
   connects_to: [golfer_ground_interaction_model, functional_lines, bodyreading_static_posture, functional_movement_screen, gait_cycle, sagittal_posture_types]
-  supported_by: [anatomy_trains_myofascial_thomas_w_myers, julie_hammond_breakout, gray_cook_movement_2010, chambers_sutherland_gait_analysis_2002, czaprowski_nonstructural_posture_2018, dr_kwon_golfer_ground_interaction, golf_decoded_six_phases_swing]
+  supported_by: [anatomy_trains_myofascial_thomas_w_myers, julie_hammond_breakout, gray_cook_movement_2010, chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis, czaprowski_nonstructural_posture_2018, dr_kwon_golfer_ground_interaction, golf_decoded_six_phases_swing]
 confidence: high
 review_status: active_spec
 relationship_count: 14
@@ -27,21 +27,22 @@ A `domain` field on each source note records which domain it serves (`golf`, `ga
 
 | Level | Label | Description | Reference Sources | Allowed Use in Reasoning |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | **Foundational Frameworks** | The frameworks that define the engine's core philosophy, terminology, observational logic, and interpretation boundaries. Foundational to the engine's reasoning — **not** "highest-quality evidence" and **not** necessarily a gold-standard biomechanics reference. | Myers (Anatomy Trains); Julie Hammond; Gray Cook (Movement); Chambers & Sutherland (gait); Czaprowski et al. (posture) | Define philosophy, terminology, taxonomy, observational structure, and observability limits. Do not, by themselves, authorise measurement, causal interpretation, treatment, or report claims. |
+| **1** | **Foundational Frameworks** | The frameworks that define the engine's core philosophy, terminology, observational logic, and interpretation boundaries. Foundational to the engine's reasoning — **not** "highest-quality evidence" and **not** necessarily a gold-standard biomechanics reference. | Myers (Anatomy Trains); Julie Hammond; Gray Cook (Movement); Chambers & Sutherland (gait); Perry & Burnfield (gait eight-phase, framework-cited); Czaprowski et al. (posture) | Define philosophy, terminology, taxonomy, observational structure, and observability limits. Do not, by themselves, authorise measurement, causal interpretation, treatment, or report claims. |
 | **2** | **Domain Taxonomies and General Movement Models** | Accepted classifications, phase models, screening structures, and general biomechanical concepts within a domain. | Domain taxonomies and general biomechanics references (e.g., StatPearls; general biomechanics texts) | Classification, phase/segment definitions, screening structures, and general concept definitions. |
 | **3** | **Domain-Specific Instrumented Biomechanics** | Research using 3D motion capture, force plates, pressure systems, EMG, validated kinematics, kinetics, or other instrumented measurements. | Instrumented biomechanics literature per domain | Measured/model-derived kinetics, kinematics, EMG, pressure, energetics for that domain. |
 | **4** | **Applied Coaching, Clinical, or Practice Frameworks** | Domain-specific interpretation and applied practice models. Must never override Levels 1-3 or upgrade a 2D proxy into a measured kinetic or causal claim. | Coaching manuals, clinical practice frameworks | Domain phase descriptions, applied relevance, coaching cues, practice models. |
 | **5** | **App-Logic Hypotheses** | Skeletal landmark calculations, computed scoring algorithms, and movement assessments produced by the apps. | Internal project team, AI application design | MediaPipe proxies, custom metrics scoring, feedback reports. |
 
-### The five foundational source groups (Level 1)
+### The six foundational source groups (Level 1)
 
-These five source groups are not equal in publication type or authority, but they are all foundational to the app because each defines a different part of the reasoning framework:
+These six source groups are not equal in publication type or research design, but they are all foundational to the engine because each defines a different part of the reasoning framework. **Level 1 means foundational to the engine's reasoning, not that all six sources have the same research design or independently support every clinical claim.**
 
-- **anatomy_trains** (`source_role: foundational_anatomical_framework`) — whole-body myofascial continuity and the BodyReading framework.
-- **julie_hammond** (`source_role: foundational_clinical_philosophy`) — clinical translation of Anatomy Trains: posture as a question rather than a final conclusion, and adaptability rather than idealised alignment.
-- **gray_cook_movement_2010** (`source_role: foundational_movement_framework`) — whole movement patterns before isolated body parts, movement quality before performance, screening versus diagnosis, and movement versus motion.
-- **chambers_sutherland_gait_analysis_2002** (`source_role: foundational_domain_taxonomy`) — standardised gait-cycle events, percentages, observational gait structure, and the boundary between observation, kinematics, kinetics, EMG, force plates, and causal interpretation.
-- **czaprowski_nonstructural_posture_2018** (`source_role: foundational_clinical_philosophy`) — non-structural sagittal-posture taxonomy and the principle that visible posture or reduced flexibility does not prove true muscle-fibre shortening; hypoactivity, hyperactivity, compensation, and structural versus non-structural distinctions must also be considered.
+- **Anatomy Trains** (`source_role: foundational_anatomical_framework`) — foundational myofascial and anatomical continuity framework.
+- **Julie Hammond** (`source_role: foundational_clinical_philosophy`) — foundational clinical translation and movement/posture philosophy.
+- **Gray Cook's Movement** (`source_role: foundational_movement_framework`) — foundational whole-movement and screening framework.
+- **Chambers and Sutherland** (`source_role: foundational_domain_taxonomy`) — foundational observational gait model and gait terminology (read in full).
+- **Perry & Burnfield** (`source_role: foundational_domain_taxonomy`) — foundational eight-phase gait taxonomy (**framework-cited** via Chambers & Sutherland; full text not yet in vault — see [[perry_burnfield_gait_analysis]] caveat).
+- **Czaprowski et al.** (`source_role: foundational_clinical_philosophy`) — foundational non-structural sagittal-posture classification and cautious muscle-state interpretation.
 
 A foundational source may define philosophy, terminology, taxonomy, or observability limits. It does **not** automatically support every measurement, causal interpretation, treatment recommendation, or report statement in that domain. Claims must still be traced to the specific source and `source_role` that supports them.
 
@@ -61,11 +62,11 @@ A foundational source may define philosophy, terminology, taxonomy, or observabi
 | Domain | Level 1 foundations | Level 2 | Level 3 (instrumented) | Level 4 (applied) | Level 5 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **golf** | Anatomy Trains; Julie Hammond | StatPearls; general biomechanics | Dr. Kwon | Davide Bertoli; coaching manuals | app metrics |
-| **gait** | Chambers & Sutherland 2002 | general biomechanics (shared) | *future domain-expansion* (e.g., Perry & Burnfield; Whittle — **not yet in vault**) | *future domain-expansion* | app metrics |
+| **gait** | Chambers & Sutherland 2002; Perry & Burnfield (eight-phase, framework-cited) | general biomechanics (shared) | *future domain-expansion* (e.g., Whittle — **not yet in vault**) | *future domain-expansion* | app metrics |
 | **static posture** | Anatomy Trains (BodyReading); Julie Hammond; Czaprowski et al. 2018 | general biomechanics (shared) | *future domain-expansion* (e.g., Kendall; Sahrmann — **not yet in vault**) | *future domain-expansion* | app metrics |
 | **general movement / squat** | Gray Cook 2010 (FMS/SFMA) | general biomechanics (shared) | *future domain-expansion* (instrumented squat biomechanics — **not yet in vault**) | *future domain-expansion* | app metrics |
 
-Gait and static posture now have **Level 1 foundations**, but they still lack deeper Level 3 instrumented sources. Chambers & Sutherland is a foundational gait taxonomy and observability boundary, **not** a replacement for Perry & Burnfield or Whittle in depth — those are recorded as future domain-expansion sources, not required blockers for the MVP. Gray Cook supports future squat and functional-movement modules, but is **not** an instrumented squat-biomechanics source.
+Gait and static posture now have **Level 1 foundations**, but they still lack deeper Level 3 instrumented sources. The gait domain has **two** Level 1 sources: Chambers & Sutherland (observational gait structure + observability boundary, read in full) and Perry & Burnfield (eight-phase taxonomy, **framework-cited** via Chambers — full text not yet in vault). Perry & Burnfield is foundational to the engine's gait phase reasoning but is **not** a page-reviewed depth reference; Whittle remains a future domain-expansion source. Gray Cook supports future squat and functional-movement modules, but is **not** an instrumented squat-biomechanics source.
 
 ## 3. Content Separation Rule
 

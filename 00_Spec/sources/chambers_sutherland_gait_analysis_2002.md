@@ -15,8 +15,8 @@ domain: gait
 evidence_level: 1
 source_role: foundational_domain_taxonomy
 relationships:
-  contains: [gait_cycle, stance_phase, swing_phase, gait_cycle_events, gait_temporal_parameters, determinants_of_gait, gait_kinematics, gait_kinetics, gait_emg, foot_pressure, gait_energetics, center_of_mass]
-  connects_to: [gait_analysis, gait_assessment, observational_gait_analysis, ground_reaction_force, center_of_pressure]
+  contains: [gait_cycle, stance_phase, swing_phase, initial_double_limb_support, single_limb_stance, second_double_limb_support, initial_swing, midswing, terminal_swing, gait_temporal_parameters, determinants_of_gait, gait_kinematics, gait_kinetics, gait_emg, foot_pressure, gait_energetics, gait_observability_boundary]
+  connects_to: [observational_gait_analysis, ground_reaction_force, center_of_pressure]
   produces: []
   assists: []
   stabilizes: []
@@ -26,7 +26,7 @@ relationships:
   assessed_by: [observational_gait_analysis, gait_kinematics]
   improved_by: []
   supported_by: []
-  relevant_to: [gait_analysis, gait_assessment, observational_gait_analysis]
+  relevant_to: [observational_gait_analysis, gait_observability_boundary, gait_cycle]
 domain_relevance: "Use this as the primary gait-cycle and gait-analysis reference for the gait assessment app. It supplies the canonical gait-cycle phase model, temporal parameters, the six determinants of gait, and the kinematic/kinetic/EMG/foot-pressure/energetics measurement categories. Crucially, it states that observational gait analysis cannot determine biomechanical causes — the exact boundary the vault enforces between camera-observable descriptors and instrumented kinetics."
 evidence:
   - source_id: chambers_sutherland_gait_analysis_2002
@@ -54,7 +54,12 @@ It is **not** a gold-standard biomechanics reference and **not** a replacement i
 - supports -> [[gait_cycle]]
 - supports -> [[stance_phase]]
 - supports -> [[swing_phase]]
-- supports -> [[gait_cycle_events]]
+- supports -> [[initial_double_limb_support]]
+- supports -> [[single_limb_stance]]
+- supports -> [[second_double_limb_support]]
+- supports -> [[initial_swing]]
+- supports -> [[midswing]]
+- supports -> [[terminal_swing]]
 - supports -> [[gait_temporal_parameters]]
 - supports -> [[determinants_of_gait]]
 - supports -> [[gait_kinematics]]
@@ -62,8 +67,8 @@ It is **not** a gold-standard biomechanics reference and **not** a replacement i
 - supports -> [[gait_emg]]
 - supports -> [[foot_pressure]]
 - supports -> [[gait_energetics]]
+- supports -> [[gait_observability_boundary]]
 - relevant_to -> [[observational_gait_analysis]]
-- relevant_to -> [[gait_assessment]]
 
 ## Relevant Sections
 

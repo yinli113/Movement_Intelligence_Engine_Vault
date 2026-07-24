@@ -15,8 +15,8 @@ domain: general_movement
 evidence_level: 1
 source_role: foundational_movement_framework
 relationships:
-  contains: [functional_movement_screen, selective_functional_movement_assessment, deep_squat, hurdle_step, inline_lunge, shoulder_mobility_reaching, active_straight_leg_raise, trunk_stability_pushup, rotary_stability, joint_by_joint_concept, performance_pyramid]
-  connects_to: [movement_screening, movement_assessment, corrective_strategy, squat_assessment, bodyreading_static_posture]
+  contains: [functional_movement_screen, selective_functional_movement_assessment, movement_vs_motion, movement_pattern, mobility_stability_relationship, regional_interdependence, deep_squat, hurdle_step, inline_lunge, shoulder_mobility_reaching, active_straight_leg_raise, trunk_stability_pushup, rotary_stability, joint_by_joint_concept, performance_pyramid]
+  connects_to: [bodyreading_static_posture]
   produces: []
   assists: []
   stabilizes: []
@@ -24,9 +24,9 @@ relationships:
   compensates_for: []
   active_during: []
   assessed_by: [functional_movement_screen, selective_functional_movement_assessment]
-  improved_by: [corrective_strategy]
+  improved_by: []
   supported_by: []
-  relevant_to: [functional_movement_screen, selective_functional_movement_assessment, general_movement_assessment, squat_assessment]
+  relevant_to: [functional_movement_screen, selective_functional_movement_assessment, deep_squat, movement_pattern, movement_vs_motion]
 domain_relevance: "Use this as the primary source for movement-pattern screening and assessment logic across all app domains (golf, gait, static posture, squat, future sports). It supplies the FMS seven-test screen, the SFMA clinical breakouts, the joint-by-joint concept, and the performance-pyramid model. It does not supply fascial-line anatomy (use Anatomy Trains) or instrumented kinetics (use Kwon / gait lab sources)."
 evidence:
   - source_id: gray_cook_movement_2010
@@ -62,8 +62,11 @@ It is **not** a gold-standard biomechanics reference, **not** an instrumented-ki
 - supports -> [[rotary_stability]] (FMS test 7)
 - supports -> [[joint_by_joint_concept]] (Appendix 1)
 - supports -> [[performance_pyramid]] (Ch. 10)
-- relevant_to -> [[movement_screening]]
-- relevant_to -> [[squat_assessment]]
+- supports -> [[movement_vs_motion]] (Ch. 1)
+- supports -> [[movement_pattern]] (Ch. 1-2)
+- supports -> [[mobility_stability_relationship]] (Appendix 1)
+- supports -> [[regional_interdependence]] (Appendix 1)
+- relevant_to -> [[deep_squat]] (squat-assessment anchor)
 
 ## Relevant Sections
 
@@ -93,8 +96,8 @@ Cook's central contribution is a **movement-pattern model** that separates scree
 
 This source supports movement-pattern screening and assessment hypotheses across domains. Example reasoning paths:
 
-- [[squat_assessment]] -> [[deep_squat]] -> ankle/knee/hip/thoracic/shoulder mobility filters
-- [[movement_screening]] -> [[functional_movement_screen]] -> seven-pattern baseline -> flag pain for clinical SFMA breakout
+- [[deep_squat]] -> ankle/knee/hip/thoracic/shoulder mobility filters (the vault's squat-assessment anchor)
+- [[functional_movement_screen]] -> seven-pattern baseline -> flag pain for clinical SFMA breakout
 - Any sport (golf, running, etc.) -> [[performance_pyramid]] -> foundational movement screen under the sport-specific skill layer
 - [[inline_lunge]] and [[hurdle_step]] -> single-leg stability relevant to gait and golf lead-leg mechanics
 

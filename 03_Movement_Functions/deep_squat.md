@@ -1,26 +1,77 @@
 ---
 id: deep_squat
-type: concept
-preferred_name: Deep Squat (FMS test 1; squat-assessment anchor)
-aliases: [deep squat, overhead deep squat, FMS deep squat]
-short_definition: "An overhead deep-squat movement pattern that simultaneously screens bilateral, symmetrical mobility of ankles, knees, hips, thoracic spine, and shoulders; the vault's anchor for squat assessment and FMS test 1."
+type: Movement Function
+preferred_name: "Deep Squat (FMS Test 1)"
+aliases: [overhead deep squat, squat]
+short_definition: "An overhead deep-squat pattern that simultaneously screens bilateral, symmetrical mobility of the ankles, knees, hips, thoracic spine, and shoulders; FMS test 1 and the vault's squat-assessment anchor."
 domain: general_movement
-status: scaffold
-relationships:
-  supported_by: [gray_cook_movement_2010]
-  connects_to: [functional_movement_screen, squat_assessment, movement_screening]
-evidence:
-  - source_id: gray_cook_movement_2010
-    source_type: textbook_pdf
-    locator: "Ch. 6 and Ch. 9, local PDF pages 90-91 and 191-200"
-    supports: "Defines the deep squat as FMS test 1 with scoring criteria and the mobility/stability analysis of the pattern."
-updated: 2026-07-22
+evidence_level: 2
+source_role: foundational_movement_framework
+supported_by: [gray_cook_movement_2010]
+status: reviewed
+reviewed_date: 2026-07-22
+contains: []
+connects_to: [functional_movement_screen, movement_pattern, joint_by_joint_concept, mobility_stability_relationship]
+directly_supported_claims:
+  - "The deep squat is an overhead, bilateral, symmetrical pattern that screens mobility of the ankles, knees, hips, thoracic spine, and shoulders together."
+  - "It is FMS test 1 and the most demanding of the seven for total-body mobility."
+  - "It is scored 0-3 with a clearing consideration for pain."
+app_translation:
+  - "Use the deep squat as the squat-assessment anchor: report depth, torso angle, knee tracking, and arm overhead position as 2D proxies."
+  - "The app must not infer which joint's mobility deficit causes a failed squat; that requires hands-on assessment."
 ---
 
-# Deep Squat
+# Deep Squat (FMS Test 1)
 
-An overhead deep-squat pattern screening bilateral, symmetrical mobility of the ankles, knees, hips, thoracic spine, and shoulders. It is both FMS test 1 and the vault's anchor for future squat assessment.
+## Definition
 
-## Status
+The **deep squat** is an overhead, bilateral, symmetrical squat to deepest depth with arms overhead, scored 0-3. It screens total-body mobility of [[ankle_joint]], [[knee_joint]], [[hip_joint]], [[thoracic_spine]], and [[shoulder_joint]] simultaneously (Gray Cook, *Movement*, Ch. 6, Ch. 9). It is FMS test 1 and the vault's squat-assessment anchor.
 
-This is a **scaffold** stub created to resolve a wikilink from the Level 1 source note [[gray_cook_movement_2010]]. It is not a reviewed concept node. A camera-derived squat-depth proxy is a Level 5 camera-observable descriptor, **not** a measured ankle/knee/hip range of motion; instrumented squat biomechanics (Level 3) are not yet in the vault. Do not derive measurement, causal, or treatment claims from this stub; expand only with direct source checks.
+## Why it matters
+
+It is the most demanding FMS pattern for combined mobility and the natural anchor for any future squat module. It demonstrates the [[movement_pattern]] principle: a single pattern loads many joints.
+
+## Source-derived model
+
+- Bilateral, symmetrical, overhead, to deepest depth.
+- Scores 0-3; asymmetry and compensation reduce the score.
+
+## Joint involvement
+
+[[ankle_joint]] dorsiflexion, [[knee_joint]] flexion, [[hip_joint]] flexion, [[thoracic_spine]] extension, [[shoulder_joint]] flexion/abduction.
+
+## Muscle involvement
+
+No muscle claims from this node; the squat grades the pattern, not muscles.
+
+## Movement or phase relationships
+
+A fundamental [[movement_pattern]] (A) and FMS test 1 within the [[functional_movement_screen]] (A).
+
+## Possible myofascial relationships
+
+None directly. Mapping the squat to a fascial line (e.g., Superficial Back Line) is an engine synthesis (C).
+
+## What a 2D app can observe
+
+- Squat depth, torso-to-horizontal angle, knee-over-foot tracking, arm overhead position, symmetry — all from a 2D side/front view.
+
+## What the app must not infer
+
+- Which joint's mobility deficit causes failure.
+- Muscle length, activation, or fascial tension.
+- Diagnosis or treatment.
+
+## Related concepts
+
+[[functional_movement_screen]], [[movement_pattern]], [[joint_by_joint_concept]], [[mobility_stability_relationship]], [[regional_interdependence]].
+
+## Sources
+
+- [[gray_cook_movement_2010]] — Ch. 6, Ch. 9, Appendix 9.
+
+## Evidence-separation rules
+
+- **(A)** Test definition, joints screened, 0-3 scoring — directly from Gray Cook.
+- **(B)** Cross-links to [[functional_movement_screen]], [[movement_pattern]] — same Level 1 source.
+- **(C)** Any fascial-line mapping is `engine_synthesis`.

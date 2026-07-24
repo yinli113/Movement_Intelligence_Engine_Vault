@@ -17,18 +17,18 @@ evidence_level: 1
 source_role: foundational_clinical_philosophy
 is_philosophy_source: true
 relationships:
-  contains: [lordotic_posture, kyphotic_posture, kyphotic_lordotic_posture, flat_back_posture, sway_back_posture, stabilizer_mobilizer_classification, local_stabilizers, global_stabilizers, mobilizers, hypoactivity, hyperactivity, head_line, base_line]
-  connects_to: [bodyreading_static_posture, posture_assessment, sagittal_posture_types, muscle_length_strength_assessment]
+  contains: [lordotic_posture, kyphotic_posture, kyphotic_lordotic_posture, flat_back_posture, sway_back_posture, non_structural_sagittal_posture, structural_vs_non_structural_posture, stabilizer_mobilizer_classification, muscle_hypoactivity, muscle_hyperactivity, apparent_shortness_vs_structural_shortening]
+  connects_to: [bodyreading_static_posture]
   produces: []
   assists: []
   stabilizes: []
   limits: []
   compensates_for: []
   active_during: []
-  assessed_by: [bodyreading_static_posture, posture_assessment]
-  improved_by: [corrective_exercise]
+  assessed_by: [bodyreading_static_posture]
+  improved_by: []
   supported_by: [kendall_muscles_testing_function, sahrmann_movement_impairment_syndromes, bergmark_lumbar_stability, richardson_lumbopelvic_stabilization]
-  relevant_to: [sagittal_posture_types, posture_assessment, bodyreading_static_posture, app_philosophy]
+  relevant_to: [non_structural_sagittal_posture, bodyreading_static_posture, stabilizer_mobilizer_classification]
 domain_relevance: "Use this as the primary static-posture-assessment literature source and as the canonical statement of the app's philosophy: posture is read by how the body organizes movement (stabilizer hypoactivity / mobilizer hyperactivity compensation), not by a static 'what posture do you have' label alone. It complements Anatomy Trains BodyReading (which reads fascial-line patterns) by adding the functional muscle-organization layer."
 evidence:
   - source_id: czaprowski_nonstructural_posture_2018
@@ -69,17 +69,13 @@ This philosophy is the reason the vault separates a posture *label* (Level 2 pat
 - supports -> [[kyphotic_lordotic_posture]]
 - supports -> [[flat_back_posture]]
 - supports -> [[sway_back_posture]]
+- supports -> [[non_structural_sagittal_posture]]
+- supports -> [[structural_vs_non_structural_posture]]
 - supports -> [[stabilizer_mobilizer_classification]]
-- supports -> [[local_stabilizers]]
-- supports -> [[global_stabilizers]]
-- supports -> [[mobilizers]]
-- supports -> [[hypoactivity]]
-- supports -> [[hyperactivity]]
-- supports -> [[head_line]]
-- supports -> [[base_line]]
+- supports -> [[muscle_hypoactivity]]
+- supports -> [[muscle_hyperactivity]]
+- supports -> [[apparent_shortness_vs_structural_shortening]]
 - relevant_to -> [[bodyreading_static_posture]]
-- relevant_to -> [[posture_assessment]]
-- relevant_to -> [[app_philosophy]]
 
 ## Relevant Sections
 

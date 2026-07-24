@@ -50,7 +50,7 @@ See `evidence_levels.md` for the authoritative spec. Summary:
 
 | Level | Label | Meaning | Allowed Use |
 |---:|---|---|---|
-| 1 | Foundational Frameworks | Sources that define the engine's core philosophy, terminology, observational logic, and interpretation boundaries (Anatomy Trains, Julie Hammond, Gray Cook, Chambers & Sutherland, Czaprowski et al.). Foundational to reasoning — **not** "highest-quality evidence" and **not** necessarily gold-standard biomechanics. | Define philosophy, terminology, taxonomy, observational structure, observability limits. Do not, by themselves, authorise measurement, causal interpretation, treatment, or report claims. |
+| 1 | Foundational Frameworks | Sources that define the engine's core philosophy, terminology, observational logic, and interpretation boundaries (Anatomy Trains, Julie Hammond, Gray Cook, Chambers & Sutherland, Perry & Burnfield [gait eight-phase, framework-cited], Czaprowski et al.). Foundational to reasoning — **not** "highest-quality evidence" and **not** necessarily gold-standard biomechanics. | Define philosophy, terminology, taxonomy, observational structure, observability limits. Do not, by themselves, authorise measurement, causal interpretation, treatment, or report claims. |
 | 2 | Domain Taxonomies & General Movement Models | Accepted classifications, phase models, screening structures, and general biomechanical concepts within a domain. | Classification, phase/segment definitions, screening structures, general concept definitions. |
 | 3 | Domain-Specific Instrumented Biomechanics | Research using 3D motion capture, force plates, pressure systems, EMG, validated kinematics/kinetics. | Measured/model-derived kinetics, kinematics, EMG, pressure, energetics for that domain. |
 | 4 | Applied Coaching, Clinical, or Practice Frameworks | Domain-specific interpretation and applied practice models. Must never override Levels 1-3 or upgrade a 2D proxy into a measured kinetic or causal claim. | Domain phase descriptions, applied relevance, coaching cues, practice models. |
@@ -321,11 +321,12 @@ Whenever possible:
 | [[julie_hammond_breakout]] | 1 | foundational_clinical_philosophy |
 | [[gray_cook_movement_2010]] | 1 | foundational_movement_framework |
 | [[chambers_sutherland_gait_analysis_2002]] | 1 | foundational_domain_taxonomy |
+| [[perry_burnfield_gait_analysis]] | 1 | foundational_domain_taxonomy (gait eight-phase; framework-cited — full text not yet in vault) |
 | [[czaprowski_nonstructural_posture_2018]] | 1 | foundational_clinical_philosophy |
 | [[dr_kwon_golfer_ground_interaction]] | 3 | domain_biomechanics (golf) |
 | [[golf_decoded_six_phases_swing]] | 4 | applied_practice (golf) |
 | Future peer-reviewed fascia/biomechanics papers | 2-3 | domain taxonomy / domain_biomechanics |
-| Future gait / posture depth sources (Perry & Burnfield, Whittle, Kendall, Sahrmann) | 3-4 | domain_biomechanics / applied_practice |
+| Future gait / posture depth sources (Whittle, Kendall, Sahrmann) | 3-4 | domain_biomechanics / applied_practice |
 | App logic notes | 5 | (app-logic hypothesis) |
 
 ## MediaPipe Readiness
