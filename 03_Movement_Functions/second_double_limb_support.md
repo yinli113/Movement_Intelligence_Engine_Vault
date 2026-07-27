@@ -49,7 +49,7 @@ Final period of [[stance_phase]] (A); transitions into [[swing_phase]] (A). In t
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]]. Second double-limb support (opposite foot strike to toe-off) loads [[superficial_back_line]] for the propulsive catapult, [[spiral_line]] for foot re-supination, and [[superficial_front_line]] for the pre-swing elastic pre-stretch. Candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

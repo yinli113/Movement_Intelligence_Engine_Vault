@@ -55,7 +55,7 @@ Binds [[observational_gait_analysis]] (A) and separates it from [[gait_kinematic
 
 ## Possible myofascial relationships
 
-None directly. Inferring fascial tension/shortening from gait observation is forbidden by this boundary.
+Inferring fascial tension/shortening from gait observation is forbidden by this boundary. The engine synthesis in [[gait_myofascial_mapping]] provides candidate-line mappings (line→phase, line→restriction pattern, line→compensation) for follow-up assessment only — it must not be reported as measured tissue loading, fascial tension, or causal diagnosis from 2D observation.
 
 ## What a 2D app can observe
 

@@ -51,7 +51,7 @@ Parent of [[stance_phase]] (A) and [[swing_phase]] (A), each subdivided into thr
 
 ## Possible myofascial relationships
 
-None directly. Mapping the cycle to fascial lines is an engine synthesis (C).
+Engine synthesis (C) — the full line-by-phase, line-by-restriction, and line-by-compensation mapping lives in [[gait_myofascial_mapping]]. The gait cycle as a whole engages all twelve lines; the primary gait drivers are [[superficial_front_line]], [[superficial_back_line]], [[lateral_line]], [[spiral_line]], [[deep_front_line]], [[back_functional_line]], and [[front_functional_line]]. This is a candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

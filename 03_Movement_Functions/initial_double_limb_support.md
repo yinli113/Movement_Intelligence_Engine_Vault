@@ -49,7 +49,7 @@ First period of [[stance_phase]] (A). In the Perry eight-phase taxonomy (cited v
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]]. Initial double-limb support (heel strike to opposite toe-off) loads [[spiral_line]] and [[back_functional_line]] for rotational/flexion braking, and [[superficial_front_line]] anterior tissues lengthen / elastically load for shock absorption (muscle action often isometric per Earls' SSC framing, not eccentric). Candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

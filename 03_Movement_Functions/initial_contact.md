@@ -49,7 +49,13 @@ First phase of [[stance_phase]] (A); precedes [[loading_response]] (A); maps to 
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]] for the full mapping. At initial contact the primary loaded lines are:
+
+- [[spiral_line]] — anterior portion (tibialis anterior → ITB → upper gluteus max) decelerates the pronation + hip flexion + tibial IR initiated at heel strike.
+- [[back_functional_line]] — posterior pelvic sling (glute max → thoracolumbar fascia → contralateral lat) brakes hip flexion/IR.
+- [[superficial_back_line]] — begins to engage as the back of the leg takes over into hip extension and plantarflexion.
+
+These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 

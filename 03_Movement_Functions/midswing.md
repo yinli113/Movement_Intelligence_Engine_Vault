@@ -49,7 +49,7 @@ Middle phase of [[swing_phase]] (A); also Perry phase 7 (Mid Swing), cited via [
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]]. During midswing: [[superficial_front_line]] continues driving limb advancement and knee extension; [[front_functional_line]] maintains contralateral trunk counter-rotation; [[deep_front_line]] continues swing propulsion. Short SFL restricts knee flexion for foot clearance → compensatory hip hike / circumduction. Candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

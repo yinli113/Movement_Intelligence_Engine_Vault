@@ -49,7 +49,7 @@ Second part of the [[gait_cycle]] (A); counterpart is [[stance_phase]] (A).
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]]. Swing-phase line engagement: [[superficial_front_line]] (drives limb advancement: hip flexion, knee extension, dorsiflexion), [[deep_front_line]] (psoas/iliacus initiates swing), [[front_functional_line]] (contralateral trunk counter-rotation). Short SFL here produces the classic stiff-knee swing compensations (hip hike, circumduction, vaulting). (Steppage gait is NOT an SFL-restriction compensation — steppage compensates for weak/inhibited dorsiflexors, the opposite problem.) Candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

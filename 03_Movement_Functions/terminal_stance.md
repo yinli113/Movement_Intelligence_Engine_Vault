@@ -49,7 +49,14 @@ Fourth phase of [[stance_phase]] (A); follows [[mid_stance]] (A); precedes [[pre
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]] for the full mapping. During terminal stance the primary loaded lines are:
+
+- [[superficial_back_line]] — plantarflexors load the "catapult" as the body rolls over the forefoot and the heel rises.
+- [[superficial_front_line]] — anterior tissues are pre-stretched as the hip comes into extension, loading elastic energy for the upcoming swing recoil.
+- [[deep_front_line]] — ideally tensions through its entire length (toe extension + ankle DF + knee extension + hip extension/IR/abduction + thoracic extension).
+- [[spiral_line]] — anterior portion (TFL/ITB → tibialis anterior) begins assisting foot re-supination prior to toe-off.
+
+These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 

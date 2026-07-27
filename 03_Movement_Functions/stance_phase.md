@@ -49,7 +49,7 @@ First half of the [[gait_cycle]] (A); counterpart is [[swing_phase]] (A).
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]]. Stance-phase line engagement: [[superficial_back_line]] (hip extension/plantarflexion), [[lateral_line]] (frontal-plane stability), [[spiral_line]] (rotational deceleration at heel strike and re-supination before toe-off), [[back_functional_line]] (posterior sling braking), [[superficial_front_line]] (anterior tissues lengthen / elastically load for shock absorption and pre-stretch for swing recoil; muscle action often isometric per Earls' SSC framing, not eccentric), [[deep_front_line]] (inner-leg stability and swing initiation). Candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

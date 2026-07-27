@@ -56,6 +56,18 @@ The explicit bridge is adductors/abdominal wall -> [[front_functional_line]] -> 
 
 Contralateral shoulder-to-hip distance is a **camera-derived diagonal-distance descriptor; tissue loading remains unknown**. Pelvis translation, torso orientation, and phase timing may be described when visible, but ordinary video cannot establish FFL activation, weakness, fascial tension, force, energy, GRF, or moment. App output must not diagnose pelvic slide or prescribe treatment from this descriptor.
 
+## Gait Role (Engine Synthesis, Level C)
+
+See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
+
+- **Phase role:** Counter-rotates the trunk — right shoulder and rib cage swing forward to counterbalance the left swinging leg (and vice versa). The torso "winds like a watch spring" and unwinds with each step. Active during the contralateral swing pattern in [[initial_swing]] and [[midswing]].
+- **Restriction pattern:** Short FFL → restricted **trunk counter-rotation**, the inner winding/unwinding is lost and motion is exported outward as excessive arm swing or side-to-side upper-body shift.
+- **Compensation signature when restricted:** excessive arm swing, side-to-side trunk shift — compensating via [[spiral_line]] upper portion and [[lateral_line]].
+- **Best observed from:** **front view** (contralateral shoulder vs pelvis counter-rotation is a frontal/transverse finding best seen from the front). Side view sees arm swing amplitude partially; back view sees the posterior aspect only.
+- **Spine in gait:** FFL crosses the thoracic spine via pectoralis major/abdominal obliques. Restricted **thoracic rotation** (FFL pectoralis/oblique shortness, excessive arm swing as motion exported outward) is an FFL restriction pattern. The FFL drives the contralateral winding/unwinding of the torso — when it is restricted, the inner rotation is lost and motion is exported outward as excessive arm swing or side-to-side trunk shift. See [[gait_myofascial_mapping]].
+
+All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
+
 ## Relationships
 
 | Relationship | Target | Description |
@@ -63,6 +75,7 @@ Contralateral shoulder-to-hip distance is a **camera-derived diagonal-distance d
 | part_of | [[functional_lines]] | Anterior diagonal sub-line. |
 | contains | [[pectoralis_major]], [[rectus_abdominis]], [[adductor_longus]] | Stable Anatomy Trains pathway. |
 | anatomical_bridge_for | [[golf_swing_transition]] | Golf interpretation only. |
+| gait_synthesis | [[gait_myofascial_mapping]] | Engine synthesis mapping to gait phases. |
 
 ## Open Questions
 

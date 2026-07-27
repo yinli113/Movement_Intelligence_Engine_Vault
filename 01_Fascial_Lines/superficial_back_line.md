@@ -57,11 +57,24 @@ The explicit route is foot/ankle -> [[plantar_fascia]]/deep leg -> [[superficial
 
 Camera data may describe ankle, knee, hip, trunk, and head landmarks plus phase timing. It cannot measure foot pressure, GRF, moments, muscle activation, fascial tension, SBL loading, or energy. Co-occurring foot, spinal, neck, or jaw descriptors must not be interpreted as a diagnosis or single tissue cause.
 
+## Gait Role (Engine Synthesis, Level C)
+
+See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
+
+- **Phase role:** Drives stance — hip extension + plantarflexion from heel strike through foot roll-over. Plantarflexors of the SBL **plus LL and DFL** load the "catapult" for toe-off (Earls — catapult is multi-line, not SBL-only). Active across [[loading_response]], [[mid_stance]], [[terminal_stance]], and [[preswing]].
+- **Restriction pattern:** Short SBL → restricted **knee extension** (SBL crosses posterior knee via hamstrings/gastrocnemius), restricted **hip flexion**, restricted **ankle dorsiflexion** (gastroc/soleus must lengthen).
+- **Compensation signature when restricted:** flat-footed push-off, forward lean, reduced propulsion — compensating via [[deep_front_line]] (psoas over-pull), [[superficial_front_line]] (anterior drag).
+- **Best observed from:** **side view** (hip extension, plantarflexion, heel rise, toe-off, and the four foot rockers are sagittal-plane findings). Back view adds calf/hamstring symmetry; front view is largely blind to SBL sagittal mechanics.
+- **Spine in gait:** SBL crosses the cervical spine via nuchal ligament/suboccipitals and the thoracic/lumbar spine via erector spinae. Three **independent** SBL restriction patterns (each caused by SBL shortness at that segment's point on the line, not by one causing the other): (1) restricted **neck flexion** (can't tuck the chin, SBL posterior neck tightness at the cervical point); (2) restricted **thoracic flexion** (SBL erector spinae crosses the posterior thoracic spine; short SBL resists thoracic flexion, holding the thorax extended — NOT restricted thoracic extension, which is an SFL/DFL pattern); (3) restricted **lumbar flexion** (stuck in extension, SBL lumbar erector spinae tightness at the lumbar point). These are local-segment patterns from SBL anatomy; the source does not establish SBL transmits ROM restrictions segment-to-segment. See [[gait_myofascial_mapping]] Whole-chain insight for the evidence boundary.
+
+All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
+
 ## Relationships
 
 - contains -> [[plantar_fascia]], [[gastrocnemius]], [[soleus]], [[sacrotuberous_ligament]], [[nuchal_ligament]]
 - connects_to -> [[ankle_joint]], [[hip_joint]], [[thoracic_spine]]
 - interpreted_during -> [[golf_swing_transition]]
+- gait_synthesis -> [[gait_myofascial_mapping]]
 - supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]]
 
 ## Open Questions

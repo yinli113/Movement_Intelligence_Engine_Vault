@@ -49,7 +49,13 @@ First phase of [[swing_phase]] (A); also Perry phase 6 (Initial Swing), cited vi
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]] for the full mapping. During initial swing the primary active lines are:
+
+- [[superficial_front_line]] — drives limb advancement (hip flexion, knee extension, dorsiflexion). Short SFL restricts knee flexion here → compensatory hip hike / circumduction / vaulting. (Steppage is NOT an SFL-restriction compensation — it compensates for weak dorsiflexors.)
+- [[deep_front_line]] — psoas/iliacus initiates and propels the swing.
+- [[front_functional_line]] — contralateral shoulder + rib cage counter-rotate to balance the swinging leg.
+
+These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 

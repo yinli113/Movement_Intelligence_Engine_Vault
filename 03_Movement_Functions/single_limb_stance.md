@@ -49,7 +49,7 @@ Middle period of [[stance_phase]] (A); gait analogue of single-leg screen patter
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]]. Single-limb stance relies most on [[lateral_line]] (frontal-plane stability, preventing hip adduction/Trendelenburg) and [[deep_front_line]] (inner-leg stability and medial arch support). [[superficial_back_line]] and [[superficial_front_line]] manage the sagittal progression over the stationary foot. Candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

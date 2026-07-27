@@ -49,7 +49,7 @@ Final phase of [[swing_phase]] (A); transitions into [[stance_phase]] (A); also 
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]]. During terminal swing: [[superficial_front_line]] positions the limb for initial contact (knee extension, dorsiflexion); [[spiral_line]] prepares the rotational deceleration sling for heel strike; [[superficial_back_line]] prepares to take over at heel strike. Candidate-line map, not measured tissue loading.
 
 ## What a 2D app can observe
 

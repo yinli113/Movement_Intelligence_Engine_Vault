@@ -75,6 +75,7 @@ The physiological segments, muscles, joints, and joint actions of the kinetic ch
 Rotational forces, physics vectors, and transmission dynamics:
 - `[[movement_chain_model]]` - The central force flow model.
 - `[[golfer_ground_interaction_model]]` - The central golfer-ground interaction model and three-class external-moment taxonomy.
+- `[[gait_myofascial_mapping]]` - **Engine synthesis** mapping Anatomy Trains lines to gait phases, motion-restriction patterns, and compensation signatures (built from Earls/Myers "Anatomy Trains in Gait", Ch.10). Closes the gait-observation → fascial-line graph edge so the movement_assessment app can reason from observed gait restrictions to candidate lines. All mappings are `engine_synthesis` (C), not measured kinetics.
 - `[[ground_reaction_force]]` - Net vertical and shear ground forces.
 - `[[ground_reaction_moment]]` - The direct/residual GRM represented at COP, distinct from a GRF moment about COM.
 - `[[pivoting_moment]]` - The vertical-axis moment from individual-foot GRFs about combined COP.

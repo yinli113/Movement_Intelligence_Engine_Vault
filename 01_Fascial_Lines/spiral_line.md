@@ -57,11 +57,24 @@ The lower bridge is foot/ankle -> [[plantar_fascia]]/deep leg -> [[spiral_line]]
 
 Ordinary video may describe foot orientation, pelvis/thorax orientation, phase timing, and shoulder/scapular landmark trajectories when visible. It cannot measure GRF, moments, impulse, muscle activation, fascial tension, line loading, or energy. A rotational-chain score must remain Level 5 and must not diagnose a restriction.
 
+## Gait Role (Engine Synthesis, Level C)
+
+See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
+
+- **Phase role:** **Especially significant line in gait** (Earls: "walking is very much a movement derived from rotational forces"). Decelerates pronation + hip flexion + tibial internal rotation at heel strike via the tibialis anterior → ITB → upper gluteus maximus sling. Anterior SPL assists foot re-supination before toe-off. Upper SPL (rhomboids/serratus/splenii) manages contralateral counter-rotation to keep eyes forward. Active across [[initial_contact]], [[loading_response]], [[terminal_stance]], [[preswing]].
+- **Restriction pattern:** Short SPL → restricted **hip internal rotation** (in gait), restricted **foot supination** before toe-off, restricted **trunk counter-rotation**. Clue it's SPL: passive sagittal ROM normal but gait-phase motion restricted.
+- **Compensation signature when restricted:** excessive arm swing, eyes drift with pelvis, foot stays pronated, poor push-off — compensating via [[front_functional_line]] and [[lateral_line]].
+- **Best observed from:** **front + back together** (SPL is the transverse-plane line and is the hardest to capture from any single view). Front view gives the upper SPL (shoulders vs pelvis counter-rotation) + foot pronation; back view gives the posterior SPL diagonal (glute → lat) + heel mechanics. A single side view will miss SPL restriction patterns even though SPL is "especially significant in gait."
+- **Spine in gait:** SPL crosses the cervical spine via splenii, the thoracic spine via rhomboids/serratus/spinalis, and the lumbar spine via obliques. Restricted **neck rotation** (cervical, eyes drift with pelvis), restricted **thoracic rotation** (excessive arm swing, motion exported outward), and restricted **lumbar rotation** (pelvis and shoulders rotate together) are SPL restriction patterns. The SPL is the primary line for the transverse-plane winding/unwinding of the torso in gait. See [[gait_myofascial_mapping]].
+
+All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
+
 ## Relationships
 
 - contains -> [[tibialis_anterior]], [[peroneus_longus]], [[external_oblique]], [[internal_oblique]], [[serratus_anterior]], [[rhomboids]]
 - connects_to -> [[plantar_fascia]], [[ankle_joint]], [[hip_joint]], rib cage, [[shoulder_joint]]
 - interpreted_during -> [[golf_swing_transition]]
+- gait_synthesis -> [[gait_myofascial_mapping]]
 - supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]]
 
 ## Open Questions

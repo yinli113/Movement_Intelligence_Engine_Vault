@@ -49,7 +49,13 @@ Third phase of [[stance_phase]] (A); follows [[loading_response]] (A); precedes 
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]] for the full mapping. During mid stance the primary active lines are:
+
+- [[lateral_line]] — frontal-plane stability; prevents the weighted hip from falling inward (adduction). Has the most adjustment work as the body passes over the single foot.
+- [[superficial_back_line]] — posterior leg engages as the body progresses over the stationary foot.
+- [[deep_front_line]] — inner-leg stability from medial arch to medial hip; guides the hip and prevents excess rotation.
+
+These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 

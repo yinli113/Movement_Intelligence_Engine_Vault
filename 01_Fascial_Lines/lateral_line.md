@@ -62,11 +62,24 @@ The lower traversal is foot/ankle -> [[plantar_fascia]]/deep leg -> [[lateral_li
 
 Camera-derived observations may include pelvis translation, trunk side bend, foot orientation, and phase timing. They cannot measure COP, pressure, force, moments, muscle activation, fascial tension, Lateral Line loading, or energy storage, transfer, release, or dissipation. A lateral-shift descriptor must not be reported as proof of tissue weakness, restriction, or pain source.
 
+## Gait Role (Engine Synthesis, Level C)
+
+See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
+
+- **Phase role:** Frontal-plane stability. Prevents the weighted hip from falling inward (adduction). Has the most range to travel and the most adjustment work in gait. The X-fibre pattern of the lateral obliques controls the rotational relationship between pelvis and rib cage. Active throughout stance, especially managing pelvic tilt/shift.
+- **Restriction pattern:** Short LL → restricted **hip internal rotation** (in gait, with ITB tightness), restricted frontal-plane pelvic control. Often co-occurs with foot over-pronation.
+- **Compensation signature when restricted:** Trendelenburg sign, lateral trunk lean over the stance leg — compensating via [[spiral_line]] (rotational) and [[deep_front_line]] (core brace).
+- **Best observed from:** **front + back views** (frontal-plane pelvic level and lateral trunk lean are visible from both; side view is blind to LL frontal-plane findings). Back view adds glute med / TFL / ITB asymmetry.
+- **Spine in gait:** LL crosses the thoracic spine via intercostals/lateral obliques and the lumbar spine via lateral obliques. Restricted **thoracic lateral flexion** (asymmetric shoulder height) and restricted **lumbar rotation** (LL obliques, pelvis and shoulders rotate together) are LL restriction patterns. The LL X-fibre pattern controls the rotational relationship between pelvis and rib cage in gait. See [[gait_myofascial_mapping]].
+
+All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
+
 ## Relationships
 
 - contains -> [[peroneus_longus]], [[iliotibial_tract]], [[gluteus_medius]], [[external_oblique]], [[intercostals]]
 - connects_to -> [[ankle_joint]], [[hip_joint]], rib cage
 - interpreted_during -> [[golf_swing_transition]]
+- gait_synthesis -> [[gait_myofascial_mapping]]
 - supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]], [[julie_hammond_breakout]]
 
 ## Open Questions

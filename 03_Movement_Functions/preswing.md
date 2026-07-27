@@ -49,7 +49,14 @@ Fifth/final phase of [[stance_phase]] (A); follows [[terminal_stance]] (A); tran
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]] for the full mapping. During preswing the primary loaded lines are:
+
+- [[superficial_back_line]] — plantarflexors of the SBL **plus LL and DFL** complete the catapult (Earls — catapult is multi-line, not SBL-only); toe-off releases the stored elastic energy.
+- [[superficial_front_line]] — anterior tissues recoil to assist **hip flexion** into swing (recoil assists hip flexion; it does NOT assist knee flexion — knee flexion in swing is active hamstring + popliteus, not SFL recoil). Short SFL restricts this recoil → stiff-knee swing.
+- [[spiral_line]] — anterior SPL assists foot supination prior to toe-off; contralateral arm swing tensions the upper SPL.
+- [[deep_front_line]] — psoas/iliacus initiates the swing phase.
+
+These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 

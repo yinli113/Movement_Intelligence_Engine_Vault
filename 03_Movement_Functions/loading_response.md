@@ -49,7 +49,14 @@ Second phase of [[stance_phase]] (A); follows [[initial_contact]] (A); maps to t
 
 ## Possible myofascial relationships
 
-None directly. Fascial-line mapping is an engine synthesis (C).
+Engine synthesis (C) — see [[gait_myofascial_mapping]] for the full mapping. During loading response the primary loaded lines are:
+
+- [[superficial_front_line]] — anterior tissues lengthen / elastically load (quadriceps take up the ~15° knee-flexion shock absorption; muscle action often isometric per Earls' SSC framing, not eccentric). Short SFL restricts this knee flexion.
+- [[spiral_line]] — continues decelerating pronation/IR via the anterior SPL; the upper gluteus max sling brakes hip flexion.
+- [[back_functional_line]] — posterior sling braking continues.
+- [[superficial_back_line]] — begins taking over as the leg engages into hip extension and plantarflexion.
+
+These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 

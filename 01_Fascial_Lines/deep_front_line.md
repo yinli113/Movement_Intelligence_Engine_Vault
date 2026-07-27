@@ -62,11 +62,24 @@ The explicit bridge is foot/ankle -> [[plantar_fascia]]/deep leg -> [[deep_front
 
 Camera data may describe foot geometry, hip-midpoint motion, pelvis orientation, and phase timing under declared view limits. Ordinary video cannot measure pressure, GRF, moments, breathing mechanics, muscle activation, fascial tension, DFL loading, or energy storage, transfer, release, or dissipation. Neck or jaw landmarks must not be used to diagnose bracing or prescribe treatment.
 
+## Gait Role (Engine Synthesis, Level C)
+
+See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
+
+- **Phase role:** Initiates the step (psoas/iliacus from T12/L1). Provides inner-leg stability from the medial arch up to the medial hip, guiding the hip and preventing excess rotation. Ideally tensions through its entire length at toe-off (toe extension + ankle DF + knee extension + hip extension/IR/abduction + thoracic extension). Active in [[preswing]], [[initial_swing]], and [[terminal_stance]].
+- **Restriction pattern:** Short DFL → dropped medial arch, knee tracking medially (adductor overactivity), poor swing initiation. Separately, a knee that cannot **unlock** from full extension is a DFL popliteus **underactivity / failed-unlock** problem (NOT popliteus shortness — short popliteus would bias toward flexion/IR, the opposite). Popliteus note is (C) general DFL anatomy, not Earls gait; Ch.10 gait text does not discuss popliteus.
+- **Compensation signature when restricted:** delayed swing initiation, stiff-knee gait, dropped medial arch — compensating via [[superficial_front_line]] (compensatory hip flexion) and [[lateral_line]] (hip hike).
+- **Best observed from:** **front view** (medial arch, knee valgus, adductor-driven medial knee tracking are frontal-plane findings only visible from the front). Side view adds the sagittal "locked knee" sign; back view is largely blind to DFL medial findings.
+- **Spine in gait:** DFL crosses the cervical spine via longus colli/longus capitis/scalenes, the thoracic spine via diaphragm/endothoracic fascia, and the lumbar spine via psoas/QL/TVA. Four **independent** DFL restriction/control patterns (each caused by DFL shortness/underactivity at that segment's point on the line, not by one causing the other): (1) restricted **neck extension** (forward head, DFL longus colli shortness at the cervical point); (2) restricted **thoracic extension** (DFL diaphragm binding at the thoracic point); (3) lumbar **lordosis / anterior pelvic tilt** (short iliopsoas classically presents as anterior pelvic tilt + lumbar hyperextension, NOT lumbar flexion — listed separately from the lumbar-extension-restriction row, which is an SFL rectus-abdominis pattern); (4) lumbar **shear/instability** (DFL core underactivity). Separately, the source (Ch.10) establishes the DFL tensions through its entire length at toe-off and that a restriction anywhere reduces the **elastic recoil** distally — this is an elastic-loading effect, not a segment-to-segment ROM restriction effect. See [[gait_myofascial_mapping]] Whole-chain insight for the evidence boundary.
+
+All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
+
 ## Relationships
 
 - contains -> [[plantar_fascia]], [[tibialis_posterior]], [[adductor_longus]], [[psoas_major]], [[diaphragm]]
 - connects_to -> [[ankle_joint]], [[hip_joint]], rib cage
 - interpreted_during -> [[golf_swing_transition]]
+- gait_synthesis -> [[gait_myofascial_mapping]]
 - supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]], [[julie_hammond_breakout]]
 
 ## Open Questions

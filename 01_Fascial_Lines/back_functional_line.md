@@ -56,6 +56,17 @@ The explicit bridge is hip/sacrum -> [[thoracolumbar_fascia]] -> [[back_function
 
 The lead-hip-to-trail-shoulder distance may be reported only as a **camera-derived diagonal-distance descriptor; tissue loading remains unknown**. Its timing relative to pelvis and thorax orientation may support a Level 5 sequence hypothesis, but it cannot measure BFL stretch, activation, force, energy, or kinetic transfer and cannot diagnose a sequence block.
 
+## Gait Role (Engine Synthesis, Level C)
+
+See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
+
+- **Phase role:** Posterior pelvic sling — gluteus maximus → thoracolumbar fascia → contralateral latissimus. Brakes hip flexion and internal rotation at heel strike. This is the "Swingwalker" mechanism (Zorn) and the posterior sling (Vleeming). Active at [[initial_contact]] and [[loading_response]].
+- **Restriction pattern:** Short BFL → restricted hip flexion/IR deceleration at heel strike, limited contralateral shoulder–hip diagonal coupling.
+- **Compensation signature when restricted:** reduced posterior sling braking, forward trunk lean, over-reliance on [[spiral_line]] anterior portion and [[superficial_back_line]].
+- **Best observed from:** **back view** (the posterior diagonal sling — glute max → thoracolumbar fascia → contralateral lat — is literally on the back and only visible from behind). Side and front views are blind to the BFL diagonal.
+
+All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. See [[gait_myofascial_mapping]] Evidence boundary.
+
 ## Relationships
 
 | Relationship | Target | Description |
@@ -63,6 +74,7 @@ The lead-hip-to-trail-shoulder distance may be reported only as a **camera-deriv
 | part_of | [[functional_lines]] | Posterior diagonal sub-line. |
 | contains | [[latissimus_dorsi]], [[thoracolumbar_fascia]], [[gluteus_maximus]] | Stable Anatomy Trains pathway. |
 | anatomical_bridge_for | [[golf_swing_transition]] | Phase-specific vault interpretation only. |
+| gait_synthesis | [[gait_myofascial_mapping]] | Engine synthesis mapping to gait phases. |
 
 ## Open Questions
 
