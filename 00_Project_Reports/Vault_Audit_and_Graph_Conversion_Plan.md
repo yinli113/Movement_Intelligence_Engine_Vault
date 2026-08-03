@@ -1,5 +1,13 @@
 # Vault Audit and Graph Conversion Plan
 
+> **Historical project report (2026-07-13) — this audit/plan is complete and its proposals are superseded.** This was the pre-conversion audit of the vault when it was still a "notebook"; the conversion it proposes has since been carried out.
+>
+> **Status of proposals:** the canonical naming rules, controlled relationship predicates, node-type set, and frontmatter template proposed here are now formalised in `00_Spec/naming_conventions.md` and `00_Spec/spec.md`; the proposed `wiki/` folder structure was **not** adopted — the vault instead uses the `00_Spec` / `01_Fascial_Lines` / `02_Body_Structures` / `03_Movement_Functions` / `04_Golf_Swing` / `05_App_Logic` layout.
+>
+> **Counts** (113 notes, type tallies, orphan/broken-link numbers) are a **2026-07-13 snapshot** and no longer reflect the current vault.
+>
+> The body below is kept as the original record and has **not** been rewritten.
+
 ## 1. Current Vault Problems
 
 The vault has useful raw material, but it currently behaves more like a notebook than a reasoning graph.

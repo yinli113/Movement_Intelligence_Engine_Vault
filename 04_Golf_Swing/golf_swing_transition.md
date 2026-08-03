@@ -16,7 +16,7 @@ relationships:
   assessed_by: [planned_transition_observation_screen]
   improved_by: [planned_transition_sequence_drill]
   supported_by: [golf_movement_reasoning_mvp, golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
-  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, linear_impulse, angular_impulse, deep_front_line, lateral_line, functional_lines, spiral_line, superficial_back_line, jaw_clenching, neck_tension, force_transmission, energy_transfer]
+  relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, linear_impulse, angular_impulse, deep_front_line, lateral_line, functional_lines, spiral_line, superficial_back_line, jaw_clenching, neck_tension, force_transmission, energy_transfer, x_factor, stretch_shortening_cycle]
 golf_relevance: "Primary MVP hub for testing whether the vault can reason from a swing phase through ground contact, hip rotation, trunk rotation, fascial-line transfer, and compensation signals."
 evidence:
   - source_id: golf_decoded_six_phases_swing
@@ -33,10 +33,10 @@ evidence:
     supports: "Fascial-line nodes used by this phase are supported by Myers as source model references."
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 42
+relationship_count: 44
 hub_score: 126
 centrality: 0.724
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 
 # Golf Transition Phase
@@ -107,6 +107,10 @@ This note is the hub, not a lecture summary. Its job is to connect observations 
 - If pelvis slides or knee collapses, inspect [[hip_internal_rotation]].
 - If the upper body turns by bracing, inspect [[thoracic_rotation]], [[neck_tension]], and [[jaw_clenching]].
 - If the trail shoulder overworks, inspect [[functional_lines]] and [[trail_shoulder_external_rotation]].
+
+## X-Factor Stretch in This Phase (2026-07-27)
+
+Maximum pelvis-thorax dissociation may occur **just after the top of backswing, during early transition**, because the pelvis may begin rotating toward the target while the thorax remains relatively fixed or briefly continues in the opposite direction — see [[x_factor]]. This transition increase may be described as **X-factor stretch**, but it is not automatically better when larger; interpretation focuses on whether the dissociation is dynamically created, appropriately timed, smoothly released, coordinated with the rest of the movement, and compatible with the person's structure and capacity. Users are not coached to forcibly restrict the pelvis or maximise separation. This phase is also where the golf expression of the [[stretch_shortening_cycle]] is most visible: pelvis reversal timing, thorax reversal timing, and the pelvis-initiation-to-thorax-acceleration delay are the key temporal descriptors.
 
 ## Evidence Notes
 

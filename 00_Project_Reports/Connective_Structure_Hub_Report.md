@@ -1,5 +1,13 @@
 # Connective Structure Hub Report
 
+> **Historical project report (2026-07-13) — paths and metric values are superseded.** This documents Graph Architecture v2 (connective tissues as first-class nodes); that architecture is in place, and the five hub structures listed exist today under `02_Body_Structures/connective_structures/`.
+>
+> **Folder mapping then → now:** `wiki/connective_structures/` → `02_Body_Structures/connective_structures/`.
+>
+> **Metric values:** the hub scores, relationship counts, centrality values, and the "Top 20 Graph Hubs" table below are a **2026-07-13 snapshot**; they are recomputed by `scripts/update_graph_metrics.py` and are not maintained inside this report.
+>
+> The body below is kept as the original record and has **not** been rewritten.
+
 ## Purpose
 
 This report documents Graph Architecture v2: connective tissues are now first-class graph nodes for movement reasoning and force transmission.

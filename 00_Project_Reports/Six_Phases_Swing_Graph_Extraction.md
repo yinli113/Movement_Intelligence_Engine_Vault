@@ -1,5 +1,13 @@
 # Six Phases Swing Graph Extraction
 
+> **Historical project report (2026-07-13) — paths and the "missing concepts" list are superseded.** This is the provenance record for the one-time extraction of the 3D Golf Decoded six-phase model; the work it documents is complete and the nodes remain in the vault.
+>
+> **Folder mapping then → now:** `wiki/sources/` → `00_Spec/sources/`; `wiki/golf_phases/` → `04_Golf_Swing/phases/` and `04_Golf_Swing/positions/`; `wiki/movements/` → `04_Golf_Swing/`; `wiki/movement_patterns/` → `03_Movement_Functions/`.
+>
+> **"Missing Concepts to Add Later" — status update:** `Pelvis-Thorax Separation` now exists as [[x_factor]]; `Center of Mass` is covered as the COM proxy in [[golf_movement_sequence]] and [[segment_angle_metrics]]; `Deceleration` is covered in [[temporal_movement_metrics]]. `Clubhead Speed`, `Ball Flight`, `Pressure Shift`, and `Center of Pressure` remain intentionally uncreated (require instrumented data / not yet needed).
+>
+> The body below is kept as the original record and has **not** been rewritten.
+
 ## Source
 
 - Evidence Source: [[golf_decoded_six_phases_swing]]

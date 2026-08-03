@@ -24,6 +24,7 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[perry_burnfield_gait_analysis]]` - Foundational eight-phase gait taxonomy (Level 1, **framework-cited** via Chambers & Sutherland; full text not yet in vault) (domain: gait).
   - `[[czaprowski_nonstructural_posture_2018]]` - Open-access review of the four sagittal posture types and the Bergmark/Richardson stabilizer/mobilizer classification; the vault's static-posture literature and canonical app-philosophy source (domain: static posture).
   - `[[dr_kwon_golfer_ground_interaction]]` - Research-program dossier for Dr Young-Hoo Kwon's golfer-ground interaction mechanics, primary sources, and claim anchors (domain: golf).
+  - `[[bourgain_golf_swing_biomechanics_2022]]` - Peer-reviewed systematic review of 92 instrumented golf-swing kinematics studies (X-factor, crunch factor, swing plane, kinematic sequence, joint angular kinematics) with methodological recommendations (domain: golf).
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
   - `[[log]]` - Compilation log of vault updates.
 
@@ -36,6 +37,7 @@ Anatomy Trains lines representing continuous myofascial force-transmission paths
 - `[[lateral_line]]` - Lateral balance and rotational braking line.
 - `[[spiral_line]]` - Rotational continuity and transverse plane control.
 - `[[deep_front_line]]` - Core support line connecting arch, groin, psoas, and neck.
+- `[[myofascial_interpretive_layer]]` - Rules for cautiously associating movement patterns with fascial continuities (never a measured tissue claim).
 - **Arm Lines**:
   - `[[superficial_front_arm_line]]` | `[[deep_front_arm_line]]`
   - `[[superficial_back_arm_line]]` | `[[deep_back_arm_line]]`
@@ -90,6 +92,12 @@ Rotational forces, physics vectors, and transmission dynamics:
 - `[[kinematic_sequence]]` - segment coordination timing (Pelvis → Thorax → Lead Arm).
 - `[[force_transmission]]` - General vector transfer.
 - `[[energy_transfer]]` - General kinetic energy transfer.
+- **Temporal & Individual Analysis (2026-07-27)**:
+  - `[[temporal_movement_metrics]]` - Metrics interpreted across time: event values, extrema and their timing, rates, sequence, phase transitions, and trial consistency.
+  - `[[stretch_shortening_cycle]]` - Eccentric preparation → coupling → concentric release; whether a movement creates, stores, and releases elastic behaviour smoothly.
+  - `[[energy_flow]]` - Operational definition: coordinated transfer of motion through the body over time, assessed only via measurable proxies.
+  - `[[segment_angle_metrics]]` - Segment orientation relative to the ground/base of support (shank, thigh, pelvis line, trunk axis, lead-side support line).
+  - `[[personalised_movement_intelligence]]` - Individual baseline, trial consistency, and personal best pattern over population comparison.
 - **Motor Control & Compensations**:
   - `[[toe_loading]]` - Great toe pressure pattern.
   - `[[neck_tension]]` - head-neck bracing compensation.
@@ -100,6 +108,9 @@ Rotational forces, physics vectors, and transmission dynamics:
 Golf-specific movement patterns and swing interval segmentation:
 - `[[golf_swing]]` - Rotational movement pattern overview.
 - `[[golf_swing_transition]]` - Lower-to-upper body transition sequence.
+- `[[golf_swing_events]]` - Declared event set and normalised swing time; maxima are not pinned to conventional events.
+- `[[x_factor]]` - Pelvis-thorax rotational dissociation as a time-varying curve, including transition X-factor stretch.
+- `[[golf_movement_sequence]]` - Full observable sequence from feet/ankles through pelvis, thorax, and upper limbs to the head.
 - **Swing Phases**:
   - `[[address_to_shaft_parallel]]` - Phase 1
   - `[[shaft_parallel_to_end_pelvis_rotation]]` - Phase 2
@@ -113,6 +124,8 @@ Golf-specific movement patterns and swing interval segmentation:
 ### 🤖 05. AI Application Logic (`05_App_Logic/`)
 Scoring metrics, assessments, and remedial exercises:
 - `[[golf_kinetics_observability_boundary]]` - Authoritative boundary between instrumented kinetics, camera-observable descriptors, and Level 5 hypotheses.
+- `[[metric_evidence_classification]]` - Every metric declares its claim type, source, view/landmark needs, confidence limits, and dimensionality validity.
+- `[[movement_reporting_standards]]` - Non-judgmental reporting vocabulary and the seven-question report structure.
 - `[[ai_movement_analysis_layer]]` - Historical record of TGS, CCS, FLLI, and ETE—retired, unvalidated historical Level 5 concepts controlled by [[golf_kinetics_observability_boundary]], not a current metrics framework:
   - **Torque Generation Score (TGS)** — retired and unvalidated.
   - **COM-COP Separation Score (CCS)** — retired and unvalidated.

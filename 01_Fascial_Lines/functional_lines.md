@@ -18,14 +18,14 @@ relationships:
   child_concepts: [back_functional_line, front_functional_line, ipsilateral_functional_line]
   related_concepts: [golfer_ground_interaction_model, ground_reaction_force, ground_reaction_moment, moment_arm, center_of_mass, force_transmission]
   stable_anatomy: [latissimus_dorsi, gluteus_maximus, pectoralis_major, rectus_abdominis, adductor_longus, thoracolumbar_fascia, shoulder_joint]
-  golf_interpretation: [end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height]
+  golf_interpretation: [end_pelvis_rotation_to_top_backswing, golf_swing_transition, max_unweighting_to_impact, impact_to_hands_chest_height, x_factor]
   app_hypotheses: [functional_line_loading_index]
 confidence: high
 review_status: active_spec
-relationship_count: 58
+relationship_count: 59
 hub_score: 172
 centrality: 1.0
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 
 # Functional Lines
@@ -69,6 +69,10 @@ Separate traversals are adductors/abdominal wall -> [[front_functional_line]] an
 Ordinary video may yield pelvis/thorax orientation, phase timing, and shoulder-to-contralateral-hip diagonal-distance descriptors when landmarks and view permit. A shoulder-to-hip value is a **camera-derived diagonal-distance descriptor; tissue loading remains unknown**. It is not a direct measure of fascial stretch, force, activation, elastic energy, GRF, GRM, COP, or a GRF moment about COM.
 
 Any Functional Line Loading Index must therefore be labelled a Level 5 hypothesis and report view, landmark, and confidence limits. It must not diagnose weakness, restriction, or injury.
+
+## Rotational Dissociation Interpretation (2026-07-27)
+
+For rotational sports such as golf, the Functional Lines — with their contralateral pelvis-trunk-shoulder pathways — are the primary anatomy through which pelvis-thorax dissociation ([[x_factor]]) and the golf [[stretch_shortening_cycle]] are *cautiously* interpreted. A smoothly created, well-timed, smoothly released dissociation **may be consistent with** elastic load sharing along these lines; per [[myofascial_interpretive_layer]] this is always a labelled interpretation, never a measured fascial-force, stiffness, or energy-storage claim.
 
 ## Relationships
 

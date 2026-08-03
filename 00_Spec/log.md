@@ -238,3 +238,25 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Added `CONSISTENCY_MAP.md` §1.5 so future hub edits must propagate to the app knowledge fixture + report builders + AGENTS/docs in the same session.
 - Updated app docs (`AGENTS.md`, `README.md`, `docs/vault-integration.md`, `docs/limitations.md`) and fixed `tillyes_doc/AGENTS.md` Level 1 count five → six.
 - Evidence boundary unchanged: myofascial language remains engine synthesis (C); view blind-spot rule applies.
+
+## [2026-07-27] Extension | Temporal, Individual and Interpretive Framework
+- Extended the movement-intelligence framework per the TillYes principle that the goal is each person's own effective, sustainable pattern — not one ideal movement or one maximised angle. All changes additive; no folders restructured, no notes renamed or overwritten.
+- Created shared-biomechanics nodes in `03_Movement_Functions/`: `[[temporal_movement_metrics]]` (metrics across time), `[[stretch_shortening_cycle]]`, `[[energy_flow]]` (operational definition), `[[segment_angle_metrics]]`, `[[personalised_movement_intelligence]]`.
+- Created golf nodes in `04_Golf_Swing/`: `[[golf_swing_events]]` (normalised swing time + event set), `[[x_factor]]` (pelvis-thorax dissociation curve incl. transition X-factor stretch), `[[golf_movement_sequence]]` (full-body sequence).
+- Created `01_Fascial_Lines/myofascial_interpretive_layer.md` (cautious fascial-association rules).
+- Created app-policy nodes in `05_App_Logic/`: `[[metric_evidence_classification]]` (claim typing) and `[[movement_reporting_standards]]` (non-judgmental seven-question reports).
+- Targeted section/link updates to `[[golf_swing]]`, `[[golf_swing_transition]]`, `[[kinematic_sequence]]`, `[[functional_lines]]`, and `[[index]]`. Preserved the six-phase model, the Kwon event crosswalk, and the Kinetic Proxy Non-Upgrade Rule throughout.
+
+## [2026-07-29] Source | Bourgain et al. 2022 golf-swing kinematics systematic review added
+- User supplied https://pmc.ncbi.nlm.nih.gov/articles/PMC9227529/ (Bourgain, Rouch, Rouillon, Thoreux, Sauret, *Sports* 10(6): 91, 2022, DOI 10.3390/sports10060091). The PDF was already present in `raw/literature/` but had no source note and was not yet synced to the Mac.
+- Created `[[bourgain_golf_swing_biomechanics_2022]]` in `00_Spec/sources/` as a **Level 3** (`source_role: domain_biomechanics`) source note with claim-level evidence, terminology, "what it does / does not support", and app-use boundaries, after reading the full-text HTML.
+- Wired it in: added to the `evidence` blocks of `[[x_factor]]` and `[[kinematic_sequence]]`, registered in `[[index]]`, added to the golf Level 3 row and `supported_by` of `[[evidence_levels]]`.
+- Evidence boundary preserved: the review is 3D instrumented evidence; it does not license 2D/MediaPipe proxies, does not establish "larger X-factor is better", and reports no crunch-factor/lumbar-injury correlation. Male/right-hand cohort bias recorded.
+- No cross-repo propagation required: additive source registration only; no canonical duplicated facts altered.
+
+## [2026-07-29] Maintenance | 00_Project_Reports historical banners added
+- Annotated the three 2026-07-13 project reports in `00_Project_Reports/` with a status banner marking them as historical records (paths/snapshot values superseded) rather than living specs, per the vault rule against deleting or rewriting completed documents.
+- `Six_Phases_Swing_Graph_Extraction.md`: banner notes the then→now folder mapping and that the "missing concepts" list is partly fulfilled (`[[x_factor]]`, COM proxy in `[[golf_movement_sequence]]`, `[[temporal_movement_metrics]]`); `Clubhead Speed`, `Ball Flight`, `Pressure Shift`, `Center of Pressure` remain intentionally uncreated.
+- `Connective_Structure_Hub_Report.md`: banner notes `wiki/connective_structures/` → `02_Body_Structures/connective_structures/` and that hub-score / top-20 tables are a 2026-07-13 snapshot recomputed by `scripts/update_graph_metrics.py`.
+- `Vault_Audit_and_Graph_Conversion_Plan.md`: banner notes the audit/plan is complete, its naming/relationship/template proposals are now formalised in `00_Spec/naming_conventions.md` and `00_Spec/spec.md`, and the proposed `wiki/` layout was not adopted.
+- Bodies not rewritten; banners added above the original H1 content. No cross-repo propagation required.

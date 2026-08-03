@@ -18,7 +18,7 @@
       "query": "lateral_line",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 14348971
       }
     },
     {
@@ -32,7 +32,21 @@
       "query": "deep_front_line",
       "color": {
         "a": 1,
-        "rgb": 5431473
+        "rgb": 391848
+      }
+    },
+    {
+      "query": "superficial_back_line",
+      "color": {
+        "a": 1,
+        "rgb": 133864
+      }
+    },
+    {
+      "query": "superficial_front_line",
+      "color": {
+        "a": 1,
+        "rgb": 2883890
       }
     }
   ],
@@ -46,6 +60,6 @@
   "repelStrength": 9.96701388888889,
   "linkStrength": 0.616710069444444,
   "linkDistance": 358,
-  "scale": 0.41901205553373166,
+  "scale": 0.16069338882328893,
   "close": false
 }

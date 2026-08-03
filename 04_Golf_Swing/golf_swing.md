@@ -24,13 +24,13 @@ relationships:
   assessed_by: [planned_transition_observation_screen]
   improved_by: [planned_transition_sequence_drill]
   supported_by: [golf_decoded_six_phases_swing, dr_kwon_golfer_ground_interaction]
-  relevant_to: [functional_lines, spiral_line, deep_front_line, lateral_line, superficial_back_line]
+  relevant_to: [functional_lines, spiral_line, deep_front_line, lateral_line, superficial_back_line, x_factor, golf_swing_events, golf_movement_sequence, energy_flow, stretch_shortening_cycle]
 confidence: medium
 review_status: graph_mvp_updated
-relationship_count: 33
+relationship_count: 38
 hub_score: 95
 centrality: 0.569
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 
 # Golf Swing
@@ -88,6 +88,12 @@ The six vault phases remain the Level 4 intervals defined by [[golf_decoded_six_
 | connects_to | [[golfer_ground_interaction_model]] |
 | supported_by | [[dr_kwon_golfer_ground_interaction]] |
 
+## Temporal and Interpretive Extensions (2026-07-27)
+
+The swing is interpreted as a **time-varying process**, not a set of static positions — see [[temporal_movement_metrics]]. Event-referenced timing uses the normalised swing-time axis and working event vocabulary in [[golf_swing_events]]; a metric's maximum is not assumed to occur at a conventional event marker.
+
+Pelvis-thorax dissociation is tracked as a curve in [[x_factor]], including transition-period **X-factor stretch**, whose maximum may occur just after the top of backswing and is not automatically better when larger. The whole observable chain — feet and ankles through knees, pelvis, COM proxy, thorax, shoulders, elbows, wrists, hands, and head — is analysed in [[golf_movement_sequence]]. Coordination is described operationally in [[energy_flow]] and through the [[stretch_shortening_cycle]] lens; interpretation stays within the individual's own pattern per [[personalised_movement_intelligence]].
+
 ## Related Concepts
 
 - [[ground_reaction_force]]
@@ -97,6 +103,11 @@ The six vault phases remain the Level 4 intervals defined by [[golf_decoded_six_
 - [[trail_shoulder_external_rotation]]
 - [[functional_lines]]
 - [[spiral_line]]
+- [[x_factor]]
+- [[golf_swing_events]]
+- [[golf_movement_sequence]]
+- [[energy_flow]]
+- [[stretch_shortening_cycle]]
 
 ## Parent Concepts
 

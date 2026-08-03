@@ -10,16 +10,19 @@ evidence:
   - source_id: dr_kwon_golfer_ground_interaction
     evidence_level: 3
     supports: "Defines kinematics versus kinetics and reports golf sequence patterns without equating peak order with energy transfer."
+  - source_id: bourgain_golf_swing_biomechanics_2022
+    evidence_level: 3
+    supports: "Systematic review of the proximal-to-distal kinematic-sequence concept as a literature-described population pattern, not a universal individual ideal."
 relationships:
   parent_concepts: [movement_chain_model]
   child_concepts: []
-  related_concepts: [angular_momentum, energy_transfer, force_transmission, movement_sequencing, functional_lines]
+  related_concepts: [angular_momentum, energy_transfer, force_transmission, movement_sequencing, functional_lines, x_factor, golf_movement_sequence, temporal_movement_metrics]
 confidence: high
 review_status: active_spec
-relationship_count: 10
+relationship_count: 13
 hub_score: 19
 centrality: 0.172
-updated: 2026-07-16
+updated: 2026-07-27
 ---
 
 # Kinematic Sequence
@@ -77,6 +80,9 @@ The app may compare observable peak order and timing quality. It must not rename
 - [[force_transmission]]
 - [[angular_momentum]]
 - [[functional_lines]]
+- [[x_factor]]
+- [[golf_movement_sequence]]
+- [[temporal_movement_metrics]]
 
 ## Evidence Level
 

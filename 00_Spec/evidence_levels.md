@@ -8,7 +8,7 @@ relationships:
   governs: [vault_spec, golf_kinetics_observability_boundary, ai_movement_analysis_layer]
   contains: []
   connects_to: [golfer_ground_interaction_model, functional_lines, bodyreading_static_posture, functional_movement_screen, gait_cycle, sagittal_posture_types]
-  supported_by: [anatomy_trains_myofascial_thomas_w_myers, julie_hammond_breakout, gray_cook_movement_2010, chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis, czaprowski_nonstructural_posture_2018, dr_kwon_golfer_ground_interaction, golf_decoded_six_phases_swing]
+  supported_by: [anatomy_trains_myofascial_thomas_w_myers, julie_hammond_breakout, gray_cook_movement_2010, chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis, czaprowski_nonstructural_posture_2018, dr_kwon_golfer_ground_interaction, bourgain_golf_swing_biomechanics_2022, golf_decoded_six_phases_swing]
 confidence: high
 review_status: active_spec
 relationship_count: 14
@@ -61,7 +61,7 @@ A foundational source may define philosophy, terminology, taxonomy, or observabi
 
 | Domain | Level 1 foundations | Level 2 | Level 3 (instrumented) | Level 4 (applied) | Level 5 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **golf** | Anatomy Trains; Julie Hammond | StatPearls; general biomechanics | Dr. Kwon | Davide Bertoli; coaching manuals | app metrics |
+| **golf** | Anatomy Trains; Julie Hammond | StatPearls; general biomechanics | Dr. Kwon; Bourgain et al. 2022 | Davide Bertoli; coaching manuals | app metrics |
 | **gait** | Chambers & Sutherland 2002; Perry & Burnfield (eight-phase, framework-cited) | general biomechanics (shared) | *future domain-expansion* (e.g., Whittle — **not yet in vault**) | *future domain-expansion* | app metrics |
 | **static posture** | Anatomy Trains (BodyReading); Julie Hammond; Czaprowski et al. 2018 | general biomechanics (shared) | *future domain-expansion* (e.g., Kendall; Sahrmann — **not yet in vault**) | *future domain-expansion* | app metrics |
 | **general movement / squat** | Gray Cook 2010 (FMS/SFMA) | general biomechanics (shared) | *future domain-expansion* (instrumented squat biomechanics — **not yet in vault**) | *future domain-expansion* | app metrics |
