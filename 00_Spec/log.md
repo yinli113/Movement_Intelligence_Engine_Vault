@@ -260,3 +260,9 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - `Connective_Structure_Hub_Report.md`: banner notes `wiki/connective_structures/` → `02_Body_Structures/connective_structures/` and that hub-score / top-20 tables are a 2026-07-13 snapshot recomputed by `scripts/update_graph_metrics.py`.
 - `Vault_Audit_and_Graph_Conversion_Plan.md`: banner notes the audit/plan is complete, its naming/relationship/template proposals are now formalised in `00_Spec/naming_conventions.md` and `00_Spec/spec.md`, and the proposed `wiki/` layout was not adopted.
 - Bodies not rewritten; banners added above the original H1 content. No cross-repo propagation required.
+
+## [2026-08-17] App Logic | Mandatory AI Reading Routes for Static Posture
+- Added a task-based `Start Here for AI Agents` section to `[[index]]` with short routes for static posture, gait, golf, and vault maintenance.
+- Static-posture agents now start from `[[bodyreading_static_posture]]`, `[[myofascial_interpretive_layer]]`, and `[[movement_reporting_standards]]`, then traverse only the matching finding and linked line/structure nodes.
+- Added an explicit stopping rule so agents do not read the entire vault or source PDF by default; source notes and PDF locators are verification fallbacks.
+- Registered the route and structured-report dependency in the workspace `CONSISTENCY_MAP.md` and enforced required markers through `scripts/check_consistency.sh`.

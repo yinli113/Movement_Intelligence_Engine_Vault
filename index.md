@@ -9,6 +9,30 @@ Each arrow is a navigation step, not proof that one layer establishes the next. 
 
 ---
 
+## Start Here for AI Agents
+
+Use the shortest task route that supports the current question. Obsidian links are navigation edges; follow them selectively and preserve the evidence and observability boundaries in each node.
+
+### Static posture and myofascial report
+
+`[[bodyreading_static_posture]]` -> `[[myofascial_interpretive_layer]]` -> `[[movement_reporting_standards]]` -> the matching finding in `fascial_knowledge.json` -> only the linked fascial-line and body-structure nodes. Check `[[anatomy_trains_myofascial_thomas_w_myers]]` or its cited PDF locator only when a node is incomplete, ambiguous, or requires source verification.
+
+### Gait analysis
+
+`[[gait_cycle]]` -> `[[gait_observability_boundary]]` -> `[[gait_myofascial_mapping]]` -> the observed phase/restriction node -> linked line and structure nodes. Preserve `unavailable_from_this_view` when the active view cannot support a line interpretation.
+
+### Golf analysis
+
+`[[golf_swing_events]]` -> `[[golf_kinetics_observability_boundary]]` -> the relevant phase -> `[[metric_evidence_classification]]` -> linked movement, joint, and optional interpretive-line nodes. Do not upgrade 2D proxies into kinetics.
+
+### Vault maintenance
+
+Read `[[spec]]`, `[[naming_conventions]]`, and `[[evidence_levels]]`, then update the smallest connected node set and every dependent listed in the workspace `CONSISTENCY_MAP.md`.
+
+**Stopping rule:** Stop when the current observed pattern is supported; do not traverse the whole vault by default. Read source notes or PDF pages for verification, not as the normal first step.
+
+---
+
 ## 📂 Vault Directories
 
 ### 🛠️ 00. Specifications & Sources (`00_Spec/`)
