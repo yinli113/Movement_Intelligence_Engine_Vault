@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "description": "Knowledge mapping between posture measurements and possible Anatomy Trains / myofascial line interpretations.",
   "global_caution": "Static posture analysis cannot diagnose fascial restriction, pain source, or pathology. Findings are pattern suggestions only and should be confirmed by clinical assessment and movement testing.",
   "line_definitions": {
@@ -360,6 +360,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows head tilt relative to the available body and image-plane references.",
+      "priority_region": "Head and neck",
+      "client_summary": "In a front-view image, head tilt may be consistent with side-to-side cervical loading, visual strategy, vestibular strategy, or compensation from thorax or pelvis asymmetry. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "In a front-view image, head tilt may be consistent with side-to-side cervical loading, visual strategy, vestibular strategy, or compensation from thorax or pelvis asymmetry. This should be considered as a whole-body positioning hypothesis involving head, neck, cervical spine, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Cervical spine and anterior neck relationship",
+          "possible_role": "The cervical region may be organising head position in response to the observed head tilt.",
+          "why_it_matters": "This relationship influences comfortable head stacking, gaze and neck movement."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior neck structures may be sharing the task of keeping the head and eyes oriented.",
+          "why_it_matters": "A sustained support strategy may change how freely the upper neck moves."
+        },
+        {
+          "structure": "Upper thorax and shoulder-girdle support",
+          "possible_role": "Rib-cage or shoulder position may be contributing to the head-neck relationship rather than the pattern being isolated to the neck.",
+          "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
+        }
       ]
     },
     {
@@ -507,6 +528,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows head offset from midline relative to the available body and image-plane references.",
+      "priority_region": "Head and neck",
+      "client_summary": "A head position shifted relative to the pelvis center may suggest a relationship between cervical posture, trunk shift, pelvic position, and frontal-plane balance. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A head position shifted relative to the pelvis center may suggest a relationship between cervical posture, trunk shift, pelvic position, and frontal-plane balance. This should be considered as a whole-body positioning hypothesis involving head, neck, thorax, pelvis, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Cervical spine and anterior neck relationship",
+          "possible_role": "The cervical region may be organising head position in response to the observed head offset from midline.",
+          "why_it_matters": "This relationship influences comfortable head stacking, gaze and neck movement."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior neck structures may be sharing the task of keeping the head and eyes oriented.",
+          "why_it_matters": "A sustained support strategy may change how freely the upper neck moves."
+        },
+        {
+          "structure": "Upper thorax and shoulder-girdle support",
+          "possible_role": "Rib-cage or shoulder position may be contributing to the head-neck relationship rather than the pattern being isolated to the neck.",
+          "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
+        }
       ]
     },
     {
@@ -644,6 +686,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows eye line tilt relative to the available body and image-plane references.",
+      "priority_region": "Head and neck",
+      "client_summary": "In static posture, a tilted eye line may accompany head tilt or neck side-bending and may relate to broader Spiral Line or Lateral Line asymmetry. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "In static posture, a tilted eye line may accompany head tilt or neck side-bending and may relate to broader Spiral Line or Lateral Line asymmetry. This should be considered as a whole-body positioning hypothesis involving head, eyes, neck, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Cervical spine and anterior neck relationship",
+          "possible_role": "The cervical region may be organising head position in response to the observed eye line tilt.",
+          "why_it_matters": "This relationship influences comfortable head stacking, gaze and neck movement."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior neck structures may be sharing the task of keeping the head and eyes oriented.",
+          "why_it_matters": "A sustained support strategy may change how freely the upper neck moves."
+        },
+        {
+          "structure": "Upper thorax and shoulder-girdle support",
+          "possible_role": "Rib-cage or shoulder position may be contributing to the head-neck relationship rather than the pattern being isolated to the neck.",
+          "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
         }
       ]
     },
@@ -820,6 +883,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows shoulder height difference relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "Uneven shoulder height may be consistent with side-bending, rib cage shift, scapular elevation/depression, or compensation from pelvic asymmetry. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Uneven shoulder height may be consistent with side-bending, rib cage shift, scapular elevation/depression, or compensation from pelvic asymmetry. This should be considered as a whole-body positioning hypothesis involving shoulders, scapulae, thorax, neck, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed shoulder height difference.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
+        }
       ]
     },
     {
@@ -988,6 +1072,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows pelvic height difference relative to the available body and image-plane references.",
+      "priority_region": "Pelvis and lower trunk",
+      "client_summary": "A height difference between pelvic landmarks may relate to stance, leg loading, hip strategy, trunk side-bend, or foot position. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A height difference between pelvic landmarks may relate to stance, leg loading, hip strategy, trunk side-bend, or foot position. This should be considered as a whole-body positioning hypothesis involving pelvis, lumbar spine, hips, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Pelvis and lumbar-spine relationship",
+          "possible_role": "The lumbar spine and pelvis may be organised together around the observed pelvic height difference.",
+          "why_it_matters": "This relationship influences how the trunk stacks over the hips and how movement is shared through the lower back."
+        },
+        {
+          "structure": "Hip flexor, abdominal and posterior hip support",
+          "possible_role": "Anterior and posterior tissues around the pelvis may be balancing the visible pelvic position.",
+          "why_it_matters": "This can change the starting position available for hip extension, flexion and trunk control."
+        },
+        {
+          "structure": "Adductors, lateral hip and sacral connections",
+          "possible_role": "Inner-thigh, lateral-hip and sacral relationships may contribute when the pelvis also shifts, tilts or rotates.",
+          "why_it_matters": "These structures help connect pelvic organisation with knee and foot alignment."
+        }
       ]
     },
     {
@@ -1129,6 +1234,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows trunk side bend relative to the available body and image-plane references.",
+      "priority_region": "Trunk and spine",
+      "client_summary": "A side-bent trunk may occur with pelvic height difference, shoulder height difference, lateral hip strategy, or compensatory head position. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A side-bent trunk may occur with pelvic height difference, shoulder height difference, lateral hip strategy, or compensatory head position. This should be considered as a whole-body positioning hypothesis involving thorax, lumbar spine, pelvis, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Thoracic spine and rib-cage relationship",
+          "possible_role": "The thorax may be shifted, tilted or rotated as part of the observed trunk side bend.",
+          "why_it_matters": "This relationship can affect breathing-linked rib movement and how the shoulders sit over the pelvis."
+        },
+        {
+          "structure": "Thoracolumbar fascia and spinal support",
+          "possible_role": "Posterior and lateral trunk structures may be sharing support across the visible spinal and trunk position.",
+          "why_it_matters": "This may influence comfortable upright control and movement between the rib cage and pelvis."
+        },
+        {
+          "structure": "Abdominal wall, diaphragm and pelvic base",
+          "possible_role": "Anterior and deep trunk support may be coordinating with the rib cage and pelvis to maintain the observed position.",
+          "why_it_matters": "Their coordination is relevant to breathing, trunk control and load transfer through the body."
         }
       ]
     },
@@ -1303,6 +1429,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows rib cage shift relative to the available body and image-plane references.",
+      "priority_region": "Trunk and spine",
+      "client_summary": "A rib cage shifted relative to the pelvis may be consistent with frontal-plane compensation, trunk rotation, breath strategy, or asymmetrical loading. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A rib cage shifted relative to the pelvis may be consistent with frontal-plane compensation, trunk rotation, breath strategy, or asymmetrical loading. This should be considered as a whole-body positioning hypothesis involving rib cage, thorax, pelvis, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Thoracic spine and rib-cage relationship",
+          "possible_role": "The thorax may be shifted, tilted or rotated as part of the observed rib cage shift.",
+          "why_it_matters": "This relationship can affect breathing-linked rib movement and how the shoulders sit over the pelvis."
+        },
+        {
+          "structure": "Thoracolumbar fascia and spinal support",
+          "possible_role": "Posterior and lateral trunk structures may be sharing support across the visible spinal and trunk position.",
+          "why_it_matters": "This may influence comfortable upright control and movement between the rib cage and pelvis."
+        },
+        {
+          "structure": "Abdominal wall, diaphragm and pelvic base",
+          "possible_role": "Anterior and deep trunk support may be coordinating with the rib cage and pelvis to maintain the observed position.",
+          "why_it_matters": "Their coordination is relevant to breathing, trunk control and load transfer through the body."
+        }
       ]
     },
     {
@@ -1472,6 +1619,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows knee valgus varus relative to the available body and image-plane references.",
+      "priority_region": "Hip, knee and lower limb",
+      "client_summary": "Frontal knee alignment may reflect hip rotation, foot position, arch strategy, stance width, or habitual loading. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Frontal knee alignment may reflect hip rotation, foot position, arch strategy, stance width, or habitual loading. This should be considered as a whole-body positioning hypothesis involving knee, hip, ankle, foot, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Femur, hip and knee relationship",
+          "possible_role": "The femur may be rotating or translating relative to the pelvis and knee alongside the observed knee valgus varus.",
+          "why_it_matters": "This relationship affects how the knee tracks during walking, squatting and stepping."
+        },
+        {
+          "structure": "Medial and lateral knee support",
+          "possible_role": "Adductor, quadriceps, hamstring and lateral-thigh relationships may be sharing control around the knee.",
+          "why_it_matters": "Comparing these relationships in movement can clarify whether the static pattern is adaptable."
+        },
+        {
+          "structure": "Calf, ankle and foot contribution",
+          "possible_role": "Foot position or ankle organisation may be contributing upward to the visible knee or lower-limb alignment.",
+          "why_it_matters": "The base of support can influence the apparent alignment of the knee and hip above it."
+        }
       ]
     },
     {
@@ -1639,6 +1807,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows ankle alignment relative to the available body and image-plane references.",
+      "priority_region": "Ankle, heel and foot",
+      "client_summary": "Visible ankle deviation may relate to arch strategy, pronation/supination tendency, knee alignment, or hip loading. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Visible ankle deviation may relate to arch strategy, pronation/supination tendency, knee alignment, or hip loading. This should be considered as a whole-body positioning hypothesis involving ankle, foot, knee, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Heel, calcaneus and ankle relationship",
+          "possible_role": "The heel and ankle may be tilting or rotating together around the observed ankle alignment.",
+          "why_it_matters": "This relationship influences how the lower leg stacks over the foot during stance."
+        },
+        {
+          "structure": "Plantar fascia and medial-lateral arch support",
+          "possible_role": "The arch and plantar tissues may be sharing support differently across the foot.",
+          "why_it_matters": "Arch organisation affects contact with the ground and the starting position for gait."
+        },
+        {
+          "structure": "Calf, Achilles and deep lower-leg support",
+          "possible_role": "The calf-Achilles complex and deeper lower-leg structures may be coordinating with the heel and arch position.",
+          "why_it_matters": "This may matter for comfortable ankle motion and push-off, but should be checked during movement."
         }
       ]
     },
@@ -1809,6 +1998,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows foot turnout asymmetry relative to the available body and image-plane references.",
+      "priority_region": "Ankle, heel and foot",
+      "client_summary": "Different foot angles may relate to hip rotation, tibial rotation, foot strategy, stance comfort, or compensation from the pelvis. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Different foot angles may relate to hip rotation, tibial rotation, foot strategy, stance comfort, or compensation from the pelvis. This should be considered as a whole-body positioning hypothesis involving foot, ankle, hip, pelvis, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Heel, calcaneus and ankle relationship",
+          "possible_role": "The heel and ankle may be tilting or rotating together around the observed foot turnout asymmetry.",
+          "why_it_matters": "This relationship influences how the lower leg stacks over the foot during stance."
+        },
+        {
+          "structure": "Plantar fascia and medial-lateral arch support",
+          "possible_role": "The arch and plantar tissues may be sharing support differently across the foot.",
+          "why_it_matters": "Arch organisation affects contact with the ground and the starting position for gait."
+        },
+        {
+          "structure": "Calf, Achilles and deep lower-leg support",
+          "possible_role": "The calf-Achilles complex and deeper lower-leg structures may be coordinating with the heel and arch position.",
+          "why_it_matters": "This may matter for comfortable ankle motion and push-off, but should be checked during movement."
+        }
       ]
     },
     {
@@ -1950,6 +2160,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows elbow height difference relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "Elbow position may reflect shoulder height, scapular position, arm tension, habitual posture, or trunk asymmetry. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Elbow position may reflect shoulder height, scapular position, arm tension, habitual posture, or trunk asymmetry. This should be considered as a whole-body positioning hypothesis involving elbow, shoulder, arm, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed elbow height difference.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
         }
       ]
     },
@@ -2093,6 +2324,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows wrist height difference relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "Uneven wrist height may reflect shoulder elevation, elbow bend, hand posture, trunk lean, or habitual arm tension. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Uneven wrist height may reflect shoulder elevation, elbow bend, hand posture, trunk lean, or habitual arm tension. This should be considered as a whole-body positioning hypothesis involving wrist, hand, arm, shoulder, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed wrist height difference.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
         }
       ]
     },
@@ -2269,6 +2521,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows arm symmetry relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "Different arm positions may be influenced by shoulder height, trunk lean, hand dominance, habit, or protective strategy. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Different arm positions may be influenced by shoulder height, trunk lean, hand dominance, habit, or protective strategy. This should be considered as a whole-body positioning hypothesis involving arm, shoulder, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed arm symmetry.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
         }
       ]
     },
@@ -2486,6 +2759,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows left right asymmetry relative to the available body and image-plane references.",
+      "priority_region": "Trunk and spine",
+      "client_summary": "Global asymmetry can emerge from many small positional differences and should be mapped across head, trunk, pelvis, limbs, and feet. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Global asymmetry can emerge from many small positional differences and should be mapped across head, trunk, pelvis, limbs, and feet. This should be considered as a whole-body positioning hypothesis involving whole body, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Thoracic spine and rib-cage relationship",
+          "possible_role": "The thorax may be shifted, tilted or rotated as part of the observed left right asymmetry.",
+          "why_it_matters": "This relationship can affect breathing-linked rib movement and how the shoulders sit over the pelvis."
+        },
+        {
+          "structure": "Thoracolumbar fascia and spinal support",
+          "possible_role": "Posterior and lateral trunk structures may be sharing support across the visible spinal and trunk position.",
+          "why_it_matters": "This may influence comfortable upright control and movement between the rib cage and pelvis."
+        },
+        {
+          "structure": "Abdominal wall, diaphragm and pelvic base",
+          "possible_role": "Anterior and deep trunk support may be coordinating with the rib cage and pelvis to maintain the observed position.",
+          "why_it_matters": "Their coordination is relevant to breathing, trunk control and load transfer through the body."
         }
       ]
     },
@@ -2718,6 +3012,32 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The head sits forward relative to the shoulder and trunk reference.",
+      "priority_region": "Head and neck",
+      "client_summary": "The visible head-neck relationship suggests that the neck, upper thorax and shoulder girdle may be sharing the task of supporting the head.",
+      "compensation_summary": "Anterior neck positioning may be balanced by posterior cervical support and, when the shoulders also sit forward or elevated, additional shoulder-girdle contribution.",
+      "structural_concerns": [
+        {
+          "structure": "Anterior neck and sternum relationship",
+          "possible_role": "SCM and adjacent anterior-neck tissues may be contributing to the forward head-neck position relative to the sternum.",
+          "why_it_matters": "This relationship can influence comfortable head stacking and upper-chest position."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior cervical tissues may be providing additional support to keep the eyes level as the head sits forward.",
+          "why_it_matters": "This can increase the support demand around the upper neck during sustained posture."
+        },
+        {
+          "structure": "Deep cervical and scalene support",
+          "possible_role": "Deep cervical and scalene regions may be participating in the head-neck and upper-rib organisation.",
+          "why_it_matters": "Their coordination is relevant to comfortable neck control and breathing-linked rib movement."
+        },
+        {
+          "structure": "Pectoralis minor and scapular support",
+          "possible_role": "When the shoulders also sit forward, the pectoral and scapular regions may be participating in the same upper-body strategy.",
+          "why_it_matters": "This relationship may affect how easily the chest lifts and the shoulder blades settle during movement."
+        }
       ]
     },
     {
@@ -2889,6 +3209,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows neck angle relative to the available body and image-plane references.",
+      "priority_region": "Head and neck",
+      "client_summary": "The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position. This should be considered as a whole-body positioning hypothesis involving neck, head, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Cervical spine and anterior neck relationship",
+          "possible_role": "The cervical region may be organising head position in response to the observed neck angle.",
+          "why_it_matters": "This relationship influences comfortable head stacking, gaze and neck movement."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior neck structures may be sharing the task of keeping the head and eyes oriented.",
+          "why_it_matters": "A sustained support strategy may change how freely the upper neck moves."
+        },
+        {
+          "structure": "Upper thorax and shoulder-girdle support",
+          "possible_role": "Rib-cage or shoulder position may be contributing to the head-neck relationship rather than the pattern being isolated to the neck.",
+          "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
+        }
       ]
     },
     {
@@ -3034,6 +3375,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows ear shoulder hip alignment relative to the available body and image-plane references.",
+      "priority_region": "Head and neck",
+      "client_summary": "A side-view vertical alignment measure may reflect whole-body strategy involving head position, rib cage position, pelvis position, and foot loading. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A side-view vertical alignment measure may reflect whole-body strategy involving head position, rib cage position, pelvis position, and foot loading. This should be considered as a whole-body positioning hypothesis involving head, shoulder, hip, whole body, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Cervical spine and anterior neck relationship",
+          "possible_role": "The cervical region may be organising head position in response to the observed ear shoulder hip alignment.",
+          "why_it_matters": "This relationship influences comfortable head stacking, gaze and neck movement."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior neck structures may be sharing the task of keeping the head and eyes oriented.",
+          "why_it_matters": "A sustained support strategy may change how freely the upper neck moves."
+        },
+        {
+          "structure": "Upper thorax and shoulder-girdle support",
+          "possible_role": "Rib-cage or shoulder position may be contributing to the head-neck relationship rather than the pattern being isolated to the neck.",
+          "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
         }
       ]
     },
@@ -3209,6 +3571,27 @@
             "01_Fascial_Lines/superficial_back_arm_line.md",
             "01_Fascial_Lines/deep_back_arm_line.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows shoulder protraction relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage. This should be considered as a whole-body positioning hypothesis involving shoulder, scapula, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed shoulder protraction.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
         }
       ]
     },
@@ -3387,6 +3770,27 @@
             "01_Fascial_Lines/deep_back_arm_line.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows scapular position relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "Scapular position is difficult to infer from MediaPipe landmarks, but shoulder and thorax proxies may suggest possible scapular organization patterns. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Scapular position is difficult to infer from MediaPipe landmarks, but shoulder and thorax proxies may suggest possible scapular organization patterns. This should be considered as a whole-body positioning hypothesis involving scapula, shoulder, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed scapular position.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
+        }
       ]
     },
     {
@@ -3558,6 +3962,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows thoracic kyphosis relative to the available body and image-plane references.",
+      "priority_region": "Trunk and spine",
+      "client_summary": "A side-view upper-back curve proxy may relate to head position, shoulder protraction, rib cage orientation, and breathing strategy. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A side-view upper-back curve proxy may relate to head position, shoulder protraction, rib cage orientation, and breathing strategy. This should be considered as a whole-body positioning hypothesis involving thoracic spine, rib cage, shoulder, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Thoracic spine and rib-cage relationship",
+          "possible_role": "The thorax may be shifted, tilted or rotated as part of the observed thoracic kyphosis.",
+          "why_it_matters": "This relationship can affect breathing-linked rib movement and how the shoulders sit over the pelvis."
+        },
+        {
+          "structure": "Thoracolumbar fascia and spinal support",
+          "possible_role": "Posterior and lateral trunk structures may be sharing support across the visible spinal and trunk position.",
+          "why_it_matters": "This may influence comfortable upright control and movement between the rib cage and pelvis."
+        },
+        {
+          "structure": "Abdominal wall, diaphragm and pelvic base",
+          "possible_role": "Anterior and deep trunk support may be coordinating with the rib cage and pelvis to maintain the observed position.",
+          "why_it_matters": "Their coordination is relevant to breathing, trunk control and load transfer through the body."
+        }
       ]
     },
     {
@@ -3725,6 +4150,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows pelvic anterior posterior tilt relative to the available body and image-plane references.",
+      "priority_region": "Pelvis and lower trunk",
+      "client_summary": "Pelvic tilt can influence lumbar posture, hip position, abdominal wall loading, posterior-chain loading, and whole-body vertical alignment. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Pelvic tilt can influence lumbar posture, hip position, abdominal wall loading, posterior-chain loading, and whole-body vertical alignment. This should be considered as a whole-body positioning hypothesis involving pelvis, lumbar spine, hip, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Pelvis and lumbar-spine relationship",
+          "possible_role": "The lumbar spine and pelvis may be organised together around the observed pelvic anterior posterior tilt.",
+          "why_it_matters": "This relationship influences how the trunk stacks over the hips and how movement is shared through the lower back."
+        },
+        {
+          "structure": "Hip flexor, abdominal and posterior hip support",
+          "possible_role": "Anterior and posterior tissues around the pelvis may be balancing the visible pelvic position.",
+          "why_it_matters": "This can change the starting position available for hip extension, flexion and trunk control."
+        },
+        {
+          "structure": "Adductors, lateral hip and sacral connections",
+          "possible_role": "Inner-thigh, lateral-hip and sacral relationships may contribute when the pelvis also shifts, tilts or rotates.",
+          "why_it_matters": "These structures help connect pelvic organisation with knee and foot alignment."
+        }
       ]
     },
     {
@@ -3861,6 +4307,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows knee hyperextension flexion relative to the available body and image-plane references.",
+      "priority_region": "Hip, knee and lower limb",
+      "client_summary": "Knee angle in standing may relate to foot pressure, ankle strategy, hamstring/quadriceps loading, pelvic position, or habitual stance. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Knee angle in standing may relate to foot pressure, ankle strategy, hamstring/quadriceps loading, pelvic position, or habitual stance. This should be considered as a whole-body positioning hypothesis involving knee, hip, ankle, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Femur, hip and knee relationship",
+          "possible_role": "The femur may be rotating or translating relative to the pelvis and knee alongside the observed knee hyperextension flexion.",
+          "why_it_matters": "This relationship affects how the knee tracks during walking, squatting and stepping."
+        },
+        {
+          "structure": "Medial and lateral knee support",
+          "possible_role": "Adductor, quadriceps, hamstring and lateral-thigh relationships may be sharing control around the knee.",
+          "why_it_matters": "Comparing these relationships in movement can clarify whether the static pattern is adaptable."
+        },
+        {
+          "structure": "Calf, ankle and foot contribution",
+          "possible_role": "Foot position or ankle organisation may be contributing upward to the visible knee or lower-limb alignment.",
+          "why_it_matters": "The base of support can influence the apparent alignment of the knee and hip above it."
         }
       ]
     },
@@ -4000,6 +4467,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows ankle dorsiflexion plantarflexion relative to the available body and image-plane references.",
+      "priority_region": "Ankle, heel and foot",
+      "client_summary": "Side-view ankle angle may relate to knee position, foot loading, calf-Achilles loading, or whole-body vertical alignment. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Side-view ankle angle may relate to knee position, foot loading, calf-Achilles loading, or whole-body vertical alignment. This should be considered as a whole-body positioning hypothesis involving ankle, foot, calf, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Heel, calcaneus and ankle relationship",
+          "possible_role": "The heel and ankle may be tilting or rotating together around the observed ankle dorsiflexion plantarflexion.",
+          "why_it_matters": "This relationship influences how the lower leg stacks over the foot during stance."
+        },
+        {
+          "structure": "Plantar fascia and medial-lateral arch support",
+          "possible_role": "The arch and plantar tissues may be sharing support differently across the foot.",
+          "why_it_matters": "Arch organisation affects contact with the ground and the starting position for gait."
+        },
+        {
+          "structure": "Calf, Achilles and deep lower-leg support",
+          "possible_role": "The calf-Achilles complex and deeper lower-leg structures may be coordinating with the heel and arch position.",
+          "why_it_matters": "This may matter for comfortable ankle motion and push-off, but should be checked during movement."
         }
       ]
     },
@@ -4180,6 +4668,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows whole body vertical alignment relative to the available body and image-plane references.",
+      "priority_region": "Trunk and spine",
+      "client_summary": "A plumb-line style view may show relationships among head position, rib cage, pelvis, knees, ankles, and foot loading. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A plumb-line style view may show relationships among head position, rib cage, pelvis, knees, ankles, and foot loading. This should be considered as a whole-body positioning hypothesis involving whole body, head, thorax, pelvis, feet, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Thoracic spine and rib-cage relationship",
+          "possible_role": "The thorax may be shifted, tilted or rotated as part of the observed whole body vertical alignment.",
+          "why_it_matters": "This relationship can affect breathing-linked rib movement and how the shoulders sit over the pelvis."
+        },
+        {
+          "structure": "Thoracolumbar fascia and spinal support",
+          "possible_role": "Posterior and lateral trunk structures may be sharing support across the visible spinal and trunk position.",
+          "why_it_matters": "This may influence comfortable upright control and movement between the rib cage and pelvis."
+        },
+        {
+          "structure": "Abdominal wall, diaphragm and pelvic base",
+          "possible_role": "Anterior and deep trunk support may be coordinating with the rib cage and pelvis to maintain the observed position.",
+          "why_it_matters": "Their coordination is relevant to breathing, trunk control and load transfer through the body."
+        }
       ]
     },
     {
@@ -4346,6 +4855,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows posterior head tilt relative to the available body and image-plane references.",
+      "priority_region": "Head and neck",
+      "client_summary": "Back-view head tilt may relate to neck side-bend, upper thorax position, shoulder height, or visual/vestibular strategy. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Back-view head tilt may relate to neck side-bend, upper thorax position, shoulder height, or visual/vestibular strategy. This should be considered as a whole-body positioning hypothesis involving head, neck, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Cervical spine and anterior neck relationship",
+          "possible_role": "The cervical region may be organising head position in response to the observed posterior head tilt.",
+          "why_it_matters": "This relationship influences comfortable head stacking, gaze and neck movement."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior neck structures may be sharing the task of keeping the head and eyes oriented.",
+          "why_it_matters": "A sustained support strategy may change how freely the upper neck moves."
+        },
+        {
+          "structure": "Upper thorax and shoulder-girdle support",
+          "possible_role": "Rib-cage or shoulder position may be contributing to the head-neck relationship rather than the pattern being isolated to the neck.",
+          "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
+        }
       ]
     },
     {
@@ -4487,6 +5017,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows neck midline deviation relative to the available body and image-plane references.",
+      "priority_region": "Head and neck",
+      "client_summary": "A neck offset from the body midline may accompany shoulder height difference, rib cage shift, or head tilt. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A neck offset from the body midline may accompany shoulder height difference, rib cage shift, or head tilt. This should be considered as a whole-body positioning hypothesis involving neck, thorax, head, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Cervical spine and anterior neck relationship",
+          "possible_role": "The cervical region may be organising head position in response to the observed neck midline deviation.",
+          "why_it_matters": "This relationship influences comfortable head stacking, gaze and neck movement."
+        },
+        {
+          "structure": "Posterior cervical and suboccipital support",
+          "possible_role": "Posterior neck structures may be sharing the task of keeping the head and eyes oriented.",
+          "why_it_matters": "A sustained support strategy may change how freely the upper neck moves."
+        },
+        {
+          "structure": "Upper thorax and shoulder-girdle support",
+          "possible_role": "Rib-cage or shoulder position may be contributing to the head-neck relationship rather than the pattern being isolated to the neck.",
+          "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
         }
       ]
     },
@@ -4661,6 +5212,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows scapular height asymmetry relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "Back-view scapular height differences may relate to shoulder girdle position, rib cage shape, neck loading, or trunk side-bend. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Back-view scapular height differences may relate to shoulder girdle position, rib cage shape, neck loading, or trunk side-bend. This should be considered as a whole-body positioning hypothesis involving scapula, shoulder, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed scapular height asymmetry.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
+        }
       ]
     },
     {
@@ -4806,6 +5378,27 @@
             "01_Fascial_Lines/superficial_back_arm_line.md",
             "01_Fascial_Lines/deep_back_arm_line.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows scapular winging relative to the available body and image-plane references.",
+      "priority_region": "Shoulder girdle and arms",
+      "client_summary": "A visual proxy for scapular winging may relate to scapular control, rib cage position, shoulder loading, or arm position. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A visual proxy for scapular winging may relate to scapular control, rib cage position, shoulder loading, or arm position. This should be considered as a whole-body positioning hypothesis involving scapula, shoulder, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Scapula and thoracic-wall relationship",
+          "possible_role": "The scapula may be resting differently against the rib cage alongside the observed scapular winging.",
+          "why_it_matters": "Scapular position affects comfortable reaching and how the shoulder shares load with the trunk."
+        },
+        {
+          "structure": "Pectoral and anterior shoulder tissues",
+          "possible_role": "Anterior shoulder and pectoral relationships may be contributing to the visible shoulder-girdle position.",
+          "why_it_matters": "This can influence chest openness and the available starting position for arm movement."
+        },
+        {
+          "structure": "Thoracic spine, ribs and posterior scapular support",
+          "possible_role": "Thoracic posture and posterior scapular support may be participating in the same pattern.",
+          "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
         }
       ]
     },
@@ -4980,6 +5573,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows thoracic shift relative to the available body and image-plane references.",
+      "priority_region": "Trunk and spine",
+      "client_summary": "Back-view thorax shift may relate to rib cage position, pelvis position, spinal midline, or side-to-side loading. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Back-view thorax shift may relate to rib cage position, pelvis position, spinal midline, or side-to-side loading. This should be considered as a whole-body positioning hypothesis involving thorax, rib cage, spine, pelvis, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Thoracic spine and rib-cage relationship",
+          "possible_role": "The thorax may be shifted, tilted or rotated as part of the observed thoracic shift.",
+          "why_it_matters": "This relationship can affect breathing-linked rib movement and how the shoulders sit over the pelvis."
+        },
+        {
+          "structure": "Thoracolumbar fascia and spinal support",
+          "possible_role": "Posterior and lateral trunk structures may be sharing support across the visible spinal and trunk position.",
+          "why_it_matters": "This may influence comfortable upright control and movement between the rib cage and pelvis."
+        },
+        {
+          "structure": "Abdominal wall, diaphragm and pelvic base",
+          "possible_role": "Anterior and deep trunk support may be coordinating with the rib cage and pelvis to maintain the observed position.",
+          "why_it_matters": "Their coordination is relevant to breathing, trunk control and load transfer through the body."
+        }
       ]
     },
     {
@@ -5152,6 +5766,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows spinal midline deviation relative to the available body and image-plane references.",
+      "priority_region": "Trunk and spine",
+      "client_summary": "A back-view midline proxy may be influenced by head position, shoulder height, thoracic shift, pelvic height, and stance. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A back-view midline proxy may be influenced by head position, shoulder height, thoracic shift, pelvic height, and stance. This should be considered as a whole-body positioning hypothesis involving spine, thorax, pelvis, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Thoracic spine and rib-cage relationship",
+          "possible_role": "The thorax may be shifted, tilted or rotated as part of the observed spinal midline deviation.",
+          "why_it_matters": "This relationship can affect breathing-linked rib movement and how the shoulders sit over the pelvis."
+        },
+        {
+          "structure": "Thoracolumbar fascia and spinal support",
+          "possible_role": "Posterior and lateral trunk structures may be sharing support across the visible spinal and trunk position.",
+          "why_it_matters": "This may influence comfortable upright control and movement between the rib cage and pelvis."
+        },
+        {
+          "structure": "Abdominal wall, diaphragm and pelvic base",
+          "possible_role": "Anterior and deep trunk support may be coordinating with the rib cage and pelvis to maintain the observed position.",
+          "why_it_matters": "Their coordination is relevant to breathing, trunk control and load transfer through the body."
         }
       ]
     },
@@ -5328,6 +5963,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows waist crease asymmetry relative to the available body and image-plane references.",
+      "priority_region": "Pelvis and lower trunk",
+      "client_summary": "Waist asymmetry may accompany pelvic height difference, rib cage shift, trunk side-bend, or lower-limb asymmetry. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Waist asymmetry may accompany pelvic height difference, rib cage shift, trunk side-bend, or lower-limb asymmetry. This should be considered as a whole-body positioning hypothesis involving waist, lumbar spine, pelvis, rib cage, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Pelvis and lumbar-spine relationship",
+          "possible_role": "The lumbar spine and pelvis may be organised together around the observed waist crease asymmetry.",
+          "why_it_matters": "This relationship influences how the trunk stacks over the hips and how movement is shared through the lower back."
+        },
+        {
+          "structure": "Hip flexor, abdominal and posterior hip support",
+          "possible_role": "Anterior and posterior tissues around the pelvis may be balancing the visible pelvic position.",
+          "why_it_matters": "This can change the starting position available for hip extension, flexion and trunk control."
+        },
+        {
+          "structure": "Adductors, lateral hip and sacral connections",
+          "possible_role": "Inner-thigh, lateral-hip and sacral relationships may contribute when the pelvis also shifts, tilts or rotates.",
+          "why_it_matters": "These structures help connect pelvic organisation with knee and foot alignment."
+        }
       ]
     },
     {
@@ -5495,6 +6151,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows pelvic height difference back relative to the available body and image-plane references.",
+      "priority_region": "Pelvis and lower trunk",
+      "client_summary": "Back-view pelvic height differences may relate to stance, hip loading, foot position, trunk side-bend, or pelvic rotation. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Back-view pelvic height differences may relate to stance, hip loading, foot position, trunk side-bend, or pelvic rotation. This should be considered as a whole-body positioning hypothesis involving pelvis, lumbar spine, hips, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Pelvis and lumbar-spine relationship",
+          "possible_role": "The lumbar spine and pelvis may be organised together around the observed pelvic height difference back.",
+          "why_it_matters": "This relationship influences how the trunk stacks over the hips and how movement is shared through the lower back."
+        },
+        {
+          "structure": "Hip flexor, abdominal and posterior hip support",
+          "possible_role": "Anterior and posterior tissues around the pelvis may be balancing the visible pelvic position.",
+          "why_it_matters": "This can change the starting position available for hip extension, flexion and trunk control."
+        },
+        {
+          "structure": "Adductors, lateral hip and sacral connections",
+          "possible_role": "Inner-thigh, lateral-hip and sacral relationships may contribute when the pelvis also shifts, tilts or rotates.",
+          "why_it_matters": "These structures help connect pelvic organisation with knee and foot alignment."
         }
       ]
     },
@@ -5665,6 +6342,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows pelvic rotation relative to the available body and image-plane references.",
+      "priority_region": "Pelvis and lower trunk",
+      "client_summary": "Pelvis rotation may relate to hip rotation strategy, foot turnout, trunk rotation, or standing habit. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Pelvis rotation may relate to hip rotation strategy, foot turnout, trunk rotation, or standing habit. This should be considered as a whole-body positioning hypothesis involving pelvis, hip, lumbar spine, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Pelvis and lumbar-spine relationship",
+          "possible_role": "The lumbar spine and pelvis may be organised together around the observed pelvic rotation.",
+          "why_it_matters": "This relationship influences how the trunk stacks over the hips and how movement is shared through the lower back."
+        },
+        {
+          "structure": "Hip flexor, abdominal and posterior hip support",
+          "possible_role": "Anterior and posterior tissues around the pelvis may be balancing the visible pelvic position.",
+          "why_it_matters": "This can change the starting position available for hip extension, flexion and trunk control."
+        },
+        {
+          "structure": "Adductors, lateral hip and sacral connections",
+          "possible_role": "Inner-thigh, lateral-hip and sacral relationships may contribute when the pelvis also shifts, tilts or rotates.",
+          "why_it_matters": "These structures help connect pelvic organisation with knee and foot alignment."
+        }
       ]
     },
     {
@@ -5833,6 +6531,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows femur rotation relative to the available body and image-plane references.",
+      "priority_region": "Hip, knee and lower limb",
+      "client_summary": "Thigh rotation proxies may relate to foot turnout, knee valgus/varus, pelvic rotation, or hip strategy. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Thigh rotation proxies may relate to foot turnout, knee valgus/varus, pelvic rotation, or hip strategy. This should be considered as a whole-body positioning hypothesis involving hip, thigh, knee, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Femur, hip and knee relationship",
+          "possible_role": "The femur may be rotating or translating relative to the pelvis and knee alongside the observed femur rotation.",
+          "why_it_matters": "This relationship affects how the knee tracks during walking, squatting and stepping."
+        },
+        {
+          "structure": "Medial and lateral knee support",
+          "possible_role": "Adductor, quadriceps, hamstring and lateral-thigh relationships may be sharing control around the knee.",
+          "why_it_matters": "Comparing these relationships in movement can clarify whether the static pattern is adaptable."
+        },
+        {
+          "structure": "Calf, ankle and foot contribution",
+          "possible_role": "Foot position or ankle organisation may be contributing upward to the visible knee or lower-limb alignment.",
+          "why_it_matters": "The base of support can influence the apparent alignment of the knee and hip above it."
         }
       ]
     },
@@ -6003,6 +6722,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows knee valgus varus back relative to the available body and image-plane references.",
+      "priority_region": "Hip, knee and lower limb",
+      "client_summary": "Posterior knee alignment may be influenced by hip rotation, tibial rotation, foot position, ankle alignment, or stance strategy. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Posterior knee alignment may be influenced by hip rotation, tibial rotation, foot position, ankle alignment, or stance strategy. This should be considered as a whole-body positioning hypothesis involving knee, hip, ankle, foot, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Femur, hip and knee relationship",
+          "possible_role": "The femur may be rotating or translating relative to the pelvis and knee alongside the observed knee valgus varus back.",
+          "why_it_matters": "This relationship affects how the knee tracks during walking, squatting and stepping."
+        },
+        {
+          "structure": "Medial and lateral knee support",
+          "possible_role": "Adductor, quadriceps, hamstring and lateral-thigh relationships may be sharing control around the knee.",
+          "why_it_matters": "Comparing these relationships in movement can clarify whether the static pattern is adaptable."
+        },
+        {
+          "structure": "Calf, ankle and foot contribution",
+          "possible_role": "Foot position or ankle organisation may be contributing upward to the visible knee or lower-limb alignment.",
+          "why_it_matters": "The base of support can influence the apparent alignment of the knee and hip above it."
+        }
       ]
     },
     {
@@ -6141,6 +6881,27 @@
             "01_Fascial_Lines/myofascial_interpretive_layer.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows calf asymmetry relative to the available body and image-plane references.",
+      "priority_region": "Hip, knee and lower limb",
+      "client_summary": "Visible calf asymmetry may be influenced by muscle size, stance, lighting, prior activity, foot loading, or ankle strategy. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Visible calf asymmetry may be influenced by muscle size, stance, lighting, prior activity, foot loading, or ankle strategy. This should be considered as a whole-body positioning hypothesis involving calf, ankle, knee, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Femur, hip and knee relationship",
+          "possible_role": "The femur may be rotating or translating relative to the pelvis and knee alongside the observed calf asymmetry.",
+          "why_it_matters": "This relationship affects how the knee tracks during walking, squatting and stepping."
+        },
+        {
+          "structure": "Medial and lateral knee support",
+          "possible_role": "Adductor, quadriceps, hamstring and lateral-thigh relationships may be sharing control around the knee.",
+          "why_it_matters": "Comparing these relationships in movement can clarify whether the static pattern is adaptable."
+        },
+        {
+          "structure": "Calf, ankle and foot contribution",
+          "possible_role": "Foot position or ankle organisation may be contributing upward to the visible knee or lower-limb alignment.",
+          "why_it_matters": "The base of support can influence the apparent alignment of the knee and hip above it."
         }
       ]
     },
@@ -6281,6 +7042,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows achilles tendon angle relative to the available body and image-plane references.",
+      "priority_region": "Ankle, heel and foot",
+      "client_summary": "A posterior heel-calf line angle may relate to heel eversion/inversion, ankle pronation/supination proxy, calf loading, or foot posture. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "A posterior heel-calf line angle may relate to heel eversion/inversion, ankle pronation/supination proxy, calf loading, or foot posture. This should be considered as a whole-body positioning hypothesis involving Achilles, heel, ankle, calf, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Heel, calcaneus and ankle relationship",
+          "possible_role": "The heel and ankle may be tilting or rotating together around the observed achilles tendon angle.",
+          "why_it_matters": "This relationship influences how the lower leg stacks over the foot during stance."
+        },
+        {
+          "structure": "Plantar fascia and medial-lateral arch support",
+          "possible_role": "The arch and plantar tissues may be sharing support differently across the foot.",
+          "why_it_matters": "Arch organisation affects contact with the ground and the starting position for gait."
+        },
+        {
+          "structure": "Calf, Achilles and deep lower-leg support",
+          "possible_role": "The calf-Achilles complex and deeper lower-leg structures may be coordinating with the heel and arch position.",
+          "why_it_matters": "This may matter for comfortable ankle motion and push-off, but should be checked during movement."
         }
       ]
     },
@@ -6450,6 +7232,27 @@
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
         }
+      ],
+      "observed_pattern": "The image shows heel eversion inversion relative to the available body and image-plane references.",
+      "priority_region": "Ankle, heel and foot",
+      "client_summary": "Rearfoot position may influence arch strategy, ankle alignment, knee alignment, and hip loading. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Rearfoot position may influence arch strategy, ankle alignment, knee alignment, and hip loading. This should be considered as a whole-body positioning hypothesis involving heel, ankle, foot, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Heel, calcaneus and ankle relationship",
+          "possible_role": "The heel and ankle may be tilting or rotating together around the observed heel eversion inversion.",
+          "why_it_matters": "This relationship influences how the lower leg stacks over the foot during stance."
+        },
+        {
+          "structure": "Plantar fascia and medial-lateral arch support",
+          "possible_role": "The arch and plantar tissues may be sharing support differently across the foot.",
+          "why_it_matters": "Arch organisation affects contact with the ground and the starting position for gait."
+        },
+        {
+          "structure": "Calf, Achilles and deep lower-leg support",
+          "possible_role": "The calf-Achilles complex and deeper lower-leg structures may be coordinating with the heel and arch position.",
+          "why_it_matters": "This may matter for comfortable ankle motion and push-off, but should be checked during movement."
+        }
       ]
     },
     {
@@ -6617,6 +7420,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows ankle pronation supination relative to the available body and image-plane references.",
+      "priority_region": "Ankle, heel and foot",
+      "client_summary": "Foot-ankle roll proxies may relate to arch support, toe loading, knee alignment, hip rotation, and whole-body balance. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Foot-ankle roll proxies may relate to arch support, toe loading, knee alignment, hip rotation, and whole-body balance. This should be considered as a whole-body positioning hypothesis involving ankle, foot, arch, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Heel, calcaneus and ankle relationship",
+          "possible_role": "The heel and ankle may be tilting or rotating together around the observed ankle pronation supination.",
+          "why_it_matters": "This relationship influences how the lower leg stacks over the foot during stance."
+        },
+        {
+          "structure": "Plantar fascia and medial-lateral arch support",
+          "possible_role": "The arch and plantar tissues may be sharing support differently across the foot.",
+          "why_it_matters": "Arch organisation affects contact with the ground and the starting position for gait."
+        },
+        {
+          "structure": "Calf, Achilles and deep lower-leg support",
+          "possible_role": "The calf-Achilles complex and deeper lower-leg structures may be coordinating with the heel and arch position.",
+          "why_it_matters": "This may matter for comfortable ankle motion and push-off, but should be checked during movement."
         }
       ]
     },
@@ -6786,6 +7610,27 @@
             "03_Movement_Functions/bodyreading_static_posture.md",
             "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md"
           ]
+        }
+      ],
+      "observed_pattern": "The image shows foot turnout asymmetry back relative to the available body and image-plane references.",
+      "priority_region": "Ankle, heel and foot",
+      "client_summary": "Different foot angles from the back may reflect hip rotation strategy, tibial rotation, foot comfort, stance habit, or compensation. The most useful next step is to see whether this relationship remains present during comfortable movement.",
+      "compensation_summary": "Different foot angles from the back may reflect hip rotation strategy, tibial rotation, foot comfort, stance habit, or compensation. This should be considered as a whole-body positioning hypothesis involving foot, ankle, knee, hip, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "structural_concerns": [
+        {
+          "structure": "Heel, calcaneus and ankle relationship",
+          "possible_role": "The heel and ankle may be tilting or rotating together around the observed foot turnout asymmetry back.",
+          "why_it_matters": "This relationship influences how the lower leg stacks over the foot during stance."
+        },
+        {
+          "structure": "Plantar fascia and medial-lateral arch support",
+          "possible_role": "The arch and plantar tissues may be sharing support differently across the foot.",
+          "why_it_matters": "Arch organisation affects contact with the ground and the starting position for gait."
+        },
+        {
+          "structure": "Calf, Achilles and deep lower-leg support",
+          "possible_role": "The calf-Achilles complex and deeper lower-leg structures may be coordinating with the heel and arch position.",
+          "why_it_matters": "This may matter for comfortable ankle motion and push-off, but should be checked during movement."
         }
       ]
     }

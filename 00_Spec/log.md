@@ -266,3 +266,8 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Static-posture agents now start from `[[bodyreading_static_posture]]`, `[[myofascial_interpretive_layer]]`, and `[[movement_reporting_standards]]`, then traverse only the matching finding and linked line/structure nodes.
 - Added an explicit stopping rule so agents do not read the entire vault or source PDF by default; source notes and PDF locators are verification fallbacks.
 - Registered the route and structured-report dependency in the workspace `CONSISTENCY_MAP.md` and enforced required markers through `scripts/check_consistency.sh`.
+
+## [2026-08-17] App Logic | Client-Focused Structural Posture Contract
+- Extended all 40 mapped static-posture findings with an observed pattern, priority region, client summary, compensation summary, two-to-four structural concerns, and quick confirmation checks.
+- Kept source references, line-level detail, evidence limits, and caution data internally while enabling the client report to present one concise screening notice and structure-first explanations.
+- Updated the canonical knowledge version to 1.2; the synchronized web copy and its validator must carry the same contract.
