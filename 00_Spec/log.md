@@ -271,3 +271,8 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Extended all 40 mapped static-posture findings with an observed pattern, priority region, client summary, compensation summary, two-to-four structural concerns, and quick confirmation checks.
 - Kept source references, line-level detail, evidence limits, and caution data internally while enabling the client report to present one concise screening notice and structure-first explanations.
 - Updated the canonical knowledge version to 1.2; the synchronized web copy and its validator must carry the same contract.
+
+## [2026-08-17] App Logic | Detailed Cross-View Myofascial Contract
+- Updated the canonical static-posture knowledge to v1.3 for all 40 findings with an integrated compensation mechanism and structured line-level roles, mechanism steps, interactions, client relevance, and measurement support gates.
+- Curated forward-head posture across the SFL, SBL, DFL, Spiral Line, Lateral Line, and DFAL; conditional lines appear only when matching front/back or shoulder evidence is present.
+- The web report and PDF now consume this deterministic contract and keep one concise screening notice rather than repeating cautions inside every result.
