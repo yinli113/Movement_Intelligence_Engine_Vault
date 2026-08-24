@@ -30,6 +30,33 @@ updated: 2026-07-27
 
 # Functional Lines
 
+![Functional Lines](assets/functional_lines.png)
+*Fig. 8.2 Functional Lines tracks and stations (Anatomy Trains, Thomas W. Myers).*
+
+## Anatomy Trains Tracks & Bony Stations (Table 8.1)
+
+### Back Functional Line (BFL)
+| Level | Type | Anatomical Station / Myofascial Track |
+|---|---|---|
+| Shoulder / Arm | **Station** | Shaft of humerus |
+| Shoulder / Upper Back | **Track** | [[latissimus_dorsi]] |
+| Spine / Lower Back | **Track** | [[thoracolumbar_fascia]] / Sacral fascia |
+| Pelvis / Sacrum | **Station** | Sacrum / Sacrolumbar junction |
+| Hip / Pelvis | **Track** | Contralateral [[gluteus_maximus]] |
+| Thigh / Lateral | **Station** | Shaft of femur / Linea aspera |
+| Thigh / Anterior | **Track** | Vastus lateralis |
+| Knee | **Station** | Patella / Tibial tuberosity (Subpatellar tendon) |
+
+### Front Functional Line (FFL)
+| Level | Type | Anatomical Station / Myofascial Track |
+|---|---|---|
+| Shoulder / Arm | **Station** | Shaft of humerus |
+| Chest / Thorax | **Track** | [[pectoralis_major]] (lower border) -> 5th & 6th ribs |
+| Abdomen | **Track** | Lateral [[rectus_abdominis]] sheath |
+| Pelvis | **Station** | Pubic tubercle / Symphysis pubis |
+| Thigh / Medial | **Track** | Contralateral [[adductor_longus]] |
+| Femur | **Station** | Linea aspera of femur |
+
 ## Definition
 
 The Functional Lines are Anatomy Trains pathways linking the limbs across or along the trunk. The family includes the [[back_functional_line]], [[front_functional_line]], and [[ipsilateral_functional_line]].

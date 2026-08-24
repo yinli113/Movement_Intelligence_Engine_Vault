@@ -28,6 +28,27 @@ updated: 2026-07-16
 
 # Superficial Back Line
 
+![Superficial Back Line](assets/superficial_back_line.png)
+*Fig. 3.2 Superficial Back Line tracks and stations (Anatomy Trains, Thomas W. Myers).*
+
+## Anatomy Trains Tracks & Bony Stations (Table 3.1)
+
+| Level | Type | Anatomical Station / Myofascial Track |
+|---|---|---|
+| Head / Cranium | **Station** | Frontal bone, supraorbital ridge |
+| Head / Scalp | **Track** | Galea aponeurotica / Epicranial fascia |
+| Cranium / Neck | **Station** | Occipital ridge |
+| Spine / Trunk | **Track** | Thoracolumbar fascia / Erector spinae ([[spinalis]], [[longissimus]], [[iliocostalis]]) |
+| Pelvis | **Station** | Sacrum |
+| Pelvis / Hip | **Track** | [[sacrotuberous_ligament]] |
+| Pelvis | **Station** | Ischial tuberosity |
+| Thigh / Posterior | **Track** | Hamstrings ([[biceps_femoris_long_head]], [[semitendinosus]], [[semimembranosus]]) |
+| Knee | **Station** | Condyles of femur |
+| Lower Leg | **Track** | [[gastrocnemius]] / [[soleus]] / Achilles tendon |
+| Heel | **Station** | Calcaneus (plantar and posterior surface) |
+| Foot | **Track** | [[plantar_fascia]] and short toe flexors |
+| Toes | **Station** | Plantar surface of toe phalanges |
+
 ## Definition
 
 The Superficial Back Line is an Anatomy Trains model of posterior continuity from plantar foot structures through the calf, posterior thigh, sacral connection, spinal extensors, and head.

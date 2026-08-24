@@ -28,6 +28,27 @@ updated: 2026-07-16
 
 # Spiral Line
 
+![Spiral Line](assets/spiral_line.png)
+*Fig. 6.2 Spiral Line tracks and stations (Anatomy Trains, Thomas W. Myers).*
+
+## Anatomy Trains Tracks & Bony Stations (Table 6.1)
+
+| Level | Type | Anatomical Station / Myofascial Track |
+|---|---|---|
+| Cranium | **Station** | Occipital ridge / Temporal bone |
+| Neck | **Track** | [[splenius_capitis]] and splenius cervicis |
+| Spine | **Station** | Spinous processes (C6-T5) |
+| Scapula / Shoulder Girdle | **Track** | [[rhomboids]] -> Medial scapula -> [[serratus_anterior]] |
+| Rib Cage | **Station** | Lateral ribs |
+| Abdomen | **Track** | [[external_oblique]] -> Abdominal raphe -> Contralateral [[internal_oblique]] |
+| Pelvis | **Station** | Iliac crest / ASIS |
+| Thigh / Lateral | **Track** | [[tensor_fasciae_latae]], [[iliotibial_tract]] |
+| Knee | **Station** | Lateral condyle of tibia |
+| Lower Leg / Foot | **Track** | [[tibialis_anterior]] -> 1st Metatarsal -> [[peroneus_longus]] -> Fibular head |
+| Pelvis | **Station** | Ischial tuberosity |
+| Thigh / Posterior | **Track** | [[biceps_femoris_long_head]] -> [[sacrotuberous_ligament]] -> Sacrum -> Erector spinae ([[spinalis]], [[longissimus]], [[iliocostalis]]) |
+| Cranium | **Station** | Occipital ridge |
+
 ## Definition
 
 The Spiral Line is an Anatomy Trains model of diagonal continuity around the body, linking parts of the foot and leg with the pelvis, trunk, scapula, and neck.

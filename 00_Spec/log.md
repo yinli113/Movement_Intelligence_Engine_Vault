@@ -276,3 +276,8 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Updated the canonical static-posture knowledge to v1.3 for all 40 findings with an integrated compensation mechanism and structured line-level roles, mechanism steps, interactions, client relevance, and measurement support gates.
 - Curated forward-head posture across the SFL, SBL, DFL, Spiral Line, Lateral Line, and DFAL; conditional lines appear only when matching front/back or shoulder evidence is present.
 - The web report and PDF now consume this deterministic contract and keep one concise screening notice rather than repeating cautions inside every result.
+
+## [2026-08-24] Knowledge | Anatomy Trains line figures and track/station tables
+- Added Myers Anatomy Trains figures under `01_Fascial_Lines/assets/` and embedded them on the matching line notes (SFL, SBL, DFL, Spiral, Lateral, Functional, Superficial Front Arm).
+- Added Table-style bony-station / myofascial-track summaries on those notes so apps can cite the same diagrams and stations.
+- Synced deployable copies live in `tillyes_apps/movement_assessment/public/assets/fascial-lines/` and `tillyes_web/public/assets/myofascial_lines/` (plus PDF assets).

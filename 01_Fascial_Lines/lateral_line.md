@@ -33,6 +33,23 @@ updated: 2026-07-16
 
 # Lateral Line
 
+![Lateral Line](assets/lateral_line.png)
+*Fig. 5.2 Lateral Line tracks and stations (Anatomy Trains, Thomas W. Myers).*
+
+## Anatomy Trains Tracks & Bony Stations (Table 5.1)
+
+| Level | Type | Anatomical Station / Myofascial Track |
+|---|---|---|
+| Cranium | **Station** | Occipital ridge / Mastoid process |
+| Neck | **Track** | [[splenius_capitis]] / [[sternocleidomastoid]] |
+| Rib Cage | **Station** | Ribs (1st to 12th) |
+| Thorax / Abdomen | **Track** | [[intercostals]], [[external_oblique]], [[internal_oblique]] |
+| Pelvis | **Station** | Iliac crest, ASIS, PSIS |
+| Hip / Thigh | **Track** | [[tensor_fasciae_latae]], [[gluteus_maximus]], [[iliotibial_tract]] |
+| Knee | **Station** | Fibular head, lateral condyle of tibia |
+| Lower Leg | **Track** | [[peroneus_longus]] and peroneus brevis, Lateral compartment |
+| Foot | **Station** | Base of 1st and 5th metatarsals |
+
 ## Definition
 
 The Lateral Line is an Anatomy Trains model of continuity along the outer foot and leg, lateral pelvis, abdominal wall, ribs, and neck.

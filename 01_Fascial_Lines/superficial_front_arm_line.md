@@ -25,9 +25,22 @@ updated: 2026-07-16
 
 # Superficial Front Arm Line
 
+![Arm Lines](assets/arm_lines.png)
+*Fig. 7.2 Arm Lines tracks and stations (Anatomy Trains, Thomas W. Myers).*
+
+## Anatomy Trains Tracks & Bony Stations (Table 7.1)
+
+| Level | Type | Anatomical Station / Myofascial Track |
+|---|---|---|
+| Clavicle / Ribs | **Station** | Medial third of clavicle, costal cartilages, thoracolumbar fascia, iliac crest |
+| Chest / Shoulder | **Track** | [[pectoralis_major]], [[latissimus_dorsi]] |
+| Arm / Medial | **Station** | Medial humeral line / Medial intermuscular septum |
+| Forearm / Anterior | **Track** | Forearm flexor group |
+| Wrist / Hand | **Station** | Carpal tunnel / Palmar surface of hand and fingers |
+
 ## Definition
 
-The Superficial Front Arm Line is retained as a provisional legacy graph mapping from the anterior trunk and shoulder region to the superficial anterior arm.
+The Superficial Front Arm Line is an Anatomy Trains pathway from the anterior trunk and chest through the medial arm to the palmar surface of the hand.
 
 ## Why It Matters
 

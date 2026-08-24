@@ -33,6 +33,25 @@ updated: 2026-07-16
 
 # Deep Front Line
 
+![Deep Front Line](assets/deep_front_line.png)
+*Fig. 9.2 Deep Front Line tracks and stations (Anatomy Trains, Thomas W. Myers).*
+
+## Anatomy Trains Tracks & Bony Stations (Table 9.1)
+
+| Level | Type | Anatomical Station / Myofascial Track |
+|---|---|---|
+| Cranium / Mandible | **Station** | Basilar portion of occiput, cervical TPs, hyoid bone, mandible |
+| Neck / Deep Cervical | **Track** | [[longus_capitis]], [[longus_colli]], [[scalenes]], infrahyoids, suprahyoids |
+| Thorax / Ribs | **Station** | Posterior manubrium, subcostal cartilages, xiphoid process |
+| Thoracic Cavity | **Track** | Fascia endothoracica, transversus thoracis, [[diaphragm]], pericardium, mediastinum |
+| Spine | **Station** | Lumbar vertebral bodies & anterior longitudinal ligament |
+| Pelvis / Deep Core | **Track** | [[psoas_major]], [[iliacus]], [[pectineus]], pelvic floor fascia ([[transversus_abdominis]]) |
+| Pelvis / Femur | **Station** | Ischial ramus, linea aspera, lesser trochanter |
+| Thigh / Medial | **Track** | [[adductor_magnus]], [[adductor_longus]], [[adductor_brevis]], [[gracilis]] |
+| Knee | **Station** | Medial femoral epicondyle, posterior tibia/fibula |
+| Lower Leg | **Track** | [[popliteus]], [[tibialis_posterior]], [[flexor_hallucis_longus]], [[flexor_digitorum_longus]] |
+| Foot | **Station** | Plantar tarsal bones & plantar surface of toes |
+
 ## Definition
 
 The Deep Front Line is an Anatomy Trains model of deep continuity from the plantar foot and inner leg through the pelvis and respiratory trunk toward the neck and jaw region.
