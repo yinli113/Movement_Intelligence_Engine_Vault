@@ -25,6 +25,10 @@ Use the shortest task route that supports the current question. Obsidian links a
 
 `[[golf_swing_events]]` -> `[[golf_kinetics_observability_boundary]]` -> the relevant phase -> `[[metric_evidence_classification]]` -> linked movement, joint, and optional interpretive-line nodes. Do not upgrade 2D proxies into kinetics.
 
+### Bodyweight squat analysis
+
+`[[bodyweight_squat]]` -> `[[squat_observability_boundary]]` -> `[[squat_joint_muscle_mapping]]` -> optional `[[squat_myofascial_mapping]]` -> `squat_knowledge.v1.json`. Keep the non-overhead protocol separate from the FMS `[[deep_squat]]`, and present muscles, joints, and fascial lines as candidate regions or hypotheses rather than detected impairments.
+
 ### Vault maintenance
 
 Read `[[spec]]`, `[[naming_conventions]]`, and `[[evidence_levels]]`, then update the smallest connected node set and every dependent listed in the workspace `CONSISTENCY_MAP.md`.
@@ -50,6 +54,7 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[dr_kwon_golfer_ground_interaction]]` - Research-program dossier for Dr Young-Hoo Kwon's golfer-ground interaction mechanics, primary sources, and claim anchors (domain: golf).
   - `[[bourgain_golf_swing_biomechanics_2022]]` - Peer-reviewed systematic review of 92 instrumented golf-swing kinematics studies (X-factor, crunch factor, swing plane, kinematic sequence, joint angular kinematics) with methodological recommendations (domain: golf).
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
+  - `[[straub_powers_squat_biomechanics_2024]]` - Applied clinical commentary on modifiable squat parameters and relative hip/knee extensor bias (domain: squat).
   - `[[log]]` - Compilation log of vault updates.
 
 ### 🗺️ 01. Myofascial Lines (`01_Fascial_Lines/`)
@@ -102,6 +107,10 @@ Rotational forces, physics vectors, and transmission dynamics:
 - `[[movement_chain_model]]` - The central force flow model.
 - `[[golfer_ground_interaction_model]]` - The central golfer-ground interaction model and three-class external-moment taxonomy.
 - `[[gait_myofascial_mapping]]` - **Engine synthesis** mapping Anatomy Trains lines to gait phases, motion-restriction patterns, and compensation signatures (built from Earls/Myers "Anatomy Trains in Gait", Ch.10). Closes the gait-observation → fascial-line graph edge so the movement_assessment app can reason from observed gait restrictions to candidate lines. All mappings are `engine_synthesis` (C), not measured kinetics.
+- `[[bodyweight_squat]]` - Canonical non-overhead unloaded squat movement and V1 app protocol.
+- `[[squat_joint_muscle_mapping]]` - Metric-to-joint and candidate muscle-region mapping with competing explanations.
+- `[[squat_myofascial_mapping]]` - Explicit Level 5 engine synthesis for optional squat fascial-line hypotheses.
+- `[[squat_cross_view_synthesis]]` - Rules for combining independent side/front squat recordings without false synchronization.
 - `[[ground_reaction_force]]` - Net vertical and shear ground forces.
 - `[[ground_reaction_moment]]` - The direct/residual GRM represented at COP, distinct from a GRF moment about COM.
 - `[[pivoting_moment]]` - The vertical-axis moment from individual-foot GRFs about combined COP.
@@ -150,6 +159,8 @@ Scoring metrics, assessments, and remedial exercises:
 - `[[golf_kinetics_observability_boundary]]` - Authoritative boundary between instrumented kinetics, camera-observable descriptors, and Level 5 hypotheses.
 - `[[metric_evidence_classification]]` - Every metric declares its claim type, source, view/landmark needs, confidence limits, and dimensionality validity.
 - `[[movement_reporting_standards]]` - Non-judgmental reporting vocabulary and the seven-question report structure.
+- `[[squat_observability_boundary]]` - Side/front camera allow-list and prohibited squat inferences.
+- `[[squat_cross_view_synthesis]]` - Cross-view relationship types, quality gates, themes, and non-upgrade rules.
 - `[[ai_movement_analysis_layer]]` - Historical record of TGS, CCS, FLLI, and ETE—retired, unvalidated historical Level 5 concepts controlled by [[golf_kinetics_observability_boundary]], not a current metrics framework:
   - **Torque Generation Score (TGS)** — retired and unvalidated.
   - **COM-COP Separation Score (CCS)** — retired and unvalidated.

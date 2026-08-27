@@ -2,7 +2,7 @@
 id: deep_squat
 type: Movement Function
 preferred_name: "Deep Squat (FMS Test 1)"
-aliases: [overhead deep squat, squat]
+aliases: [overhead deep squat, FMS deep squat]
 short_definition: "An overhead deep-squat pattern that simultaneously screens bilateral, symmetrical mobility of the ankles, knees, hips, thoracic spine, and shoulders; FMS test 1 and the vault's squat-assessment anchor."
 domain: general_movement
 evidence_level: 2
@@ -17,7 +17,7 @@ directly_supported_claims:
   - "It is FMS test 1 and the most demanding of the seven for total-body mobility."
   - "It is scored 0-3 with a clearing consideration for pain."
 app_translation:
-  - "Use the deep squat as the squat-assessment anchor: report depth, torso angle, knee tracking, and arm overhead position as 2D proxies."
+  - "Use this node only for the FMS overhead protocol. Use [[bodyweight_squat]] for a non-overhead unloaded squat assessment."
   - "The app must not infer which joint's mobility deficit causes a failed squat; that requires hands-on assessment."
 ---
 
@@ -29,7 +29,7 @@ The **deep squat** is an overhead, bilateral, symmetrical squat to deepest depth
 
 ## Why it matters
 
-It is the most demanding FMS pattern for combined mobility and the natural anchor for any future squat module. It demonstrates the [[movement_pattern]] principle: a single pattern loads many joints.
+It is the most demanding FMS pattern for combined mobility and the anchor for FMS overhead-squat modules. The separate [[bodyweight_squat]] node governs the non-overhead unloaded squat app. It demonstrates the [[movement_pattern]] principle: a single pattern loads many joints.
 
 ## Source-derived model
 

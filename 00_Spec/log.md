@@ -281,3 +281,16 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Added Myers Anatomy Trains figures under `01_Fascial_Lines/assets/` and embedded them on the matching line notes (SFL, SBL, DFL, Spiral, Lateral, Functional, Superficial Front Arm).
 - Added Table-style bony-station / myofascial-track summaries on those notes so apps can cite the same diagrams and stations.
 - Synced deployable copies live in `tillyes_apps/movement_assessment/public/assets/fascial-lines/` and `tillyes_web/public/assets/myofascial_lines/` (plus PDF assets).
+
+## [2026-08-27] Squat | Bodyweight-Squat Canonical Path and App Export
+- Kept `[[deep_squat]]` specific to the FMS overhead protocol and created `[[bodyweight_squat]]` as the non-overhead unloaded squat anchor.
+- Added `[[straub_powers_squat_biomechanics_2024]]` as a Level 4 applied clinical commentary; its underlying instrumented studies remain a Level 3 review gap.
+- Added `[[squat_joint_muscle_mapping]]`, `[[squat_myofascial_mapping]]`, and `[[squat_observability_boundary]]` with explicit competing explanations and prohibited inferences.
+- Direct Anatomy Trains PDF search found no squat-specific line assessment; all squat-to-line relationships remain Level 5 `engine_synthesis`.
+- Added canonical `squat_knowledge.v1.json` for synchronization into `tillyes_apps/movement_squats`.
+
+## [2026-08-27] Squat | Front and Cross-View Protocol
+- Promoted the complete bodyweight-squat protocol to three side-view plus three front-view repetitions while retaining independent per-view analysis.
+- Added `[[squat_cross_view_synthesis]]` with complementary, corroborating, conflicting, and limited relationship types.
+- Extended front-view observability to pelvis/trunk shift, knee-to-foot tracking, stance width, and left-right contribution proxies.
+- Preserved the non-upgrade rule: separate recordings are not synchronized, view-specific angles are not averaged, and multi-view proxies do not become diagnosis or measured tissue state.
