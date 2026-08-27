@@ -20,6 +20,9 @@ Combine independently analysed side and front squat recordings into one movement
 story while preserving view-specific evidence. The synthesis does not re-run pose
 detection and does not align separately recorded repetitions.
 
+Cross-view synthesis is optional and must be explicitly selected. Uploading both
+views does not replace or suppress either single-view report pathway.
+
 ## Relationship Types
 
 - `complementary`: different planes contribute distinct observations to one

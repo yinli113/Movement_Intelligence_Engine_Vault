@@ -294,3 +294,8 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Added `[[squat_cross_view_synthesis]]` with complementary, corroborating, conflicting, and limited relationship types.
 - Extended front-view observability to pelvis/trunk shift, knee-to-foot tracking, stance width, and left-right contribution proxies.
 - Preserved the non-upgrade rule: separate recordings are not synchronized, view-specific angles are not averaged, and multi-view proxies do not become diagnosis or measured tissue state.
+
+## [2026-08-28] Squat | User-Selected Analysis Mode
+- Clarified that side-only and front-only reports are valid view-bounded pathways.
+- Cross-view synthesis is optional, must be explicitly selected, and requires both recordings.
+- Uploading both views does not force cross-view analysis or suppress either single-view report.

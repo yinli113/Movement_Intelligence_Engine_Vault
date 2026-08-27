@@ -28,14 +28,17 @@ part of the protocol context because each can change the observed mechanics.
 
 ## V1.1 Protocol
 
-- One side-view and one front-view video are required for the complete assessment.
-- Three unloaded repetitions are requested in each recording.
+- A side-view video, front-view video, or both may be analysed.
+- Three unloaded repetitions are requested in each selected recording.
+- Side-only and front-only reports remain valid view-bounded observations.
+- Cross-view synthesis is an explicit user choice and requires both recordings.
 - The user selects a comfortable stance and depth and keeps both consistent.
 - No overhead arm position is required.
 - Stop if pain, dizziness, or loss of balance occurs.
 - Results describe the recorded strategy and are not a diagnosis or treatment plan.
-- Each recording is analysed independently before [[squat_cross_view_synthesis]]. The
-  repetitions are not synchronized or treated as the same movement trial.
+- When cross-view is selected, each recording is analysed independently before
+  [[squat_cross_view_synthesis]]. The repetitions are not synchronized or treated as
+  the same movement trial.
 
 ## Movement Phases
 
