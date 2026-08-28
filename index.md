@@ -27,7 +27,7 @@ Use the shortest task route that supports the current question. Obsidian links a
 
 ### Bodyweight squat analysis
 
-`[[bodyweight_squat]]` -> `[[squat_observability_boundary]]` -> `[[squat_joint_muscle_mapping]]` -> optional `[[squat_myofascial_mapping]]` -> `squat_knowledge.v1.json`. Keep the non-overhead protocol separate from the FMS `[[deep_squat]]`, and present muscles, joints, and fascial lines as candidate regions or hypotheses rather than detected impairments.
+`[[bodyweight_squat]]` -> `[[squat_observability_boundary]]` -> `[[squat_joint_muscle_mapping]]` -> `[[squat_myofascial_mapping]]` -> `[[squat_switch_failure_modes]]` -> `squat_knowledge.v1.json`. Keep the non-overhead protocol separate from the FMS `[[deep_squat]]`, and present muscles, joints, fascial lines, and switch failure modes as candidate regions or structural hypotheses rather than detected impairments.
 
 ### Vault maintenance
 

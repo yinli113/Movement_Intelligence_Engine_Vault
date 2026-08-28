@@ -2,6 +2,12 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
+## [2026-08-29] Engine Update | 21-Misalignment Squat Taxonomy & Switch Failure Engine
+- Created dedicated reference node `[[squat_switch_failure_modes]]` defining the 5 dynamic squat switches (Knee Switch, Femoral Adductor Switch, ASIS Anchor Switch, Medial Arch Stirrup Switch, Calcaneal Elevation Switch).
+- Expanded `[[squat_myofascial_mapping]]` to full 21-misalignment taxonomy across 5 anatomical segments with bony station anchors, switch failure modes, express vs local dynamics, and retest protocols.
+- Updated `squat_knowledge.v1.json` to v1.3.0, adding `squatSwitchFailureModes` and linking entries with `switchNodeId`, `switchFailureMode`, `expressVsLocal`, and `retestProtocol`.
+- Updated `[[index]]` task route for bodyweight squat analysis to include `[[squat_switch_failure_modes]]`.
+
 ---
 
 ## [2026-06-27] setup | Initialize Vault Structure
