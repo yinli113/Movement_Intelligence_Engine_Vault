@@ -58,6 +58,21 @@ Never use:
 - measured fascial loading;
 - the line caused the squat pattern.
 
+## App Report Contract
+
+The report must not show an unexplained list of line names. For each surfaced line it
+must include:
+
+1. the recorded metric findings that triggered the line context;
+2. the relevant anatomical continuity;
+3. the squat-specific reason the continuity may be worth considering;
+4. competing joint, setup, comfort, and tracking explanations;
+5. a line-specific statement describing what the camera did not measure.
+
+Only lines referenced by actual findings in the selected view or cross-view theme may
+appear. A line not surfaced is `not_evaluated_from_current_findings`, not normal or
+unrestricted.
+
 ## Competing-Explanation Rule
 
 Every line hypothesis must be accompanied by joint-level and protocol alternatives.

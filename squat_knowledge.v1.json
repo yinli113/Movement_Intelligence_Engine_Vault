@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "domain": "bodyweight_squat",
   "sourceNode": "03_Movement_Functions/bodyweight_squat.md",
   "globalBoundary": "Camera metrics describe a recorded movement strategy. They do not diagnose pathology, identify a weak or tight muscle, measure passive joint mobility, or measure fascial-line loading.",
@@ -10,6 +10,43 @@
     "boundary": "Side and front recordings are analysed independently. Cross-view synthesis groups view-specific observations by theme but does not synchronize repetitions, average view-specific angles, or upgrade proxies into diagnosis.",
     "themes": ["depth_frontal_control", "ankle_foot_strategy", "trunk_pelvis_organization", "repeatability"]
   },
+  "fascialLineContext": [
+    {
+      "lineId": "superficial_back_line",
+      "name": "Superficial Back Line",
+      "anatomicalContinuity": "plantar foot, calf complex, hamstring region, sacral fascia, and spinal extensor region",
+      "squatContext": "May provide anatomical context for heel behavior, ankle strategy, selected depth, posterior hip contribution, and sagittal trunk support.",
+      "boundary": "The camera does not measure SBL tension, restriction, recoil, or loading."
+    },
+    {
+      "lineId": "superficial_front_line",
+      "name": "Superficial Front Line",
+      "anatomicalContinuity": "anterior lower leg, quadriceps region, anterior trunk, and front of the neck",
+      "squatContext": "May provide anatomical context for knee-extension contribution, tibial organization, and anterior trunk support in the side view.",
+      "boundary": "The camera does not measure SFL activation, shortness, restriction, or loading."
+    },
+    {
+      "lineId": "deep_front_line",
+      "name": "Deep Front Line",
+      "anatomicalContinuity": "inner foot and deep lower leg, adductor region, pelvic floor, psoas region, and deep trunk continuity",
+      "squatContext": "May provide anatomical context for medial foot-knee organization, adductor-pelvis relationships, depth strategy, and trunk-pelvis support across views.",
+      "boundary": "The camera does not measure DFL support, tension, restriction, or force transmission."
+    },
+    {
+      "lineId": "lateral_line",
+      "name": "Lateral Line",
+      "anatomicalContinuity": "lateral foot and lower leg, iliotibial region, lateral pelvis, lateral trunk, and neck",
+      "squatContext": "May provide anatomical context for pelvic shift, trunk shift, stance organization, and frontal-plane asymmetry in the front view.",
+      "boundary": "The camera does not measure Lateral Line balance, restriction, stiffness, or loading."
+    },
+    {
+      "lineId": "spiral_line",
+      "name": "Spiral Line",
+      "anatomicalContinuity": "cross-body foot, leg, pelvis, abdominal, thoracic, and shoulder-girdle continuities",
+      "squatContext": "May provide anatomical context when knee-to-foot, pelvis, and trunk observations suggest a coupled frontal or rotational image-plane strategy.",
+      "boundary": "The camera cannot isolate transverse-plane rotation or measure Spiral Line restriction or loading."
+    }
+  ],
   "entries": [
     {
       "metricId": "trunk_tibia_angle",

@@ -299,3 +299,8 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Clarified that side-only and front-only reports are valid view-bounded pathways.
 - Cross-view synthesis is optional, must be explicitly selected, and requires both recordings.
 - Uploading both views does not force cross-view analysis or suppress either single-view report.
+
+## [2026-08-28] Squat | Visible Myofascial Report Context
+- Extended canonical squat knowledge to v1.2 with line-specific anatomical continuity, squat context, and prohibited measurement claims for SBL, SFL, DFL, Lateral Line, and Spiral Line.
+- Required every surfaced line to trace to actual metric findings rather than appearing as a generic Anatomy Trains list.
+- Required the app report to distinguish `engine_synthesis` from measured fascia and treat unsurfaced lines as not evaluated, not normal.
