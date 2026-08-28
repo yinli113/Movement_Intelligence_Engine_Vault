@@ -68,6 +68,21 @@ See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
 
 All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In front squats, goblet squats, and anteriorly loaded movement, the [[front_functional_line]] (FFL) forms the anterior diagonal sling connecting [[pectoralis_major]] through [[rectus_abdominis]] / pubic crest to the contralateral [[adductor_longus]]. It provides anterior cross-body stabilization and prevents chest collapse under front load.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence boundaries.
+
+### FFL Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Thoracic Kyphosis / Chest Collapse** | Pubic Symphysis / 5th Rib | Anterior Cross-Sling Collapse | Pectoralis Major & Contralateral Adductor Longus (Express FFL) pull chest into flexion under front load. | Cue "chest up / elbows high" in goblet or front squat setup. |
+| **Dynamic Knee Valgus under Front Load** | Linea Aspera / Pubic Crest | Femoral Adductor Switch | Contralateral Adductor Longus (Express FFL) pulls femur medial when anterior core fails to stabilize. | Place mini-band above knees and active core brace. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 | Relationship | Target | Description |

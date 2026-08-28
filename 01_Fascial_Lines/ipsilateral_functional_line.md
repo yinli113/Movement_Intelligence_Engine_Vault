@@ -56,6 +56,20 @@ The explicit bridge is ipsilateral trunk/hip linkage -> [[ipsilateral_functional
 
 Same-side acromion-to-hip distance, trunk side-bend angle, and pelvis translation may be camera-derived descriptors when view and landmarks permit. These descriptors do not measure IFL activity, fascial tension, loading, force, or energy and cannot diagnose a stabilisation failure.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In staggered-stance squats (split squats, lunges, rear-foot elevated split squats), the [[ipsilateral_functional_line]] (IFL) forms the same-side stabilizing sling connecting [[latissimus_dorsi]] through ipsilateral [[external_oblique]] to [[sartorius]] / pes anserinus. It maintains same-side trunk-over-hip alignment during unilateral descent.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence boundaries.
+
+### IFL Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Pelvic Shift / Lateral Sway in Split Squat** | ASIS / Greater Trochanter | Ipsilateral Lateral Line Lock | Same-side Latissimus Dorsi & External Oblique (Express IFL) substitute for weak stance Gluteus Medius (Local LL). | Perform supported split squat holding wall support with non-stance hand. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 | Relationship | Target | Description |

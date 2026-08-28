@@ -67,6 +67,20 @@ The explicit upper-limb bridge is rib cage/scapula/[[shoulder_joint]] -> [[super
 
 Camera data may describe shoulder, elbow, wrist, and hand positions, joint angles, and event timing when visible. These are kinematic descriptors only; ordinary video cannot measure club force, joint moment, muscle activation, fascial tension, arm-line loading, or energy. The app must not infer injury or treatment need from the descriptor.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In goblet squats and front squats, the [[superficial_front_arm_line]] (SFAL) links [[pectoralis_major]] and arm flexors to stabilize dumbbell / kettlebell load against the anterior chest wall.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence boundaries.
+
+### SFAL Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Front Load Chest Dip / Flexion Shift** | Clavicle / Sternum / Bicipital Groove | Anterior Cross-Sling Collapse | Pectoralis Major (Express SFAL) pulls upper chest forward when anterior abdominal wall fails to counter-anchor. | Cue "elbows high / chest up" in front load setup. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[pectoralis_major]], [[latissimus_dorsi]]

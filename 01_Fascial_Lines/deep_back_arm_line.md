@@ -54,6 +54,20 @@ The bridge is rib cage/[[thoracic_spine]] -> scapula/[[rhomboids]] -> rotator-cu
 
 Camera data may describe shoulder, elbow, wrist, hand, and scapular-region landmark trajectories where visible. It cannot measure rotator-cuff activation, force, joint moment, fascial tension, DBAL loading, or energy. Kinematics must not be reported as a diagnosis of cuff dysfunction or an instruction for treatment.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In barbell squats (high-bar and low-bar back squats), the [[deep_back_arm_line]] (DBAL) stabilizes the scapular spine and rotator cuff via [[rhomboids]], [[infraspinatus]], and [[supraspinatus]] to lock the barbell against the upper back.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence boundaries.
+
+### DBAL Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Shoulder Elevation / Shrugging under Bar** | Spine of Scapula / Superior Scapular Angle | Scapular Anchoring Switch Failure | Levator Scapulae & Upper Trapezius (Express DBAL/SBAL) over-shrug against weak Lower Trapezius / Rhomboids. | Cue "pull elbows down toward back pockets" to lock DBAL lats & rhomboids. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[rhomboids]], [[triceps_brachii]], [[supraspinatus]], [[infraspinatus]], [[teres_minor]], [[subscapularis]]

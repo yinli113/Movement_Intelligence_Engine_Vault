@@ -54,6 +54,20 @@ The upper bridge is rib cage/[[thoracic_spine]] -> scapula -> [[shoulder_joint]]
 
 Shoulder, elbow, wrist, scapular-region, and trunk landmarks may supply kinematic descriptors under declared visibility limits. Ordinary video cannot measure force, moment, activation, fascial tension, line loading, or energy dissipation. A posterior-arm descriptor must not be labelled a tissue restriction or diagnosis.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In high-bar and low-bar back squats, the [[superficial_back_arm_line]] (SBAL) creates the primary muscular shelf via [[trapezius]] and [[deltoid]] across the $C7-T5$ spinous processes to support and stabilize the barbell.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence boundaries.
+
+### SBAL Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Upper Back Shrugging / Loss of Shelf** | Spine of Scapula / C7-T5 Spinous Processes | Scapular Anchoring Switch Failure | Trapezius (Express SBAL) over-shrugs upward when lower thoracic extensors fail to pin the scapulae. | Cue "pull shoulders away from ears and pack lats" before un-racking. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[trapezius]], [[deltoid]]

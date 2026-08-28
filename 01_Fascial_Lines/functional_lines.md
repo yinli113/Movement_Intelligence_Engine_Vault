@@ -97,6 +97,22 @@ Ordinary video may yield pelvis/thorax orientation, phase timing, and shoulder-t
 
 Any Functional Line Loading Index must therefore be labelled a Level 5 hypothesis and report view, landmark, and confidence limits. It must not diagnose weakness, restriction, or injury.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In loaded, asymmetric, or single-leg squat variants, [[functional_lines]] act as the primary **cross-body dynamic force transfer slings**. They link upper body bar loading and shoulder orientation to the contralateral pelvis and hip extensor engine via the thoracolumbar fascia and adductor-pubic complex.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+
+### Functional Lines Dynamic Switches & Misalignment Matrix
+
+| Line | Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|---|
+| [[back_functional_line]] | **Pelvic Rotation / Asymmetrical Ascent** | Thoracolumbar Fascia / Ischial Tuberosity | Cross-Torso Sling Switch Failure | Latissimus Dorsi & Contralateral Gluteus Maximus (Express BFL) fail to synchronize torque across sacrum. | Retest with symmetrical barbell placement and single-leg hip extension assessment. |
+| [[front_functional_line]] | **Thoracic Kyphosis / Chest Collapse** | Pubic Symphysis / 5th Rib | Anterior Cross-Sling Collapse | Pectoralis Major & Contralateral Adductor Longus (Express FFL) pull chest forward under front load. | Cue "chest up / elbows high" in goblet or front squat setup. |
+| [[ipsilateral_functional_line]] | **Pelvic Shift / Lateral Sway** | Iliac Crest / Greater Trochanter | Ipsilateral Lateral Line Lock | Same-side Latissimus Dorsi & External Oblique (Express IFL) substitute for weak stance Gluteus Medius (Local LL). | Perform supported split squat to isolate same-side trunk-to-hip stability. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Rotational Dissociation Interpretation (2026-07-27)
 
 For rotational sports such as golf, the Functional Lines — with their contralateral pelvis-trunk-shoulder pathways — are the primary anatomy through which pelvis-thorax dissociation ([[x_factor]]) and the golf [[stretch_shortening_cycle]] are *cautiously* interpreted. A smoothly created, well-timed, smoothly released dissociation **may be consistent with** elastic load sharing along these lines; per [[myofascial_interpretive_layer]] this is always a labelled interpretation, never a measured fascial-force, stiffness, or energy-storage claim.

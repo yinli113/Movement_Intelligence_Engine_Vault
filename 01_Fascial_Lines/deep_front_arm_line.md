@@ -54,6 +54,20 @@ The bridge is rib cage/[[thoracic_spine]] -> anterior scapular/shoulder region -
 
 Camera-derived shoulder, elbow, wrist, and hand positions and angles are kinematic descriptors. Ordinary video cannot measure deep-arm loading, muscle activation, force, joint moment, fascial tension, or energy. No descriptor may be used to diagnose shoulder instability or direct treatment.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In loaded back squats and front squats, the [[deep_front_arm_line]] (DFAL) anchors the anterior shoulder girdle via [[pectoralis_minor]] to the coracoid process. When hyper-tonic or restricted, it pulls the scapulae into anterior tilt and protraction under barbell load.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence boundaries.
+
+### DFAL Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Scapular Winging / Anterior Scapular Tilt** | Coracoid Process / 3rd-5th Ribs | Scapular Anchoring Switch Failure | Pectoralis Minor (Express DFAL) pulls scapula into anterior tilt against weak Serratus Anterior (Local SPL). | Cue "bend the bar over your upper back" to depress and retract scapulae. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[pectoralis_minor]], [[subclavius]], [[biceps_brachii]]

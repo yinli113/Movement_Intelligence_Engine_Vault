@@ -67,6 +67,21 @@ See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
 
 All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. See [[gait_myofascial_mapping]] Evidence boundary.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In loaded barbell squats and single-leg squats, the [[back_functional_line]] (BFL) forms the primary posterior diagonal sling connecting [[latissimus_dorsi]] across the [[thoracolumbar_fascia]] to the contralateral [[gluteus_maximus]]. It stabilizes the barbell across the upper back while transferring rotational torque to the opposite hip extensor.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence boundaries.
+
+### BFL Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Pelvic Rotation / Asymmetrical Ascent** | Thoracolumbar Fascia / Sacrum | Cross-Torso Sling Switch Failure | Latissimus Dorsi & Contralateral Gluteus Maximus (Express BFL) fail to synchronize torque across sacrum. | Retest with symmetrical barbell placement and single-leg hip extension assessment. |
+| **Trunk Rotation under Load** | Spine of Scapula / Contralateral ASIS | Diagonal Rotational Sling Imbalance | BFL diagonal sling over-pulls one shoulder back relative to pelvis during ascent. | Perform seated thoracic rotation test with locked pelvis. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 | Relationship | Target | Description |
