@@ -91,6 +91,25 @@ See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
 
 All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In the bodyweight squat, the [[lateral_line]] (LL) acts as the **frontal-plane stabilizing harness**. It controls lateral foot balance ([[peroneus_longus]]), femoral abduction/centration ([[gluteus_medius]], TFL/[[iliotibial_tract]]), lateral pelvic level, and lateral trunk stability ([[quadratus_lumborum]], intercostals).
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+
+### Lateral Line Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Excessive Foot Supination / Rigid High Arch** | Cuboid / 5th Metatarsal Base | Lateral Line Eversion Switch Lock | Peroneus Longus (Express LL) locks foot in inversion, blocking Tibialis Posterior (Local DFL) ground adaptation. | Cue tripod foot grounding (pressing big toe joint into floor). |
+| **Dynamic Knee Valgus** | Linea Aspera / Femoral Condyle | [[squat_switch_failure_modes#2-the-femoral-adductor-switch-dfl-anterior-vs-posterior-track\|Femoral Adductor Switch]] | Gluteus Medius (Local LL) inhibited; Tensor Fasciae Latae (Express LL) and Adductors (DFL) pull femur medially. | Place mini-band above knees; retest if active abduction clears inward path. |
+| **Dynamic Knee Varus** | Gerdy's Tubercle / Fibular Head | Lateral Harness Switch Lock | Biceps Femoris long head (Express SBL) & TFL (Express LL) pull tibia into lateral rotation over DFL. | Squeeze foam roller between knees during descent to engage adductors. |
+| **Pelvic Shift / Lateral Sway** | Greater Trochanter / PSIS | Unilateral Lateral Line Lock | Quadratus Lumborum (Express LL) hikes hip to compensate for weak stance Gluteus Medius (Local LL). | Perform supported split squat to isolate single-leg stability. |
+| **Unlevel Hip Line / Asymmetrical Depth** | Iliac Crest / L1-L5 | Unilateral QL Side-Lock Switch | Quadratus Lumborum (Express LL) holds one iliac crest elevated against opposite Pelvic Floor (Local DFL). | Retest side-plank endurance and QL passive length. |
+| **Trunk Lateral Flexion / Side Bending** | 12th Rib / Iliac Crest | Lateral Line Unilateral Shortening | Intercostals/QL (Express LL) substitute for lack of bilateral intra-abdominal pressure. | Perform suitcase carry retest to evaluate frontal core stability. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[peroneus_longus]], [[iliotibial_tract]], [[gluteus_medius]], [[external_oblique]], [[intercostals]]

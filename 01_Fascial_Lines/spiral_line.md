@@ -90,12 +90,32 @@ See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
 
 All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In the bodyweight squat, the [[spiral_line]] governs dynamic **rotational tracking, foot-to-hip alignment, and cross-trunk diagonal stability**. It connects the foot stirrup loop ([[tibialis_anterior]] and [[peroneus_longus]]) up through the lateral thigh ([[biceps_femoris_long_head]]), across the pelvis and sacrum to the opposite [[external_oblique]], [[internal_oblique]], [[serratus_anterior]], and [[rhomboids]].
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+
+### Spiral Line Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Excessive Foot Pronation / Arch Collapse** | Navicular / 1st Metatarsal Base | [[squat_switch_failure_modes#4-the-medial-arch-stirrup-switch-dfl-spl-foot-loop\|Medial Arch Stirrup Switch]] | DFL Tibialis Posterior arch support fails; Peroneus Longus (Express SPL) pulls 1st metatarsal into eversion. | Place 5mm wedge under 1st metatarsal head or cue active short foot tripod. |
+| **Asymmetrical Foot Flare** | Greater Trochanter / Sacrum | Asymmetric Transverse Sling Switch | Deep Rotators (Locals) locked short on one side to bypass unilateral hip/ankle dorsiflexion block. | Align both feet to 0° forward facing and measure hip depth asymmetry. |
+| **Single-Knee Valgus / Knee Asymmetry** | Opposite ASIS / Rib Cage | Rotational Sling Torque Failure | Cross-body Obliques (Express SPL) overload stance leg Gluteus Medius (Local LL). | Retest thoracic rotation and single-leg balance stability. |
+| **Pelvic Rotation / Yaw Asymmetry** | ASIS / Sacroiliac Joint | Asymmetric Spiral Sling Switch | Obliques (Express SPL) twist pelvis over femoral heads due to asymmetrical hip internal rotation. | Measure seated passive hip internal/external rotation differential. |
+| **Trunk Rotation / Rib Cage Twisting** | Ribs 5-9 / Linea Alba | Diagonal Rotational Sling Imbalance | Obliques (Express SPL) drive ribcage rotation relative to pelvis. | Perform seated thoracic rotation test with locked pelvis. |
+| **Scapular Winging / Elevation** | Coracoid / Scapular Spine | Scapular Anchoring Switch Failure | Levator Scapulae / Pec Minor overpower Serratus Anterior (Local SPL) thoracic pin. | Cue "bend the bar over your upper back" to engage Lats/Serratus. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[tibialis_anterior]], [[peroneus_longus]], [[external_oblique]], [[internal_oblique]], [[serratus_anterior]], [[rhomboids]]
 - connects_to -> [[plantar_fascia]], [[ankle_joint]], [[hip_joint]], rib cage, [[shoulder_joint]]
 - interpreted_during -> [[golf_swing_transition]]
 - gait_synthesis -> [[gait_myofascial_mapping]]
+- squat_synthesis -> [[squat_myofascial_mapping]]
 - supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]]
 
 ## Open Questions

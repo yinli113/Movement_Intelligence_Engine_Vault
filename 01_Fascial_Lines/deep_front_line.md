@@ -93,6 +93,24 @@ See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
 
 All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In the bodyweight squat, the [[deep_front_line]] (DFL) acts as the **3D interior hydraulic cylinder and core stabilizer**. It anchors the medial foot arch ([[tibialis_posterior]]) up through the posterior adductor track ([[adductor_magnus]]), pelvic floor, [[psoas_major]], [[diaphragm]], and deep anterior cervical flexors.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+
+### Deep Front Line Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Excessive Foot Pronation / Arch Collapse** | Navicular / Medial Malleolus | [[squat_switch_failure_modes#4-the-medial-arch-stirrup-switch-dfl-spl-foot-loop\|Medial Arch Stirrup Switch]] | Tibialis Posterior (Local DFL) arch support fails; Peroneus Longus (Express SPL) pulls 1st metatarsal into eversion. | Place 5mm wedge under 1st metatarsal head or cue active short foot tripod. |
+| **Dynamic Knee Valgus** | Linea Aspera / Femoral Condyle | [[squat_switch_failure_modes#2-the-femoral-adductor-switch-dfl-anterior-vs-posterior-track\|Femoral Adductor Switch]] | Gluteus Medius (Local LL) inhibited; Adductors (DFL) pull femur medially. | Place mini-band above knees; retest if active abduction clears inward path. |
+| **Butt Wink (Posterior Pelvic Tilt at Depth)** | Ischial Tuberosity / Ramus | [[squat_switch_failure_modes#2-the-femoral-adductor-switch-dfl-anterior-vs-posterior-track\|Adductor Magnus Length Switch]] | Adductor Magnus (DFL hybrid) reaches length limit at deep flexion, tugging ischial tuberosity forward/down. | Widen stance 15% and externally rotate feet 10°. |
+| **Anterior Pelvic Tilt ("Duck Butt")** | ASIS / Lesser Trochanter | [[squat_switch_failure_modes#3-the-asis-anchor-switch-sfl-pelvic-station\|ASIS Station Anchor Switch]] | Psoas/Iliacus (Express DFL) pulls ASIS down because Rectus Abdominis (SFL) fails to anchor. | Cue "rib cage down" and active abdominal bracing prior to descent. |
+| **Forward Head Posture / Chin Jut** | Occipital Ridge / C1-C7 | Suboccipital Gaze Preservation Switch | Suboccipitals (Local SBL) locked short over weak Longus Colli / Capitis (Local DFL). | Cue "double chin" / active neck retraction during squat descent. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[plantar_fascia]], [[tibialis_posterior]], [[adductor_longus]], [[psoas_major]], [[diaphragm]]

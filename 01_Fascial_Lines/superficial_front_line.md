@@ -63,6 +63,23 @@ This meridian directly spans and stabilizes the following joint structures:
 - [[thoracic_spine]]
 - [[cervical_spine]]
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In the bodyweight squat, the [[superficial_front_line]] (SFL) acts as the **anterior knee extension engine and abdominal pelvic wall anchor**. It links the anterior lower leg ([[tibialis_anterior]]) through the patellar tendon and quadriceps ([[rectus_femoris]]) up to the ASIS station and [[rectus_abdominis]].
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+
+### Superficial Front Line Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Toe Elevation / Toe Clawing** | Distal Phalanges | Ankle Dorsiflexion Emergency Switch | Extensor Digitorum (Express SFL) over-recruited when Tibialis Anterior or Soleus is blocked. | Place coin under big toe pad; retest without lifting toe. |
+| **Quad-Dominant Shear / Excessive Knee Advance** | Tibial Tuberosity / AIIS | Quadriceps Deceleration Switch Lock | Rectus Femoris (Express SFL) dominates deceleration; Vastus Medialis/Lateralis & Glutes under-utilized. | Perform box squat / sit-back cueing to engage posterior chain. |
+| **Anterior Pelvic Tilt ("Duck Butt")** | ASIS / AIIS / Lesser Trochanter | [[squat_switch_failure_modes#3-the-asis-anchor-switch-sfl-pelvic-station\|ASIS Station Anchor Switch]] | Psoas/Iliacus pull ASIS down because Rectus Abdominis (Express SFL) fails to anchor ASIS upward. | Cue "rib cage down" and active abdominal bracing prior to descent. |
+| **Thoracic Kyphosis / Upper Back Collapse** | 3rd-5th Ribs / Coracoid Process | Thoracic Extension Switch Failure | Pectoralis Minor (Express SFL/AL) pulls thoracic spine into flexion against weak SBL extensors. | Cue "pull elbows down toward back pockets" during setup. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Gait Role (Engine Synthesis, Level C)
 
 See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:

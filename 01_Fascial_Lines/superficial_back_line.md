@@ -90,6 +90,24 @@ See [[gait_myofascial_mapping]] for the full synthesis. Summary for this line:
 
 All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. The **phase role** is directly supported by the source (Myers/Earls Ch.10 line gait roles); the **restriction pattern** and **compensation signature** are engine synthesis from line anatomy + fascial-reciprocal logic, not enumerated in the source. The **spine in gait** patterns are independent local-segment patterns from line anatomy — the source supports elastic-recoil propagation, not spine-to-spine ROM propagation. See [[gait_myofascial_mapping]] Evidence boundary.
 
+## Squat Role (Engine Synthesis, Level 5)
+
+In the bodyweight squat, the [[superficial_back_line]] (SBL) acts as the **posterior guy-wire and eccentric braking system**. It controls ankle dorsiflexion, knee flexion derailment, hip extension, and posterior trunk stabilization.
+
+See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+
+### Superficial Back Line Dynamic Switches & Misalignment Matrix
+
+| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|
+| **Early Heel Lift** | Calcaneus (Heel Anchor) | [[squat_switch_failure_modes#1-the-knee-switch-sbl-gastrocnemius-hamstring-derailment\|Knee Switch]] / [[squat_switch_failure_modes#5-the-calcaneal-station-elevation-switch-sbl-dfl-ankle-block\|Calcaneal Station Switch]] | Soleus (Local SBL) tightness limits talar transit, forcing calcaneal station elevation to bypass ankle block. | Elevate heels on 20mm wedge. If depth normalizes, confirms distal calf block. |
+| **Butt Wink (Posterior Pelvic Tilt at Depth)** | Ischial Tuberosity / Ramus | Adductor Magnus / Hamstring Length Switch | Biceps Femoris long head (Express SBL) reaches terminal length at deep flexion, tugging ischial tuberosity forward/down. | Widen stance 15% and externally rotate feet 10°. |
+| **Restrained Knee Travel / Excessive Hip Hinge** | Calcaneus / Talus | Ankle Dorsiflexion Lockout Switch | Soleus (Local SBL) tightness blocks forward tibial travel, shifting 100% load to posterior hip hinge. | Elevate heels or measure passive ankle dorsiflexion off-load. |
+| **Excessive Forward Trunk Lean** | Calcaneus / Lumbar Spine | Ankle-Trunk Coupling Switch | Thoracic Erectors (Express SBL) fail to overcome forward gravitational moment caused by blocked ankle. | Retest with goblet dumbbell held in front of chest. |
+| **Forward Head Posture / Chin Jut** | Occipital Ridge / C1-C7 | Suboccipital Gaze Preservation Switch | Suboccipitals (Local SBL) locked short to keep gaze horizontal as trunk leans forward over weak DFL neck flexors. | Cue "double chin" / active neck retraction during squat descent. |
+
+*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+
 ## Relationships
 
 - contains -> [[plantar_fascia]], [[gastrocnemius]], [[soleus]], [[sacrotuberous_ligament]], [[nuchal_ligament]]
