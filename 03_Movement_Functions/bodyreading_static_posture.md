@@ -77,6 +77,20 @@ Read from standing photos only, as a hypothesis to confirm with movement:
 - p.12: first BodyReading question is "What is the balance between the SFL and SBL?"
 - p.16: lateral tilts read into the Lateral Line / QL; p.21: DFL BodyRead from stance.
 
+## Static Posture Switch Failure Matrix (Level 5)
+
+See [[posture_switch_failure_modes]] for the foundational dynamic switch derailments governing standing postural alignment.
+
+| Postural Alignment Finding | Primary Line Pair | Bony Station | Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|---|
+| **Forward Head Posture** | [[superficial_back_line]] (SBL) vs [[deep_front_line]] (DFL) | Occipital Ridge / C1-C7 | [[posture_switch_failure_modes#1-suboccipital-cervical-switch-sbl-vs-dfl-neck-flexors\|Suboccipital Cervical Switch]] | Suboccipitals (Local SBL) hyper-extend upper neck over weak Longus Colli (Local DFL). | Cue "double chin" chin retraction in standing posture. |
+| **Lordotic / Kyphotic-Lordotic (Anterior Tilt)** | [[superficial_front_line]] (SFL) & [[deep_front_line]] (DFL) | ASIS / Lesser Trochanter | [[posture_switch_failure_modes#2-asis-pelvic-sagittal-switch-sfl-rectus-femoris-vs-sfl-abdominal-wall\|ASIS Pelvic Sagittal Switch]] | Rectus Femoris (SFL Express) & Psoas (DFL Express) pull ASIS down against weak Rectus Abdominis. | Cue posterior pelvic tuck & active core engagement. |
+| **Flat-Back Posture (Loss of Lordosis)** | [[superficial_back_line]] (SBL) & [[deep_front_line]] (DFL) | Lumbar Spine ($L1-L5$) | Lumbar Erector / Psoas Switch | SBL lumbar erectors and DFL psoas lose lordotic tone, flattening lumbar curve. | Cue active thoracic extension & gentle anterior pelvic tilt. |
+| **Sway-Back Posture (Anterior Pelvic Shift)** | [[superficial_back_line]] (SBL) & [[deep_front_line]] (DFL) | Pubic Symphysis / Thorax | Pelvic Anterior Shift Lock | Pelvis shifts anteriorly onto Y-ligaments; lower DFL core under-engages while SBL upper erecters brace. | Cue pelvis-over-foot shift and active DFL core activation. |
+| **Pelvic Unleveling / Lateral Trunk Shift** | [[lateral_line]] (LL) & [[deep_front_line]] (DFL) | Iliac Crest / Greater Trochanter | Unilateral Lateral Line Lock | Quadratus Lumborum (Express LL) hikes hip to compensate for weak stance Gluteus Medius (Local LL). | Perform side-plank endurance and single-leg stance test. |
+| **Torso Yaw Rotation** | [[spiral_line]] (SPL) & [[functional_lines]] | ASIS / Rib Cage | Asymmetric Spiral Sling Switch | Obliques (Express SPL) twist ribcage relative to pelvis in standing stance. | Seated thoracic rotation assessment. |
+| **Medial Arch Collapse (Foot Pronation)** | [[deep_front_line]] (DFL) & [[spiral_line]] (SPL) | Navicular / Medial Malleolus | [[posture_switch_failure_modes#4-calcaneal-navicular-tripod-switch-dfl-arch-vs-ll-peroneal-track\|Calcaneal-Navicular Tripod Switch]] | Tibialis Posterior (Local DFL) arch support fails; Peroneus Longus (Express SPL) pulls 1st metatarsal into eversion. | Place 5mm wedge under 1st metatarsal head or active short foot grip. |
+
 ## App Integration
 
 The app's `fascial_knowledge.json` encodes this method: each static finding carries `possible_myofascial_lines`, `possible_related_structures`, cautious `report_language`, and a `caution_note` that static posture cannot confirm restriction. The mapper (`fascial_mapper.py`) matches engine measurements to these findings by name, alias, and `left_`/`right_` prefix-stripped fallback, filtered by view. Output is hypothesis-level only.

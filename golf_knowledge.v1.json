@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "domain": "golf_swing",
+  "sourceNode": "04_Golf_Swing/golf_swing.md",
+  "globalBoundary": "Camera metrics describe 2D/3D image-plane swing motion. They do not measure ground reaction forces (GRF), 3D moments (GRM at COP), muscular torque, or fascial loading.",
+  "golfSwitchFailureModes": [
+    {
+      "switchId": "backswing_trail_loading_switch",
+      "name": "Backswing Trail-Hip Loading Switch (SPL/LL Trail Anchor)",
+      "swingPhase": "backswing",
+      "linePair": ["Spiral Line", "Lateral Line"],
+      "bonyStation": "Trail Greater Trochanter",
+      "mechanism": "Trail Gluteus Medius (Local LL) fails to anchor; TFL/ITB (Express LL) slides hip away from target, causing Trail Sway.",
+      "retestProtocol": "Step-and-turn backswing drill."
+    },
+    {
+      "switchId": "transition_x_factor_switch",
+      "name": "Transition Pelvis-Thorax X-Factor Dissociation Switch (BFL/FFL Stretch-Shortening)",
+      "swingPhase": "transition",
+      "linePair": ["Back Functional Line", "Front Functional Line"],
+      "bonyStation": "Thoracolumbar Fascia / Shoulder",
+      "mechanism": "Upper body Pectoralis/Latissimus (Express FFL/BFL) fire before pelvic transition, causing Over-the-Top steep downswing.",
+      "retestProtocol": "Step-first downswing transition drill."
+    },
+    {
+      "switchId": "impact_lead_leg_post_switch",
+      "name": "Impact Lead-Leg Post & Ground Transfer Switch (DFL/LL Lead Post)",
+      "swingPhase": "impact",
+      "linePair": ["Deep Front Line", "Lateral Line"],
+      "bonyStation": "Lead Navicular / Lead Greater Trochanter",
+      "mechanism": "Lead Psoas/Adductors (DFL) fail to centrate hip; pelvis thrusts forward toward ball (Early Extension).",
+      "retestProtocol": "Chair-behind-glutes contact drill during impact."
+    },
+    {
+      "switchId": "follow_through_deceleration_switch",
+      "name": "Follow-Through Deceleration Switch (SBL/SPL Deceleration Sling)",
+      "swingPhase": "follow_through",
+      "linePair": ["Superficial Back Line", "Spiral Line"],
+      "bonyStation": "Thoracic Spine / Rhomboids",
+      "mechanism": "Posterior Thoracic Erectors & Rhomboids fail to decelerate high-speed rotation smoothly post-impact.",
+      "retestProtocol": "Smooth finish posture hold drill."
+    }
+  ],
+  "entries": [
+    {
+      "metricId": "trail_hip_sway_proxy",
+      "title": "Trail hip sway observation",
+      "view": "front",
+      "evidenceType": "calculated_2d_proxy",
+      "observationTemplate": "Trail hip midpoint moved {value} normalized units away from target during backswing.",
+      "strategyInterpretation": "Describes a lateral shift strategy of the trail hip during backswing coiling.",
+      "joints": ["trail hip", "pelvis"],
+      "candidateMuscleRegions": ["gluteus medius region", "tensor fasciae latae region", "peroneal region"],
+      "possibleFascialLines": ["lateral_line", "spiral_line"],
+      "switchNodeId": "backswing_trail_loading_switch",
+      "switchFailureMode": "Backswing Trail-Hip Loading Switch Failure — Trail Gluteus Medius fails to anchor, allowing lateral sway.",
+      "retestProtocol": "Step-and-turn backswing drill.",
+      "competingExplanations": ["stance width", "foot flare", "camera angle", "ball position"],
+      "prohibitedConclusions": ["glute weakness", "hip pathology", "measured GRF slide"],
+      "sourceRefs": ["04_Golf_Swing/golf_myofascial_mapping.md", "01_Fascial_Lines/golf_switch_failure_modes.md"]
+    },
+    {
+      "metricId": "pelvis_thorax_separation_proxy",
+      "title": "Pelvis-thorax separation timing",
+      "view": "front",
+      "evidenceType": "calculated_2d_proxy",
+      "observationTemplate": "Pelvis leads thorax by {value} milliseconds at downswing initiation.",
+      "strategyInterpretation": "Describes downswing kinematic sequencing and pelvis-first transition.",
+      "joints": ["pelvis", "thorax"],
+      "candidateMuscleRegions": ["oblique region", "thoracolumbar region", "adductor region"],
+      "possibleFascialLines": ["back_functional_line", "front_functional_line", "spiral_line"],
+      "switchNodeId": "transition_x_factor_switch",
+      "switchFailureMode": "Transition X-Factor Switch Failure — Upper body fires before pelvic transition.",
+      "retestProtocol": "Step-first downswing transition drill.",
+      "competingExplanations": ["tempo", "hand path", "camera frame rate"],
+      "prohibitedConclusions": ["measured elastic torque", "fascial force storage"],
+      "sourceRefs": ["04_Golf_Swing/x_factor.md", "04_Golf_Swing/golf_myofascial_mapping.md"]
+    }
+  ]
+}

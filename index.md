@@ -15,15 +15,15 @@ Use the shortest task route that supports the current question. Obsidian links a
 
 ### Static posture and myofascial report
 
-`[[bodyreading_static_posture]]` -> `[[myofascial_interpretive_layer]]` -> `[[movement_reporting_standards]]` -> the matching finding in `fascial_knowledge.json` -> only the linked fascial-line and body-structure nodes. Check `[[anatomy_trains_myofascial_thomas_w_myers]]` or its cited PDF locator only when a node is incomplete, ambiguous, or requires source verification.
+`[[bodyreading_static_posture]]` -> `[[posture_switch_failure_modes]]` -> `[[myofascial_interpretive_layer]]` -> `[[movement_reporting_standards]]` -> the matching finding in `fascial_knowledge.json` -> only the linked fascial-line and body-structure nodes. Check `[[anatomy_trains_myofascial_thomas_w_myers]]` or its cited PDF locator only when a node is incomplete, ambiguous, or requires source verification.
 
 ### Gait analysis
 
-`[[gait_cycle]]` -> `[[gait_observability_boundary]]` -> `[[gait_myofascial_mapping]]` -> the observed phase/restriction node -> linked line and structure nodes. Preserve `unavailable_from_this_view` when the active view cannot support a line interpretation.
+`[[gait_cycle]]` -> `[[gait_observability_boundary]]` -> `[[gait_myofascial_mapping]]` -> `[[gait_switch_failure_modes]]` -> the observed phase/restriction node -> linked line and structure nodes. Preserve `unavailable_from_this_view` when the active view cannot support a line interpretation.
 
 ### Golf analysis
 
-`[[golf_swing_events]]` -> `[[golf_kinetics_observability_boundary]]` -> the relevant phase -> `[[metric_evidence_classification]]` -> linked movement, joint, and optional interpretive-line nodes. Do not upgrade 2D proxies into kinetics.
+`[[golf_swing_events]]` -> `[[golf_kinetics_observability_boundary]]` -> `[[golf_myofascial_mapping]]` -> `[[golf_switch_failure_modes]]` -> `golf_knowledge.v1.json` -> the relevant phase -> linked movement, joint, and optional interpretive-line nodes. Do not upgrade 2D proxies into kinetics.
 
 ### Bodyweight squat analysis
 

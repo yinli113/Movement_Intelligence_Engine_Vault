@@ -1,7 +1,41 @@
 {
-  "version": "1.3",
+  "version": "1.3.0",
   "description": "Knowledge mapping between posture measurements and possible Anatomy Trains / myofascial line interpretations.",
   "global_caution": "Static posture analysis cannot diagnose fascial restriction, pain source, or pathology. Findings are pattern suggestions only and should be confirmed by clinical assessment and movement testing.",
+  "posture_switch_failure_modes": [
+    {
+      "switch_id": "suboccipital_cervical_switch",
+      "name": "Suboccipital Cervical Switch (SBL vs DFL Neck Flexors)",
+      "line_pair": ["Superficial Back Line", "Deep Front Line"],
+      "bony_station": "Occipital Ridge / C1-C7",
+      "mechanism": "Suboccipitals (SBL Local) hyper-extend upper neck over weak Longus Colli (Local DFL) to keep eyes horizontal.",
+      "retest_protocol": "Cue 'double chin' neck retraction in standing posture."
+    },
+    {
+      "switch_id": "asis_pelvic_sagittal_switch",
+      "name": "ASIS Pelvic Sagittal Switch (SFL Rectus Femoris vs SFL Abdominal Wall)",
+      "line_pair": ["Superficial Front Line", "Deep Front Line"],
+      "bony_station": "Anterior Superior Iliac Spine (ASIS)",
+      "mechanism": "Rectus Femoris (SFL Express) and Psoas (DFL) pull ASIS down against weak Rectus Abdominis anchor.",
+      "retest_protocol": "Cue posterior pelvic tuck and active core engagement."
+    },
+    {
+      "switch_id": "lumbar_erector_psoas_switch",
+      "name": "Lumbar Erector / Psoas Switch (SBL Lumbar vs DFL Psoas)",
+      "line_pair": ["Superficial Back Line", "Deep Front Line"],
+      "bony_station": "Lumbar Spine (L1-L5)",
+      "mechanism": "SBL lumbar erectors and DFL psoas lose lordotic tone (Flat-Back) or over-pull pelvic shift (Sway-Back).",
+      "retest_protocol": "Cue active thoracic extension or pelvis-over-foot realignment."
+    },
+    {
+      "switch_id": "calcaneal_navicular_tripod_switch",
+      "name": "Calcaneal-Navicular Tripod Switch (DFL Arch vs LL Peroneal Track)",
+      "line_pair": ["Deep Front Line", "Lateral Line"],
+      "bony_station": "Navicular / Medial Malleolus",
+      "mechanism": "Tibialis Posterior (Local DFL) arch support fails; Peroneus Longus (Express SPL) pulls 1st metatarsal into eversion.",
+      "retest_protocol": "Place 5mm wedge under 1st metatarsal head or active short foot grip."
+    }
+  ],
   "line_definitions": {
     "Superficial Back Line": "A posterior Anatomy Trains line model connecting plantar foot structures, calves, hamstrings, sacral region, spinal extensors, and posterior head tissues. In posture reports, it may be referenced for posterior-chain loading patterns only, not as a diagnosis.",
     "Superficial Front Line": "An anterior Anatomy Trains line model connecting the anterior lower leg, quadriceps region, anterior trunk, sternum, and anterior neck. In posture reports, it may be referenced for anterior-chain loading patterns only.",

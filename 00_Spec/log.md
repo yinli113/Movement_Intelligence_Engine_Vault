@@ -2,6 +2,15 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
+## [2026-08-31] Engine Update | Multi-Domain Dynamic Switch Failure Engine (Posture, Gait, Golf)
+- Created dedicated reference nodes `[[posture_switch_failure_modes]]`, `[[gait_switch_failure_modes]]`, and `[[golf_switch_failure_modes]]`.
+- Updated `[[bodyreading_static_posture]]`, `[[gait_myofascial_mapping]]`, and created `[[golf_myofascial_mapping]]` with dynamic switch failure matrices.
+- Upgraded `fascial_knowledge.json` (v1.3.0), `movement-knowledge.v1.json` (v1.1.0), and created `golf_knowledge.v1.json` (v1.0.0).
+- Synchronized `fascial_knowledge.json` to `tillyes_web`.
+- Updated `[[index]]` AI task routes for Static Posture, Gait, and Golf.
+
+---
+
 ## [2026-08-29] Engine Update | 21-Misalignment Squat Taxonomy & Switch Failure Engine
 - Created dedicated reference node `[[squat_switch_failure_modes]]` defining the 5 dynamic squat switches (Knee Switch, Femoral Adductor Switch, ASIS Anchor Switch, Medial Arch Stirrup Switch, Calcaneal Elevation Switch).
 - Expanded `[[squat_myofascial_mapping]]` to full 21-misalignment taxonomy across 5 anatomical segments with bony station anchors, switch failure modes, express vs local dynamics, and retest protocols.

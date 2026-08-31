@@ -61,6 +61,18 @@ All twelve lines are involved; the **Spiral Line is "especially significant"** b
 | [[front_functional_line]] | Counter-rotates trunk: right shoulder + rib cage forward counterbalances left swinging leg (Myers). Winding/unwinding of torso. | [[initial_swing]], [[midswing]] (contralateral pattern) |
 | [[deep_front_line]] | Initiates swing (psoas/iliacus from T12/L1) (Myers). Inner-leg stability from medial arch to medial hip; guides hip, prevents excess rotation. Ideally tensions through entire length at toe-off (Earls). | [[preswing]], [[initial_swing]], [[terminal_stance]] |
 
+## Gait Phase Switch Failure Matrix (Level 5)
+
+See [[gait_switch_failure_modes]] for the foundational dynamic switch derailments across gait phases.
+
+| Gait Compensation / Finding | Gait Phase | Primary Line Pair | Bony Station | Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
+|---|---|---|---|---|---|---|
+| **Foot Slap / Equinus** | [[loading_response]] | [[spiral_line]] & [[back_functional_line]] | Calcaneus / Talus | [[gait_switch_failure_modes#1-heel-strike-loading-response-switch-spl--bfl-deceleration\|Heel Strike Deceleration Switch]] | SPL Tibialis Anterior & BFL Glute Max fail to brake heel-strike pronation. | Observe gait barefoot and with heel support. |
+| **Trendelenburg Pelvic Drop** | [[mid_stance]] | [[lateral_line]] & [[deep_front_line]] | Greater Trochanter | [[gait_switch_failure_modes#2-mid-stance-single-limb-stability-switch-ll-glute-medius-vs-dfl-adductors\|Mid-Stance Single-Limb Switch]] | Gluteus Medius (Local LL) inhibited; medial DFL adductors pull femur medial. | Perform single-limb stance balance test. |
+| **Flat-Footed Push-Off** | [[terminal_stance]] / [[preswing]] | [[superficial_back_line]] & [[deep_front_line]] | Calcaneus / Achilles | [[gait_switch_failure_modes#3-terminal-stance-propulsive-catapult-switch-sbl--dfl-catapult-recoil\|Terminal Stance Catapult Switch]] | Soleus (Local SBL) tightness blocks ankle DF, cutting off DFL elastic recoil. | Measure passive calf length off-load. |
+| **Vaulting (Stance-Leg Extension)** | [[initial_swing]] | [[superficial_front_line]] & [[superficial_back_line]] | Contralateral Calcaneus | [[gait_switch_failure_modes#4-swing-phase-advancement-switch-sfl--dfl-limb-acceleration\|Swing Clearance Emergency Switch]] | Stance Gastrocnemius (Express SBL) over-extends ankle to clear un-flexed swing leg. | Observe swing-knee passive flexion ROM. |
+| **Circumduction / Hip Hike** | [[midswing]] | [[lateral_line]] & [[spiral_line]] | ASIS / Iliac Crest | Swing Clearance Emergency Switch | LL Quadratus Lumborum hikes hip or SPL swings leg outward to clear ground. | Test passive hip flexion & ankle dorsiflexion. |
+
 ## Edge type 2 — Line → motion-restriction pattern (reciprocal pairs)
 
 This is the table an app agent needs when a gait report says "restricted [motion]". The logic is fascial-reciprocal: the line that **resists** a motion, when short, restricts that motion. **Entire table is (C) engine synthesis** — derived from line anatomy + fascial-reciprocal logic, not enumerated in the source. Spine-to-spine ROM propagation is NOT supported; only elastic-recoil propagation is.
