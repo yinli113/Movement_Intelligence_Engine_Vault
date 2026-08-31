@@ -145,6 +145,22 @@ Current legacy folders under `wiki/` may remain during migration. New or convert
 - `App Logic`
 - `Spec`
 
+## Domain Relationship Blocks
+
+Movement relationships remain embedded in the existing canonical graph notes; do not
+create a separate Markdown page for every relationship. For a domain such as squat,
+the movement mapping note and the relevant fascial-line notes must contain a
+structured relationship block with this sequence:
+
+`observed pattern -> why the line is considered -> muscle-to-line relationship -> potential clinical issues -> direct assessment/retest -> camera boundary`
+
+Use existing YAML `relationships` fields and body wikilinks to connect the movement,
+fascial line, muscles, joints, and app-logic notes. The canonical Markdown notes are
+the reasoning source. A machine-readable JSON export may mirror the structured
+relationship fields for the app, but it must not become a second reasoning source or
+replace the Obsidian graph. Potential clinical issues are hypotheses for assessment,
+never camera-detected weakness, tightness, activation, or fascial restriction.
+
 ## Concept Categories
 
 Every important concept should be classified into one or more of:
@@ -164,6 +180,7 @@ Every important concept should be classified into one or more of:
 - Rehabilitation
 - Golf
 - App Logic
+
 
 ## Required YAML Frontmatter
 

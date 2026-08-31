@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.2.0",
   "domain": "bodyweight_squat",
   "sourceNode": "03_Movement_Functions/bodyweight_squat.md",
   "globalBoundary": "Camera metrics describe a recorded movement strategy. They do not diagnose pathology, identify a weak or tight muscle, measure passive joint mobility, or measure fascial-line loading.",
@@ -16,77 +16,135 @@
       "name": "Superficial Back Line",
       "anatomicalContinuity": "plantar foot, calf complex, hamstring region, sacral fascia, and spinal extensor region",
       "squatContext": "May provide anatomical context for heel behavior, ankle strategy, selected depth, posterior hip contribution, and sagittal trunk support.",
-      "boundary": "The camera does not measure SBL tension, restriction, recoil, or loading."
+      "boundary": "The camera does not measure SBL tension, restriction, recoil, or loading.",
+      "dynamicSwitch": {
+        "name": "Calcaneal Station Elevation & Knee Switch",
+        "failureMode": "Soleus/Achilles terminal length locks ankle, forcing calcaneal elevation bypass.",
+        "bonyStation": "Calcaneus / Ischial Tuberosity / Occiput"
+      },
+      "muscleDynamics": {
+        "inhibitedLocals": ["Tibialis Anterior", "Soleus deep postural fibers"],
+        "overactiveExpresses": ["Gastrocnemius", "Biceps Femoris Long Head", "Thoracic Erectors"]
+      },
+      "palpationTargets": [
+        "Calcaneal attachment of Achilles tendon",
+        "Ischial tuberosity hamstrings origin",
+        "Suboccipital ridge at C1-C2"
+      ],
+      "retestProtocol": "Elevate heels on 15-20mm wedge. If squat depth and upright trunk normalize, confirms distal SBL/Achilles block.",
+      "prescriptionTriad": {
+        "release": "Deep tissue myofascial release along gastrocnemius-soleus junction & suboccipitals (2 min)",
+        "activate": "Tibialis anterior isometric dorsiflexion + deep neck flexor nods",
+        "integrate": "Goblet box squat maintaining heel-tripod contact"
+      }
     },
     {
       "lineId": "superficial_front_line",
       "name": "Superficial Front Line",
       "anatomicalContinuity": "anterior lower leg, quadriceps region, anterior trunk, and front of the neck",
       "squatContext": "May provide anatomical context for knee-extension contribution, tibial organization, and anterior trunk support in the side view.",
-      "boundary": "The camera does not measure SFL activation, shortness, restriction, or loading."
+      "boundary": "The camera does not measure SFL activation, shortness, restriction, or loading.",
+      "dynamicSwitch": {
+        "name": "ASIS Pelvic Station Anchor Switch",
+        "failureMode": "Rectus Femoris pulls ASIS downward as Transversus/Rectus Abdominis fails to anchor pelvis.",
+        "bonyStation": "ASIS / AIIS / Tibial Tuberosity"
+      },
+      "muscleDynamics": {
+        "inhibitedLocals": ["Transversus Abdominis", "Vastus Medialis Oblique (VMO)"],
+        "overactiveExpresses": ["Rectus Femoris", "Tensor Fasciae Latae"]
+      },
+      "palpationTargets": [
+        "AIIS rectus femoris origin",
+        "Tibial tuberosity insertion",
+        "Pubic crest rectus abdominis anchor"
+      ],
+      "retestProtocol": "Perform squat while holding a light anterior load (Goblet position) with active core bracing cue.",
+      "prescriptionTriad": {
+        "release": "Rectus femoris and anterior hip flexor foam rolling / trigger point release",
+        "activate": "Dead bug with neutral pelvic tilt + VMO terminal knee extension",
+        "integrate": "Tempo pause squats with vertical torso focus"
+      }
     },
     {
       "lineId": "deep_front_line",
       "name": "Deep Front Line",
       "anatomicalContinuity": "inner foot and deep lower leg, adductor region, pelvic floor, psoas region, and deep trunk continuity",
       "squatContext": "May provide anatomical context for medial foot-knee organization, adductor-pelvis relationships, depth strategy, and trunk-pelvis support across views.",
-      "boundary": "The camera does not measure DFL support, tension, restriction, or force transmission."
+      "boundary": "The camera does not measure DFL support, tension, restriction, or force transmission.",
+      "dynamicSwitch": {
+        "name": "Femoral Adductor Switch & Medial Arch Stirrup",
+        "failureMode": "Adductor Magnus / Longus pulls femur into medial rotation and arch collapses at peak depth.",
+        "bonyStation": "Linea Aspera / Ischial Ramus / Navicular"
+      },
+      "muscleDynamics": {
+        "inhibitedLocals": ["Tibialis Posterior", "Posterior Gluteus Medius", "Pelvic Floor"],
+        "overactiveExpresses": ["Adductor Longus/Magnus", "Tensor Fasciae Latae", "Peroneus Longus"]
+      },
+      "palpationTargets": [
+        "Navicular tuberosity & medial malleolus",
+        "Ischial ramus & proximal linea aspera",
+        "Psoas tendon near lesser trochanter"
+      ],
+      "retestProtocol": "Place mini-band above knees and cue active tripod short-foot grounding during descent.",
+      "prescriptionTriad": {
+        "release": "Adductor magnus & longus deep ischemic compression along medial thigh",
+        "activate": "Short-foot tripod activation + side-lying clamshell with glute med focus",
+        "integrate": "Band-resisted squats ensuring knees track over 2nd toe"
+      }
     },
     {
       "lineId": "lateral_line",
       "name": "Lateral Line",
       "anatomicalContinuity": "lateral foot and lower leg, iliotibial region, lateral pelvis, lateral trunk, and neck",
       "squatContext": "May provide anatomical context for pelvic shift, trunk shift, stance organization, and frontal-plane asymmetry in the front view.",
-      "boundary": "The camera does not measure Lateral Line balance, restriction, stiffness, or loading."
+      "boundary": "The camera does not measure Lateral Line balance, restriction, stiffness, or loading.",
+      "dynamicSwitch": {
+        "name": "Lateral Harness & Pelvic Shelf Switch",
+        "failureMode": "Quadratus Lumborum hikes pelvis as stance gluteus medius fails to stabilize frontal plane.",
+        "bonyStation": "Gerdy's Tubercle / Greater Trochanter / 12th Rib"
+      },
+      "muscleDynamics": {
+        "inhibitedLocals": ["Gluteus Medius", "Gluteus Minimus"],
+        "overactiveExpresses": ["Quadratus Lumborum", "Tensor Fasciae Latae / IT Band", "Peroneus Brevis"]
+      },
+      "palpationTargets": [
+        "Gerdy's tubercle at lateral tibia",
+        "Greater trochanter gluteal insertion",
+        "Quadratus lumborum / 12th rib attachment"
+      ],
+      "retestProtocol": "Perform supported single-leg split squat to evaluate unilateral frontal-plane hip control.",
+      "prescriptionTriad": {
+        "release": "TFL / ITB junction and quadratus lumborum soft tissue release",
+        "activate": "Side plank hip abduction + banded lateral monster walks",
+        "integrate": "Single-leg Romanian deadlift to squat pattern transition"
+      }
     },
     {
       "lineId": "spiral_line",
       "name": "Spiral Line",
       "anatomicalContinuity": "cross-body foot, leg, pelvis, abdominal, thoracic, and shoulder-girdle continuities",
       "squatContext": "May provide anatomical context when knee-to-foot, pelvis, and trunk observations suggest a coupled frontal or rotational image-plane strategy.",
-      "boundary": "The camera cannot isolate transverse-plane rotation or measure Spiral Line restriction or loading."
-    }
-  ],
-  "squatSwitchFailureModes": [
-    {
-      "switchId": "knee_switch",
-      "name": "Knee Switch (SBL Gastrocnemius-Hamstring Derailment)",
-      "lineId": "superficial_back_line",
-      "bonyStation": "Posterior Knee / Femoral Condyles",
-      "derailmentMechanism": "In extended knee stance, SBL forms one posterior cable. In flexion, knee switch derails Gastrocnemius to free hamstrings. Soleus or Achilles tightness causes derailment failure, forcing heel elevation or pelvic posterior tilt.",
-      "retestProtocol": "Elevate heels on 20mm wedge to test if ankle block clears depth restriction."
-    },
-    {
-      "switchId": "femoral_adductor_switch",
-      "name": "Femoral Adductor Switch (DFL Track Angle Change)",
-      "lineId": "deep_front_line",
-      "bonyStation": "Linea Aspera / Ischial Ramus",
-      "derailmentMechanism": "At >90 deg flexion, Adductor Magnus switches from stabilizer to primary hip extensor. If anterior adductors fail to release while Magnus is hyper-tonic, femoral head internally rotates, causing knee valgus and butt wink.",
-      "retestProtocol": "Widen stance 15% and externally rotate feet 10° or retest with mini-band around knees."
-    },
-    {
-      "switchId": "asis_anchor_switch",
-      "name": "ASIS Anchor Switch (SFL Pelvic Station)",
-      "lineId": "superficial_front_line",
-      "bonyStation": "Anterior Superior Iliac Spine (ASIS)",
-      "derailmentMechanism": "Rectus Femoris pulls downward on ASIS during knee flexion. If Rectus Abdominis fails to provide upward counter-anchor, pelvis tilts anteriorly into duck-butt stance.",
-      "retestProtocol": "Cue rib-cage down and active abdominal bracing prior to descent."
-    },
-    {
-      "switchId": "medial_arch_stirrup_switch",
-      "name": "Medial Arch Stirrup Switch (DFL-SPL Foot Loop)",
-      "lineId": "deep_front_line",
-      "bonyStation": "Navicular / 1st Metatarsal Base",
-      "derailmentMechanism": "Tibialis Posterior supports medial arch. If DFL arch control collapses under load, tension switches into Peroneus Longus (SPL), pulling 1st metatarsal into eversion and flattening foot.",
-      "retestProtocol": "Place 5mm wedge under 1st metatarsal head or cue short foot active grip."
-    },
-    {
-      "switchId": "calcaneal_elevation_switch",
-      "name": "Calcaneal Station Elevation Switch (SBL-DFL Ankle Block)",
-      "lineId": "superficial_back_line",
-      "bonyStation": "Calcaneus (Heel Anchor)",
-      "derailmentMechanism": "When Soleus or Tibialis Posterior reaches maximum length before squat depth is achieved, calcaneal station lifts off ground to bypass talocrural dorsiflexion limit.",
-      "retestProtocol": "Retest squat depth with elevated heels to confirm calf/Achilles length barrier."
+      "boundary": "The camera cannot isolate transverse-plane rotation or measure Spiral Line restriction or loading.",
+      "dynamicSwitch": {
+        "name": "Asymmetric Transverse Sling Switch",
+        "failureMode": "Cross-body obliques and deep hip rotators torque pelvis over femur during depth transition.",
+        "bonyStation": "Ribs 5-9 / ASIS / Fibular Head"
+      },
+      "muscleDynamics": {
+        "inhibitedLocals": ["Serratus Anterior", "Deep Hip External Rotators"],
+        "overactiveExpresses": ["External/Internal Oblique Sling", "Biceps Femoris Long Head"]
+      },
+      "palpationTargets": [
+        "Ribs 5-9 serratus slips",
+        "ASIS oblique attachment",
+        "Fibular head biceps femoris tendon"
+      ],
+      "retestProtocol": "Align feet facing 0° forward and perform seated thoracic rotation test to isolate trunk vs hip rotational asymmetry.",
+      "prescriptionTriad": {
+        "release": "Biceps femoris lateral tendon and contralateral oblique myofascial release",
+        "activate": "Seated thoracic rotation with isometric pelvic block",
+        "integrate": "Offset dumbbell front squat with rotational stabilization"
+      }
     }
   ],
   "clinicalDifferentials": {
@@ -132,31 +190,23 @@
       "joints": ["hip", "knee", "trunk"],
       "candidateMuscleRegions": ["hip extensor region", "quadriceps region", "spinal extensor region", "abdominal wall"],
       "possibleFascialLines": ["superficial_back_line", "superficial_front_line", "deep_front_line"],
-      "switchNodeId": "asis_anchor_switch",
-      "switchFailureMode": "ASIS Anchor Switch Failure — SFL Rectus Femoris downward pull overpowers SFL Rectus Abdominis abdominal anchor.",
-      "expressVsLocal": "Thoracic Erectors (Express SBL) fail to overcome forward gravitational moment caused by blocked ankle dorsiflexion.",
-      "retestProtocol": "Retest with goblet dumbbell held in front of chest.",
       "competingExplanations": ["stance", "arm position", "selected depth", "camera obliquity", "individual proportions"],
       "prohibitedConclusions": ["muscle weakness", "joint pathology", "measured joint moment", "fascial loading"],
-      "sourceRefs": ["00_Spec/sources/straub_powers_squat_biomechanics_2024.md", "03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "01_Fascial_Lines/squat_switch_failure_modes.md"]
+      "sourceRefs": ["00_Spec/sources/straub_powers_squat_biomechanics_2024.md", "03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md"]
     },
     {
       "metricId": "peak_knee_flexion",
       "title": "Selected squat depth",
       "view": "side",
       "evidenceType": "calculated_2d_proxy",
-      "observationTemplate": "Peak knee flexion angle was {value} degrees.",
+      "observationTemplate": "Peak knee-flexion proxy was {value} degrees.",
       "strategyInterpretation": "Depth reflects a combined ankle-knee-hip strategy and the task setup. The review groups 0-90 degrees as shallow, 90-110 degrees as medium, and 110-135 degrees as deep.",
       "joints": ["ankle", "knee", "hip", "pelvis"],
       "candidateMuscleRegions": ["quadriceps region", "gluteal region", "adductor magnus region", "hamstrings", "calf complex"],
       "possibleFascialLines": ["superficial_back_line", "superficial_front_line", "deep_front_line"],
-      "switchNodeId": "femoral_adductor_switch",
-      "switchFailureMode": "Adductor Magnus Terminal Length Switch — DFL Adductor Magnus reaches length limit at deep flexion, tugging ischial tuberosity forward/down.",
-      "expressVsLocal": "Adductor Magnus (DFL hybrid) overpowers deep lumbar extensors.",
-      "retestProtocol": "Widen stance 15% and externally rotate feet 10°.",
       "competingExplanations": ["chosen depth", "balance confidence", "stance", "footwear", "pain or comfort", "individual proportions"],
       "prohibitedConclusions": ["specific joint restriction", "calf tightness", "hip impingement", "knee pathology"],
-      "sourceRefs": ["00_Spec/sources/straub_powers_squat_biomechanics_2024.md", "03_Movement_Functions/bodyweight_squat.md", "01_Fascial_Lines/squat_switch_failure_modes.md"]
+      "sourceRefs": ["00_Spec/sources/straub_powers_squat_biomechanics_2024.md", "03_Movement_Functions/bodyweight_squat.md"]
     },
     {
       "metricId": "heel_rise_proxy",
@@ -168,13 +218,9 @@
       "joints": ["ankle", "foot", "knee", "hip"],
       "candidateMuscleRegions": ["soleus region", "gastrocnemius region", "tibialis anterior region", "foot stabilizer regions"],
       "possibleFascialLines": ["superficial_back_line", "superficial_front_line", "deep_front_line"],
-      "switchNodeId": "calcaneal_elevation_switch",
-      "switchFailureMode": "Calcaneal Station Elevation Switch — Soleus or Tibialis Posterior tightness forces calcaneal station elevation to bypass ankle block.",
-      "expressVsLocal": "Soleus (Local SBL) tightness limits talar transit, forcing calcaneal station elevation.",
-      "retestProtocol": "Elevate heels on 20mm wedge.",
       "competingExplanations": ["selected depth", "balance strategy", "footwear", "foot landmark error", "camera angle"],
       "prohibitedConclusions": ["limited ankle dorsiflexion", "tight calf", "foot pathology", "SBL restriction"],
-      "sourceRefs": ["02_Body_Structures/joint_actions/ankle_dorsiflexion.md", "03_Movement_Functions/squat_joint_muscle_mapping.md", "05_App_Logic/squat_observability_boundary.md", "01_Fascial_Lines/squat_switch_failure_modes.md"]
+      "sourceRefs": ["02_Body_Structures/joint_actions/ankle_dorsiflexion.md", "03_Movement_Functions/squat_joint_muscle_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
     },
     {
       "metricId": "knee_to_foot_tracking",
@@ -186,13 +232,9 @@
       "joints": ["hip", "knee", "ankle", "foot"],
       "candidateMuscleRegions": ["gluteal region", "adductor region", "tensor fasciae latae and IT region", "deep lower-leg and foot stabilizer regions"],
       "possibleFascialLines": ["deep_front_line", "lateral_line", "spiral_line"],
-      "switchNodeId": "femoral_adductor_switch",
-      "switchFailureMode": "Femoral Adductor Switch Failure — DFL adductor tension dominates lateral LL Gluteus Medius stabilization.",
-      "expressVsLocal": "Gluteus Medius (Local LL) inhibited; Tensor Fasciae Latae (Express LL) and Adductors (DFL) pull femur medially.",
-      "retestProtocol": "Place mini-band above knees and actively lift medial arch.",
       "competingExplanations": ["foot angle", "stance width", "pelvic shift", "camera rotation", "individual anatomy"],
       "prohibitedConclusions": ["weak glutes", "ACL instability", "patellofemoral pain", "injury risk"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md", "01_Fascial_Lines/squat_switch_failure_modes.md"]
+      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
     },
     {
       "metricId": "pelvic_lateral_shift",
@@ -204,13 +246,9 @@
       "joints": ["pelvis", "left hip", "right hip", "bilateral lower limb"],
       "candidateMuscleRegions": ["gluteus medius regions", "adductor regions", "quadratus lumborum regions", "lateral abdominal wall"],
       "possibleFascialLines": ["lateral_line", "deep_front_line", "spiral_line"],
-      "switchNodeId": "unilateral_lateral_line_lock",
-      "switchFailureMode": "Unilateral Lateral Line Lock — Body shifts COM over side with higher strength or compliance, turning off weak side LL stance switch.",
-      "expressVsLocal": "Quadratus Lumborum (Express LL) hikes hip to compensate for weak stance Gluteus Medius (Local LL).",
-      "retestProtocol": "Perform supported split squat to isolate single-leg stability.",
       "competingExplanations": ["stance asymmetry", "camera rotation", "unequal foot placement", "selected depth", "tracking noise", "comfort"],
       "prohibitedConclusions": ["hip weakness", "leg-length discrepancy", "pelvic dysfunction", "Lateral Line restriction"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md", "01_Fascial_Lines/squat_switch_failure_modes.md"]
+      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
     },
     {
       "metricId": "trunk_lateral_shift",
@@ -222,13 +260,9 @@
       "joints": ["trunk", "pelvis", "left hip", "right hip"],
       "candidateMuscleRegions": ["lateral abdominal wall", "quadratus lumborum regions", "hip abductor regions", "adductor regions"],
       "possibleFascialLines": ["lateral_line", "spiral_line", "deep_front_line"],
-      "switchNodeId": "unilateral_lateral_line_lock",
-      "switchFailureMode": "Lateral Line Unilateral Shortening — Hyper-tonicity in lateral trunk track forces lateral spinal flexion to unload restricted opposite hip.",
-      "expressVsLocal": "Lateral Intercostals / QL (Express LL) substitute for lack of bilateral intra-abdominal pressure.",
-      "retestProtocol": "Perform suitcase carry retest to evaluate frontal core stability.",
       "competingExplanations": ["arm position", "camera rotation", "pelvic shift", "balance strategy", "tracking noise"],
       "prohibitedConclusions": ["scoliosis", "core weakness", "hip pathology", "fascial imbalance"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md", "01_Fascial_Lines/squat_switch_failure_modes.md"]
+      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
     },
     {
       "metricId": "frontal_asymmetry",
@@ -240,13 +274,9 @@
       "joints": ["left hip", "right hip", "left knee", "right knee", "bilateral ankle-foot"],
       "candidateMuscleRegions": ["bilateral quadriceps regions", "gluteal regions", "adductor regions", "calf regions"],
       "possibleFascialLines": ["lateral_line", "deep_front_line", "spiral_line"],
-      "switchNodeId": "asymmetric_spiral_sling_switch",
-      "switchFailureMode": "Asymmetric Spiral Sling Torque — Asymmetrical force transfer across anterior diagonal sling twists thorax relative to pelvis.",
-      "expressVsLocal": "Obliques (Express SPL) driving ribcage rotation relative to pelvis.",
-      "retestProtocol": "Perform seated thoracic rotation test with locked pelvis.",
       "competingExplanations": ["camera rotation", "unequal foot placement", "clothing", "tracking noise", "natural repetition variability"],
       "prohibitedConclusions": ["weaker leg", "joint restriction", "neurological deficit", "injury risk"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "05_App_Logic/squat_cross_view_synthesis.md", "01_Fascial_Lines/squat_switch_failure_modes.md"]
+      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "05_App_Logic/squat_cross_view_synthesis.md"]
     },
     {
       "metricId": "repetition_consistency",
