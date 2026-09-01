@@ -2,7 +2,15 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
-## [2026-08-31] Engine Update | Multi-Domain Dynamic Switch Failure Engine (Posture, Gait, Golf)
+## [2026-09-01] Engine Update | Kendall Plumb Lines & NSCA Squat Biomechanics Ingestion
+- Upgraded source note `[[kendall_muscles_testing_function]]` to active Level 4 Applied Clinical Practice source.
+- Ingested Level 3 source note `[[schoenfeld_nsca_squat_biomechanics_2010]]` (Brad Schoenfeld NSCA squat review).
+- Created concept nodes:
+  - `[[sagittal_plumb_line_alignment]]` (Toes · Mid-Foot · Heel 3-line reference rules).
+  - `[[coronal_plumb_line_alignment]]` (Midline gravity axis and bilateral stance width envelope).
+  - `[[knee_to_toe_progression_boundary]]` (Kinetic balance and forward tibial excursion rules).
+  - `[[length_tension_postural_relationship]]` (Agonist-antagonist tone balance and non-diagnostic observational hypotheses).
+- Added `[[evals]]` (Medallion Movement Evaluation Architecture) into `00_Spec/`.
 - Created dedicated reference nodes `[[posture_switch_failure_modes]]`, `[[gait_switch_failure_modes]]`, and `[[golf_switch_failure_modes]]`.
 - Updated `[[bodyreading_static_posture]]`, `[[gait_myofascial_mapping]]`, and created `[[golf_myofascial_mapping]]` with dynamic switch failure matrices.
 - Upgraded `fascial_knowledge.json` (v1.3.0), `movement-knowledge.v1.json` (v1.1.0), and created `golf_knowledge.v1.json` (v1.0.0).

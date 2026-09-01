@@ -55,6 +55,9 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[bourgain_golf_swing_biomechanics_2022]]` - Peer-reviewed systematic review of 92 instrumented golf-swing kinematics studies (X-factor, crunch factor, swing plane, kinematic sequence, joint angular kinematics) with methodological recommendations (domain: golf).
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
   - `[[straub_powers_squat_biomechanics_2024]]` - Applied clinical commentary on modifiable squat parameters and relative hip/knee extensor bias (domain: squat).
+  - `[[schoenfeld_nsca_squat_biomechanics_2010]]` - NSCA review of squat kinematics, joint moments, and knee-to-toe excursion boundaries (domain: squat).
+  - `[[kendall_muscles_testing_function]]` - Gold-standard clinical reference for sagittal/coronal plumb lines, manual muscle testing, and length-tension balance (domain: static posture / general movement).
+  - `[[evals]]` - The Medallion Movement Evaluation Architecture (Raw/Bronze/Silver/Gold verification standards).
   - `[[log]]` - Compilation log of vault updates.
 
 ### 🗺️ 01. Myofascial Lines (`01_Fascial_Lines/`)
@@ -108,6 +111,10 @@ Rotational forces, physics vectors, and transmission dynamics:
 - `[[golfer_ground_interaction_model]]` - The central golfer-ground interaction model and three-class external-moment taxonomy.
 - `[[gait_myofascial_mapping]]` - **Engine synthesis** mapping Anatomy Trains lines to gait phases, motion-restriction patterns, and compensation signatures (built from Earls/Myers "Anatomy Trains in Gait", Ch.10). Closes the gait-observation → fascial-line graph edge so the movement_assessment app can reason from observed gait restrictions to candidate lines. All mappings are `engine_synthesis` (C), not measured kinetics.
 - `[[bodyweight_squat]]` - Canonical non-overhead unloaded squat movement and V1 app protocol.
+- `[[sagittal_plumb_line_alignment]]` - Toes · Mid-Foot · Heel 3-line reference rules and center-of-mass trajectory.
+- `[[coronal_plumb_line_alignment]]` - Midline gravitational axis and bilateral stance envelope.
+- `[[knee_to_toe_progression_boundary]]` - Kinetic moment trade-offs and forward tibial excursion limits.
+- `[[length_tension_postural_relationship]]` - Agonist-antagonist tone balance, MMT retest paths, and non-diagnostic observational hypotheses.
 - `[[squat_joint_muscle_mapping]]` - Metric-to-joint and candidate muscle-region mapping with competing explanations.
 - `[[squat_myofascial_mapping]]` - Explicit Level 5 engine synthesis for optional squat fascial-line hypotheses.
 - `[[squat_cross_view_synthesis]]` - Rules for combining independent side/front squat recordings without false synchronization.

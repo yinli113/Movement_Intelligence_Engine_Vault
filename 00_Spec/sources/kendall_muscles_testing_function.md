@@ -3,22 +3,66 @@ id: kendall_muscles_testing_function
 type: Evidence Source
 preferred_name: "Kendall's Muscles: Testing and Function with Posture and Pain"
 aliases: [Kendall, Kendall et al, Muscles Testing and Function]
-short_definition: "Future domain-expansion source: the gold-standard clinical reference for muscle length/strength testing and posture assessment. NOT yet in the vault; recorded so the wikilink from czaprowski resolves."
-author: Florence Peterson Kendall
+short_definition: "The international gold-standard clinical reference for muscle length/strength testing, plumb line postural alignment, and faulty postural mechanics."
+author: Florence Peterson Kendall; Elizabeth Kendall McCreary; Patricia Geise Provance; Mary McIntyre Rodgers; William Anthony Romani
 publication_year: 2005
-format: future_source
-status: future_source
-evidence_level: null
-source_role: applied_practice
+format: textbook_clinical_reference
+edition: 5th
 domain: static_posture
+evidence_level: 4
+source_role: applied_clinical_practice
+confidence: high
+review_status: reviewed
 relationships:
   cited_by: [czaprowski_nonstructural_posture_2018]
-  connects_to: [non_structural_sagittal_posture, apparent_shortness_vs_structural_shortening]
-updated: 2026-07-22
+  connects_to: [sagittal_plumb_line_alignment, coronal_plumb_line_alignment, length_tension_postural_relationship, apparent_shortness_vs_structural_shortening]
+updated: 2026-09-01
 ---
 
-# Kendall's Muscles: Testing and Function with Posture and Pain (FUTURE SOURCE)
+# Kendall's Muscles: Testing and Function with Posture and Pain (5th Edition)
 
-**This is a future domain-expansion source, NOT yet in the vault.** It is recorded here so the wikilink from [[czaprowski_nonstructural_posture_2018]] resolves and so the gap is documented honestly.
+## Source Role
 
-Czaprowski et al. cite Kendall et al. (2005) for the muscle length/strength classification and the definition of good posture. The vault's [[apparent_shortness_vs_structural_shortening]] node notes that Kendall's "lengthened = weak / short = strong" rule is insufficient and must be combined with the functional-organisation reading. Adding this source (Level 4 applied clinical practice) is a future expansion, **not** a required blocker for the MVP. Do not treat this stub as an established source; expand only when the PDF is obtained and reviewed.
+Kendall et al. (2005) provides the foundational clinical reference for **postural plumb line alignment**, **manual muscle testing (MMT)**, and **length-tension muscle balance**. It serves as the primary applied clinical anchor for:
+1. **Sagittal & Coronal Plumb Line Assessment**: Defining optimal skeletal alignment relative to a vertical line of gravity.
+2. **Length-Tension Agonist-Antagonist Relationships**: Understanding how postural distortion relates to opposing muscle tone (short/overactive vs. long/weak).
+3. **Manual Muscle Retest Protocols**: Guiding physical, table-based confirmatory tests for movement hypotheses.
+
+## Key Theoretical Principles
+
+### 1. The Ideal Sagittal Plumb Line
+In ideal standing posture, a vertical line of gravity passes through:
+- Slightly anterior to the **lateral malleolus** (ankle joint axis).
+- Slightly anterior to the axis of the **knee joint**.
+- Through the greater trochanter of the **femur / hip joint**.
+- Through the bodies of the **lumbar vertebrae**.
+- Through the **acromion process / shoulder joint**.
+- Through the **external auditory meatus (ear canal)** and odontoid process.
+
+### 2. The Ideal Coronal (Front/Back) Plumb Line
+A vertical midline plumb line bisects the body symmetrically:
+- Midpoint between the heels and medial malleoli.
+- Gluteal cleft and mid-pelvis.
+- Midline of the vertebral column and spinous processes.
+- Center of the cranium.
+- Horizontal reference crossbars: Bilateral ears, acromion shoulders, iliac crests, ASIS, and popliteal creases should be level.
+
+### 3. Length-Tension Postural Classifications
+* **Faulty Alignment & Muscle Imbalance**: Prolonged faulty alignment holds muscles in shortened or lengthened positions, altering their resting length and active tension generation.
+* **Locked Short / Overactive (Hypertonic)**: Muscles that are consistently positioned in shortened positions develop adaptive shortening and hypertonicity.
+* **Locked Long / Inhibited (Hypotonic / Weak)**: Muscles held in stretched positions develop stretch weakness and motor inhibition.
+* **Vault Integration Note**: In the TillYes engine, Kendall's length-tension rules are combined with Thomas Myers' *Anatomy Trains* fascial continuities and Shirley Sahrmann's *Movement Impairment Syndromes* to avoid simplistic single-muscle reductionism.
+
+## App Translation
+
+* **3-Line Reference Overlay**: Used directly to establish the **Anterior Toe Line**, **Center Mid-Foot Plumb Line**, and **Posterior Heel Line** in side-view camera analysis.
+* **Hypothesis Hotspots**: Maps 🔴 **Hypothesized Overactive** (Kendall shortened/dominant movers) and 🔵 **Hypothesized Underactive** (Kendall lengthened/inhibited stabilizers) onto anatomical models.
+* **In-Person Physical Retest Protocol**: Drives manual muscle testing (MMT) and length test recommendations for practitioners to confirm camera observations.
+
+## Related Nodes
+
+- [[sagittal_plumb_line_alignment]]
+- [[coronal_plumb_line_alignment]]
+- [[length_tension_postural_relationship]]
+- [[apparent_shortness_vs_structural_shortening]]
+- [[czaprowski_nonstructural_posture_2018]]
