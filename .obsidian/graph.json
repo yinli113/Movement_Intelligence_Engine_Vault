@@ -8,27 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "functional_line",
-      "color": {
-        "a": 1,
-        "rgb": 15735813
-      }
-    },
-    {
-      "query": "lateral_line",
-      "color": {
-        "a": 1,
-        "rgb": 14348971
-      }
-    },
-    {
-      "query": "spiral_line",
-      "color": {
-        "a": 1,
-        "rgb": 14844827
-      }
-    },
-    {
       "query": "deep_front_line",
       "color": {
         "a": 1,
@@ -46,7 +25,35 @@
       "query": "superficial_front_line",
       "color": {
         "a": 1,
-        "rgb": 2883890
+        "rgb": 13710310
+      }
+    },
+    {
+      "query": "functional_line",
+      "color": {
+        "a": 1,
+        "rgb": 14818824
+      }
+    },
+    {
+      "query": "lateral_line",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "spiral_line",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
       }
     }
   ],
@@ -60,6 +67,6 @@
   "repelStrength": 9.96701388888889,
   "linkStrength": 0.616710069444444,
   "linkDistance": 358,
-  "scale": 0.3852274642129481,
+  "scale": 0.4887859393548939,
   "close": false
 }

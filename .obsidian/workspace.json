@@ -11,14 +11,10 @@
             "id": "9e7ab46538ffc36d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "anatomy_trains_myofascial_thomas_w_myers"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -185,7 +181,13 @@
   },
   "active": "9e7ab46538ffc36d",
   "lastOpenFiles": [
+    "01_Fascial_Lines/posture_switch_failure_modes.md",
+    "01_Fascial_Lines/myofascial_interpretive_layer.md",
     "01_Fascial_Lines/lateral_line.md",
+    "01_Fascial_Lines/ipsilateral_functional_line.md",
+    "01_Fascial_Lines/golf_switch_failure_modes.md",
+    "01_Fascial_Lines/gait_switch_failure_modes.md",
+    "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md",
     "01_Fascial_Lines/functional_lines.md",
     "01_Fascial_Lines/spiral_line.md",
     "01_Fascial_Lines/deep_front_line.md",
@@ -194,9 +196,7 @@
     "01_Fascial_Lines/squat_switch_failure_modes.md",
     "01_Fascial_Lines/superficial_back_arm_line.md",
     "01_Fascial_Lines/front_functional_line.md",
-    "01_Fascial_Lines/ipsilateral_functional_line.md",
     "01_Fascial_Lines/deep_front_arm_line.md",
-    "01_Fascial_Lines/myofascial_interpretive_layer.md",
     "scripts/validate_relationship_nodes.py",
     "03_Movement_Functions/relationships/squat_spiral_line_relationship.md",
     "03_Movement_Functions/relationships/squat_lateral_line_relationship.md",
@@ -208,11 +208,7 @@
     "03_Movement_Functions/angular_momentum.md",
     "03_Movement_Functions/kinematic_sequence.md",
     "00_Spec/sources/bergmark_lumbar_stability.md",
-    "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md",
     "00_Project_Reports/Vault_Audit_and_Graph_Conversion_Plan.md",
-    "00_Spec/sources/golf_decoded_six_phases_swing.md",
-    "00_Project_Reports/Six_Phases_Swing_Graph_Extraction.md",
-    "00_Project_Reports/Connective_Structure_Hub_Report.md",
     "raw/literature/bourgain_golf_swing_biomechanics_2022.pdf",
     "raw/literature/Movement.pdf",
     "raw/literature/Non-structural misalignments of body posture in the sagittal plane.pdf",
