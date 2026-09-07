@@ -22,10 +22,21 @@ key_muscles:
 associated_mechanics: []
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 18
-hub_score: 75
-centrality: 0.31
+relationship_count: 32
+hub_score: 107
+centrality: 0.288
 updated: 2026-06-27
+fma_id: "FMA:13412"
+bodyparts3d_id: "BP3D:FMA13412"
+openstax_ref: "OpenStax A&P 2e §7.3"
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical joint classification, articulating surfaces, and ligamentous stability for Lumbar Spine."
+  - source_id: rajagopal_opensim_model_2016
+    evidence_level: 3
+    supports: "Provides validated degrees of freedom, kinematic constraints, and 3D coordinate centers for Lumbar Spine."
 ---
 
 # Joint: Lumbar Spine

@@ -20,6 +20,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D gait app may use this synthesis to traverse from an observed motion restriction or compensation to candidate fascial lines for follow-up assessment."
   - "The app must not report line mapping as measured tissue loading, fascial tension, or causal diagnosis; all mappings remain engine_synthesis (C)."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 26
+hub_score: 70
+centrality: 0.234
 ---
 
 # Gait–Myofascial Line Mapping (Engine Synthesis)

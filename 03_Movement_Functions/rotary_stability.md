@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use rotary stability to flag multi-plane trunk-control proxies (contralateral coordination, balance) from a 2D view."
   - "The app must not infer oblique/anti-rotation muscle activation or diagnosis from the pattern alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 9
+hub_score: 11
+centrality: 0.081
 ---
 
 # Rotary Stability (FMS Test 7)

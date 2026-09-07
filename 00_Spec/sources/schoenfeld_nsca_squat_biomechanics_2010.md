@@ -16,6 +16,9 @@ review_status: reviewed
 relationships:
   cited_by: []
   connects_to: [knee_to_toe_progression_boundary, sagittal_plumb_line_alignment, bodyweight_squat, squat_joint_muscle_mapping]
+relationship_count: 5
+hub_score: 7
+centrality: 0.045
 updated: 2026-09-01
 ---
 

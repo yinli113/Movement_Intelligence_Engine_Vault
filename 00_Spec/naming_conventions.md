@@ -10,9 +10,9 @@ relationships:
   connects_to: []
 confidence: high
 review_status: active_spec
-relationship_count: 3
-hub_score: 8
-centrality: 0.052
+relationship_count: 4
+hub_score: 11
+centrality: 0.036
 updated: 2026-07-08
 ---
 
@@ -46,11 +46,20 @@ updated: 2026-07-08
   - `review_status`: Review status string.
   - `updated`: Date in `YYYY-MM-DD` format.
 
+### 3.1 Anatomical Structure Metadata Standards (Muscles & Connective Structures)
+For physical anatomical nodes (`Muscle`, `Connective Structure`), the frontmatter should include:
+- `origin`: Array of proximal bony or fascial attachment points.
+- `insertion`: Array of distal bony or fascial attachment points.
+- `innervation`: Nerve supply and spinal roots (e.g., `Femoral nerve (L2-L4)`).
+- `fma_id`: Foundational Model of Anatomy ontology identifier (e.g., `FMA:22442`).
+- `bodyparts3d_id`: BodyParts3D 3D polygon mesh ID for `motionflow_anatomy_studio` 3D rendering.
+- `openstax_ref`: Standard reference to OpenStax Anatomy and Physiology 2e chapter/section.
+
 ## 4. Wikilink Conventions
-- Always use double-bracket links to create connections between notes: `[[target_node_id]]`.
-- To render custom link text, use the pipe syntax: `[[target_node_id|Custom Link Text]]`.
+- Always use double-bracket links to create connections between notes: ``target_node_id``.
+- To render custom link text, use the pipe syntax: `[[rectus_abdominis|Rectus Abdominis]]`.
   - *Correct:* "The [[gluteus_maximus]] is part of the [[superficial_back_line|Superficial Back Line]]."
 - Do not use markdown links (e.g., `[text](file.md)`) for internal vault links, except when linking to raw PDFs or external URLs.
 - In frontmatter, do not wrap relationships in double brackets; use plain strings corresponding to the node's `id`.
   - *Correct in YAML:* `connects_to: [plantar_fascia, gluteus_maximus]`
-  - *Incorrect in YAML:* `connects_to: [[[plantar_fascia]], [[gluteus_maximus]]]`
+  - *Incorrect in YAML:* `connects_to: [\[\[plantar_fascia\]\], \[\[gluteus_maximus\]\]]`

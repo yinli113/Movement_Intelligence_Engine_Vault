@@ -37,9 +37,9 @@ evidence:
     supports: "Defines four non-structural sagittal posture types (lordotic, kyphotic, kyphotic-lordotic, flat-back, sway-back), the Bergmark/Richardson functional muscle classification (local stabilizers, global stabilizers, mobilizers), the hypoactivity/hyperactivity vs shortening/lengthening distinction, structural-vs-non-structural differential diagnosis by flexibility, and corrective-exercise principles that target muscle function (organization) not just length."
 confidence: high
 review_status: source_summary_for_graph_mvp
-relationship_count: 16
-hub_score: 44
-centrality: 0.33
+relationship_count: 22
+hub_score: 45
+centrality: 0.198
 updated: 2026-07-22
 ---
 

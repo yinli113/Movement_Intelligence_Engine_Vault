@@ -19,9 +19,9 @@ relationships:
   related_concepts: [x_factor, golf_swing_events, segment_angle_metrics, kinematic_sequence, energy_flow, stretch_shortening_cycle, personalised_movement_intelligence]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 9
-hub_score: 0
-centrality: 0.0
+relationship_count: 11
+hub_score: 26
+centrality: 0.099
 updated: 2026-07-27
 ---
 

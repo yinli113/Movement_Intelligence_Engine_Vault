@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app can report foot-clearance proxy (toe height) during midswing from a 2D side view."
   - "The app must not infer dorsiflexor activation or pathology from clearance alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 16
+hub_score: 34
+centrality: 0.144
 ---
 
 # Midswing

@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "Use the gait cycle as the normalisation frame: report phase percentages and event timings from a 2D side view."
   - "A 2D app can identify foot-strike/toe-off events and phase boundaries, but cannot measure kinetics, EMG, or causation."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 36
+hub_score: 81
+centrality: 0.324
 ---
 
 # Gait Cycle

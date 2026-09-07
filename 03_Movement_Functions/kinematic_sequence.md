@@ -19,9 +19,9 @@ relationships:
   related_concepts: [angular_momentum, energy_transfer, force_transmission, movement_sequencing, functional_lines, x_factor, golf_movement_sequence, temporal_movement_metrics]
 confidence: high
 review_status: active_spec
-relationship_count: 13
-hub_score: 19
-centrality: 0.172
+relationship_count: 18
+hub_score: 43
+centrality: 0.162
 updated: 2026-07-27
 ---
 

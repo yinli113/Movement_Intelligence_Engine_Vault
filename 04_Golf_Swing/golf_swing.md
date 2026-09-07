@@ -27,9 +27,9 @@ relationships:
   relevant_to: [functional_lines, spiral_line, deep_front_line, lateral_line, superficial_back_line, x_factor, golf_swing_events, golf_movement_sequence, energy_flow, stretch_shortening_cycle]
 confidence: medium
 review_status: graph_mvp_updated
-relationship_count: 38
-hub_score: 95
-centrality: 0.569
+relationship_count: 42
+hub_score: 117
+centrality: 0.378
 updated: 2026-07-27
 ---
 

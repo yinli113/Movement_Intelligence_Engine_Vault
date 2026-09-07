@@ -19,9 +19,9 @@ relationships:
   related_concepts: [energy_transfer, kinematic_sequence, stretch_shortening_cycle, temporal_movement_metrics, segment_angle_metrics, personalised_movement_intelligence]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 8
-hub_score: 0
-centrality: 0.0
+relationship_count: 13
+hub_score: 23
+centrality: 0.117
 updated: 2026-07-27
 ---
 

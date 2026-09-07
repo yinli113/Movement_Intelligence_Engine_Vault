@@ -22,9 +22,9 @@ relationships:
   related_concepts: [stretch_shortening_cycle, kinematic_sequence, golf_swing_events, golf_movement_sequence, functional_lines, personalised_movement_intelligence, golf_kinetics_observability_boundary]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 9
-hub_score: 0
-centrality: 0.0
+relationship_count: 14
+hub_score: 42
+centrality: 0.126
 updated: 2026-07-27
 ---
 

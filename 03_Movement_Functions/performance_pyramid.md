@@ -14,6 +14,11 @@ evidence:
     source_type: textbook_pdf
     locator: "Ch. 10, local PDF pages 220-225"
     supports: "Defines the performance pyramid and over-powered / under-powered / under-skilled / optimum variants."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 4
+hub_score: 8
+centrality: 0.036
 updated: 2026-07-22
 ---
 

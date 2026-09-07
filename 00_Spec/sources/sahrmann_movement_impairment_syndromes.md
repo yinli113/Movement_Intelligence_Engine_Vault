@@ -14,6 +14,11 @@ domain: static_posture
 relationships:
   cited_by: [czaprowski_nonstructural_posture_2018]
   connects_to: [corrective_exercise, posture_assessment, muscle_length_strength_assessment]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 1
+hub_score: 2
+centrality: 0.009
 updated: 2026-07-22
 ---
 

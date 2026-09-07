@@ -14,6 +14,11 @@ evidence:
     source_type: journal_article_pdf
     locator: "J Am Acad Orthop Surg 2002;10:222-231, local PDF p.6"
     supports: "Defines in-shoe vs force-plate foot-pressure measurement and clinical uses."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 3
+hub_score: 5
+centrality: 0.027
 updated: 2026-07-22
 ---
 

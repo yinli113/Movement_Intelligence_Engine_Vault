@@ -13,11 +13,11 @@ relationships:
   defined_by: [kendall_muscles_testing_function]
   connects_to: [knee_to_toe_progression_boundary, coronal_plumb_line_alignment, bodyweight_squat]
   part_of: [movement_observation_framework]
-relationship_count: 5
-hub_score: 8
-centrality: 0.8
 confidence: high
 review_status: reviewed
+relationship_count: 6
+hub_score: 11
+centrality: 0.054
 updated: 2026-09-01
 ---
 
@@ -61,3 +61,16 @@ In the TillYes movement intelligence engine, the sagittal plane is partitioned i
 - [[knee_to_toe_progression_boundary]]
 - [[kendall_muscles_testing_function]]
 - [[schoenfeld_nsca_squat_biomechanics_2010]]
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: kendall_muscles_testing_function
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Standard sagittal plumb line alignment landmarks (external auditory meatus, acromion, lumbar bodies, greater trochanter, anterior lateral malleolus)."
+  - source_id: anatomy_trains_myers_2009
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Anteroposterior myofascial balance between Superficial Front Line and Superficial Back Line."
+```

@@ -35,9 +35,9 @@ evidence:
     supports: "Defines the gait cycle (stance 62% / swing 38%), the eight cycle events, the three stance periods and three swing phases, temporal parameters (velocity, cadence, step/stride length), the six determinants of gait (Saunders), Perry's four prerequisites + Gage's fifth (energy conservation), kinematics, kinetics (joint moments from force plates), EMG, foot pressure, energetics, and the observational-vs-laboratory distinction."
 confidence: high
 review_status: source_summary_for_graph_mvp
-relationship_count: 12
-hub_score: 38
-centrality: 0.28
+relationship_count: 33
+hub_score: 62
+centrality: 0.297
 updated: 2026-07-22
 ---
 

@@ -35,7 +35,7 @@ confidence: medium
 review_status: draft_graph_mvp
 relationship_count: 28
 hub_score: 82
-centrality: 0.483
+centrality: 0.252
 updated: 2026-06-29
 ---
 

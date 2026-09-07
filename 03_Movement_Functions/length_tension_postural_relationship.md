@@ -13,11 +13,11 @@ relationships:
   defined_by: [kendall_muscles_testing_function]
   connects_to: [apparent_shortness_vs_structural_shortening, sagittal_plumb_line_alignment, coronal_plumb_line_alignment]
   part_of: [movement_observation_framework]
-relationship_count: 5
-hub_score: 8
-centrality: 0.8
 confidence: high
 review_status: reviewed
+relationship_count: 5
+hub_score: 6
+centrality: 0.045
 updated: 2026-09-01
 ---
 
@@ -43,3 +43,16 @@ In the TillYes engine, Kendall's single-muscle model is synthesized with:
 - [[sagittal_plumb_line_alignment]]
 - [[apparent_shortness_vs_structural_shortening]]
 - [[czaprowski_nonstructural_posture_2018]]
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: kendall_muscles_testing_function
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Sarcomere length-tension curves, stretch weakness, and positional tightness."
+  - source_id: anatomy_trains_myers_2009
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Postural tone adaptation across continuous myofascial meridians."
+```

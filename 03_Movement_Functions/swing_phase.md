@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use swing boundaries (toe-off to next foot strike) as a 2D-observable phase marker."
   - "The app can mark swing duration and limb advancement but cannot measure the muscle activation that drives swing."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 19
+hub_score: 39
+centrality: 0.171
 ---
 
 # Swing Phase

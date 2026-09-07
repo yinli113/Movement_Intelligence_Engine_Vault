@@ -1,33 +1,73 @@
 ---
-type: muscle
-associated_lines:
-  - "[[lateral_line]]"
-joints_crossed:
-  - "[[knee_joint]]"
-biomechanical_actions:
-  - "[[knee_flexion]]"
-confidence: medium
-review_status: generated_legacy_needs_review
-relationship_count: 3
-hub_score: 8
-centrality: 0.052
-updated: 2026-06-27
+id: biceps_femoris_short_head
+type: Muscle
+preferred_name: Biceps Femoris (Short Head)
+aliases: [biceps femoris (short head)]
+short_definition: "Monoarticular knee flexor and external rotator on the lateral thigh, stabilizing the lateral knee joint."
+fma_id: "FMA:22358"
+bodyparts3d_id: "BP3D:FMA22358"
+openstax_ref: "OpenStax A&P 2e §11.6"
+innervation: "Common fibular (peroneal) division of sciatic nerve (L5-S2)"
+origin:
+  - "Lateral lip of linea aspera of femur and proximal lateral supracondylar line"
+insertion:
+  - "Lateral side of the head of the fibula (blending with long head tendon)"
+relationships:
+  associated_lines: ["lateral_line"]
+  joints_crossed: ["knee_joint"]
+  biomechanical_actions: ["knee_flexion"]
+evidence_level: 1
+evidence:
+  - source_id: anatomy_trains_myers_2009
+    evidence_level: 1
+    supports: "Identifies Biceps Femoris (Short Head) within the Anatomy Trains myofascial system."
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines standard origin, insertion, and innervation for Biceps Femoris (Short Head)."
+confidence: high
+review_status: active_spec
+relationship_count: 6
+hub_score: 20
+centrality: 0.054
+updated: 2026-09-07
 ---
 
-# Muscle: Biceps Femoris (Short Head)
+# Biceps Femoris (Short Head)
 
-Single-joint hamstring local. Not part of the structural SBL track but participates in lateral knee stability.
+## 📖 Definition & Overview
 
-## ⚙️ Biomechanical Role
-- **Primary Actions (Joint Movements)**:
-  - [[knee_flexion]]
+Monoarticular knee flexor and external rotator on the lateral thigh, stabilizing the lateral knee joint.
+
+---
+
+## 🦴 Bony Attachments & Anatomical Landmarks
+
+- **Origin (Proximal Attachments)**:
+  - Lateral lip of linea aspera of femur and proximal lateral supracondylar line
+- **Insertion (Distal Attachments)**:
+  - Lateral side of the head of the fibula (blending with long head tendon)
+- **Innervation**: Common fibular (peroneal) division of sciatic nerve (L5-S2)
+- **FMA Identifier**:  | **BodyParts3D ID**: 
+
+---
+
+## ⚙️ Biomechanical Role & Joint Mechanics
+
 - **Joints Acted Upon**: [[knee_joint]]
+- **Primary Actions**: [[knee_flexion]]
+
+---
 
 ## 🕸️ Myofascial Integration
-This muscle is a component of the following **myofascial lines**:
+
+This muscle participates in the following **myofascial lines**:
 - [[lateral_line]]
 
 ---
 
-## 📋 Diagnostic Links
-- Back to main index: `[[index]]`
+## 📋 Related Graph Nodes
+
+- **Fascial Lines**: [[lateral_line]]
+- **Joints**: [[knee_joint]]
+- **Joint Actions**: [[knee_flexion]]
+- **Back to Index**: 

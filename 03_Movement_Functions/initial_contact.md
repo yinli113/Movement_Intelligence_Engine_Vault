@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app marks initial contact as the foot-strike event that starts the cycle and stance."
   - "The app must not infer heel-strike kinetics or muscle activation from the visible contact event."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 16
+hub_score: 32
+centrality: 0.144
 ---
 
 # Initial Contact (Perry Phase 1)

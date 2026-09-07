@@ -10,6 +10,11 @@ supported_by: [straub_powers_squat_biomechanics_2024, gray_cook_movement_2010]
 status: active_spec
 reviewed_date: 2026-08-27
 connects_to: [bodyweight_squat, squat_joint_muscle_mapping, squat_myofascial_mapping, squat_cross_view_synthesis, metric_evidence_classification, movement_reporting_standards]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 5
+hub_score: 9
+centrality: 0.045
 ---
 
 # Squat Observability Boundary

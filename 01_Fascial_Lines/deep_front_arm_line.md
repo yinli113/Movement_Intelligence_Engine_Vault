@@ -17,9 +17,9 @@ relationships:
   app_hypotheses: [planned_arm_line_kinematic_descriptor]
 confidence: low
 review_status: needs_evidence
-relationship_count: 17
-hub_score: 58
-centrality: 0.293
+relationship_count: 29
+hub_score: 93
+centrality: 0.261
 updated: 2026-07-16
 ---
 

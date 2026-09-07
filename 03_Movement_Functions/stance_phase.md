@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use stance boundaries (foot strike to toe-off) as the primary 2D-observable phase marker."
   - "The app can mark stance duration but cannot measure the ground reaction force that defines loading."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 26
+hub_score: 59
+centrality: 0.234
 ---
 
 # Stance Phase

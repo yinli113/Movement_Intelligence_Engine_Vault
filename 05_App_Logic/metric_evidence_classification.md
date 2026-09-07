@@ -16,9 +16,9 @@ relationships:
   related_concepts: [golf_kinetics_observability_boundary, movement_reporting_standards, temporal_movement_metrics, personalised_movement_intelligence]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 6
-hub_score: 0
-centrality: 0.0
+relationship_count: 9
+hub_score: 19
+centrality: 0.081
 updated: 2026-07-27
 ---
 

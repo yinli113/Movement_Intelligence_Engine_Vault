@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "The app must never report 'this muscle is shortened/lengthened' as a structural fact from a silhouette; it reports apparent shortness/length as a hypothesis tied to a posture type."
   - "Report posture as a functional-organisation question (hypo/hyperactivity), not a length-only verdict."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 14
+hub_score: 30
+centrality: 0.126
 ---
 
 # Apparent Shortness vs Structural Shortening

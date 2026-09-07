@@ -22,10 +22,21 @@ associated_mechanics:
   - "[[knee_flexion]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 21
-hub_score: 79
-centrality: 0.362
+relationship_count: 53
+hub_score: 149
+centrality: 0.477
 updated: 2026-06-27
+fma_id: "FMA:24974"
+bodyparts3d_id: "BP3D:FMA24974"
+openstax_ref: "OpenStax A&P 2e §9.4"
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical joint classification, articulating surfaces, and ligamentous stability for Knee Joint."
+  - source_id: rajagopal_opensim_model_2016
+    evidence_level: 3
+    supports: "Provides validated degrees of freedom, kinematic constraints, and 3D coordinate centers for Knee Joint."
 ---
 
 # Joint: Knee Joint

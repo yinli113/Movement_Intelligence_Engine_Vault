@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app cannot perform flexibility testing; it must report a posture as a non-structural HYPOTHESIS and flag structural possibilities for clinical referral."
   - "The app must never assert a posture is structural or non-structural from a static silhouette alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 10
+hub_score: 20
+centrality: 0.09
 ---
 
 # Structural vs Non-Structural Posture

@@ -27,6 +27,9 @@ relationships:
   relevant_to: [golf_swing, x_factor, kinematic_sequence, golf_swing_events, golf_movement_sequence, temporal_movement_metrics, metric_evidence_classification]
 confidence: high
 review_status: active_spec
+relationship_count: 13
+hub_score: 25
+centrality: 0.117
 updated: 2026-07-29
 ---
 

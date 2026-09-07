@@ -19,11 +19,11 @@ relationships:
   contains: []
   connects_to: [golfer_ground_interaction_model, ground_reaction_force, ground_reaction_moment, moment_arm, center_of_mass, center_of_pressure, functional_lines, kinematic_sequence]
   app_hypotheses: [torque_generation_score, com_cop_separation_score, functional_line_loading_index, energy_transmission_efficiency]
-relationship_count: 12
-hub_score: 17
-centrality: 0.207
 confidence: low
 review_status: retired_unvalidated_concepts
+relationship_count: 12
+hub_score: 17
+centrality: 0.108
 updated: 2026-07-16
 ---
 

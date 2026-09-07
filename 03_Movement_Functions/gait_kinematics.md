@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app produces a kinematic proxy (2D joint angles), NOT lab-grade 3D kinematics."
   - "Report app-derived angles as 2D proxies; do not present them as validated 3D kinematic measurements."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 9
+hub_score: 13
+centrality: 0.081
 ---
 
 # Gait Kinematics

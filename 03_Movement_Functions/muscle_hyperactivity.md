@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "The app may flag a mobiliser as 'possibly hyperactive' as a hypothesis when its posture type implies over-recruitment, but must label it a hypothesis, not a measurement."
   - "The app must not assert a muscle is shortened/contractured from a silhouette; apparent shortness ≠ structural shortening (see [[apparent_shortness_vs_structural_shortening]])."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 11
+hub_score: 22
+centrality: 0.099
 ---
 
 # Muscle Hyperactivity (Reflectory Excitation)

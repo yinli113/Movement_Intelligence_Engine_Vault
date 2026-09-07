@@ -56,7 +56,14 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
   - `[[straub_powers_squat_biomechanics_2024]]` - Applied clinical commentary on modifiable squat parameters and relative hip/knee extensor bias (domain: squat).
   - `[[schoenfeld_nsca_squat_biomechanics_2010]]` - NSCA review of squat kinematics, joint moments, and knee-to-toe excursion boundaries (domain: squat).
-  - `[[kendall_muscles_testing_function]]` - Gold-standard clinical reference for sagittal/coronal plumb lines, manual muscle testing, and length-tension balance (domain: static posture / general movement).
+  - `[[openstax_anatomy_physiology_2e]]` - Open-access, peer-reviewed standard anatomical reference providing authoritative tables for muscle origins, insertions, innervations, and joint actions (Level 1, domain: general anatomy).
+  - `[[foundational_model_of_anatomy]]` - Open-source computable reference ontology of human anatomy (Level 1, domain: general anatomy).
+  - `[[bodyparts3d_dbcls]]` - Open-access 3D anatomical model database and dictionary mapped to FMA ontology IDs (Level 1, domain: 3D computational anatomy).
+  - `[[stecco_fascial_system_2015]]` - Cadaveric dissection and histological atlas of deep fascia and myofascial expansions (Level 2, domain: general anatomy).
+  - `[[wilke_myofascial_chains_review_2016]]` - Systematic review evaluating anatomical and force-transmission evidence for myofascial chains (Level 3, domain: general movement).
+  - `[[rajagopal_opensim_model_2016]]` - Validated full-body OpenSim musculoskeletal model with 3D coordinate attachments and moment arms (Level 3, domain: gait / general movement).
+  - `[[kendall_muscles_testing_function]]` - Gold-standard clinical reference for sagittal/coronal plumb lines, manual muscle testing, and length-tension balance (Level 4, domain: static posture / general movement).
+  - `[[bodyparts3d_fma_mapping]]` - Technical specification mapping vault nodes to BodyParts3D polygon meshes and FMA ontology IDs for 3D visualization.
   - `[[evals]]` - The Medallion Movement Evaluation Architecture (Raw/Bronze/Silver/Gold verification standards).
   - `[[log]]` - Compilation log of vault updates.
 
@@ -75,35 +82,29 @@ Anatomy Trains lines representing continuous myofascial force-transmission paths
   - `[[superficial_back_arm_line]]` | `[[deep_back_arm_line]]`
 
 ### 🦴 02. Physical Body Structures (`02_Body_Structures/`)
-The physiological segments, muscles, joints, and joint actions of the kinetic chain:
-- **Joints**:
-  - `[[hip_joint]]` | `[[knee_joint]]` | `[[ankle_joint]]`
-  - `[[shoulder_joint]]` | `[[elbow_joint]]` | `[[wrist_joint]]`
+The physiological segments, muscles, joints, connective tissues, and joint actions of the kinetic chain (108 muscles, 18 connective structures, 17 joints, 33 joint actions grounded in OpenStax Anatomy 2e, BodyParts3D meshes, and FMA ontology):
+- **Joints (17)**:
+  - `[[hip_joint]]` | `[[knee_joint]]` | `[[ankle_joint]]` | `[[subtalar_joint]]` | `[[sacroiliac_joint]]` | `[[pubic_symphysis]]`
+  - `[[shoulder_joint]]` | `[[scapulothoracic_joint]]` | `[[acromioclavicular_joint]]` | `[[sternoclavicular_joint]]`
+  - `[[elbow_joint]]` | `[[wrist_joint]]` | `[[temporomandibular_joint]]`
   - `[[cervical_spine]]` | `[[thoracic_spine]]` | `[[lumbar_spine]]` | `[[sacrum]]`
-- **Connective Structures**:
-  - `[[plantar_fascia]]` | `[[thoracolumbar_fascia]]` | `[[sacrotuberous_ligament]]`
-  - `[[iliotibial_tract]]` | `[[nuchal_ligament]]`
-- **Joint Actions**:
-  - `[[hip_internal_rotation]]` | `[[hip_external_rotation]]` | `[[hip_flexion]]` | `[[hip_extension]]` | `[[hip_abduction]]` | `[[hip_adduction]]`
-  - `[[thoracic_rotation]]` | `[[trail_shoulder_external_rotation]]`
-  - `[[ankle_dorsiflexion]]` | `[[ankle_plantarflexion]]`
-  - `[[knee_flexion]]` | `[[knee_extension]]`
-  - `[[shoulder_internal_rotation]]` | `[[shoulder_external_rotation]]` | `[[shoulder_abduction]]` | `[[shoulder_adduction]]`
-  - `[[elbow_flexion]]`
-- **Muscles**:
-  - `[[gluteus_maximus]]` | `[[gluteus_medius]]` | `[[gluteus_minimus]]`
-  - `[[psoas_major]]` | `[[iliacus]]` | `[[adductor_longus]]` | `[[adductor_magnus]]` | `[[adductor_brevis]]` | `[[gracilis]]` | `[[pectineus]]`
-  - `[[latissimus_dorsi]]` | `[[pectoralis_major]]` | `[[pectoralis_minor]]`
-  - `[[rectus_abdominis]]` | `[[transversus_abdominis]]` | `[[external_oblique]]` | `[[internal_oblique]]`
-  - `[[quadratus_lumborum]]` | `[[diaphragm]]`
-  - `[[biceps_femoris_long_head]]` | `[[biceps_femoris_short_head]]` | `[[semitendinosus]]` | `[[semimembranosus]]`
-  - `[[rectus_femoris]]` | `[[sartorius]]` | `[[tensor_fasciae_latae]]`
-  - `[[gastrocnemius]]` | `[[soleus]]` | `[[tibialis_anterior]]` | `[[tibialis_posterior]]`
-  - `[[flexor_hallucis_longus]]` | `[[flexor_digitorum_longus]]` | `[[flexor_digitorum_brevis]]`
-  - `[[extensor_hallucis_longus]]` | `[[extensor_digitorum_longus]]`
-  - `[[peroneus_longus]]` | `[[peroneus_brevis]]` | `[[popliteus]]`
-  - `[[sternocleidomastoid]]` | `[[scalenes]]` | `[[splenius_capitis]]` | `[[trapezius]]` | `[[rhomboids]]` | `[[serratus_anterior]]`
-  - `[[deltoid]]` | `[[biceps_brachii]]` | `[[triceps_brachii]]` | `[[supraspinatus]]` | `[[infraspinatus]]` | `[[subscapularis]]` | `[[teres_minor]]`
+- **Connective Structures & Ligaments (18)**:
+  - `[[plantar_fascia]]` | `[[calcaneal_tendon]]` | `[[iliotibial_tract]]` | `[[thoracolumbar_fascia]]`
+  - `[[patellar_ligament]]` | `[[sacrotuberous_ligament]]` | `[[sacrospinous_ligament]]` | `[[iliolumbar_ligament]]`
+  - `[[anterior_cruciate_ligament]]` | `[[posterior_cruciate_ligament]]` | `[[medial_collateral_ligament]]` | `[[lateral_collateral_ligament]]`
+  - `[[nuchal_ligament]]` | `[[linea_alba]]` | `[[rectus_sheath]]` | `[[inguinal_ligament]]`
+  - `[[palmar_aponeurosis]]` | `[[bicipital_aponeurosis]]`
+- **Joint Actions (33)**:
+  - **Lower Extremity**: `[[hip_flexion]]` | `[[hip_extension]]` | `[[hip_abduction]]` | `[[hip_adduction]]` | `[[hip_internal_rotation]]` | `[[hip_external_rotation]]` | `[[knee_flexion]]` | `[[knee_extension]]` | `[[ankle_dorsiflexion]]` | `[[ankle_plantarflexion]]` | `[[ankle_inversion]]` | `[[ankle_eversion]]`
+  - **Pelvis & Spine**: `[[thoracic_rotation]]` | `[[lumbar_flexion]]` | `[[lumbar_extension]]` | `[[cervical_flexion]]` | `[[cervical_extension]]` | `[[cervical_rotation]]`
+  - **Upper Extremity**: `[[shoulder_flexion]]` | `[[shoulder_extension]]` | `[[shoulder_abduction]]` | `[[shoulder_adduction]]` | `[[shoulder_internal_rotation]]` | `[[shoulder_external_rotation]]` | `[[trail_shoulder_external_rotation]]` | `[[elbow_flexion]]` | `[[elbow_extension]]` | `[[forearm_pronation]]` | `[[forearm_supination]]` | `[[wrist_flexion]]` | `[[wrist_extension]]` | `[[wrist_radial_deviation]]` | `[[wrist_ulnar_deviation]]`
+- **Muscles (108)**:
+  - **Pelvis, Hip & Thigh**: `[[gluteus_maximus]]` | `[[gluteus_medius]]` | `[[gluteus_minimus]]` | `[[piriformis]]` | `[[obturator_internus]]` | `[[obturator_externus]]` | `[[gemellus_superior]]` | `[[gemellus_inferior]]` | `[[quadratus_femoris]]` | `[[psoas_major]]` | `[[iliacus]]` | `[[tensor_fasciae_latae]]` | `[[sartorius]]` | `[[rectus_femoris]]` | `[[vastus_lateralis]]` | `[[vastus_medialis]]` | `[[vastus_intermedius]]` | `[[biceps_femoris_long_head]]` | `[[biceps_femoris_short_head]]` | `[[semitendinosus]]` | `[[semimembranosus]]` | `[[adductor_longus]]` | `[[adductor_magnus]]` | `[[adductor_brevis]]` | `[[gracilis]]` | `[[pectineus]]`
+  - **Leg & Foot**: `[[tibialis_anterior]]` | `[[tibialis_posterior]]` | `[[gastrocnemius]]` | `[[soleus]]` | `[[popliteus]]` | `[[peroneus_longus]]` | `[[peroneus_brevis]]` | `[[extensor_hallucis_longus]]` | `[[extensor_digitorum_longus]]` | `[[flexor_hallucis_longus]]` | `[[flexor_digitorum_longus]]` | `[[flexor_digitorum_brevis]]` | `[[quadratus_plantae]]` | `[[abductor_hallucis]]` | `[[abductor_digiti_minimi_foot]]` | `[[flexor_hallucis_brevis]]` | `[[flexor_digiti_minimi_brevis]]`
+  - **Abdomen, Pelvic Floor & Spine**: `[[rectus_abdominis]]` | `[[transversus_abdominis]]` | `[[external_oblique]]` | `[[internal_oblique]]` | `[[quadratus_lumborum]]` | `[[multifidus]]` | `[[rotatores]]` | `[[semispinalis]]` | `[[diaphragm]]` | `[[levator_ani]]` | `[[coccygeus]]`
+  - **Shoulder Girdle & Upper Trunk**: `[[latissimus_dorsi]]` | `[[trapezius]]` | `[[rhomboids]]` | `[[levator_scapulae]]` | `[[serratus_anterior]]` | `[[pectoralis_major]]` | `[[pectoralis_minor]]` | `[[deltoid]]` | `[[teres_major]]` | `[[subscapularis]]` | `[[supraspinatus]]` | `[[infraspinatus]]` | `[[teres_minor]]`
+  - **Arm & Forearm**: `[[biceps_brachii]]` | `[[brachialis]]` | `[[brachioradialis]]` | `[[coracobrachialis]]` | `[[triceps_brachii]]` | `[[pronator_teres]]` | `[[pronator_quadratus]]` | `[[supinator]]` | `[[flexor_carpi_radialis]]` | `[[flexor_carpi_ulnaris]]` | `[[palmaris_longus]]` | `[[flexor_digitorum_superficialis]]` | `[[flexor_digitorum_profundus]]` | `[[extensor_carpi_radialis_longus]]` | `[[extensor_carpi_radialis_brevis]]` | `[[extensor_carpi_ulnaris]]` | `[[extensor_digitorum]]`
+  - **Head & Neck**: `[[sternocleidomastoid]]` | `[[scalenes]]` | `[[splenius_capitis]]` | `[[splenius_cervicis]]` | `[[suboccipital_muscles]]` | `[[rectus_capitis_lateralis]]` | `[[digastric]]` | `[[mylohyoid]]` | `[[stylohyoid]]` | `[[geniohyoid]]` | `[[sternohyoid]]` | `[[omohyoid]]` | `[[sternothyroid]]` | `[[thyrohyoid]]`
 
 ### ⚙️ 03. Movement Biomechanics (`03_Movement_Functions/`)
 Rotational forces, physics vectors, and transmission dynamics:

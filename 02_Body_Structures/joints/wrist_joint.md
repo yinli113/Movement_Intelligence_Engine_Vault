@@ -10,10 +10,21 @@ key_muscles:
 associated_mechanics: []
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 5
-hub_score: 20
-centrality: 0.086
+relationship_count: 22
+hub_score: 74
+centrality: 0.198
 updated: 2026-06-27
+fma_id: "FMA:24964"
+bodyparts3d_id: "BP3D:FMA24964"
+openstax_ref: "OpenStax A&P 2e §9.4"
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical joint classification, articulating surfaces, and ligamentous stability for Wrist Joint."
+  - source_id: rajagopal_opensim_model_2016
+    evidence_level: 3
+    supports: "Provides validated degrees of freedom, kinematic constraints, and 3D coordinate centers for Wrist Joint."
 ---
 
 # Joint: Wrist Joint

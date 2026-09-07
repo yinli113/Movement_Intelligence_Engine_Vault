@@ -13,11 +13,11 @@ relationships:
   defined_by: [kendall_muscles_testing_function]
   connects_to: [sagittal_plumb_line_alignment, bodyweight_squat]
   part_of: [movement_observation_framework]
-relationship_count: 4
-hub_score: 7
-centrality: 0.7
 confidence: high
 review_status: reviewed
+relationship_count: 5
+hub_score: 8
+centrality: 0.045
 updated: 2026-09-01
 ---
 
@@ -54,3 +54,16 @@ The **Coronal Plumb Line** is a vertical line of symmetry passing through the mi
 - [[sagittal_plumb_line_alignment]]
 - [[kendall_muscles_testing_function]]
 - [[czaprowski_nonstructural_posture_2018]]
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: kendall_muscles_testing_function
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Coronal plane posture reference lines and lateral postural asymmetries."
+  - source_id: anatomy_trains_myers_2009
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "BodyReading assessment protocols for lateral fascial balance."
+```

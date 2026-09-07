@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use the inline lunge to flag knee tracking, pelvis levelness, and torso verticality proxies from a 2D view."
   - "The app must not infer which joint's deficit causes a low score; that requires hands-on assessment."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 9
+hub_score: 12
+centrality: 0.081
 ---
 
 # Inline Lunge (FMS Test 3)

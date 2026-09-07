@@ -10,6 +10,11 @@ supported_by: [straub_powers_squat_biomechanics_2024, gray_cook_movement_2010]
 status: active_spec
 reviewed_date: 2026-08-27
 connects_to: [bodyweight_squat, squat_observability_boundary, squat_joint_muscle_mapping, squat_myofascial_mapping, movement_reporting_standards]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 2
+hub_score: 4
+centrality: 0.018
 ---
 
 # Squat Cross-View Synthesis

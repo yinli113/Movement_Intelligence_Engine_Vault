@@ -11,6 +11,11 @@ supported_by: [gray_cook_movement_2010, straub_powers_squat_biomechanics_2024]
 status: reviewed_for_app_v1
 reviewed_date: 2026-08-27
 connects_to: [deep_squat, movement_pattern, squat_joint_muscle_mapping, squat_myofascial_mapping, squat_observability_boundary, squat_cross_view_synthesis]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 10
+hub_score: 17
+centrality: 0.09
 ---
 
 # Bodyweight Squat
@@ -74,3 +79,16 @@ muscle weakness, activation, pathology, pain source, or fascial tension. See
 - [[gray_cook_movement_2010]] - whole-pattern and screen-versus-diagnosis framework.
 - [[straub_powers_squat_biomechanics_2024]] - modifiable squat parameters and applied
   biomechanical interpretation.
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: rajagopal_opensim_model_2016
+    level: domain_biomechanics
+    evidence_tier: Level 3
+    description: "Lower extremity joint kinematics, moments, and multi-joint muscle activations during bilateral squatting."
+  - source_id: openstax_anatomy_physiology_2e
+    level: foundational_anatomical_framework
+    evidence_tier: Level 1
+    description: "Triple flexion/extension articulation of ankle, knee, and hip joints."
+```

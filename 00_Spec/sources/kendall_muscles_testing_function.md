@@ -16,6 +16,9 @@ review_status: reviewed
 relationships:
   cited_by: [czaprowski_nonstructural_posture_2018]
   connects_to: [sagittal_plumb_line_alignment, coronal_plumb_line_alignment, length_tension_postural_relationship, apparent_shortness_vs_structural_shortening]
+relationship_count: 5
+hub_score: 9
+centrality: 0.045
 updated: 2026-09-01
 ---
 

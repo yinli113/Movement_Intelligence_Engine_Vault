@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app can estimate step/stride length (scaled to a known reference) and cadence from timed foot strikes."
   - "Velocity from a 2D recording is a proxy; lab-grade velocity requires instrumented timing. Label app-derived values as proxies."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 5
+hub_score: 8
+centrality: 0.045
 ---
 
 # Gait Temporal Parameters

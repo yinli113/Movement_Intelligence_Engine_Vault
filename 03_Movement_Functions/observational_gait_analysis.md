@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "This is the app's native method: 2D video observation by plane, producing descriptors and temporal-spatial proxies."
   - "The app must report descriptors (what is seen), not causes (why it happens); cause is reserved for instrumented analysis."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 22
+centrality: 0.108
 ---
 
 # Observational Gait Analysis

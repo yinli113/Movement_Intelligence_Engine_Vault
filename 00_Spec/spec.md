@@ -10,9 +10,9 @@ relationships:
   supported_by: [anatomy_trains_myers_2009, julie_hammond_breakout, golf_decoded_six_phases_swing]
 confidence: high
 review_status: active_spec
-relationship_count: 10
-hub_score: 13
-centrality: 0.172
+relationship_count: 15
+hub_score: 18
+centrality: 0.135
 updated: 2026-07-01
 ---
 

@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app bounds terminal stance by heel-rise and opposite foot strike and reports a heel-rise/roll-over proxy."
   - "The app must not infer propulsion kinetics or muscle activation from the visible period alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 18
+hub_score: 40
+centrality: 0.162
 ---
 
 # Terminal Stance (Perry Phase 4)

@@ -35,9 +35,9 @@ evidence:
     supports: "Defines screening vs assessment, the FMS seven tests with scoring criteria, the SFMA top-tier assessments and breakouts, the joint-by-joint concept, and corrective-strategy frameworks (mobility before stability, reverse patterning, reactive neuromuscular training, conscious loading)."
 confidence: medium
 review_status: source_summary_for_graph_mvp
-relationship_count: 14
-hub_score: 42
-centrality: 0.31
+relationship_count: 22
+hub_score: 44
+centrality: 0.198
 updated: 2026-07-22
 ---
 

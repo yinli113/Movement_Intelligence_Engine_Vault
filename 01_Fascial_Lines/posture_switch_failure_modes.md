@@ -14,9 +14,11 @@ relationships:
   parent_concepts: [bodyreading_static_posture]
   child_concepts: [superficial_back_line, superficial_front_line, deep_front_line, lateral_line, spiral_line]
   related_concepts: [sagittal_posture_types, kyphotic_lordotic_posture, flat_back_posture, sway_back_posture, lordotic_posture]
-relationship_count: 7
-hub_score: 8
-centrality: 0.0
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 11
+hub_score: 30
+centrality: 0.099
 ---
 
 # Static Posture Switch Failure Modes

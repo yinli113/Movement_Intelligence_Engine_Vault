@@ -25,9 +25,9 @@ relationships:
   app_hypotheses: [planned_lateral_shift_rotation_screen]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 41
-hub_score: 118
-centrality: 0.707
+relationship_count: 67
+hub_score: 189
+centrality: 0.604
 updated: 2026-07-16
 ---
 

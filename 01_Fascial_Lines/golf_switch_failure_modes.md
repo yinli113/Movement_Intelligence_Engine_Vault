@@ -14,9 +14,11 @@ relationships:
   parent_concepts: [golf_myofascial_mapping]
   child_concepts: [superficial_back_line, superficial_front_line, deep_front_line, lateral_line, spiral_line, back_functional_line, front_functional_line]
   related_concepts: [golf_swing_events, golf_swing_transition, x_factor, golf_kinetics_observability_boundary]
-relationship_count: 8
-hub_score: 9
-centrality: 0.0
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 42
+centrality: 0.108
 ---
 
 # Golf Swing Switch Failure Modes

@@ -19,9 +19,9 @@ relationships:
   related_concepts: [temporal_movement_metrics, energy_flow, movement_reporting_standards, metric_evidence_classification, x_factor, stretch_shortening_cycle]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 8
-hub_score: 0
-centrality: 0.0
+relationship_count: 11
+hub_score: 24
+centrality: 0.099
 updated: 2026-07-27
 ---
 

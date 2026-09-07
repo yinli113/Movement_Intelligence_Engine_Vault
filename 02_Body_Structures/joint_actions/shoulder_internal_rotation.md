@@ -15,10 +15,18 @@ key_muscles:
 compensations: [Forward Shoulder Roll, Scapular Elevation]
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 9
-hub_score: 34
-centrality: 0.155
+relationship_count: 10
+hub_score: 38
+centrality: 0.09
 updated: 2026-06-27
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines standard osteokinematic joint motion, plane of motion, and agonist muscle recruitment."
+  - source_id: kendall_muscles_testing_function
+    evidence_level: 4
+    supports: "Supplies manual muscle testing procedures and length-tension relationships for this joint action."
 ---
 
 # Biomechanical Action: Shoulder Internal Rotation

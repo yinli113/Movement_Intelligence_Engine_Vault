@@ -20,6 +20,11 @@ app_translation:
   - "Use FMS as the cross-domain screening template: seven fundamental patterns, scored 0-3, with pain red-flagging."
   - "A 2D app can score pattern quality proxies (e.g., knee-over-foot alignment, torso angle) but cannot measure the underlying joint mobility or stability."
   - "Pain discovered on screen must redirect to clinical assessment, not be diagnosed by the app."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 20
+hub_score: 32
+centrality: 0.18
 ---
 
 # Functional Movement Screen (FMS)

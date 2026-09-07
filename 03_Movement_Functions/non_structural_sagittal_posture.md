@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "A static-posture app reads a sagittal silhouette as one of these types as a PATTERN HYPOTHESIS, not a diagnosis."
   - "The app reports the posture as a movement-organisation question (which stabiliser is under-recruited / which mobiliser is over-recruited), not as a static label alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 26
+centrality: 0.108
 ---
 
 # Non-Structural Sagittal Posture

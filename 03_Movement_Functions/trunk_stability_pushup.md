@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use the push-up to flag trunk-stability proxies (sagging/arching torso, scapular control) from a 2D side view."
   - "The app must not infer core muscle activation or spine pathology from the push-up alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 9
+hub_score: 11
+centrality: 0.081
 ---
 
 # Trunk Stability Push-up (FMS Test 6)

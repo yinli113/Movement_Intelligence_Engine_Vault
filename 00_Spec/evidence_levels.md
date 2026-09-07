@@ -11,9 +11,9 @@ relationships:
   supported_by: [anatomy_trains_myofascial_thomas_w_myers, julie_hammond_breakout, gray_cook_movement_2010, chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis, czaprowski_nonstructural_posture_2018, dr_kwon_golfer_ground_interaction, bourgain_golf_swing_biomechanics_2022, golf_decoded_six_phases_swing]
 confidence: high
 review_status: active_spec
-relationship_count: 14
-hub_score: 16
-centrality: 0.19
+relationship_count: 25
+hub_score: 35
+centrality: 0.225
 updated: 2026-07-22
 ---
 

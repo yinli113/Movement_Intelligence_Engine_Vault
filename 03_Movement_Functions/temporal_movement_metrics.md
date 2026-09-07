@@ -19,9 +19,9 @@ relationships:
   related_concepts: [kinematic_sequence, movement_sequencing, energy_transfer, segment_angle_metrics, personalised_movement_intelligence, x_factor]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 9
-hub_score: 0
-centrality: 0.0
+relationship_count: 15
+hub_score: 30
+centrality: 0.135
 updated: 2026-07-27
 ---
 

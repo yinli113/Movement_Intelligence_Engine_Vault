@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app bounds mid stance by opposite toe-off and heel-rise and reports single-leg balance proxies (pelvic level, trunk sway)."
   - "The app must not infer single-leg stability as a measured kinetic or muscle-activation variable."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 17
+hub_score: 33
+centrality: 0.153
 ---
 
 # Mid Stance (Perry Phase 3)

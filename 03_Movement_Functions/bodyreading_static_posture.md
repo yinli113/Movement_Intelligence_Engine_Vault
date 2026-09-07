@@ -19,9 +19,9 @@ relationships:
   relevant_to: [fascial_knowledge_json, static_posture_app, golf_swing]
 confidence: high
 review_status: source_extracted
-relationship_count: 12
-hub_score: 32
-centrality: 0.207
+relationship_count: 25
+hub_score: 58
+centrality: 0.225
 updated: 2026-07-06
 ---
 
@@ -114,3 +114,16 @@ The app's `fascial_knowledge.json` encodes this method: each static finding carr
 ## Category
 
 Assessment
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: anatomy_trains_myers_2009
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Systematic 5-step visual BodyReading assessment framework."
+  - source_id: kendall_muscles_testing_function
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Postural fault classification and muscle length-tension analysis."
+```

@@ -20,10 +20,24 @@ relationships:
   relevant_to: [toe_loading, lateral_line, spiral_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 12
-hub_score: 35
-centrality: 0.207
+relationship_count: 15
+hub_score: 44
+centrality: 0.135
 updated: 2026-06-29
+fma_id: "FMA:51048"
+bodyparts3d_id: "BP3D:FMA51048"
+openstax_ref: "OpenStax A&P 2e §11.6"
+evidence_level: 1
+evidence:
+  - source_id: anatomy_trains_myers_2009
+    evidence_level: 1
+    supports: "Identifies Iliotibial Tract as a primary structural force transmission node."
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical structure and boundaries of Iliotibial Tract."
+  - source_id: stecco_fascial_system_2015
+    evidence_level: 2
+    supports: "Documents histological and macroscopic fascial continuum of Iliotibial Tract."
 ---
 
 # Iliotibial Tract

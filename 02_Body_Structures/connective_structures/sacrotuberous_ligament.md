@@ -20,10 +20,24 @@ relationships:
   relevant_to: [toe_loading, hip_internal_rotation, functional_lines]
 confidence: low
 review_status: draft_graph_mvp
-relationship_count: 10
-hub_score: 28
-centrality: 0.172
+relationship_count: 14
+hub_score: 38
+centrality: 0.126
 updated: 2026-06-29
+fma_id: "FMA:21486"
+bodyparts3d_id: "BP3D:FMA21486"
+openstax_ref: "OpenStax A&P 2e §11.6"
+evidence_level: 1
+evidence:
+  - source_id: anatomy_trains_myers_2009
+    evidence_level: 1
+    supports: "Identifies Sacrotuberous Ligament as a primary structural force transmission node."
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical structure and boundaries of Sacrotuberous Ligament."
+  - source_id: stecco_fascial_system_2015
+    evidence_level: 2
+    supports: "Documents histological and macroscopic fascial continuum of Sacrotuberous Ligament."
 ---
 
 # Sacrotuberous Ligament

@@ -20,10 +20,24 @@ relationships:
   relevant_to: [trail_shoulder_external_rotation, functional_lines, spiral_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 17
-hub_score: 46
-centrality: 0.293
+relationship_count: 23
+hub_score: 64
+centrality: 0.207
 updated: 2026-06-29
+fma_id: "FMA:20448"
+bodyparts3d_id: "BP3D:FMA20448"
+openstax_ref: "OpenStax A&P 2e §11.3"
+evidence_level: 1
+evidence:
+  - source_id: anatomy_trains_myers_2009
+    evidence_level: 1
+    supports: "Identifies Thoracolumbar Fascia as a primary structural force transmission node."
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical structure and boundaries of Thoracolumbar Fascia."
+  - source_id: stecco_fascial_system_2015
+    evidence_level: 2
+    supports: "Documents histological and macroscopic fascial continuum of Thoracolumbar Fascia."
 ---
 
 # Thoracolumbar Fascia

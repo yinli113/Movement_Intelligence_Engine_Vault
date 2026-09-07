@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "Use this node only for the FMS overhead protocol. Use [[bodyweight_squat]] for a non-overhead unloaded squat assessment."
   - "The app must not infer which joint's mobility deficit causes a failed squat; that requires hands-on assessment."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 15
+centrality: 0.108
 ---
 
 # Deep Squat (FMS Test 1)

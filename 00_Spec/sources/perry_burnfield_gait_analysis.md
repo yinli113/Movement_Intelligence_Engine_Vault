@@ -21,6 +21,11 @@ relationships:
   connects_to: [gait_cycle, stance_phase, swing_phase, gait_observability_boundary, observational_gait_analysis]
   supported_by: [chambers_sutherland_gait_analysis_2002]
   relevant_to: [gait_cycle, stance_phase, swing_phase]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 21
+hub_score: 35
+centrality: 0.189
 updated: 2026-07-24
 ---
 

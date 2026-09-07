@@ -14,6 +14,11 @@ domain: gait
 relationships:
   future_expansion_of: [chambers_sutherland_gait_analysis_2002]
   connects_to: [observational_gait_analysis, gait_cycle]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 4
+hub_score: 4
+centrality: 0.036
 updated: 2026-07-24
 ---
 

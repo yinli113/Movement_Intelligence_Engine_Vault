@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use the hurdle step to flag single-leg stance stability proxies (pelvic level, trunk sway) and hip-height clearance from a 2D view."
   - "The app must not infer which side's hip mobility or stance stability is the deficit; that requires hands-on assessment."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 9
+hub_score: 12
+centrality: 0.081
 ---
 
 # Hurdle Step (FMS Test 2)

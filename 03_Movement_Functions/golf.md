@@ -21,7 +21,7 @@ confidence: medium
 review_status: draft_graph_mvp
 relationship_count: 6
 hub_score: 12
-centrality: 0.103
+centrality: 0.054
 updated: 2026-06-30
 ---
 
@@ -58,3 +58,16 @@ The [[golf_decoded_six_phases_swing]] source introduces a golf-specific phase mo
 ## Category
 
 Golf
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: dr_kwon_golfer_ground_interaction
+    level: domain_biomechanics
+    evidence_tier: Level 3
+    description: "Ground reaction force vectors and rotational momentum generation in golf swings."
+  - source_id: anatomy_trains_myers_2009
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Diagonal functional lines and spiral line loading across swing phases."
+```

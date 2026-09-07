@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use whole-body patterns as the primary scoring unit across all domains."
   - "Decompose a pattern into joint-angle proxies for display, but report the pattern score, not a single joint's verdict."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 23
+centrality: 0.108
 ---
 
 # Movement Pattern

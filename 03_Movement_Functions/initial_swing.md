@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app can bound initial swing by toe-off and the mid-swing limb position and report knee-flexion proxy."
   - "The app must not infer the muscle activation that accelerates the limb."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 17
+hub_score: 37
+centrality: 0.153
 ---
 
 # Initial Swing

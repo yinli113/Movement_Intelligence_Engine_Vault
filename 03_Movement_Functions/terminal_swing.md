@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app can bound terminal swing by tibia vertical and foot strike, and report knee extension / heel-strike preparation proxies."
   - "The app must not infer the hamstring deceleration kinetics from the visible limb position alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 17
+hub_score: 33
+centrality: 0.153
 ---
 
 # Terminal Swing

@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "Use this classification as the functional-organisation layer paired with fascial-line reading: which stabiliser is under-recruited AND which mobiliser is over-recruited."
   - "The app must not assign a specific muscle's hypo/hyperactivity from a static silhouette alone; that is a hypothesis to flag, not a measurement."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 13
+hub_score: 28
+centrality: 0.117
 ---
 
 # Stabilizer/Mobilizer Functional Muscle Classification

@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app bounds preswing by opposite foot strike and toe-off and reports an unload/propulsion-prep proxy."
   - "The app must not infer push-off kinetics or muscle activation from the visible period alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 19
+hub_score: 40
+centrality: 0.171
 ---
 
 # Preswing (Perry Phase 5)

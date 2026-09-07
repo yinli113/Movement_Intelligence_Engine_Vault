@@ -19,9 +19,9 @@ relationships:
   related_concepts: [center_of_mass, temporal_movement_metrics, kinematic_sequence, golf_movement_sequence, golf_kinetics_observability_boundary]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 7
-hub_score: 0
-centrality: 0.0
+relationship_count: 8
+hub_score: 16
+centrality: 0.072
 updated: 2026-07-27
 ---
 

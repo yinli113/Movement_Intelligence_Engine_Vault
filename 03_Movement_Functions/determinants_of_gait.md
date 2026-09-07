@@ -14,6 +14,11 @@ evidence:
     source_type: journal_article_pdf
     locator: "J Am Acad Orthop Surg 2002;10:222-231, local PDF p.3"
     supports: "Lists the six determinants (pelvic rotation, pelvic list, stance knee flexion, foot/ankle motion, lateral pelvic displacement, axial lower-limb rotations) and Perry/Gage prerequisites."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 3
+hub_score: 6
+centrality: 0.027
 updated: 2026-07-22
 ---
 

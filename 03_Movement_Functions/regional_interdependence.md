@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "When a 2D app flags a pattern problem at one joint, it should present adjacent and distant-chain regions as hypotheses, not as confirmed drivers."
   - "The app must not assert a distant cause from a 2D pattern alone; it surfaces it as a question for clinical assessment."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 7
+hub_score: 12
+centrality: 0.063
 ---
 
 # Regional Interdependence

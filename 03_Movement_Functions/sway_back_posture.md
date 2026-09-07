@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app reads a sagittal silhouette with the trunk swayed posterior to the pelvis and extended hips as a sway-back-pattern HYPOTHESIS, not a diagnosis."
   - "Report the functional-organisation hypothesis as a question, not a measured muscle state."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 18
+centrality: 0.108
 ---
 
 # Sway-Back Posture

@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app reads a sagittal silhouette showing both thoracic kyphosis and lumbar lordosis as a kyphotic-lordotic-pattern HYPOTHESIS, not a diagnosis."
   - "Report the functional-organisation hypothesis as a question spanning both trunk regions, not a measured muscle state."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 15
+hub_score: 21
+centrality: 0.135
 ---
 
 # Kyphotic-Lordotic Posture

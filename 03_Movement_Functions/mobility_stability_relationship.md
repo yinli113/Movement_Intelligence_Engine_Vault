@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app can flag a mobility proxy (limited visible range) but cannot confirm a stability/motor-control deficit, which requires hands-on assessment."
   - "Report mobility proxies and stability flags as separate, not as one combined diagnosis."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 23
+centrality: 0.108
 ---
 
 # Mobility-Stability Relationship

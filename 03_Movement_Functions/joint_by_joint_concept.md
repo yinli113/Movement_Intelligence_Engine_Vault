@@ -14,6 +14,11 @@ evidence:
     source_type: textbook_pdf
     locator: "Appendix 1-2, local PDF pages 319-329"
     supports: "Presents the joint-by-joint concept (alternating mobility/stability joint needs up the kinetic chain)."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 6
+hub_score: 12
+centrality: 0.054
 updated: 2026-07-22
 ---
 

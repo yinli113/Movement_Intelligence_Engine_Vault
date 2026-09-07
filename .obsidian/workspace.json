@@ -11,10 +11,14 @@
             "id": "9e7ab46538ffc36d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "00_Spec/sources/richardson_lumbopelvic_stabilization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "richardson_lumbopelvic_stabilization"
             }
           }
         ]
@@ -37,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -181,6 +187,11 @@
   },
   "active": "9e7ab46538ffc36d",
   "lastOpenFiles": [
+    "00_Spec/sources/sahrmann_movement_impairment_syndromes.md",
+    "03_Movement_Functions/gait_kinematics.md",
+    "00_Spec/sources/chambers_sutherland_gait_analysis_2002.md",
+    "03_Movement_Functions/bodyweight_squat.md",
+    "00_Spec/sources/golf_decoded_six_phases_swing.md",
     "01_Fascial_Lines/posture_switch_failure_modes.md",
     "01_Fascial_Lines/myofascial_interpretive_layer.md",
     "01_Fascial_Lines/lateral_line.md",
@@ -204,11 +215,6 @@
     "03_Movement_Functions/relationships/squat_superficial_front_line_relationship.md",
     "03_Movement_Functions/relationships/squat_superficial_back_line_relationship.md",
     "03_Movement_Functions/relationships",
-    "00_Spec/sources/bourgain_golf_swing_biomechanics_2022.md",
-    "03_Movement_Functions/angular_momentum.md",
-    "03_Movement_Functions/kinematic_sequence.md",
-    "00_Spec/sources/bergmark_lumbar_stability.md",
-    "00_Project_Reports/Vault_Audit_and_Graph_Conversion_Plan.md",
     "raw/literature/bourgain_golf_swing_biomechanics_2022.pdf",
     "raw/literature/Movement.pdf",
     "raw/literature/Non-structural misalignments of body posture in the sagittal plane.pdf",

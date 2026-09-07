@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "A camera-derived gait descriptor (e.g., a knee-flexion proxy) is a camera-observable descriptor, NOT a measured kinetic, EMG, pressure, or energetic variable."
   - "The app must never upgrade a 2D proxy into a kinetic, EMG, or causal claim, nor diagnose gait etiology or direct treatment."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 23
+hub_score: 42
+centrality: 0.207
 ---
 
 # Gait Observability Boundary

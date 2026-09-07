@@ -17,9 +17,9 @@ joints_crossed:
   - "[[cervical_spine]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 16
-hub_score: 47
-centrality: 0.276
+relationship_count: 51
+hub_score: 133
+centrality: 0.459
 updated: 2026-06-27
 ---
 

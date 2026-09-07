@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Report and score whole-body patterns, not single-joint angles in isolation."
   - "A single-joint angle is a motion descriptor; it only becomes movement evidence when interpreted in the context of the full pattern."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 5
+hub_score: 8
+centrality: 0.045
 ---
 
 # Movement versus Motion

@@ -14,6 +14,11 @@ evidence:
     source_type: textbook_pdf
     locator: "Ch. 6, local PDF pages 96-97"
     supports: "Defines shoulder mobility as FMS test 4 with scoring criteria and a clearing exam."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 2
+hub_score: 3
+centrality: 0.018
 updated: 2026-07-22
 ---
 

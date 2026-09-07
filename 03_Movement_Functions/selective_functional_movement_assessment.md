@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "Use SFMA's FN/FP/DP/DN logic as the clinical-redirect model: a 2D app can flag a painful or non-functional pattern but must hand off to a clinician for breakouts."
   - "The app must not perform SFMA breakouts or assign mobility-vs-stability diagnoses from video."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 12
+hub_score: 17
+centrality: 0.108
 ---
 
 # Selective Functional Movement Assessment (SFMA)

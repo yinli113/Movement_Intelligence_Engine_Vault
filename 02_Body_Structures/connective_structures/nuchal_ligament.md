@@ -20,10 +20,24 @@ relationships:
   relevant_to: [jaw_clenching, trail_shoulder_external_rotation]
 confidence: low
 review_status: draft_graph_mvp
-relationship_count: 12
-hub_score: 35
-centrality: 0.207
+relationship_count: 16
+hub_score: 51
+centrality: 0.144
 updated: 2026-06-29
+fma_id: "FMA:13409"
+bodyparts3d_id: "BP3D:FMA13409"
+openstax_ref: "OpenStax A&P 2e §11.3"
+evidence_level: 1
+evidence:
+  - source_id: anatomy_trains_myers_2009
+    evidence_level: 1
+    supports: "Identifies Nuchal Ligament as a primary structural force transmission node."
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical structure and boundaries of Nuchal Ligament."
+  - source_id: stecco_fascial_system_2015
+    evidence_level: 2
+    supports: "Documents histological and macroscopic fascial continuum of Nuchal Ligament."
 ---
 
 # Nuchal Ligament

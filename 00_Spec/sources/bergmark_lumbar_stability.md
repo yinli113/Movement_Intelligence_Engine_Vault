@@ -14,6 +14,11 @@ domain: static_posture
 relationships:
   cited_by: [czaprowski_nonstructural_posture_2018]
   connects_to: [stabilizer_mobilizer_classification, local_stabilizers, global_stabilizers]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 2
+hub_score: 3
+centrality: 0.018
 updated: 2026-07-22
 ---
 

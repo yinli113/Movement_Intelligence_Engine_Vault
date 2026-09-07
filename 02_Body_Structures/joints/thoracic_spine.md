@@ -29,10 +29,21 @@ associated_mechanics:
   - "[[thoracic_rotation]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 29
-hub_score: 120
-centrality: 0.5
+relationship_count: 40
+hub_score: 150
+centrality: 0.36
 updated: 2026-06-27
+fma_id: "FMA:13411"
+bodyparts3d_id: "BP3D:FMA13411"
+openstax_ref: "OpenStax A&P 2e §7.3"
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical joint classification, articulating surfaces, and ligamentous stability for Thoracic Spine."
+  - source_id: rajagopal_opensim_model_2016
+    evidence_level: 3
+    supports: "Provides validated degrees of freedom, kinematic constraints, and 3D coordinate centers for Thoracic Spine."
 ---
 
 # Joint: Thoracic Spine

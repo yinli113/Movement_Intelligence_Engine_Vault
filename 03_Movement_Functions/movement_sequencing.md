@@ -19,9 +19,9 @@ relationships:
   relevant_to: [thoracic_rotation, hip_internal_rotation, trail_shoulder_external_rotation]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 21
-hub_score: 61
-centrality: 0.362
+relationship_count: 22
+hub_score: 63
+centrality: 0.198
 updated: 2026-06-30
 ---
 
@@ -63,3 +63,16 @@ The [[golf_decoded_six_phases_swing]] source presents the swing as six phase int
 ## Category
 
 Motor Control
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: dr_kwon_golfer_ground_interaction
+    level: domain_biomechanics
+    evidence_tier: Level 3
+    description: "Kinematic sequencing and proximal-to-distal segmental angular velocity transfer."
+  - source_id: anatomy_trains_myers_2009
+    level: foundational_anatomical_framework
+    evidence_tier: Level 2
+    description: "Multi-joint fascial tensioning and elastic recoil mechanisms."
+```

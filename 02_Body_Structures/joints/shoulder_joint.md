@@ -25,10 +25,21 @@ associated_mechanics:
   - "[[shoulder_adduction]]"
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 25
-hub_score: 99
-centrality: 0.431
+relationship_count: 37
+hub_score: 131
+centrality: 0.333
 updated: 2026-06-27
+fma_id: "FMA:24958"
+bodyparts3d_id: "BP3D:FMA24958"
+openstax_ref: "OpenStax A&P 2e §9.4"
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical joint classification, articulating surfaces, and ligamentous stability for Shoulder Joint."
+  - source_id: rajagopal_opensim_model_2016
+    evidence_level: 3
+    supports: "Provides validated degrees of freedom, kinematic constraints, and 3D coordinate centers for Shoulder Joint."
 ---
 
 # Joint: Shoulder Joint

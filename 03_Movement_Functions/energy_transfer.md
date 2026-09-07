@@ -16,9 +16,9 @@ relationships:
   related_concepts: [golfer_ground_interaction_model, force_transmission, kinematic_sequence, angular_momentum, functional_lines]
 confidence: medium
 review_status: active_spec
-relationship_count: 22
-hub_score: 63
-centrality: 0.379
+relationship_count: 25
+hub_score: 69
+centrality: 0.225
 updated: 2026-07-16
 ---
 

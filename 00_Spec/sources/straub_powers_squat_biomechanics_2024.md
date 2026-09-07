@@ -11,6 +11,9 @@ evidence_level: 4
 source_role: applied_clinical_biomechanics_commentary
 confidence: medium
 review_status: reviewed_for_squat_app_v1
+relationship_count: 6
+hub_score: 9
+centrality: 0.054
 updated: 2026-08-27
 ---
 

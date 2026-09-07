@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app CANNOT measure gait kinetics; force-plate data is required."
   - "The app must never report a joint moment, ground reaction force, or loading value as if measured from video."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 10
+hub_score: 14
+centrality: 0.09
 ---
 
 # Gait Kinetics

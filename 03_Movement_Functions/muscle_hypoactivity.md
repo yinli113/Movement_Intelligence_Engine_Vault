@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "The app may flag a stabiliser as 'possibly hypoactive' as a hypothesis when its posture type implies under-recruitment, but must label it a hypothesis, not a measurement."
   - "The app must not assert a muscle is hypoactive from a static silhouette alone (no EMG)."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 11
+hub_score: 22
+centrality: 0.099
 ---
 
 # Muscle Hypoactivity (Reflectory Inhibition)

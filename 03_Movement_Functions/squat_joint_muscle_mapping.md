@@ -10,6 +10,11 @@ supported_by: [straub_powers_squat_biomechanics_2024, gray_cook_movement_2010]
 status: reviewed_for_app_v1
 reviewed_date: 2026-08-27
 connects_to: [bodyweight_squat, hip_joint, knee_joint, ankle_joint, lumbar_spine, squat_observability_boundary]
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 4
+hub_score: 8
+centrality: 0.036
 ---
 
 # Squat Joint and Muscle Mapping

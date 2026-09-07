@@ -32,9 +32,9 @@ relationships:
   relevant_to: [movement_sequencing, force_transmission, energy_transfer]
 confidence: medium
 review_status: source_extracted_from_video_and_screenshot
-relationship_count: 20
-hub_score: 62
-centrality: 0.345
+relationship_count: 22
+hub_score: 70
+centrality: 0.198
 updated: 2026-06-30
 ---
 

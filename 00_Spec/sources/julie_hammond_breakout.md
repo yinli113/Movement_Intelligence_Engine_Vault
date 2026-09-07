@@ -10,9 +10,9 @@ evidence_level: 1
 source_role: foundational_clinical_philosophy
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 5
-hub_score: 22
-centrality: 0.086
+relationship_count: 6
+hub_score: 24
+centrality: 0.054
 updated: 2026-06-27
 ---
 

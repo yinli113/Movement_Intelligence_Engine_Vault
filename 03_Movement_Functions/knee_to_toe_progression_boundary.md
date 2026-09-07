@@ -13,11 +13,11 @@ relationships:
   defined_by: [schoenfeld_nsca_squat_biomechanics_2010]
   connects_to: [sagittal_plumb_line_alignment, bodyweight_squat, squat_joint_muscle_mapping]
   part_of: [squat_observability_boundary]
-relationship_count: 5
-hub_score: 8
-centrality: 0.8
 confidence: high
 review_status: reviewed
+relationship_count: 6
+hub_score: 8
+centrality: 0.054
 updated: 2026-09-01
 ---
 
@@ -47,3 +47,16 @@ The relationship between forward knee travel and the vertical toe line has been 
 - [[schoenfeld_nsca_squat_biomechanics_2010]]
 - [[straub_powers_squat_biomechanics_2024]]
 - [[squat_joint_muscle_mapping]]
+
+## Evidence Grounding
+```yaml
+evidence:
+  - source_id: rajagopal_opensim_model_2016
+    level: domain_biomechanics
+    evidence_tier: Level 3
+    description: "Patellofemoral and tibiofemoral shear and compressive forces as knee advances over toes."
+  - source_id: openstax_anatomy_physiology_2e
+    level: foundational_anatomical_framework
+    evidence_tier: Level 1
+    description: "Sagittal excursion limits and cruciate ligament load distribution."
+```

@@ -20,9 +20,9 @@ relationships:
   app_hypotheses: [planned_rotational_chain_screen]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 55
-hub_score: 161
-centrality: 0.948
+relationship_count: 87
+hub_score: 243
+centrality: 0.784
 updated: 2026-07-16
 ---
 

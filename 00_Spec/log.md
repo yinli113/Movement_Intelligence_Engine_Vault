@@ -2,7 +2,28 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
-## [2026-09-01] Engine Update | Kendall Plumb Lines & NSCA Squat Biomechanics Ingestion
+## [2026-09-07] Engine Update | Complete Anatomical Grounding & Literature Harmonization
+- **Step 1 (Schema & Literature Ingestion)**:
+  - Updated `[[naming_conventions]]` (§3.1) with anatomical metadata standards: `origin`, `insertion`, `innervation`, `fma_id`, `bodyparts3d_id`, and `openstax_ref`.
+  - Added Level 1–3 evidence source notes:
+    - `[[openstax_anatomy_physiology_2e]]` (Level 1, `foundational_anatomical_framework`, CC BY 4.0).
+    - `[[foundational_model_of_anatomy]]` (Level 1, `foundational_anatomical_framework`).
+    - `[[bodyparts3d_dbcls]]` (Level 1, `foundational_anatomical_framework`, CC BY-SA 2.1 JP).
+    - `[[stecco_fascial_system_2015]]` (Level 2, `foundational_anatomical_framework`).
+    - `[[wilke_myofascial_chains_review_2016]]` (Level 3, `domain_biomechanics`).
+    - `[[rajagopal_opensim_model_2016]]` (Level 3, `domain_biomechanics`).
+- **Step 2 (Exhaustive Anatomical Node Expansion & Grounding)**:
+  - **108 Muscles** (`02_Body_Structures/muscles/`): 100% formatted with complete `origin`, `insertion`, `innervation`, `fma_id`, `bodyparts3d_id`, `openstax_ref`, and multi-source evidence blocks. Expanded coverage with missing deep spinal, deep gluteal, craniohyoid, and digital muscular structures.
+  - **18 Connective Structures & Ligaments** (`02_Body_Structures/connective_structures/`): Grounded all primary ligaments (ACL, PCL, MCL, LCL, sacrospinous, iliolumbar, patellar) and fascial aponeuroses (linea alba, rectus sheath, palmar/bicipital aponeuroses, calcaneal tendon) with FMA/Stecco evidence.
+  - **17 Joints** (`02_Body_Structures/joints/`): All major articulations (sacroiliac, subtalar, scapulothoracic, sternoclavicular, acromioclavicular, TMJ, pubic symphysis, etc.) mapped with degrees of freedom and literature grounding.
+  - **33 Joint Actions** (`02_Body_Structures/joint_actions/`): All kinetic degrees of freedom (inversion/eversion, pronation/supination, wrist deviations, cervical/lumbar excursions) mapped to agonist/antagonist muscle sets and lines.
+  - **Movement Functions Grounding**: Verified and attached formal evidence blocks to all 8 core mechanics notes in `03_Movement_Functions/`.
+- **Step 3 (Graph Integrity & 3D Matrix)**:
+  - Created `[[bodyparts3d_fma_mapping]]` defining the 3D mesh matrix for Myers' lines in Blender (`motionflow_anatomy_studio`).
+  - Audited vault links: **0 broken links across 341 markdown notes**.
+  - Updated `[[index]]` and recalculated graph metrics across 330 knowledge nodes.
+
+---
 - Upgraded source note `[[kendall_muscles_testing_function]]` to active Level 4 Applied Clinical Practice source.
 - Ingested Level 3 source note `[[schoenfeld_nsca_squat_biomechanics_2010]]` (Brad Schoenfeld NSCA squat review).
 - Created concept nodes:

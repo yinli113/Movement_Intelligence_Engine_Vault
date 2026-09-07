@@ -14,9 +14,11 @@ relationships:
   parent_concepts: [golf_swing]
   child_concepts: [superficial_back_line, superficial_front_line, deep_front_line, lateral_line, spiral_line, back_functional_line, front_functional_line, golf_switch_failure_modes]
   related_concepts: [golf_kinetics_observability_boundary, gluteus_maximus, gluteus_medius, latissimus_dorsi, adductor_magnus, thoracolumbar_fascia]
-relationship_count: 8
-hub_score: 9
-centrality: 0.0
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 20
+hub_score: 69
+centrality: 0.18
 ---
 
 # Golf Swing Myofascial Mapping & Switch Failure Taxonomy

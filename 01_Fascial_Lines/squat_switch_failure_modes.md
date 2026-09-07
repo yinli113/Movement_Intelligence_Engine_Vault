@@ -14,9 +14,11 @@ relationships:
   parent_concepts: [squat_myofascial_mapping]
   child_concepts: [superficial_back_line, superficial_front_line, deep_front_line, lateral_line, spiral_line]
   related_concepts: [ankle_dorsiflexion, knee_flexion, hip_flexion, gluteus_maximus, adductor_magnus, gluteus_medius, tibialis_posterior]
-relationship_count: 7
-hub_score: 8
-centrality: 0.0
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 31
+hub_score: 112
+centrality: 0.279
 ---
 
 # Squat Switch Failure Modes

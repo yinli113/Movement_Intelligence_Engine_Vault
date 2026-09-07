@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app bounds loading response by initial contact and opposite toe-off and reports a knee-flexion shock-absorption proxy."
   - "The app must not infer shock-absorption kinetics or muscle activation from the visible period alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 19
+hub_score: 43
+centrality: 0.171
 ---
 
 # Loading Response (Perry Phase 2)

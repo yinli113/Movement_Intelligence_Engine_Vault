@@ -14,9 +14,11 @@ relationships:
   parent_concepts: [gait_myofascial_mapping]
   child_concepts: [superficial_back_line, superficial_front_line, deep_front_line, lateral_line, spiral_line, back_functional_line, front_functional_line]
   related_concepts: [gait_cycle, stance_phase, swing_phase, initial_contact, loading_response, mid_stance, terminal_stance, preswing, initial_swing, midswing, terminal_swing]
-relationship_count: 8
-hub_score: 9
-centrality: 0.0
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 19
+hub_score: 41
+centrality: 0.171
 ---
 
 # Gait Phase Switch Failure Modes

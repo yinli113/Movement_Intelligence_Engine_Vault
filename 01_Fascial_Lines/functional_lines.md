@@ -22,9 +22,9 @@ relationships:
   app_hypotheses: [functional_line_loading_index]
 confidence: high
 review_status: active_spec
-relationship_count: 59
-hub_score: 172
-centrality: 1.0
+relationship_count: 66
+hub_score: 190
+centrality: 0.595
 updated: 2026-07-27
 ---
 
@@ -67,7 +67,7 @@ These lines provide the vault's primary anatomical bridge between measured exter
 
 ## Stable Anatomy (Level 1 & 2)
 
-- [[back_functional_line]]: [[latissimus_dorsi]] -> [[thoracolumbar_fascia]] across the sacral region -> contralateral [[gluteus_maximus]] -> vastus lateralis.
+- [[back_functional_line]]: [[latissimus_dorsi]] -> [[thoracolumbar_fascia]] across the sacral region -> contralateral [[gluteus_maximus]] -> [[vastus_lateralis]].
 - [[front_functional_line]]: [[pectoralis_major]] -> [[rectus_abdominis|abdominal wall and rectus sheath]] -> contralateral [[adductor_longus]].
 - [[ipsilateral_functional_line]]: [[latissimus_dorsi]] -> [[external_oblique]] -> ipsilateral [[sartorius]].
 

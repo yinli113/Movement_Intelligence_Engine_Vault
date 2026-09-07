@@ -17,10 +17,18 @@ key_muscles:
 compensations: [Pelvic Slide, Outward Foot Flare]
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 13
-hub_score: 50
-centrality: 0.224
+relationship_count: 19
+hub_score: 74
+centrality: 0.171
 updated: 2026-06-27
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines standard osteokinematic joint motion, plane of motion, and agonist muscle recruitment."
+  - source_id: kendall_muscles_testing_function
+    evidence_level: 4
+    supports: "Supplies manual muscle testing procedures and length-tension relationships for this joint action."
 ---
 
 # Biomechanical Action: Hip External Rotation

@@ -19,9 +19,9 @@ relationships:
   related_concepts: [x_factor, golf_movement_sequence, golf_swing_transition, kinematic_sequence, golf_kinetics_observability_boundary]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 8
-hub_score: 0
-centrality: 0.0
+relationship_count: 10
+hub_score: 24
+centrality: 0.09
 updated: 2026-07-27
 ---
 

@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app can bound this period by the foot-strike and opposite toe-off events."
   - "The app must not infer shock-absorption kinetics or muscle activation from the visible period alone."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 17
+hub_score: 32
+centrality: 0.153
 ---
 
 # Initial Double-Limb Support

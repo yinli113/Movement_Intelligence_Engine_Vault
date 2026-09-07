@@ -14,6 +14,11 @@ evidence:
     source_type: journal_article_pdf
     locator: "J Am Acad Orthop Surg 2002;10:222-231, local PDF p.5-6"
     supports: "Defines surface vs fine-wire EMG and timing of EMG to the gait cycle."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 20
+hub_score: 40
+centrality: 0.18
 updated: 2026-07-22
 ---
 

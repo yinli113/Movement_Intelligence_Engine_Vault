@@ -16,9 +16,9 @@ relationships:
   related_concepts: [center_of_pressure, ground_reaction_force, ground_reaction_moment, moment_arm, linear_impulse, angular_impulse, angular_momentum]
 confidence: high
 review_status: active_spec
-relationship_count: 30
-hub_score: 104
-centrality: 0.517
+relationship_count: 31
+hub_score: 106
+centrality: 0.279
 updated: 2026-07-16
 ---
 

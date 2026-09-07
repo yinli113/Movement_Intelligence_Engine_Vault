@@ -19,9 +19,9 @@ relationships:
   related_concepts: [linear_impulse, angular_impulse, angular_momentum, kinematic_sequence]
 confidence: high
 review_status: active_spec
-relationship_count: 12
-hub_score: 24
-centrality: 0.207
+relationship_count: 17
+hub_score: 34
+centrality: 0.153
 updated: 2026-07-16
 ---
 

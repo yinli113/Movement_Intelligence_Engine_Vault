@@ -25,10 +25,21 @@ key_muscles:
 associated_mechanics: []
 confidence: medium
 review_status: generated_legacy_needs_review
-relationship_count: 23
-hub_score: 99
-centrality: 0.397
+relationship_count: 39
+hub_score: 151
+centrality: 0.351
 updated: 2026-06-27
+fma_id: "FMA:13410"
+bodyparts3d_id: "BP3D:FMA13410"
+openstax_ref: "OpenStax A&P 2e §7.3"
+evidence_level: 1
+evidence:
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical joint classification, articulating surfaces, and ligamentous stability for Cervical Spine."
+  - source_id: rajagopal_opensim_model_2016
+    evidence_level: 3
+    supports: "Provides validated degrees of freedom, kinematic constraints, and 3D coordinate centers for Cervical Spine."
 ---
 
 # Joint: Cervical Spine

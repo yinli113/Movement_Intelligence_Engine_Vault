@@ -20,10 +20,24 @@ relationships:
   relevant_to: [hip_internal_rotation, lateral_line, spiral_line]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 19
-hub_score: 65
-centrality: 0.328
+relationship_count: 25
+hub_score: 85
+centrality: 0.225
 updated: 2026-06-29
+fma_id: "FMA:45184"
+bodyparts3d_id: "BP3D:FMA45184"
+openstax_ref: "OpenStax A&P 2e §11.6"
+evidence_level: 1
+evidence:
+  - source_id: anatomy_trains_myers_2009
+    evidence_level: 1
+    supports: "Identifies Plantar Fascia as a primary structural force transmission node."
+  - source_id: openstax_anatomy_physiology_2e
+    evidence_level: 1
+    supports: "Defines anatomical structure and boundaries of Plantar Fascia."
+  - source_id: stecco_fascial_system_2015
+    evidence_level: 2
+    supports: "Documents histological and macroscopic fascial continuum of Plantar Fascia."
 ---
 
 # Plantar Fascia

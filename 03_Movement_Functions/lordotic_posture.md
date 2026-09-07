@@ -19,6 +19,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app reads a sagittal silhouette with increased lumbar lordosis + anterior pelvic tilt as a lordotic-pattern HYPOTHESIS, not a diagnosis."
   - "Report the functional-organisation hypothesis (gluteus maximus possibly hypoactive, hamstrings possibly hyperactive) as a question, not a measured muscle state."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 14
+hub_score: 21
+centrality: 0.126
 ---
 
 # Lordotic Posture

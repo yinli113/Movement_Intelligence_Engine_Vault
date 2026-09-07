@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "Use the ASLR to report a 2D hip-flexion range proxy (raise angle) per side."
   - "The app must not infer hamstring length, neural tension, or psoas activation from the raise alone; these require clinical assessment."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 5
+hub_score: 6
+centrality: 0.045
 ---
 
 # Active Straight-Leg Raise (FMS Test 5)

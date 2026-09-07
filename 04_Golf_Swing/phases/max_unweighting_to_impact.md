@@ -19,9 +19,9 @@ relationships:
   relevant_to: [golfer_ground_interaction_model, ground_reaction_force, moment_arm, center_of_mass, linear_impulse, angular_impulse, functional_lines, spiral_line, plantar_fascia]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 30
-hub_score: 90
-centrality: 0.517
+relationship_count: 33
+hub_score: 100
+centrality: 0.297
 updated: 2026-07-16
 ---
 

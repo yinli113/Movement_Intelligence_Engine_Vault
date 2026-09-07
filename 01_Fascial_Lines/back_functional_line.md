@@ -19,9 +19,9 @@ relationships:
   app_hypotheses: [functional_line_loading_index]
 confidence: high
 review_status: active_spec
-relationship_count: 17
-hub_score: 49
-centrality: 0.293
+relationship_count: 34
+hub_score: 87
+centrality: 0.306
 updated: 2026-07-16
 ---
 
@@ -37,7 +37,7 @@ It supplies an anatomical route for reasoning between the hip/sacral region, pos
 
 ## Stable Anatomy (Level 1 & 2)
 
-The line tracks shaft of humerus -> [[latissimus_dorsi]] -> [[thoracolumbar_fascia]] crossing the sacral region -> contralateral [[gluteus_maximus]] -> vastus lateralis -> patella and tibial tuberosity. This structural membership does not establish loading, activation, or stored energy in a swing.
+The line tracks shaft of humerus -> [[latissimus_dorsi]] -> [[thoracolumbar_fascia]] crossing the sacral region -> contralateral [[gluteus_maximus]] -> [[vastus_lateralis]] -> patella and tibial tuberosity. This structural membership does not establish loading, activation, or stored energy in a swing.
 
 ## Golf Application Interpretation (Level 3 & 4 context)
 
@@ -87,7 +87,7 @@ See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for evidence
 | Relationship | Target | Description |
 |---|---|---|
 | part_of | [[functional_lines]] | Posterior diagonal sub-line. |
-| contains | [[latissimus_dorsi]], [[thoracolumbar_fascia]], [[gluteus_maximus]] | Stable Anatomy Trains pathway. |
+| contains | [[latissimus_dorsi]], [[thoracolumbar_fascia]], [[gluteus_maximus]], [[vastus_lateralis]] | Stable Anatomy Trains pathway. |
 | anatomical_bridge_for | [[golf_swing_transition]] | Phase-specific vault interpretation only. |
 | gait_synthesis | [[gait_myofascial_mapping]] | Engine synthesis mapping to gait phases. |
 

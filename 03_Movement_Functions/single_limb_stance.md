@@ -18,6 +18,11 @@ directly_supported_claims:
 app_translation:
   - "A 2D app can bound this period and report single-leg balance proxies (pelvic level, trunk sway)."
   - "The app must not infer single-leg stability as a kinetic/muscle-activation measurement."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 20
+hub_score: 37
+centrality: 0.18
 ---
 
 # Single-Limb Stance

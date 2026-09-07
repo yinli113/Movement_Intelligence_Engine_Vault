@@ -14,6 +14,11 @@ evidence:
     source_type: journal_article_pdf
     locator: "J Am Acad Orthop Surg 2002;10:222-231, local PDF p.6-7"
     supports: "Defines energetics methods (expired gas, heart rate, mechanical work from force plates) and their limitations."
+confidence: medium
+review_status: generated_legacy_needs_review
+relationship_count: 2
+hub_score: 4
+centrality: 0.018
 updated: 2026-07-22
 ---
 
