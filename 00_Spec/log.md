@@ -17,11 +17,12 @@ This is an append-only log of all operations performed on the Myofascial Lines v
   - **18 Connective Structures & Ligaments** (`02_Body_Structures/connective_structures/`): Grounded all primary ligaments (ACL, PCL, MCL, LCL, sacrospinous, iliolumbar, patellar) and fascial aponeuroses (linea alba, rectus sheath, palmar/bicipital aponeuroses, calcaneal tendon) with FMA/Stecco evidence.
   - **17 Joints** (`02_Body_Structures/joints/`): All major articulations (sacroiliac, subtalar, scapulothoracic, sternoclavicular, acromioclavicular, TMJ, pubic symphysis, etc.) mapped with degrees of freedom and literature grounding.
   - **33 Joint Actions** (`02_Body_Structures/joint_actions/`): All kinetic degrees of freedom (inversion/eversion, pronation/supination, wrist deviations, cervical/lumbar excursions) mapped to agonist/antagonist muscle sets and lines.
+  - **Evidence Discrepancy Resolution**: Reconciled `[[calcaneal_tendon]]` FMA ontology mapping from draft `FMA:45182` to canonical class `FMA:51061` (*tendo calcaneus*) and mapped bilateral mesh IDs `FMA:258847` (right) / `FMA:264844` (left) aligned with Human Atlas (`ashemag/human-atlas`) and BodyParts3D.
   - **Movement Functions Grounding**: Verified and attached formal evidence blocks to all 8 core mechanics notes in `03_Movement_Functions/`.
 - **Step 3 (Graph Integrity & 3D Matrix)**:
   - Created `[[bodyparts3d_fma_mapping]]` defining the 3D mesh matrix for Myers' lines in Blender (`motionflow_anatomy_studio`).
   - Audited vault links: **0 broken links across 341 markdown notes**.
-  - Updated `[[index]]` and recalculated graph metrics across 330 knowledge nodes.
+  - Updated `[[index]]` and recalculated graph metrics across 331 knowledge nodes.
 
 ---
 - Upgraded source note `[[kendall_muscles_testing_function]]` to active Level 4 Applied Clinical Practice source.

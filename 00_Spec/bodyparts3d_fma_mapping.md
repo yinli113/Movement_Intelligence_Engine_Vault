@@ -11,9 +11,9 @@ evidence_level: 1
 source_role: foundational_anatomical_framework
 confidence: high
 review_status: active_spec
-relationship_count: 54
-hub_score: 148
-centrality: 0.486
+relationship_count: 55
+hub_score: 149
+centrality: 0.495
 updated: 2026-09-07
 ---
 
@@ -38,6 +38,7 @@ By grouping discrete BodyParts3D polygon meshes according to Thomas Myers Anatom
 |---|---|---|---|---|
 | Plantar track | [[flexor_digitorum_brevis]] | FMA:45183 | BP3D:FMA45183 | FDB_L, FDB_R |
 | Plantar fascia | [[plantar_fascia]] | FMA:45184 | BP3D:FMA45184 | PlantarAponeurosis |
+| Calcaneal tendon | [[calcaneal_tendon]] | FMA:51061 (R: FMA:258847, L: FMA:264844) | BP3D:FMA51061 | CalcanealTendon_L, CalcanealTendon_R |
 | Posterior lower leg | [[gastrocnemius]] | FMA:22541 | BP3D:FMA22541 | Gastrocnemius_Med, Lat |
 | Deep posterior calf | [[soleus]] | FMA:22542 | BP3D:FMA22542 | Soleus_L, Soleus_R |
 | Posterior thigh | [[biceps_femoris_long_head]] | FMA:22357 | BP3D:FMA22357 | BicepsFemoris_LH |
