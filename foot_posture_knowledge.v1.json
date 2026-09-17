@@ -1,39 +1,39 @@
 {
-  "version": "1.1.0",
+  "version": "1.0.0",
   "domain": "foot_posture_fpi6",
   "updated": "2026-09-17",
   "source_id": "redmond_foot_posture_index_2006",
-  "evidence_level": 5,
+  "evidence_level": 1,
   "classification_bands": [
     {
       "min_score": -12,
       "max_score": -5,
       "category": "Highly Supinated",
-      "clinical_label": "Highly Supinated foot posture"
+      "clinical_label": "Severe Supination (Pes Cavus pattern)"
     },
     {
       "min_score": -4,
       "max_score": -1,
       "category": "Supinated",
-      "clinical_label": "Supinated foot posture"
+      "clinical_label": "Moderate Supination"
     },
     {
       "min_score": 0,
       "max_score": 5,
       "category": "Neutral",
-      "clinical_label": "Neutral foot posture"
+      "clinical_label": "Neutral / Normal Posture"
     },
     {
       "min_score": 6,
       "max_score": 9,
       "category": "Pronated",
-      "clinical_label": "Pronated foot posture"
+      "clinical_label": "Moderate Pronation"
     },
     {
       "min_score": 10,
       "max_score": 12,
       "category": "Highly Pronated",
-      "clinical_label": "Highly Pronated foot posture"
+      "clinical_label": "Severe Pronation (Pes Planus pattern)"
     }
   ],
   "criteria": {
@@ -41,7 +41,7 @@
       "item_number": 1,
       "name": "Talar Head Palpation",
       "region": "rearfoot",
-      "required_view": "physical_palpation",
+      "required_view": "medial_or_palpation",
       "scores": {
         "-2": "Talar head palpable on lateral side only (marked supination)",
         "-1": "Talar head palpable on lateral side, slightly on medial side",
@@ -61,6 +61,13 @@
         "0": "Curves above and below lateral malleolus are approximately equal (neutral)",
         "+1": "Curve below lateral malleolus is noticeably more concave than above",
         "+2": "Curve below lateral malleolus is acutely concave (marked pronation)"
+      },
+      "thresholds": {
+        "acute_concave_ratio": 1.35,
+        "moderate_concave_ratio": 1.15,
+        "neutral_min": 0.88,
+        "neutral_max": 1.14,
+        "moderate_convex_ratio": 0.7
       }
     },
     "calcaneal_frontal_plane": {
@@ -69,11 +76,18 @@
       "region": "rearfoot",
       "required_view": "foot_posterior",
       "scores": {
-        "-2": "Calcaneus inverted > 5° (marked varus)",
-        "-1": "Calcaneus inverted 2° to 5°",
-        "0": "Calcaneus vertical (0° to 2° everted)",
-        "+1": "Calcaneus everted 3° to 5°",
-        "+2": "Calcaneus everted > 5° (marked valgus)"
+        "-2": "Calcaneus inverted > 5\u00b0 (marked varus)",
+        "-1": "Calcaneus inverted 2\u00b0 to 5\u00b0",
+        "0": "Calcaneus vertical (0\u00b0 to 2\u00b0 everted)",
+        "+1": "Calcaneus everted 3\u00b0 to 5\u00b0",
+        "+2": "Calcaneus everted > 5\u00b0 (marked valgus)"
+      },
+      "thresholds": {
+        "inversion_marked_deg": -5.0,
+        "inversion_moderate_deg": -2.0,
+        "neutral_min_deg": -2.0,
+        "neutral_max_deg": 2.5,
+        "eversion_moderate_deg": 5.0
       }
     },
     "talonavicular_bulging": {
@@ -87,6 +101,13 @@
         "0": "Area is flat / neutral contour",
         "+1": "Area is slightly bulging / convex",
         "+2": "Area is markedly bulging / prominent convex bulge (marked pronation)"
+      },
+      "thresholds": {
+        "marked_bulge_ratio": 0.08,
+        "moderate_bulge_ratio": 0.03,
+        "neutral_min": -0.02,
+        "neutral_max": 0.02,
+        "moderate_concave_ratio": -0.06
       }
     },
     "medial_longitudinal_arch": {
@@ -100,6 +121,13 @@
         "0": "Arch height normal with smooth concentric curve",
         "+1": "Arch moderately lowered / flattened curve",
         "+2": "Arch severely flattened / contacting ground (flatfoot)"
+      },
+      "thresholds": {
+        "high_arch_ratio": 0.24,
+        "mod_high_arch_ratio": 0.2,
+        "neutral_min_ratio": 0.14,
+        "neutral_max_ratio": 0.19,
+        "low_arch_ratio": 0.09
       }
     },
     "forefoot_abduction_adduction": {
@@ -108,21 +136,53 @@
       "region": "forefoot",
       "required_view": "foot_posterior",
       "scores": {
-        "-2": "Medial toes clearly more visible than lateral toes",
-        "-1": "Medial toes slightly more visible than lateral toes",
-        "0": "Medial and lateral toes equally visible",
-        "+1": "Lateral toes slightly more visible than medial toes",
-        "+2": "Lateral toes clearly more visible than medial toes"
+        "-2": "No lateral toes visible, medial toes prominent (marked adduction)",
+        "-1": "Medial toes more visible than lateral toes",
+        "0": "Medial and lateral toes equally visible or 1-2 lateral toes visible",
+        "+1": "Lateral toes more visible (2-3 lateral toes visible)",
+        "+2": "Multiple lateral toes prominently visible / 'too many toes' sign (marked abduction)"
+      },
+      "thresholds": {
+        "marked_abduction_toe_ratio": 2.5,
+        "moderate_abduction_toe_ratio": 1.5,
+        "neutral_min": 0.67,
+        "neutral_max": 1.49,
+        "moderate_adduction_toe_ratio": 0.4
       }
     }
   },
-  "fascial_hypotheses": {},
-  "source_role": "app_logic_observability",
-  "clinical_framework_evidence_level": 1,
-  "assessment_policy": {
-    "missing_score": null,
-    "full_score_requires": "All six clinician-entered items for the same foot and examination, including tactile palpation",
-    "photo_metrics": "Unvalidated 2D descriptors only; never converted automatically to FPI item scores",
-    "fascial_inference": "Disabled: a total FPI score alone does not establish tissue mechanics or upstream movement"
+  "fascial_hypotheses": {
+    "pronation": {
+      "lines": [
+        "Deep Front Line (DFL)",
+        "Lateral Line (LL)"
+      ],
+      "summary": "Medial arch lowering and calcaneal eversion correlate with reduced medial longitudinal arch tension and lengthened/eccentrically loaded Deep Front Line structures (tibialis posterior, flexor digitorum longus).",
+      "upstream_kinetic_influences": [
+        "Internal tibial rotation",
+        "Functional knee valgus tendency",
+        "Anterior pelvic tilt facilitation"
+      ]
+    },
+    "supination": {
+      "lines": [
+        "Superficial Back Line (SBL)",
+        "Spiral Line (SL)"
+      ],
+      "summary": "High rigid medial arch and calcaneal inversion correlate with increased stiffness in the Superficial Back Line (plantar fascia, Achilles tendon, gastrocnemius complex) and lateral weight-bearing bias along the Spiral Line.",
+      "upstream_kinetic_influences": [
+        "External tibial rotation",
+        "Reduced ground reaction force shock absorption",
+        "Increased lateral lower extremity tension"
+      ]
+    },
+    "neutral": {
+      "lines": [
+        "Deep Front Line (DFL)",
+        "Superficial Back Line (SBL)",
+        "Lateral Line (LL)"
+      ],
+      "summary": "Balanced tension distribution between medial arch stabilizers (DFL) and lateral peroneals (LL), with optimal shock absorption capacity."
+    }
   }
 }

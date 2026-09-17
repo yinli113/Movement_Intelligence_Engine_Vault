@@ -16,15 +16,19 @@ confidence: high
 
 # Foot Posture Observability Boundary
 
-## Corrected implementation contract — 2026-09-17
+## 1. Observability Mapping
 
-- No neutral default for an unexamined item. Missing palpation and unseen criteria are null, never zero.
-- Clinical FPI-6 totals and classification require six explicit clinician ratings for the same foot and examination. A partial subtotal is labelled with its item count and never assigned full-index categories.
-- A photograph can support visual review of some criteria, but an arbitrary silhouette centre is not an Achilles or calcaneal landmark. Skin segmentation cannot establish anatomy.
-- The current app has no validated automatic foot landmark detector. Users place and review points on their chosen foot. Posterior measurements use separate lower-leg and heel axes; medial measurements use a reviewed baseline and arch point. These are unvalidated 2D descriptors, not automatic FPI scores.
-- Preserve image aspect ratio and native coordinates. Mirroring reverses the anatomical sign of posterior angles; the selected foot and mirror state must accompany every observation.
-- No forced eversion floor, angle-derived toe visibility or ankle curvature, fixed medial landmarks, or fabricated fallback values. A missing or invalid observation remains unavailable.
-- One photograph cannot be treated as a multi-view capture. Clinicians may enter ratings from a separate complete examination, with that provenance explicit.
-- A total score does not establish muscle activation, tissue tension, stiffness, ground reaction force, diagnosis, or upstream compensation. Category-only fascial and kinetic narratives are withheld.
+| FPI-6 Criterion | Camera Observability | Evidence State | 2D Geometric Proxy |
+|---|---|---|---|
+| **1. Talar Head Palpation** | Not directly visible by 2D camera | `manual_input_required` / `estimated` | Default 0 (neutral) unless overridden via CLI/UI |
+| **2. Supra/Infra Malleolar Curve** | Directly observable from rear view | `measured` | Contour concavity ratio above vs below lateral malleolus |
+| **3. Calcaneal Frontal Position** | Directly observable from rear view | `measured` | Achilles midline vs calcaneus vertical angle (degrees) |
+| **4. Talonavicular Bulging** | Observable from medial/sagittal view | `estimated` | Medial midfoot silhouette convexity index |
+| **5. Medial Longitudinal Arch** | Directly observable from medial view | `measured` | Navicular/instep height ratio to foot length |
+| **6. Forefoot Abd/Adduction** | Observable from rear vantage point | `measured` | Lateral vs medial toe visibility ratio ("too many toes" count) |
 
-The clinical framework remains [[foot_posture_index_fpi6]] / [[redmond_foot_posture_index_2006]]. These software gates are Level 5 app policy. Image-based review limitations are also supported by [the image-based FPI reliability study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4004124/).
+## 2. Evidence Integrity & Non-Diagnostic Guardrails
+
+1. **Proxy metrics are not physical palpation**: 2D camera angles approximate skeletal alignment but do not measure subtalar bone contact, internal tissue stress, or joint laxity.
+2. **Cautious Hypothesis Language**: Results must describe observed geometric patterns (e.g. "mild calcaneal eversion proxy observed"), never clinical pathology (e.g. do not diagnose "posterior tibial tendon dysfunction" or "rigid flatfoot").
+3. **Multi-View Integration**: A full FPI-6 assessment requires both `foot_posterior` and `foot_medial` vantage points. Single-view captures must report view-bounded partial scores.

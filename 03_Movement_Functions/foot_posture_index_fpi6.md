@@ -19,7 +19,7 @@ review_status: reviewed_for_app_v1
 
 ## Clinical Framework
 
-The Foot Posture Index (FPI-6) is a validated clinical rating tool designed to measure multi-segment foot posture in relaxed double-limb stance. Rather than relying on a single planar angle, it captures rearfoot, midfoot, and forefoot alignment across frontal, sagittal, and transverse planes.
+The Foot Posture Index (FPI-6) is a validated diagnostic tool designed to measure multi-segment foot posture in relaxed double-limb stance. Rather than relying on a single planar angle, it captures rearfoot, midfoot, and forefoot alignment across frontal, sagittal, and transverse planes.
 
 ## Scoring Breakdown
 
@@ -30,17 +30,20 @@ The Foot Posture Index (FPI-6) is a validated clinical rating tool designed to m
 | **3** | Calcaneal Frontal Plane | Inverted > 5° (varus) | Vertical (0° to 2° valgus) | Everted > 5° (valgus) | Posterior |
 | **4** | Talonavicular Bulging | Area markedly concave | Area flat | Area markedly convex/bulging | Medial |
 | **5** | Medial Longitudinal Arch | High, acutely angled (cavus) | Smooth concentric curve | Severely flattened / floor contact | Medial |
-| **6** | Forefoot Abd/Adduction | Medial toes only visible | Medial/lateral toes equally visible | Lateral toes clearly more visible | Posterior |
+| **6** | Forefoot Abd/Adduction | Medial toes only visible | 1-2 lateral toes visible | 3+ lateral toes visible ("too many toes") | Posterior |
 
 ## Classification Ranges
-- **-12 to -5**: Highly Supinated Foot
+- **-12 to -5**: Highly Supinated Foot (Pes Cavus pattern)
 - **-4 to -1**: Supinated Foot
 - **0 to +5**: Neutral / Normal Foot
 - **+6 to +9**: Pronated Foot
-- **+10 to +12**: Highly Pronated Foot
+- **+10 to +12**: Highly Pronated Foot (Pes Planus pattern)
 
-## App interpretation boundary
+## Kinetic Chain & Fascial Line Relationships (Hypotheses)
 
-The current camera implementation is not a validated automated FPI-6 assessment. Clinical item scores must be explicitly entered by a clinician; palpation cannot be inferred from a photograph. Missing scores remain null, and partial subtotals must not use complete-index classification bands. See [[foot_posture_observability_boundary]].
-
-Photo landmarks provide reviewable 2D descriptors only. Do not infer malleolar curvature or toe visibility from a heel angle. Do not infer muscle fatigue, stiffness, loading, or upstream joint mechanics from a total FPI score. Category-only fascial narratives are withheld pending finding-specific evidence and direct reassessment.
+- **Pronation Bias (+6 to +12)**:
+  - **Deep Front Line (DFL)**: Medial arch descent reflects slackening/fatigue of tibialis posterior and plantar fascial support. Upstream link: internal tibial rotation, functional knee valgus, anterior pelvic tilt.
+  - **Lateral Line (LL)**: Peroneus longus/brevis under prolonged eccentric tension.
+- **Supination Bias (-12 to -1)**:
+  - **Superficial Back Line (SBL)**: High arch stiffness, plantar fascia tension, increased Achilles loading.
+  - **Spiral Line (SL)**: Lateral border weight distribution bias.

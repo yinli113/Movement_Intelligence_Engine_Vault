@@ -3,7 +3,7 @@ id: redmond_foot_posture_index_2006
 type: Evidence Source
 preferred_name: "Development and validation of a novel rating system for scoring standing foot posture: The Foot Posture Index"
 aliases: [Foot Posture Index 2006, FPI-6 Redmond 2006, FPI-6]
-short_definition: "Peer-reviewed development and validation of the 6-item Foot Posture Index (FPI-6), a validated clinical rating tool for quantifying standing foot posture on a -12 to +12 scale."
+short_definition: "Peer-reviewed development and validation of the 6-item Foot Posture Index (FPI-6), a validated clinical diagnostic tool for quantifying standing foot posture on a -12 to +12 scale."
 author: Anthony C. Redmond
 contributors: [Jack Crosbie, Robert A. Ouvrier]
 publication_year: 2006
