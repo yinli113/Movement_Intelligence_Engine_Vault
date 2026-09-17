@@ -1,0 +1,128 @@
+{
+  "version": "1.1.0",
+  "domain": "foot_posture_fpi6",
+  "updated": "2026-09-17",
+  "source_id": "redmond_foot_posture_index_2006",
+  "evidence_level": 5,
+  "classification_bands": [
+    {
+      "min_score": -12,
+      "max_score": -5,
+      "category": "Highly Supinated",
+      "clinical_label": "Highly Supinated foot posture"
+    },
+    {
+      "min_score": -4,
+      "max_score": -1,
+      "category": "Supinated",
+      "clinical_label": "Supinated foot posture"
+    },
+    {
+      "min_score": 0,
+      "max_score": 5,
+      "category": "Neutral",
+      "clinical_label": "Neutral foot posture"
+    },
+    {
+      "min_score": 6,
+      "max_score": 9,
+      "category": "Pronated",
+      "clinical_label": "Pronated foot posture"
+    },
+    {
+      "min_score": 10,
+      "max_score": 12,
+      "category": "Highly Pronated",
+      "clinical_label": "Highly Pronated foot posture"
+    }
+  ],
+  "criteria": {
+    "talar_head_palpation": {
+      "item_number": 1,
+      "name": "Talar Head Palpation",
+      "region": "rearfoot",
+      "required_view": "physical_palpation",
+      "scores": {
+        "-2": "Talar head palpable on lateral side only (marked supination)",
+        "-1": "Talar head palpable on lateral side, slightly on medial side",
+        "0": "Talar head equally palpable on both sides (neutral)",
+        "+1": "Talar head palpable on medial side, slightly on lateral side",
+        "+2": "Talar head palpable on medial side only (marked pronation)"
+      }
+    },
+    "malleolar_curvature": {
+      "item_number": 2,
+      "name": "Supra and Infra-malleolar Curvature",
+      "region": "rearfoot",
+      "required_view": "foot_posterior",
+      "scores": {
+        "-2": "Curve below lateral malleolus is straight or convex (marked supination)",
+        "-1": "Curve below lateral malleolus is slightly concaved",
+        "0": "Curves above and below lateral malleolus are approximately equal (neutral)",
+        "+1": "Curve below lateral malleolus is noticeably more concave than above",
+        "+2": "Curve below lateral malleolus is acutely concave (marked pronation)"
+      }
+    },
+    "calcaneal_frontal_plane": {
+      "item_number": 3,
+      "name": "Calcaneal Frontal Plane Position",
+      "region": "rearfoot",
+      "required_view": "foot_posterior",
+      "scores": {
+        "-2": "Calcaneus inverted > 5° (marked varus)",
+        "-1": "Calcaneus inverted 2° to 5°",
+        "0": "Calcaneus vertical (0° to 2° everted)",
+        "+1": "Calcaneus everted 3° to 5°",
+        "+2": "Calcaneus everted > 5° (marked valgus)"
+      }
+    },
+    "talonavicular_bulging": {
+      "item_number": 4,
+      "name": "Bulging in Region of Talonavicular Joint",
+      "region": "midfoot",
+      "required_view": "foot_medial",
+      "scores": {
+        "-2": "Talonavicular joint area markedly concave (marked supination)",
+        "-1": "Area slightly concave",
+        "0": "Area is flat / neutral contour",
+        "+1": "Area is slightly bulging / convex",
+        "+2": "Area is markedly bulging / prominent convex bulge (marked pronation)"
+      }
+    },
+    "medial_longitudinal_arch": {
+      "item_number": 5,
+      "name": "Height and Congruence of Medial Longitudinal Arch",
+      "region": "midfoot",
+      "required_view": "foot_medial",
+      "scores": {
+        "-2": "Arch high and acutely angled (cavus foot)",
+        "-1": "Arch moderately high",
+        "0": "Arch height normal with smooth concentric curve",
+        "+1": "Arch moderately lowered / flattened curve",
+        "+2": "Arch severely flattened / contacting ground (flatfoot)"
+      }
+    },
+    "forefoot_abduction_adduction": {
+      "item_number": 6,
+      "name": "Abduction / Adduction of Forefoot on Rearfoot",
+      "region": "forefoot",
+      "required_view": "foot_posterior",
+      "scores": {
+        "-2": "Medial toes clearly more visible than lateral toes",
+        "-1": "Medial toes slightly more visible than lateral toes",
+        "0": "Medial and lateral toes equally visible",
+        "+1": "Lateral toes slightly more visible than medial toes",
+        "+2": "Lateral toes clearly more visible than medial toes"
+      }
+    }
+  },
+  "fascial_hypotheses": {},
+  "source_role": "app_logic_observability",
+  "clinical_framework_evidence_level": 1,
+  "assessment_policy": {
+    "missing_score": null,
+    "full_score_requires": "All six clinician-entered items for the same foot and examination, including tactile palpation",
+    "photo_metrics": "Unvalidated 2D descriptors only; never converted automatically to FPI item scores",
+    "fascial_inference": "Disabled: a total FPI score alone does not establish tissue mechanics or upstream movement"
+  }
+}
