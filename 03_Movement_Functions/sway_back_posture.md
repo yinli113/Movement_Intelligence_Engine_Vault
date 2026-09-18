@@ -55,11 +55,11 @@ A child of [[non_structural_sagittal_posture]] (A); expressed via [[stabilizer_m
 
 ## Possible myofascial relationships
 
-Cross-linking the sway-back silhouette to a fascial line is an **engine synthesis (C)** from Anatomy Trains. Label it as a hypothesis.
+Cross-linking the sway-back silhouette to a fascial line is an **engine synthesis (C)** from Anatomy Trains. In Thomas Myers' model, the sway-back silhouette corresponds directly to the **Depressed Cobra** presentation of the [[deep_front_line]] (see [[psoas_diaphragm_core_cobra]] and [[myers_cobra_core_psoas_diaphragm_2019]]), where the psoas loses axial tone, the thoracolumbar junction hinges posteriorly, and the upper cervical spine extends to maintain visual horizon. Label it as a Level-5 hypothesis.
 
 ## What a 2D app can observe
 
-- Sagittal silhouette: trunk-pelvis displacement, hip extension, knee hyperextension, pelvic position — sufficient to propose the sway-back type as a hypothesis.
+- Sagittal silhouette: trunk-pelvis displacement (backward trunk lean), hip extension, knee hyperextension, pelvic position — sufficient to propose the sway-back / Depressed Cobra type as a hypothesis.
 
 ## What the app must not infer
 
@@ -69,14 +69,15 @@ Cross-linking the sway-back silhouette to a fascial line is an **engine synthesi
 
 ## Related concepts
 
-[[non_structural_sagittal_posture]], [[stabilizer_mobilizer_classification]], [[muscle_hypoactivity]], [[muscle_hyperactivity]], [[apparent_shortness_vs_structural_shortening]], [[structural_vs_non_structural_posture]], [[bodyreading_static_posture]].
+[[non_structural_sagittal_posture]], [[stabilizer_mobilizer_classification]], [[muscle_hypoactivity]], [[muscle_hyperactivity]], [[apparent_shortness_vs_structural_shortening]], [[structural_vs_non_structural_posture]], [[bodyreading_static_posture]], [[psoas_diaphragm_core_cobra]].
 
 ## Sources
 
 - [[czaprowski_nonstructural_posture_2018]] — p.5-11, 12-13.
+- [[myers_cobra_core_psoas_diaphragm_2019]] — Image 4C, Depressed Cobra presentation.
 
 ## Evidence-separation rules
 
 - **(A)** Sway-back definition, body-part positions, functional-organisation table — directly from Czaprowski et al.
-- **(B)** Cross-link to [[bodyreading_static_posture]] — Anatomy Trains (Level 1).
+- **(B)** Cross-link to [[bodyreading_static_posture]] and [[psoas_diaphragm_core_cobra]] — Anatomy Trains (Level 1).
 - **(C)** Any fascial-line mapping is `engine_synthesis` and must be labelled.

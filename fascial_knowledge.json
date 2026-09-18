@@ -3528,7 +3528,9 @@
         "01_Fascial_Lines/spiral_line.md",
         "01_Fascial_Lines/lateral_line.md",
         "01_Fascial_Lines/deep_front_arm_line.md",
-        "02_Body_Structures/muscles/pectoralis_minor.md"
+        "02_Body_Structures/muscles/pectoralis_minor.md",
+        "00_Spec/sources/myers_cobra_core_psoas_diaphragm_2019.md",
+        "03_Movement_Functions/psoas_diaphragm_core_cobra.md"
       ],
       "line_hypotheses": [
         {
@@ -5040,7 +5042,10 @@
         "00_Spec/sources/anatomy_trains_myofascial_thomas_w_myers.md",
         "01_Fascial_Lines/superficial_back_line.md",
         "01_Fascial_Lines/deep_front_line.md",
-        "01_Fascial_Lines/functional_lines.md"
+        "01_Fascial_Lines/functional_lines.md",
+        "00_Spec/sources/myers_cobra_core_psoas_diaphragm_2019.md",
+        "03_Movement_Functions/psoas_diaphragm_core_cobra.md",
+        "03_Movement_Functions/sway_back_posture.md"
       ],
       "line_hypotheses": [
         {

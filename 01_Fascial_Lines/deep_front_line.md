@@ -62,7 +62,7 @@ It provides a stable anatomical bridge from foot/ankle and deep-leg structures t
 
 ## Stable Anatomy (Level 1 & 2)
 
-The cited model includes [[plantar_fascia]], [[tibialis_posterior]], long toe flexors, [[popliteus]], adductors, psoas/iliacus, [[diaphragm]], quadratus lumborum, transversus abdominis, deep neck structures, and jaw-related muscles. Membership is anatomical Level 1 support, not evidence of simultaneous activation or load transfer during golf.
+The cited model includes [[plantar_fascia]], [[tibialis_posterior]], long toe flexors, [[popliteus]], adductors, psoas/iliacus, [[diaphragm]], quadratus lumborum, transversus abdominis, deep neck structures, and jaw-related muscles. In the sagittal core, Myers establishes the psoas-diaphragmatic crura unit as a continuous functional complex (the "inner cobra"; see [[psoas_diaphragm_core_cobra]] and [[myers_cobra_core_psoas_diaphragm_2019]]). Membership is anatomical Level 1 support, not evidence of simultaneous activation or load transfer during golf.
 
 ## Golf Application Interpretation (Level 3 & 4 context)
 
@@ -115,9 +115,10 @@ See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the comp
 
 - contains -> [[plantar_fascia]], [[tibialis_posterior]], [[adductor_longus]], [[psoas_major]], [[diaphragm]]
 - connects_to -> [[ankle_joint]], [[hip_joint]], rib cage
+- related_movement_function -> [[psoas_diaphragm_core_cobra]]
 - interpreted_during -> [[golf_swing_transition]]
 - gait_synthesis -> [[gait_myofascial_mapping]]
-- supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]], [[julie_hammond_breakout]]
+- supported_by -> [[anatomy_trains_myofascial_thomas_w_myers]], [[julie_hammond_breakout]], [[myers_cobra_core_psoas_diaphragm_2019]]
 
 ## Open Questions
 
