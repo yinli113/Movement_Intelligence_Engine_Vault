@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "running-knowledge.v1",
+  "version": "1.0.0",
+  "updated": "2026-09-09",
+  "domain": "running",
+  "canonicalIndex": "running_canonical_knowledge_index",
+  "canonicalContract": "running_canonical_measurement_contract",
+  "evidenceAxes": {
+    "vault": "1-5 source and provenance hierarchy",
+    "running": {
+      "A": "camera-derived measurement or explicitly named proxy",
+      "B": "multi-stride pattern derived from Level A measurements",
+      "C": "bounded biomechanical interpretation",
+      "D": "myofascial hypothesis requiring clinical correlation"
+    }
+  },
+  "captureContract": {
+    "v0Mode": "uploaded_video_manual_event_review",
+    "maxDurationSeconds": 45,
+    "preferredFrameRate": 60,
+    "provisionalMinimumFrameRate": 30,
+    "preferredView": "side",
+    "minimumCompleteSameSideCycles": 3,
+    "requiredMetadata": [
+      "view",
+      "environment",
+      "reportedFrameRate",
+      "trialLabel"
+    ],
+    "note": "Running-specific thresholds remain provisional until validation. Do not inherit generic or squat thresholds silently."
+  },
+  "metrics": [
+    {
+      "canonicalId": "running.rhythm.cadence",
+      "label": "Cadence",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "computed",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.step_time",
+      "label": "Step time",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "computed",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.stride_time",
+      "label": "Stride time",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "computed",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.contact_time",
+      "label": "Contact-time proxy",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.flight_time",
+      "label": "Flight-time proxy",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.landing.relationship",
+      "label": "Landing relationship",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.landing.foot_strike",
+      "label": "Estimated foot strike",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.landing.tibial_inclination",
+      "label": "Tibial inclination",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.landing.knee_flexion_at_contact",
+      "label": "Knee flexion at contact",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.proxy",
+      "label": "Body-centre proxy",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.progression",
+      "label": "Body-centre progression",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.vertical_oscillation",
+      "label": "Vertical excursion",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.horizontal_progression",
+      "label": "Horizontal progression",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.compression.leg_compression_proxy",
+      "label": "Leg-compression proxy",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.trunk.lean",
+      "label": "Trunk lean",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.rotation.pelvis",
+      "label": "Pelvis-rotation proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "rotation_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.rotation.thorax",
+      "label": "Thorax-rotation proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "rotation_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.rotation.shoulder",
+      "label": "Shoulder-line rotation proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "rotation_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.rotation.pelvis_thorax",
+      "label": "Pelvis-thorax relationship",
+      "claimLevel": "B",
+      "view": "front/back",
+      "measurementType": "derived_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.descriptor.till_yes_progression_ratio",
+      "label": "TillYes Progression Ratio",
+      "claimLevel": "B",
+      "view": "side",
+      "measurementType": "derived_proxy",
+      "release": "planned_pose_validation"
+    }
+  ],
+  "patterns": [
+    {
+      "canonicalId": "running.pattern.long_forward_landing",
+      "requires": [
+        "running.landing.relationship",
+        "running.landing.tibial_inclination",
+        "running.landing.knee_flexion_at_contact"
+      ]
+    },
+    {
+      "canonicalId": "running.pattern.compression_rebound",
+      "requires": [
+        "running.rhythm.contact_time",
+        "running.compression.leg_compression_proxy",
+        "running.body_centre.vertical_oscillation"
+      ]
+    },
+    {
+      "canonicalId": "running.variability.left_right_asymmetry",
+      "requires": [
+        "paired valid side measurements",
+        "multiple valid strides"
+      ]
+    },
+    {
+      "canonicalId": "running.variability.fatigue_drift",
+      "requires": [
+        "early-late repeated measurements",
+        "protocol-established fatigue context"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "canonicalId": "running.interpretation.longer_landing_strategy",
+      "requiresClaimLevel": "B"
+    },
+    {
+      "canonicalId": "running.interpretation.load_distribution_strategy",
+      "requiresClaimLevel": "B"
+    },
+    {
+      "canonicalId": "running.interpretation.altered_rotational_coordination",
+      "requiresClaimLevel": "B"
+    }
+  ],
+  "hypothesisLayer": {
+    "enabledInV0": false,
+    "requiresClaimLevel": "C",
+    "requiresClinicalCorrelation": true,
+    "candidates": [
+      "spiral_line",
+      "functional_lines",
+      "lateral_line",
+      "deep_front_line"
+    ]
+  },
+  "outputContract": {
+    "requiredFields": [
+      "value",
+      "unit",
+      "view",
+      "validSamples",
+      "confidence",
+      "qualityFlags",
+      "algorithmVersion"
+    ],
+    "multiStrideFields": [
+      "mean",
+      "median",
+      "standardDeviation",
+      "validStrideCount",
+      "leftRightDifference",
+      "earlyMean",
+      "lateMean",
+      "trend"
+    ],
+    "unavailableText": "Insufficient reliable evidence to interpret this feature."
+  },
+  "guardrails": [
+    "Kinematics are not kinetics.",
+    "A hip midpoint is a body-centre proxy, not true whole-body COM.",
+    "Foot strike is a descriptor, not a correctness score.",
+    "Cadence has no universal 180 steps/min pass threshold.",
+    "Asymmetry is not dysfunction.",
+    "Running economy cannot be measured from pose video alone.",
+    "No force, stiffness, injury, diagnosis, muscle-state, or fascial-state claim may be generated from ordinary monocular pose video."
+  ],
+  "sourceNodes": [
+    "till_yes_running_literature_foundation",
+    "running_evidence_levels",
+    "running_evidence_gate",
+    "running_measurement_limitations",
+    "running_reporting_guardrails",
+    "running_kinematics_are_not_kinetics"
+  ]
+}
+
