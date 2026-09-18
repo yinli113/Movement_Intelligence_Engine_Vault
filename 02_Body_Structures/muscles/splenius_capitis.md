@@ -4,8 +4,8 @@ type: Muscle
 preferred_name: Splenius Capitis
 aliases: [splenius capitis]
 short_definition: "Broad strap muscle on the back of the neck rotating and extending the head, linking upper torso to the skull in the Spiral Line and Lateral Line."
-fma_id: "FMA:22704"
-bodyparts3d_id: "BP3D:FMA22704"
+fma_id: "FMA:22653"
+bodyparts3d_id: "BP3D:FMA22653"
 openstax_ref: "OpenStax A&P 2e §11.3"
 innervation: "Posterior rami of middle cervical spinal nerves (C3-C5)"
 origin:
@@ -29,7 +29,7 @@ review_status: active_spec
 relationship_count: 13
 hub_score: 41
 centrality: 0.117
-updated: 2026-09-07
+updated: 2026-09-15
 ---
 
 # Splenius Capitis

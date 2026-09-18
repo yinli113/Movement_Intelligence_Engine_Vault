@@ -2,10 +2,10 @@
 id: peroneus_brevis
 type: Muscle
 preferred_name: Peroneus Brevis
-aliases: [peroneus brevis]
+aliases: [peroneus brevis, fibularis brevis]
 short_definition: "Lateral compartment leg muscle driving foot eversion and ankle stability in the Lateral Line."
-fma_id: "FMA:22539"
-bodyparts3d_id: "BP3D:FMA22539"
+fma_id: "FMA:22540"
+bodyparts3d_id: "BP3D:FMA22540"
 openstax_ref: "OpenStax A&P 2e §11.6"
 innervation: "Superficial fibular (peroneal) nerve (L5-S1)"
 origin:
@@ -29,7 +29,7 @@ review_status: active_spec
 relationship_count: 7
 hub_score: 19
 centrality: 0.063
-updated: 2026-09-07
+updated: 2026-09-15
 ---
 
 # Peroneus Brevis

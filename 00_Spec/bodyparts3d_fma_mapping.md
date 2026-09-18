@@ -14,7 +14,7 @@ review_status: active_spec
 relationship_count: 55
 hub_score: 149
 centrality: 0.495
-updated: 2026-09-07
+updated: 2026-09-15
 ---
 
 # BodyParts3D & FMA 3D Mesh Mapping Spec
@@ -63,11 +63,11 @@ By grouping discrete BodyParts3D polygon meshes according to Thomas Myers Anatom
 ### 3. Lateral Line (LL)
 | Track / Station | Muscle / Structure Node | FMA ID | BodyParts3D Concept | 3D Blender Sub-Mesh |
 |---|---|---|---|---|
-| Lateral crural | [[peroneus_longus]], [[peroneus_brevis]] | FMA:22538, FMA:22539 | BP3D:FMA22538 | PeroneusLongus, Brevis |
+| Lateral crural | [[peroneus_longus]], [[peroneus_brevis]] | FMA:22539, FMA:22540 | BP3D:FMA22539 | PeroneusLongus, Brevis |
 | Lateral fascial band | [[iliotibial_tract]] | FMA:51048 | BP3D:FMA51048 | IT_Band_L/R |
-| Lateral pelvis | [[tensor_fasciae_latae]], [[gluteus_medius]] | FMA:22429, FMA:22354 | BP3D:FMA22429 | TFL, GluteusMedius |
+| Lateral pelvis | [[tensor_fasciae_latae]], [[gluteus_medius]] | FMA:22423, FMA:22354 | BP3D:FMA22423 | TFL, GluteusMedius |
 | Lateral abdominal wall | [[external_oblique]], [[internal_oblique]] | FMA:13397, FMA:13398 | BP3D:FMA13397 | ExternalOblique, InternalOblique |
-| Thoracic / Neck | [[intercostals]], [[splenius_capitis]] | FMA:71310, FMA:22704 | BP3D:FMA71310 | Intercostals_Lateral, SpleniusCapitis |
+| Thoracic / Neck | [[intercostals]], [[splenius_capitis]] | FMA:71310, FMA:22653 | BP3D:FMA71310 | Intercostals_Lateral, SpleniusCapitis |
 
 ---
 
