@@ -50,15 +50,29 @@ In this presentation (corresponding to Myers 2019 Image 4C and closely related t
 - **Pelvic Relationship:** Often co-occurs with anterior pelvic translation relative to the feet and posterior pelvic tilt bias, holding the psoas **locked-long** rather than locked-short.
 
 ### 2. The Over-Enthusiastic Cobra (Anterior Lordotic Pull)
-In this presentation (Myers 2019 Image 4D):
-- The psoas major is hypertonic and over-recruited.
-- The upper lumbar spine is pulled anteriorly into excessive lordosis.
-- The diaphragm dome is tipped backward, lifting the anterior costal margin and exposing the "throat" of the cobra.
+In this presentation (corresponding to Myers 2019 Image 4D):
+- **Hypertonic Psoas Pull:** The [[psoas_major]] is hypertonic, excessively recruited, and locked-short ("too enthusiastic, too toned").
+- **Anterior Lumbar Lordosis:** Concentric psoas tension pulls the upper lumbar vertebrae (L1–L5) forward into accentuated lordosis.
+- **Anterior Pelvic Tilt:** The shortened psoas and hip flexors tip the pelvis anteriorly, advancing the sacral base and compressing posterior lumbar facet joints.
+- **Tilted Diaphragm Dome ("Exposed Cobra Throat"):** The diaphragm dome leans backward, lifting the anterior costal margin (ribs 7–10) and exposing the "throat" of the cobra.
+- **Reciprocal Imbalance:** The reciprocal "hand-over-hand" relationship between the respiratory diaphragm and pelvic diaphragm is compromised.
+- **Fascial Line State:** Deep Front Line is hypertonic/shortened anteriorly; Superficial Back Line (lumbar extensors) is concentrically tightened in hyperlordosis; Superficial Front Line (rectus abdominis) and posterior SBL (hamstrings) are locked-long under eccentric tensile load.
 
-## Clinical Handling Precaution (Myers' Rule)
+## Clinical Handling Rules (Myers' Clinical Protocol)
 
+Thomas Myers defines two contrasting clinical interventions based on the sagittal core presentation:
+
+### A. Protocol for Over-Enthusiastic Cobra (Image 4D — Anterior Pelvic Tilt / Hyperlordosis)
+> [!TIP]
+> **Manual Release and Neuromuscular Relaxation Indicated:**
+> - **Clinical Objective:** Relent and release excess chronic tension in the [[psoas_major]] and deep hip flexors.
+> - **Myers' Rule:** *"These are the folks who could use a release, a relenting of the constant excess tension in the psoas. Such a relaxation will allow the rib cage to center over the pelvis, and drop the nose of the cobra back to its place of poise."* (Myers 2019).
+> - **Technique & Somatics:** Gentle, mindful myofascial release of the psoas belly and distal tendon near the lesser trochanter; full exhalation breathing to soften the flared anterior lower ribs down toward the ASIS; neuromuscular lengthening to allow the pelvis to de-rotate out of anterior tilt.
+
+### B. Protocol for Depressed Cobra (Image 4C — Sway-Back / Posterior Fall-Back)
 > [!CAUTION]
-> In a **Depressed Cobra** presentation, the psoas major is **lengthened, inhibited, and exhausted**, NOT locked-short.
+> **Aggressive Stripping Contraindicated (Psoas is Locked-Long and Inhibited):**
+> - In a **Depressed Cobra** presentation, the psoas major is **lengthened, inhibited, and exhausted**, NOT locked-short.
 > - **Contraindication:** Aggressive deep stripping, digging, or painful ischemic compression into the psoas is contraindicated and will further destabilize the core.
 > - **Protocol:** 
 >   1. Release and free the hypertonic posterior guy-wires ([[quadratus_lumborum]] and thoracolumbar fascia).
@@ -69,6 +83,7 @@ In this presentation (Myers 2019 Image 4D):
 
 A 2D computer vision posture app:
 1. Cannot directly see the psoas, diaphragm crura, or autonomic nerves.
-2. Observes the sagittal silhouette: active-side shoulder-to-pelvis plumbline inclination (backward vs. forward trunk lean) coupled with cranio-cervical tilt (neck angle) and sagittal head translation.
-3. When backward trunk lean co-occurs with forward head translation and posterior pelvic tilt bias, the app hypothesizes a **Depressed Cobra / Sway-Back kinetic chain** (Level-5 hypothesis).
-4. The app frames this as a clinical reading question with palpation and movement confirmation checks, never as a medical diagnosis.
+2. Observes the sagittal silhouette: active-side shoulder-to-pelvis plumbline inclination (backward vs. forward trunk lean), pelvic tilt inclination proxy (anterior tilt vs. posterior tilt / sway bias), and cranio-cervical translation.
+3. **When anterior pelvic tilt co-occurs with forward trunk pitch or hyperlordotic posture (Image 4D)**: The app hypothesizes an **Over-Enthusiastic Cobra (psoas locked-short / hypertonic anterior pull)**, indicating myofascial release and neuromuscular elongation of the psoas.
+4. **When backward trunk lean co-occurs with posterior pelvic tilt / sway-back bias and forward head translation (Image 4C)**: The app hypothesizes a **Depressed Cobra (psoas locked-long / inhibited core collapse)**, contraindicating aggressive psoas stripping and prioritizing posterior guy-wire release and active psoas toning.
+5. The app frames both presentations as clinical reading hypotheses with hands-on palpation and movement confirmation checks, never as a medical diagnosis.
