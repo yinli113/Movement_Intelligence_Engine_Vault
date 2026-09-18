@@ -4,8 +4,8 @@ type: Muscle
 preferred_name: Splenius Cervicis
 aliases: ["splenius colli"]
 short_definition: "Posterior deep neck muscle linking the upper thoracic spinous processes to the upper cervical transverse processes, participating in the Spiral Line."
-fma_id: "FMA:22705"
-bodyparts3d_id: "BP3D:FMA22705"
+fma_id: "FMA:22681"
+bodyparts3d_id: "BP3D:FMA22681"
 openstax_ref: "OpenStax A&P 2e §11.3"
 innervation: "Posterior rami of lower cervical spinal nerves (C5-C8)"
 origin:
@@ -32,7 +32,7 @@ review_status: active_spec
 relationship_count: 12
 hub_score: 30
 centrality: 0.108
-updated: 2026-09-07
+updated: 2026-09-15
 ---
 
 # Splenius Cervicis

@@ -2,10 +2,10 @@
 id: tensor_fasciae_latae
 type: Muscle
 preferred_name: Tensor Fasciae Latae
-aliases: [tensor fasciae latae]
+aliases: [tensor fasciae latae, TFL]
 short_definition: "Anterolateral hip muscle tensioning the iliotibial tract to stabilize the pelvis and lateral knee in the Lateral Line and Spiral Line."
-fma_id: "FMA:22429"
-bodyparts3d_id: "BP3D:FMA22429"
+fma_id: "FMA:22423"
+bodyparts3d_id: "BP3D:FMA22423"
 openstax_ref: "OpenStax A&P 2e §11.6"
 innervation: "Superior gluteal nerve (L4-S1)"
 origin:
@@ -29,7 +29,7 @@ review_status: active_spec
 relationship_count: 19
 hub_score: 60
 centrality: 0.171
-updated: 2026-09-07
+updated: 2026-09-15
 ---
 
 # Tensor Fasciae Latae

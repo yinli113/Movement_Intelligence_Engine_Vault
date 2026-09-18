@@ -2,10 +2,10 @@
 id: peroneus_longus
 type: Muscle
 preferred_name: Peroneus Longus
-aliases: [peroneus longus]
+aliases: [peroneus longus, fibularis longus]
 short_definition: "Long lateral leg muscle crossing the plantar sole to form the transverse arch stirrup with tibialis anterior in the Lateral Line and Spiral Line."
-fma_id: "FMA:22538"
-bodyparts3d_id: "BP3D:FMA22538"
+fma_id: "FMA:22539"
+bodyparts3d_id: "BP3D:FMA22539"
 openstax_ref: "OpenStax A&P 2e §11.6"
 innervation: "Superficial fibular (peroneal) nerve (L5-S1)"
 origin:
@@ -29,7 +29,7 @@ review_status: active_spec
 relationship_count: 9
 hub_score: 24
 centrality: 0.081
-updated: 2026-09-07
+updated: 2026-09-15
 ---
 
 # Peroneus Longus
