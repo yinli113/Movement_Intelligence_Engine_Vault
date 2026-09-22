@@ -22,7 +22,7 @@ confidence: low
 review_status: draft_graph_mvp
 relationship_count: 16
 hub_score: 51
-centrality: 0.144
+centrality: 0.143
 updated: 2026-06-29
 fma_id: "FMA:13409"
 bodyparts3d_id: "BP3D:FMA13409"

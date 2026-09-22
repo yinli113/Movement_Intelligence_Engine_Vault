@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 18
 hub_score: 40
-centrality: 0.162
+centrality: 0.161
 ---
 
 # Terminal Stance (Perry Phase 4)

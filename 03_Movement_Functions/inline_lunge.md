@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 9
 hub_score: 12
-centrality: 0.081
+centrality: 0.08
 ---
 
 # Inline Lunge (FMS Test 3)

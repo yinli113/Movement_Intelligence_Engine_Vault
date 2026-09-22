@@ -18,7 +18,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 31
 hub_score: 112
-centrality: 0.279
+centrality: 0.277
 ---
 
 # Squat Switch Failure Modes

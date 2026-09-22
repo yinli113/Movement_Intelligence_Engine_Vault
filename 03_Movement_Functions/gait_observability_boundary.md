@@ -23,7 +23,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 23
 hub_score: 42
-centrality: 0.207
+centrality: 0.205
 ---
 
 # Gait Observability Boundary

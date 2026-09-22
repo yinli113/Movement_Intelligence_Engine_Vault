@@ -18,7 +18,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 20
 hub_score: 69
-centrality: 0.18
+centrality: 0.179
 ---
 
 # Golf Swing Myofascial Mapping & Switch Failure Taxonomy

@@ -18,7 +18,15 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DIRS = ["00_Spec", "01_Fascial_Lines", "02_Body_Structures", "03_Movement_Functions", "04_Golf_Swing", "05_App_Logic"]
+DIRS = [
+    "00_Spec",
+    "01_Fascial_Lines",
+    "02_Body_Structures",
+    "03_Movement_Functions",
+    "04_Golf_Swing",
+    "05_App_Logic",
+    "Running",
+]
 SKIP_DIRS = {"templates"}
 METRIC_KEYS = {"relationship_count", "hub_score", "centrality"}
 DEFAULT_CONFIDENCE = "medium"

@@ -1,0 +1,472 @@
+{
+  "schemaVersion": "running-knowledge.v2",
+  "version": "2.2.0",
+  "updated": "2026-09-14",
+  "domain": "running",
+  "canonicalIndex": "running_canonical_knowledge_index",
+  "canonicalContract": "running_canonical_measurement_contract",
+  "evidenceAxes": {
+    "vault": "1-5 source and provenance hierarchy",
+    "running": {
+      "A": "camera-derived measurement or explicitly named proxy",
+      "B": "multi-stride pattern derived from Level A measurements",
+      "C": "bounded biomechanical interpretation",
+      "D": "myofascial hypothesis requiring clinical correlation"
+    }
+  },
+  "captureContract": {
+    "modes": [
+      "uploaded_video_pose_analysis",
+      "recorded_video_pose_analysis",
+      "manual_event_review"
+    ],
+    "eventPolicy": "automatic candidates require confidence, supporting signals, and manual review availability",
+    "maxDurationSeconds": 45,
+    "preferredFrameRate": 60,
+    "provisionalMinimumFrameRate": 30,
+    "preferredView": "side",
+    "minimumCompleteSameSideCycles": 3,
+    "preferredValidStrideCount": 10,
+    "requiredMetadata": [
+      "view",
+      "environment",
+      "reportedFrameRate",
+      "decodedSourceWidth",
+      "decodedSourceHeight",
+      "runningDirection",
+      "trialLabel"
+    ],
+    "note": "Running-specific thresholds and automatic event detection remain provisional until validated against annotated running video. Do not inherit generic, gait, or squat thresholds silently."
+  },
+  "metrics": [
+    {
+      "canonicalId": "running.rhythm.cadence",
+      "label": "Cadence",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "computed",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.step_time",
+      "label": "Step time",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "computed",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.stride_time",
+      "label": "Stride time",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "computed",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.contact_time",
+      "label": "Contact-time proxy",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.rhythm.flight_time",
+      "label": "Flight-time proxy",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "v0"
+    },
+    {
+      "canonicalId": "running.landing.relationship",
+      "label": "Landing relationship",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.landing.foot_strike",
+      "label": "Estimated foot strike",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.landing.tibial_inclination",
+      "label": "Tibial inclination",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.landing.knee_flexion_at_contact",
+      "label": "Knee flexion at contact",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.proxy",
+      "label": "Body-centre proxy",
+      "claimLevel": "A",
+      "view": "side/front/back",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.progression",
+      "label": "Body-centre progression",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.vertical_oscillation",
+      "label": "Vertical excursion",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.body_centre.horizontal_progression",
+      "label": "Horizontal progression",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.compression.leg_compression_proxy",
+      "label": "Leg-compression proxy",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "proxy",
+      "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.trunk.lean",
+      "label": "Trunk inclination",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Aspect-corrected projected inclination from frame vertical of the selected-side hip-to-shoulder segment; positive is forward in the declared running direction."
+    },
+    {
+      "canonicalId": "running.position.shoulder_pelvis_offset",
+      "label": "Shoulder-pelvis offset",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Selected shoulder horizontal offset from the moving pelvis-centre reference, expressed as percent decoded image width; positive is ahead in the declared running direction."
+    },
+    {
+      "canonicalId": "running.position.ankle_pelvis_offset",
+      "label": "Ankle-pelvis offset",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Selected ankle horizontal offset from the moving pelvis-centre reference, expressed as percent decoded image width; positive is ahead in the declared running direction. This is continuous and is not a landing claim."
+    },
+    {
+      "canonicalId": "running.position.head_pelvis_offset",
+      "label": "Head-pelvis offset",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Nose-landmark horizontal offset from the moving pelvis-centre reference, expressed as percent decoded image width; positive is ahead in the declared running direction."
+    },
+    {
+      "canonicalId": "running.alignment.selected_ankle_shoulder_inclination",
+      "label": "Selected ankle-shoulder inclination",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Aspect-corrected projected inclination from frame vertical of the selected-side ankle-to-shoulder line; positive is forward in the declared running direction."
+    },
+    {
+      "canonicalId": "running.knee.flexion",
+      "label": "Selected-side knee flexion",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Aspect-corrected image-plane knee flexion calculated as 180 degrees minus the hip-knee-ankle included angle."
+    },
+    {
+      "canonicalId": "running.alignment.whole_body_lean",
+      "label": "Whole-body lean",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "deprecated_compatibility",
+      "definition": "Legacy mixed-reference descriptor retained for stored-session compatibility; do not surface in the alignment viewer."
+    },
+    {
+      "canonicalId": "running.landing.knee_flexion_excursion",
+      "label": "Knee flexion excursion",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.frontal.pelvis_tilt",
+      "label": "Pelvis-line tilt",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.frontal.shoulder_tilt",
+      "label": "Shoulder-line tilt",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.frontal.shoulder_centre_offset",
+      "label": "Shoulder-centre lateral offset",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Shoulder-centre lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+    },
+    {
+      "canonicalId": "running.frontal.head_pelvis_offset",
+      "label": "Head-pelvis lateral offset",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Nose-landmark lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+    },
+    {
+      "canonicalId": "running.frontal.left_ankle_offset",
+      "label": "Left ankle lateral offset",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Left ankle lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+    },
+    {
+      "canonicalId": "running.frontal.right_ankle_offset",
+      "label": "Right ankle lateral offset",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Right ankle lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+    },
+    {
+      "canonicalId": "running.frontal.left_knee_offset",
+      "label": "Left knee lateral offset",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Left knee lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+    },
+    {
+      "canonicalId": "running.frontal.right_knee_offset",
+      "label": "Right knee lateral offset",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Right knee lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+    },
+    {
+      "canonicalId": "running.frontal.step_width",
+      "label": "Step-width proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.frontal.lateral_alignment",
+      "label": "Lateral alignment",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.frontal.lateral_sway",
+      "label": "Lateral sway proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.frontal.knee_path_symmetry",
+      "label": "Knee-path difference",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.frontal.arm_path_symmetry",
+      "label": "Arm-path difference",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.rotation.pelvis",
+      "label": "Pelvis-rotation proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "rotation_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.rotation.thorax",
+      "label": "Thorax-rotation proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "rotation_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.rotation.shoulder",
+      "label": "Shoulder-line rotation proxy",
+      "claimLevel": "A",
+      "view": "front/back",
+      "measurementType": "rotation_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.rotation.pelvis_thorax",
+      "label": "Pelvis-thorax relationship",
+      "claimLevel": "B",
+      "view": "front/back",
+      "measurementType": "derived_proxy",
+      "release": "experimental"
+    },
+    {
+      "canonicalId": "running.descriptor.till_yes_progression_ratio",
+      "label": "TillYes Progression Ratio",
+      "claimLevel": "B",
+      "view": "side",
+      "measurementType": "derived_proxy",
+      "release": "planned_pose_validation"
+    }
+  ],
+  "patterns": [
+    {
+      "canonicalId": "running.pattern.long_forward_landing",
+      "requires": [
+        "running.landing.relationship",
+        "running.landing.tibial_inclination",
+        "running.landing.knee_flexion_at_contact"
+      ]
+    },
+    {
+      "canonicalId": "running.pattern.compression_rebound",
+      "requires": [
+        "running.rhythm.contact_time",
+        "running.compression.leg_compression_proxy",
+        "running.body_centre.vertical_oscillation"
+      ]
+    },
+    {
+      "canonicalId": "running.variability.left_right_asymmetry",
+      "requires": [
+        "paired valid side measurements",
+        "multiple valid strides"
+      ]
+    },
+    {
+      "canonicalId": "running.variability.fatigue_drift",
+      "requires": [
+        "early-late repeated measurements",
+        "protocol-established fatigue context"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "canonicalId": "running.interpretation.longer_landing_strategy",
+      "requiresClaimLevel": "B"
+    },
+    {
+      "canonicalId": "running.interpretation.load_distribution_strategy",
+      "requiresClaimLevel": "B"
+    },
+    {
+      "canonicalId": "running.interpretation.altered_rotational_coordination",
+      "requiresClaimLevel": "B"
+    }
+  ],
+  "hypothesisLayer": {
+    "enabledInV0": false,
+    "requiresClaimLevel": "C",
+    "requiresClinicalCorrelation": true,
+    "candidates": [
+      "spiral_line",
+      "functional_lines",
+      "lateral_line",
+      "deep_front_line"
+    ]
+  },
+  "outputContract": {
+    "requiredFields": [
+      "value",
+      "unit",
+      "view",
+      "validSamples",
+      "confidence",
+      "qualityFlags",
+      "algorithmVersion"
+    ],
+    "multiStrideFields": [
+      "mean",
+      "median",
+      "standardDeviation",
+      "validStrideCount",
+      "leftRightDifference",
+      "earlyMean",
+      "lateMean",
+      "trend"
+    ],
+    "unavailableText": "Insufficient reliable evidence to interpret this feature."
+  },
+  "guardrails": [
+    "Kinematics are not kinetics.",
+    "A hip midpoint is a body-centre proxy, not true whole-body COM.",
+    "Foot strike is a descriptor, not a correctness score.",
+    "Cadence has no universal 180 steps/min pass threshold.",
+    "Asymmetry is not dysfunction.",
+    "Running economy cannot be measured from pose video alone.",
+    "No force, stiffness, injury, diagnosis, muscle-state, or fascial-state claim may be generated from ordinary monocular pose video."
+  ],
+  "sourceNodes": [
+    "till_yes_running_literature_foundation",
+    "running_evidence_levels",
+    "running_evidence_gate",
+    "running_measurement_limitations",
+    "running_reporting_guardrails",
+    "running_kinematics_are_not_kinetics"
+  ]
+}

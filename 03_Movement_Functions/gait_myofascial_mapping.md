@@ -24,7 +24,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 26
 hub_score: 70
-centrality: 0.234
+centrality: 0.232
 ---
 
 # Gait–Myofascial Line Mapping (Engine Synthesis)

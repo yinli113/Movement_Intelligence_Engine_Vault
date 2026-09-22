@@ -23,7 +23,7 @@ confidence: low
 review_status: retired_unvalidated_concepts
 relationship_count: 12
 hub_score: 17
-centrality: 0.108
+centrality: 0.107
 updated: 2026-07-16
 ---
 

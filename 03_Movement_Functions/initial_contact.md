@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 16
 hub_score: 32
-centrality: 0.144
+centrality: 0.143
 ---
 
 # Initial Contact (Perry Phase 1)

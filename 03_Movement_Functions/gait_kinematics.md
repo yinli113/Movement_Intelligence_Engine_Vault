@@ -23,7 +23,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 9
 hub_score: 13
-centrality: 0.081
+centrality: 0.08
 ---
 
 # Gait Kinematics

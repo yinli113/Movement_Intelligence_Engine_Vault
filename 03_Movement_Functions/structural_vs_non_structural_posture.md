@@ -23,7 +23,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 10
 hub_score: 20
-centrality: 0.09
+centrality: 0.089
 ---
 
 # Structural vs Non-Structural Posture

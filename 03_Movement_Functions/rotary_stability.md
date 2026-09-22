@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 9
 hub_score: 11
-centrality: 0.081
+centrality: 0.08
 ---
 
 # Rotary Stability (FMS Test 7)

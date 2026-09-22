@@ -24,7 +24,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 32
 hub_score: 107
-centrality: 0.288
+centrality: 0.286
 updated: 2026-06-27
 fma_id: "FMA:13412"
 bodyparts3d_id: "BP3D:FMA13412"

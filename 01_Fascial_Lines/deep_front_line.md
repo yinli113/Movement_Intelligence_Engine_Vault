@@ -25,8 +25,8 @@ relationships:
   app_hypotheses: [planned_breath_and_inner_arch_screen]
 confidence: medium
 review_status: draft_graph_mvp
-relationship_count: 111
-hub_score: 337
+relationship_count: 112
+hub_score: 339
 centrality: 1.0
 updated: 2026-07-16
 ---

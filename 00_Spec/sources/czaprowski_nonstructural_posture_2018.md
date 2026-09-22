@@ -39,7 +39,7 @@ confidence: high
 review_status: source_summary_for_graph_mvp
 relationship_count: 22
 hub_score: 45
-centrality: 0.198
+centrality: 0.196
 updated: 2026-07-22
 ---
 

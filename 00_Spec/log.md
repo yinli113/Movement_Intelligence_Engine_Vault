@@ -2,6 +2,14 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
+## [2026-09-15] Running Domain | Thomas Myers' 3-Layer Rotational System
+- Created canonical hypothesis node `[[running_three_layer_rotation_model]]` (`running.myofascial.three_layer_rotation`) formalizing Thomas Myers' tri-laminar rotational architecture in the running domain:
+  - **Layer 1 (Deep Axial & Hip Rotators / DFL)**: Segmental spinal stability and "fans of the hip".
+  - **Layer 2 (Helical Postural Wrapper / SPL)**: Torso-pelvis-lower limb helical recoil and pelvis-thorax counter-rotation.
+  - **Layer 3 (Superficial Dynamic "X" / FL)**: Contralateral momentum transfer across the torso X.
+- Cross-linked with `[[running_deep_front_line]]`, `[[running_spiral_line]]`, `[[running_functional_lines]]`, `[[running_pelvis_thorax_rotation]]`, `[[running_cross_body_coordination]]`, and `[[running_rotational_reversal]]`.
+- Updated `[[running_canonical_knowledge_index]]`.
+
 ## [2026-09-07] Engine Update | Complete Anatomical Grounding & Literature Harmonization
 - **Step 1 (Schema & Literature Ingestion)**:
   - Updated `[[naming_conventions]]` (§3.1) with anatomical metadata standards: `origin`, `insertion`, `innervation`, `fma_id`, `bodyparts3d_id`, and `openstax_ref`.
@@ -349,3 +357,31 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Extended canonical squat knowledge to v1.2 with line-specific anatomical continuity, squat context, and prohibited measurement claims for SBL, SFL, DFL, Lateral Line, and Spiral Line.
 - Required every surfaced line to trace to actual metric findings rather than appearing as a generic Anatomy Trains list.
 - Required the app report to distinguish `engine_synthesis` from measured fascia and treat unsurfaced lines as not evaluated, not normal.
+
+## [2026-09-09] Running | Canonical Evidence and Measurement Graph
+- Added `[[running_canonical_knowledge_index]]` and `[[running_canonical_measurement_contract]]` as the human/agent entry point and future app bridge.
+- Created quality-gated running event, rhythm, landing, body-centre, compression, trunk, rotation, variability, asymmetry, and fatigue nodes under `Running/`.
+- Preserved two evidence axes: the vault's numeric 1-5 source hierarchy and the running A-D claim-distance ladder. Camera measurements remain Level 5 app proxies until independently validated.
+- Added explicit B -> C -> D traversal, `[[running_kinematics_are_not_kinetics]]`, body-centre-proxy terminology, no universal cadence/foot-strike rule, no pose-derived economy score, and insufficient-evidence suppression.
+- Split the user-provided literature foundation into paper-specific Level 3 source nodes with PMIDs, scoped findings, limitations, support edges, and review-status TODOs where full text was not checked.
+- Linked running hypotheses to existing canonical `[[spiral_line]]`, `[[functional_lines]]`, `[[lateral_line]]`, and `[[deep_front_line]]` nodes instead of creating a competing anatomy registry.
+- Added canonical `running_knowledge.v1.json` and synchronized it into the standalone `tillyes_apps/movement_running` V0 event-review workbench.
+- V0 releases only human-reviewed initial-contact/toe-off temporal measurements; pose, kinetic, economy, injury, tissue-state, diagnosis, and treatment claims remain gated.
+
+## [2026-09-10] Running | Integrated Capture and Pose Slice
+- Added canonical `running_knowledge.v2.json` for the TillYes Running slice inside `tillyes_apps/movement_assessment`, while retaining V1 for the manual event-review workbench.
+- V2 adds recorded-video pose analysis, multi-signal automatic event candidates with confidence/supporting-signal provenance, a 45-second capture ceiling, and a preferred ten-valid-stride quality target.
+- Automatic events remain provisional and require visible human review. Released outputs remain cadence, step time, stride time, contact-time proxy, and flight-time proxy only.
+- Preserved the camera boundary: no force, stiffness, tissue state, economy, injury risk, diagnosis, or treatment inference.
+
+## [2026-09-10] Running | Video-first Multi-view Workspace Contract
+- Extended `[[running_canonical_measurement_contract]]` and `running_knowledge.v2.json` to version 2.1.0 with view-gated side, front, and back image-plane descriptors.
+- Added canonical IDs for projected whole-body lean, knee-flexion excursion, pelvis/shoulder tilt, and normalized step-width, lateral-alignment, lateral-sway, knee-path-symmetry, and arm-path-symmetry proxies.
+- Preserved event review and observability boundaries: chart points retain frame/timestamp provenance, unsupported views are unavailable, and no overlay or trend is force, stiffness, injury, true 3D rotation, or fascial diagnosis.
+
+## [2026-09-14] Running | Alignment Viewer Measurement Correction
+
+- Added aspect-corrected, raw-frame continuous Running descriptor contracts for moving pelvis-centred offsets, selected-side inclination, knee flexion, and front/back lateral positions.
+- Reserved `running.landing.relationship` for reviewed initial contact and deprecated `running.alignment.whole_body_lean` as a surfaced viewer label.
+- Required decoded source dimensions and declared running direction for directional image-plane measurements; clarified percent-image-width denominators and anatomical sign conventions.
+- Preserved camera-evidence boundaries: these are 2D descriptors, not kinetics, tissue state, injury risk, centre of pressure, or clinical diagnosis.

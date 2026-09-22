@@ -32,9 +32,9 @@ evidence:
     supports: "Chapters identify Superficial Back Line, Lateral Line, Spiral Line, Functional Lines, Deep Front Line, Anatomy Trains in motion, and structural analysis as relevant sections."
 confidence: medium
 review_status: source_summary_for_graph_mvp
-relationship_count: 30
-hub_score: 93
-centrality: 0.27
+relationship_count: 36
+hub_score: 105
+centrality: 0.321
 updated: 2026-06-29
 ---
 

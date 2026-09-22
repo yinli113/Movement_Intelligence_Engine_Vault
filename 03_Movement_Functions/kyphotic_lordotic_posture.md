@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 15
 hub_score: 21
-centrality: 0.135
+centrality: 0.134
 ---
 
 # Kyphotic-Lordotic Posture

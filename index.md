@@ -21,6 +21,10 @@ Use the shortest task route that supports the current question. Obsidian links a
 
 `[[gait_cycle]]` -> `[[gait_observability_boundary]]` -> `[[gait_myofascial_mapping]]` -> `[[gait_switch_failure_modes]]` -> the observed phase/restriction node -> linked line and structure nodes. Preserve `unavailable_from_this_view` when the active view cannot support a line interpretation.
 
+### Running analysis
+
+`[[running_canonical_knowledge_index]]` -> `[[running_canonical_measurement_contract]]` -> the required event and Level A measurement nodes -> a repeated Level B pattern -> a gated Level C interpretation -> optional Level D myofascial hypothesis -> `[[running_reporting_guardrails]]` -> `running_knowledge.v1.json` for the manual V0 workbench or `running_knowledge.v2.json` for the integrated capture/pose slice. Preserve the separate A-D running claim axis and the vault-wide numeric evidence level; never upgrade pose kinematics into kinetics, true COM, metabolic economy, or tissue state.
+
 ### Golf analysis
 
 `[[golf_swing_events]]` -> `[[golf_kinetics_observability_boundary]]` -> `[[golf_myofascial_mapping]]` -> `[[golf_switch_failure_modes]]` -> `golf_knowledge.v1.json` -> the relevant phase -> linked movement, joint, and optional interpretive-line nodes. Do not upgrade 2D proxies into kinetics.
@@ -55,6 +59,7 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[bourgain_golf_swing_biomechanics_2022]]` - Peer-reviewed systematic review of 92 instrumented golf-swing kinematics studies (X-factor, crunch factor, swing plane, kinematic sequence, joint angular kinematics) with methodological recommendations (domain: golf).
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
   - `[[straub_powers_squat_biomechanics_2024]]` - Applied clinical commentary on modifiable squat parameters and relative hip/knee extensor bias (domain: squat).
+  - `[[till_yes_running_literature_foundation]]` - User-provided running design-literature foundation; a provenance hub whose paper-specific claims are split into linked Level 3 literature nodes (domain: running).
   - `[[schoenfeld_nsca_squat_biomechanics_2010]]` - NSCA review of squat kinematics, joint moments, and knee-to-toe excursion boundaries (domain: squat).
   - `[[openstax_anatomy_physiology_2e]]` - Open-access, peer-reviewed standard anatomical reference providing authoritative tables for muscle origins, insertions, innervations, and joint actions (Level 1, domain: general anatomy).
   - `[[foundational_model_of_anatomy]]` - Open-source computable reference ontology of human anatomy (Level 1, domain: general anatomy).
@@ -111,6 +116,7 @@ Rotational forces, physics vectors, and transmission dynamics:
 - `[[movement_chain_model]]` - The central force flow model.
 - `[[golfer_ground_interaction_model]]` - The central golfer-ground interaction model and three-class external-moment taxonomy.
 - `[[gait_myofascial_mapping]]` - **Engine synthesis** mapping Anatomy Trains lines to gait phases, motion-restriction patterns, and compensation signatures (built from Earls/Myers "Anatomy Trains in Gait", Ch.10). Closes the gait-observation → fascial-line graph edge so the movement_assessment app can reason from observed gait restrictions to candidate lines. All mappings are `engine_synthesis` (C), not measured kinetics.
+- `[[running_canonical_knowledge_index]]` - Running evidence graph from literature through event/measurement definitions, repeated movement patterns, bounded biomechanics, optional myofascial hypotheses, and reporting guardrails.
 - `[[bodyweight_squat]]` - Canonical non-overhead unloaded squat movement and V1 app protocol.
 - `[[sagittal_plumb_line_alignment]]` - Toes · Mid-Foot · Heel 3-line reference rules and center-of-mass trajectory.
 - `[[coronal_plumb_line_alignment]]` - Midline gravitational axis and bilateral stance envelope.

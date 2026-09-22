@@ -31,7 +31,7 @@ confidence: high
 review_status: active_spec
 relationship_count: 14
 hub_score: 34
-centrality: 0.126
+centrality: 0.125
 updated: 2026-09-07
 ---
 

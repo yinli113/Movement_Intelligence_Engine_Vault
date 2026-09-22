@@ -19,7 +19,7 @@ confidence: low
 review_status: needs_evidence
 relationship_count: 32
 hub_score: 98
-centrality: 0.288
+centrality: 0.286
 updated: 2026-07-16
 ---
 

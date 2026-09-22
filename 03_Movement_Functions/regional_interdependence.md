@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 7
 hub_score: 12
-centrality: 0.063
+centrality: 0.062
 ---
 
 # Regional Interdependence

@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 19
 hub_score: 39
-centrality: 0.171
+centrality: 0.17
 ---
 
 # Swing Phase

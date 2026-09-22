@@ -1,0 +1,94 @@
+---
+id: running_vertical_oscillation
+canonical_id: running.body_centre.vertical_oscillation
+type: App Logic
+running_node_type: measurement
+evidence_level: 5
+running_claim_level: A
+status: canonical
+preferred_name: Running - Vertical Oscillation
+aliases: [Vertical Oscillation]
+domain: running
+directly_measured: true
+proxy_measurement: true
+camera_views: [side]
+requires_clinical_correlation: false
+confidence_required: medium
+related_nodes: []
+source_nodes: [running_van_hooren_economy_2024, running_zandbergen_fatigue_2023]
+relationships:
+  required_events: [running_running_cycle]
+  supports: [running_compression_and_rebound, running_fatigue_drift, running_running_economy]
+  constrained_by: [running_measurement_limitations, running_kinematics_are_not_kinetics, running_evidence_gate]
+confidence: medium
+review_status: canonical_definition
+relationship_count: 17
+hub_score: 27
+centrality: 0.152
+updated: 2026-09-09
+---
+
+# Running - Vertical Oscillation
+
+## Definition
+
+A Level A camera-derived measurement or named proxy. Normalised vertical body-centre excursion increased from early to late valid strides.
+
+## Why It Matters
+
+It contributes a bounded observation to the running coordination graph; it must be interpreted with speed, view, repeated strides, and related measurements.
+
+## Required Events
+
+- [[running_running_cycle]]
+
+## Required Landmarks
+
+A valid body-centre proxy trajectory through a complete stride.
+
+## Calculation Concept
+
+Maximum minus minimum vertical body-centre-proxy coordinate per valid stride after camera stabilisation.
+
+## Normalisation
+
+Divide by estimated body height where available and retain the raw pixel/calibrated value.
+
+## Recommended Camera View
+
+- side
+
+## Confidence / Quality Gate
+
+Require a complete stride, stable camera, sufficient vertical field of view, and valid proxy landmarks. Apply [[running_evidence_gate]] and return unavailable when the gate fails.
+
+## What It Can Support
+
+- [[running_compression_and_rebound]]
+- [[running_fatigue_drift]]
+- [[running_running_economy]]
+
+## What It Cannot Prove
+
+Vertical excursion alone does not measure energy cost, economy, stiffness, or wasted energy. See [[running_kinematics_are_not_kinetics]].
+
+## Related Patterns
+
+See [[running_variability]], [[running_left_right_asymmetry]], and the supported nodes above.
+
+## Multi-Stride Aggregation
+
+Before interpretation, aggregate multiple valid strides where possible: mean, median, standard deviation, valid stride count, left/right difference, early-trial mean, late-trial mean, trend, and confidence. See [[running_variability]] and [[running_fatigue_drift]].
+
+## Literature Evidence
+
+- [[running_van_hooren_economy_2024]]
+- [[running_zandbergen_fatigue_2023]]
+
+## Reporting Language
+
+Permitted: "Normalised vertical body-centre excursion increased from early to late valid strides."
+
+## Forbidden Claims
+
+- Do not report: "Excess vertical oscillation proves poor economy."

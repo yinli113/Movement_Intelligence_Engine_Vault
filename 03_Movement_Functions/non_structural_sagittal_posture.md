@@ -23,7 +23,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 12
 hub_score: 26
-centrality: 0.108
+centrality: 0.107
 ---
 
 # Non-Structural Sagittal Posture

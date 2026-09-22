@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 17
 hub_score: 32
-centrality: 0.153
+centrality: 0.152
 ---
 
 # Initial Double-Limb Support

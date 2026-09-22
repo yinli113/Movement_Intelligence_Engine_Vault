@@ -23,7 +23,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 14
 hub_score: 21
-centrality: 0.126
+centrality: 0.125
 ---
 
 # Lordotic Posture

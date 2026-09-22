@@ -21,7 +21,7 @@ confidence: high
 review_status: source_extracted
 relationship_count: 25
 hub_score: 58
-centrality: 0.225
+centrality: 0.223
 updated: 2026-07-06
 ---
 

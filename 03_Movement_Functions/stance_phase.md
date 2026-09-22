@@ -22,7 +22,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 26
 hub_score: 59
-centrality: 0.234
+centrality: 0.232
 ---
 
 # Stance Phase

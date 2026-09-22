@@ -18,7 +18,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 11
 hub_score: 30
-centrality: 0.099
+centrality: 0.098
 ---
 
 # Static Posture Switch Failure Modes

@@ -18,7 +18,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 23
 hub_score: 88
-centrality: 0.207
+centrality: 0.205
 ---
 
 # Squat Myofascial Mapping & Switch Failure Taxonomy

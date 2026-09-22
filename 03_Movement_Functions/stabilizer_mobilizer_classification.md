@@ -23,7 +23,7 @@ confidence: medium
 review_status: generated_legacy_needs_review
 relationship_count: 13
 hub_score: 28
-centrality: 0.117
+centrality: 0.116
 ---
 
 # Stabilizer/Mobilizer Functional Muscle Classification

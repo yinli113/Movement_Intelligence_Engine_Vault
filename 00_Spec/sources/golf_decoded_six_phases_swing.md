@@ -34,7 +34,7 @@ confidence: medium
 review_status: source_extracted_from_video_and_screenshot
 relationship_count: 22
 hub_score: 70
-centrality: 0.198
+centrality: 0.196
 updated: 2026-06-30
 ---
 
