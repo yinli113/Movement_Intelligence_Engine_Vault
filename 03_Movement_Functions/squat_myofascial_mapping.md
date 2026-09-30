@@ -90,3 +90,31 @@ When surfacing these findings in the Movement App:
 2. **Present fascial line as candidate hypothesis:** *"May be consistent with a DFL-LL vector imbalance involving the Femoral Adductor Switch."*
 3. **Include non-fascial joint explanations:** Mention joint capsule, motor strategy, stance width, or balance considerations.
 4. **Prompt in-person retest:** Provide the retest protocol to confirm or rule out the hypothesis.
+
+## Repeated multiregion squat translation — 2026-09-30
+
+This app policy is Level 5 `engine_synthesis`, not an anatomical-source claim that
+a squat shift diagnoses any line. In a single phase of a repetition, head, pelvis
+and at least one named foot must simultaneously exceed their own noise-adjusted
+displacement thresholds in the same screen direction for at least 150 ms, with
+no missing data or gaps over 200 ms in that interval. Match the same foot, direction
+and phase across at least two repetitions and at least half of all completed
+repetitions. Report the supporting repetition numbers and absolute timestamps.
+Unavailable recordings are not negative evidence; counts use all completed reps
+conservatively and disclose tracking limitations. Do not combine independent peaks
+or separate camera views to invent a chain.
+
+The result can surface Lateral Line, Deep Front Line and Spiral Line as concurrent
+assessment candidates. Lateral translation provides the closest descriptive context
+for LL. DFL is a deep-medial support differential, not limited to medial knee motion.
+SPL is a less-specific cross-body differential: translation alone does not establish
+rotation. Seek independent rotational evidence before a rotation-specific account.
+Whole-body translation, camera movement, stance strategy and tracking artefacts remain
+competing explanations. None of these observations measures line damage, restriction,
+weakness, activation, tension, causality, or a need for treatment.
+
+Clinical display must connect observations to candidate rationale, muscle-to-line
+relationships, assessment questions, retest and camera limits. Untriggered lines
+are not confirmed balanced or normal. No synthetic score, inhibited/overactive
+label, or fixed treatment prescription may substitute for measured evidence.
+The synchronized JSON `multiRegionClinicalContract` owns the app wording.

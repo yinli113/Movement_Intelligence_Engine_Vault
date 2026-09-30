@@ -344,6 +344,7 @@ Whenever possible:
 | [[golf_decoded_six_phases_swing]] | 4 | applied_practice (golf) |
 | Future peer-reviewed fascia/biomechanics papers | 2-3 | domain taxonomy / domain_biomechanics |
 | Future gait / posture depth sources (Whittle, Kendall, Sahrmann) | 3-4 | domain_biomechanics / applied_practice |
+| [[schurr_2d_3d_movement_assessment_2017]] | 3 | domain_biomechanics_measurement_comparison |
 | App logic notes | 5 | (app-logic hypothesis) |
 
 ## MediaPipe Readiness

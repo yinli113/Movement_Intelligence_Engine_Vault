@@ -1,14 +1,27 @@
 {
-  "version": "1.2.0",
+  "version": "1.3.0",
   "domain": "bodyweight_squat",
   "sourceNode": "03_Movement_Functions/bodyweight_squat.md",
   "globalBoundary": "Camera metrics describe a recorded movement strategy. They do not diagnose pathology, identify a weak or tight muscle, measure passive joint mobility, or measure fascial-line loading.",
   "crossViewContract": {
     "sourceNode": "05_App_Logic/squat_cross_view_synthesis.md",
-    "views": ["side", "front"],
-    "relationshipTypes": ["complementary", "corroborating", "conflicting", "limited"],
+    "views": [
+      "side",
+      "front"
+    ],
+    "relationshipTypes": [
+      "complementary",
+      "corroborating",
+      "conflicting",
+      "limited"
+    ],
     "boundary": "Side and front recordings are analysed independently. Cross-view synthesis groups view-specific observations by theme but does not synchronize repetitions, average view-specific angles, or upgrade proxies into diagnosis.",
-    "themes": ["depth_frontal_control", "ankle_foot_strategy", "trunk_pelvis_organization", "repeatability"]
+    "themes": [
+      "depth_frontal_control",
+      "ankle_foot_strategy",
+      "trunk_pelvis_organization",
+      "repeatability"
+    ]
   },
   "fascialLineContext": [
     {
@@ -23,8 +36,15 @@
         "bonyStation": "Calcaneus / Ischial Tuberosity / Occiput"
       },
       "muscleDynamics": {
-        "inhibitedLocals": ["Tibialis Anterior", "Soleus deep postural fibers"],
-        "overactiveExpresses": ["Gastrocnemius", "Biceps Femoris Long Head", "Thoracic Erectors"]
+        "inhibitedLocals": [
+          "Tibialis Anterior",
+          "Soleus deep postural fibers"
+        ],
+        "overactiveExpresses": [
+          "Gastrocnemius",
+          "Biceps Femoris Long Head",
+          "Thoracic Erectors"
+        ]
       },
       "palpationTargets": [
         "Calcaneal attachment of Achilles tendon",
@@ -50,8 +70,14 @@
         "bonyStation": "ASIS / AIIS / Tibial Tuberosity"
       },
       "muscleDynamics": {
-        "inhibitedLocals": ["Transversus Abdominis", "Vastus Medialis Oblique (VMO)"],
-        "overactiveExpresses": ["Rectus Femoris", "Tensor Fasciae Latae"]
+        "inhibitedLocals": [
+          "Transversus Abdominis",
+          "Vastus Medialis Oblique (VMO)"
+        ],
+        "overactiveExpresses": [
+          "Rectus Femoris",
+          "Tensor Fasciae Latae"
+        ]
       },
       "palpationTargets": [
         "AIIS rectus femoris origin",
@@ -77,8 +103,16 @@
         "bonyStation": "Linea Aspera / Ischial Ramus / Navicular"
       },
       "muscleDynamics": {
-        "inhibitedLocals": ["Tibialis Posterior", "Posterior Gluteus Medius", "Pelvic Floor"],
-        "overactiveExpresses": ["Adductor Longus/Magnus", "Tensor Fasciae Latae", "Peroneus Longus"]
+        "inhibitedLocals": [
+          "Tibialis Posterior",
+          "Posterior Gluteus Medius",
+          "Pelvic Floor"
+        ],
+        "overactiveExpresses": [
+          "Adductor Longus/Magnus",
+          "Tensor Fasciae Latae",
+          "Peroneus Longus"
+        ]
       },
       "palpationTargets": [
         "Navicular tuberosity & medial malleolus",
@@ -104,8 +138,15 @@
         "bonyStation": "Gerdy's Tubercle / Greater Trochanter / 12th Rib"
       },
       "muscleDynamics": {
-        "inhibitedLocals": ["Gluteus Medius", "Gluteus Minimus"],
-        "overactiveExpresses": ["Quadratus Lumborum", "Tensor Fasciae Latae / IT Band", "Peroneus Brevis"]
+        "inhibitedLocals": [
+          "Gluteus Medius",
+          "Gluteus Minimus"
+        ],
+        "overactiveExpresses": [
+          "Quadratus Lumborum",
+          "Tensor Fasciae Latae / IT Band",
+          "Peroneus Brevis"
+        ]
       },
       "palpationTargets": [
         "Gerdy's tubercle at lateral tibia",
@@ -131,15 +172,21 @@
         "bonyStation": "Ribs 5-9 / ASIS / Fibular Head"
       },
       "muscleDynamics": {
-        "inhibitedLocals": ["Serratus Anterior", "Deep Hip External Rotators"],
-        "overactiveExpresses": ["External/Internal Oblique Sling", "Biceps Femoris Long Head"]
+        "inhibitedLocals": [
+          "Serratus Anterior",
+          "Deep Hip External Rotators"
+        ],
+        "overactiveExpresses": [
+          "External/Internal Oblique Sling",
+          "Biceps Femoris Long Head"
+        ]
       },
       "palpationTargets": [
         "Ribs 5-9 serratus slips",
         "ASIS oblique attachment",
         "Fibular head biceps femoris tendon"
       ],
-      "retestProtocol": "Align feet facing 0° forward and perform seated thoracic rotation test to isolate trunk vs hip rotational asymmetry.",
+      "retestProtocol": "Align feet facing 0\u00b0 forward and perform seated thoracic rotation test to isolate trunk vs hip rotational asymmetry.",
       "prescriptionTriad": {
         "release": "Biceps femoris lateral tendon and contralateral oblique myofascial release",
         "activate": "Seated thoracic rotation with isometric pelvic block",
@@ -151,31 +198,57 @@
     "superficial_back_line": {
       "whyObserved": "Heel rise, limited comfortable depth, a hip-dominant strategy, or posterior trunk bracing may indicate a posterior sagittal organisation worth investigating.",
       "muscleLineRelationship": "Calf and plantar-foot tissues, hamstrings, gluteus maximus, sacral continuity, and spinal extensors may contribute to a coordinated posterior strategy.",
-      "potentialIssues": ["reduced calf or posterior-chain extensibility", "calf strategy limiting forward tibial progression", "altered hamstring or gluteus maximus timing", "spinal-extensor dominance"],
+      "potentialIssues": [
+        "reduced calf or posterior-chain extensibility",
+        "calf strategy limiting forward tibial progression",
+        "altered hamstring or gluteus maximus timing",
+        "spinal-extensor dominance"
+      ],
       "assessmentQuestion": "Compare heel support, stance, ankle options, and active hip-extension control, then retest whether the depth or trunk strategy changes."
     },
     "superficial_front_line": {
       "whyObserved": "A knee-dominant trunk-tibia relationship or anterior trunk organisation may bring the anterior chain into consideration.",
       "muscleLineRelationship": "Tibialis anterior and the anterior lower leg relate to quadriceps and anterior trunk continuity in the organisation of knee progression, knee extension, and trunk control.",
-      "potentialIssues": ["quadriceps-dominant strategy", "reduced posterior hip contribution", "anterior ankle or quadriceps stiffness", "inadequate abdominal or trunk control"],
+      "potentialIssues": [
+        "quadriceps-dominant strategy",
+        "reduced posterior hip contribution",
+        "anterior ankle or quadriceps stiffness",
+        "inadequate abdominal or trunk control"
+      ],
       "assessmentQuestion": "Change foot position and depth, assess quadriceps, hip-flexor, and anterior-ankle options, then retest with hip or trunk cueing."
     },
     "deep_front_line": {
       "whyObserved": "Medial knee drift, medial foot collapse, or difficulty maintaining the inner foot and pelvis relationship may bring the deep medial chain into consideration.",
       "muscleLineRelationship": "Deep foot and lower-leg contributors, adductors, pelvic-floor and psoas region, and deep trunk support may organise the medial relationship between foot, knee, pelvis, and trunk.",
-      "potentialIssues": ["adductor stiffness or poor adductor contribution", "reduced medial foot control", "altered psoas or deep-trunk coordination", "difficulty managing femoral position"],
+      "potentialIssues": [
+        "adductor stiffness or poor adductor contribution",
+        "reduced medial foot control",
+        "altered psoas or deep-trunk coordination",
+        "difficulty managing femoral position"
+      ],
       "assessmentQuestion": "Assess foot tripod and arch control, adductor length and contraction, hip-rotation options, and whether a medial-chain cue changes the knee path."
     },
     "lateral_line": {
       "whyObserved": "Pelvic or trunk shift, repeated asymmetrical loading, wide-stance dependence, or outward knee drift may indicate a lateral balance strategy.",
       "muscleLineRelationship": "Lateral foot and lower leg, tensor fasciae latae and IT region, gluteus medius, lateral abdominal wall, and quadratus lumborum may coordinate frontal-plane organisation.",
-      "potentialIssues": ["gluteus medius capacity or timing", "excessive TFL or IT-region dominance", "lateral hip or trunk stiffness", "quadratus lumborum substitution"],
+      "potentialIssues": [
+        "gluteus medius capacity or timing",
+        "excessive TFL or IT-region dominance",
+        "lateral hip or trunk stiffness",
+        "quadratus lumborum substitution"
+      ],
       "assessmentQuestion": "Check stance symmetry, compare supported and narrow-stance versions, assess lateral hip and trunk control, and retest pelvis-over-foot organisation."
     },
     "spiral_line": {
       "whyObserved": "Foot rotation coupled with knee-to-foot tracking, pelvic rotation or shift, and trunk or shoulder orientation may indicate a diagonal rotational strategy.",
       "muscleLineRelationship": "Tibialis anterior and peroneus longus relate foot orientation to the lower limb; biceps femoris long head relates the posterolateral thigh toward the pelvis; obliques relate pelvis to rib cage; serratus anterior and rhomboids relate trunk to shoulder girdle.",
-      "potentialIssues": ["poor foot-to-hip rotational control", "tibialis or peroneal coordination problem", "hamstring or lateral-hip dominance", "inadequate oblique control", "serratus anterior or rhomboid coordination problem"],
+      "potentialIssues": [
+        "poor foot-to-hip rotational control",
+        "tibialis or peroneal coordination problem",
+        "hamstring or lateral-hip dominance",
+        "inadequate oblique control",
+        "serratus anterior or rhomboid coordination problem"
+      ],
       "assessmentQuestion": "Test foot angle and tibial rotation options, compare pelvis and thorax control independently, assess oblique and scapular coordination, and retest after changing the setup."
     }
   },
@@ -187,12 +260,40 @@
       "evidenceType": "calculated_2d_proxy",
       "observationTemplate": "The trunk-tibia angle at maximum depth was {value} degrees.",
       "strategyInterpretation": "Values above 10 degrees are described as relatively hip-extensor biased, values from -10 to 10 degrees as neutral, and values below -10 degrees as relatively knee-extensor biased.",
-      "joints": ["hip", "knee", "trunk"],
-      "candidateMuscleRegions": ["hip extensor region", "quadriceps region", "spinal extensor region", "abdominal wall"],
-      "possibleFascialLines": ["superficial_back_line", "superficial_front_line", "deep_front_line"],
-      "competingExplanations": ["stance", "arm position", "selected depth", "camera obliquity", "individual proportions"],
-      "prohibitedConclusions": ["muscle weakness", "joint pathology", "measured joint moment", "fascial loading"],
-      "sourceRefs": ["00_Spec/sources/straub_powers_squat_biomechanics_2024.md", "03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md"]
+      "joints": [
+        "hip",
+        "knee",
+        "trunk"
+      ],
+      "candidateMuscleRegions": [
+        "hip extensor region",
+        "quadriceps region",
+        "spinal extensor region",
+        "abdominal wall"
+      ],
+      "possibleFascialLines": [
+        "superficial_back_line",
+        "superficial_front_line",
+        "deep_front_line"
+      ],
+      "competingExplanations": [
+        "stance",
+        "arm position",
+        "selected depth",
+        "camera obliquity",
+        "individual proportions"
+      ],
+      "prohibitedConclusions": [
+        "muscle weakness",
+        "joint pathology",
+        "measured joint moment",
+        "fascial loading"
+      ],
+      "sourceRefs": [
+        "00_Spec/sources/straub_powers_squat_biomechanics_2024.md",
+        "03_Movement_Functions/squat_joint_muscle_mapping.md",
+        "03_Movement_Functions/squat_myofascial_mapping.md"
+      ]
     },
     {
       "metricId": "peak_knee_flexion",
@@ -201,12 +302,42 @@
       "evidenceType": "calculated_2d_proxy",
       "observationTemplate": "Peak knee-flexion proxy was {value} degrees.",
       "strategyInterpretation": "Depth reflects a combined ankle-knee-hip strategy and the task setup. The review groups 0-90 degrees as shallow, 90-110 degrees as medium, and 110-135 degrees as deep.",
-      "joints": ["ankle", "knee", "hip", "pelvis"],
-      "candidateMuscleRegions": ["quadriceps region", "gluteal region", "adductor magnus region", "hamstrings", "calf complex"],
-      "possibleFascialLines": ["superficial_back_line", "superficial_front_line", "deep_front_line"],
-      "competingExplanations": ["chosen depth", "balance confidence", "stance", "footwear", "pain or comfort", "individual proportions"],
-      "prohibitedConclusions": ["specific joint restriction", "calf tightness", "hip impingement", "knee pathology"],
-      "sourceRefs": ["00_Spec/sources/straub_powers_squat_biomechanics_2024.md", "03_Movement_Functions/bodyweight_squat.md"]
+      "joints": [
+        "ankle",
+        "knee",
+        "hip",
+        "pelvis"
+      ],
+      "candidateMuscleRegions": [
+        "quadriceps region",
+        "gluteal region",
+        "adductor magnus region",
+        "hamstrings",
+        "calf complex"
+      ],
+      "possibleFascialLines": [
+        "superficial_back_line",
+        "superficial_front_line",
+        "deep_front_line"
+      ],
+      "competingExplanations": [
+        "chosen depth",
+        "balance confidence",
+        "stance",
+        "footwear",
+        "pain or comfort",
+        "individual proportions"
+      ],
+      "prohibitedConclusions": [
+        "specific joint restriction",
+        "calf tightness",
+        "hip impingement",
+        "knee pathology"
+      ],
+      "sourceRefs": [
+        "00_Spec/sources/straub_powers_squat_biomechanics_2024.md",
+        "03_Movement_Functions/bodyweight_squat.md"
+      ]
     },
     {
       "metricId": "heel_rise_proxy",
@@ -215,12 +346,41 @@
       "evidenceType": "landmark_displacement_proxy",
       "observationTemplate": "Heel elevation relative to the forefoot baseline was {value} normalized units.",
       "strategyInterpretation": "The ankle-foot strategy may not have accommodated the selected depth while the starting foot position was maintained.",
-      "joints": ["ankle", "foot", "knee", "hip"],
-      "candidateMuscleRegions": ["soleus region", "gastrocnemius region", "tibialis anterior region", "foot stabilizer regions"],
-      "possibleFascialLines": ["superficial_back_line", "superficial_front_line", "deep_front_line"],
-      "competingExplanations": ["selected depth", "balance strategy", "footwear", "foot landmark error", "camera angle"],
-      "prohibitedConclusions": ["limited ankle dorsiflexion", "tight calf", "foot pathology", "SBL restriction"],
-      "sourceRefs": ["02_Body_Structures/joint_actions/ankle_dorsiflexion.md", "03_Movement_Functions/squat_joint_muscle_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
+      "joints": [
+        "ankle",
+        "foot",
+        "knee",
+        "hip"
+      ],
+      "candidateMuscleRegions": [
+        "soleus region",
+        "gastrocnemius region",
+        "tibialis anterior region",
+        "foot stabilizer regions"
+      ],
+      "possibleFascialLines": [
+        "superficial_back_line",
+        "superficial_front_line",
+        "deep_front_line"
+      ],
+      "competingExplanations": [
+        "selected depth",
+        "balance strategy",
+        "footwear",
+        "foot landmark error",
+        "camera angle"
+      ],
+      "prohibitedConclusions": [
+        "limited ankle dorsiflexion",
+        "tight calf",
+        "foot pathology",
+        "SBL restriction"
+      ],
+      "sourceRefs": [
+        "02_Body_Structures/joint_actions/ankle_dorsiflexion.md",
+        "03_Movement_Functions/squat_joint_muscle_mapping.md",
+        "05_App_Logic/squat_observability_boundary.md"
+      ]
     },
     {
       "metricId": "knee_to_foot_tracking",
@@ -229,12 +389,41 @@
       "evidenceType": "calculated_2d_proxy",
       "observationTemplate": "The knee moved medially or laterally relative to the foot proxy during {phase}.",
       "strategyInterpretation": "Hip, knee, ankle-foot, stance, and camera factors should be reviewed together.",
-      "joints": ["hip", "knee", "ankle", "foot"],
-      "candidateMuscleRegions": ["gluteal region", "adductor region", "tensor fasciae latae and IT region", "deep lower-leg and foot stabilizer regions"],
-      "possibleFascialLines": ["deep_front_line", "lateral_line", "spiral_line"],
-      "competingExplanations": ["foot angle", "stance width", "pelvic shift", "camera rotation", "individual anatomy"],
-      "prohibitedConclusions": ["weak glutes", "ACL instability", "patellofemoral pain", "injury risk"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
+      "joints": [
+        "hip",
+        "knee",
+        "ankle",
+        "foot"
+      ],
+      "candidateMuscleRegions": [
+        "gluteal region",
+        "adductor region",
+        "tensor fasciae latae and IT region",
+        "deep lower-leg and foot stabilizer regions"
+      ],
+      "possibleFascialLines": [
+        "deep_front_line",
+        "lateral_line",
+        "spiral_line"
+      ],
+      "competingExplanations": [
+        "foot angle",
+        "stance width",
+        "pelvic shift",
+        "camera rotation",
+        "individual anatomy"
+      ],
+      "prohibitedConclusions": [
+        "weak glutes",
+        "ACL instability",
+        "patellofemoral pain",
+        "injury risk"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/squat_joint_muscle_mapping.md",
+        "03_Movement_Functions/squat_myofascial_mapping.md",
+        "05_App_Logic/squat_observability_boundary.md"
+      ]
     },
     {
       "metricId": "pelvic_lateral_shift",
@@ -243,12 +432,42 @@
       "evidenceType": "landmark_displacement_proxy",
       "observationTemplate": "Pelvis midpoint moved {direction} by {value} normalized units relative to standing baseline.",
       "strategyInterpretation": "This describes an asymmetric frontal-plane pelvis strategy during the recorded squat and does not identify its cause.",
-      "joints": ["pelvis", "left hip", "right hip", "bilateral lower limb"],
-      "candidateMuscleRegions": ["gluteus medius regions", "adductor regions", "quadratus lumborum regions", "lateral abdominal wall"],
-      "possibleFascialLines": ["lateral_line", "deep_front_line", "spiral_line"],
-      "competingExplanations": ["stance asymmetry", "camera rotation", "unequal foot placement", "selected depth", "tracking noise", "comfort"],
-      "prohibitedConclusions": ["hip weakness", "leg-length discrepancy", "pelvic dysfunction", "Lateral Line restriction"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
+      "joints": [
+        "pelvis",
+        "left hip",
+        "right hip",
+        "bilateral lower limb"
+      ],
+      "candidateMuscleRegions": [
+        "gluteus medius regions",
+        "adductor regions",
+        "quadratus lumborum regions",
+        "lateral abdominal wall"
+      ],
+      "possibleFascialLines": [
+        "lateral_line",
+        "deep_front_line",
+        "spiral_line"
+      ],
+      "competingExplanations": [
+        "stance asymmetry",
+        "camera rotation",
+        "unequal foot placement",
+        "selected depth",
+        "tracking noise",
+        "comfort"
+      ],
+      "prohibitedConclusions": [
+        "hip weakness",
+        "leg-length discrepancy",
+        "pelvic dysfunction",
+        "Lateral Line restriction"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/squat_joint_muscle_mapping.md",
+        "03_Movement_Functions/squat_myofascial_mapping.md",
+        "05_App_Logic/squat_observability_boundary.md"
+      ]
     },
     {
       "metricId": "trunk_lateral_shift",
@@ -257,12 +476,41 @@
       "evidenceType": "landmark_displacement_proxy",
       "observationTemplate": "The shoulder midpoint shifted {direction} relative to the pelvis by {value} normalized units.",
       "strategyInterpretation": "This describes frontal-plane trunk-pelvis organization in the recording, not spinal or hip dysfunction.",
-      "joints": ["trunk", "pelvis", "left hip", "right hip"],
-      "candidateMuscleRegions": ["lateral abdominal wall", "quadratus lumborum regions", "hip abductor regions", "adductor regions"],
-      "possibleFascialLines": ["lateral_line", "spiral_line", "deep_front_line"],
-      "competingExplanations": ["arm position", "camera rotation", "pelvic shift", "balance strategy", "tracking noise"],
-      "prohibitedConclusions": ["scoliosis", "core weakness", "hip pathology", "fascial imbalance"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "03_Movement_Functions/squat_myofascial_mapping.md", "05_App_Logic/squat_observability_boundary.md"]
+      "joints": [
+        "trunk",
+        "pelvis",
+        "left hip",
+        "right hip"
+      ],
+      "candidateMuscleRegions": [
+        "lateral abdominal wall",
+        "quadratus lumborum regions",
+        "hip abductor regions",
+        "adductor regions"
+      ],
+      "possibleFascialLines": [
+        "lateral_line",
+        "spiral_line",
+        "deep_front_line"
+      ],
+      "competingExplanations": [
+        "arm position",
+        "camera rotation",
+        "pelvic shift",
+        "balance strategy",
+        "tracking noise"
+      ],
+      "prohibitedConclusions": [
+        "scoliosis",
+        "core weakness",
+        "hip pathology",
+        "fascial imbalance"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/squat_joint_muscle_mapping.md",
+        "03_Movement_Functions/squat_myofascial_mapping.md",
+        "05_App_Logic/squat_observability_boundary.md"
+      ]
     },
     {
       "metricId": "frontal_asymmetry",
@@ -271,12 +519,41 @@
       "evidenceType": "calculated_2d_proxy",
       "observationTemplate": "Left-right knee-depth contribution differed by {value} normalized units at maximum pelvis descent.",
       "strategyInterpretation": "The two sides contributed differently in the image plane during this recording; the proxy cannot identify a weaker or restricted side.",
-      "joints": ["left hip", "right hip", "left knee", "right knee", "bilateral ankle-foot"],
-      "candidateMuscleRegions": ["bilateral quadriceps regions", "gluteal regions", "adductor regions", "calf regions"],
-      "possibleFascialLines": ["lateral_line", "deep_front_line", "spiral_line"],
-      "competingExplanations": ["camera rotation", "unequal foot placement", "clothing", "tracking noise", "natural repetition variability"],
-      "prohibitedConclusions": ["weaker leg", "joint restriction", "neurological deficit", "injury risk"],
-      "sourceRefs": ["03_Movement_Functions/squat_joint_muscle_mapping.md", "05_App_Logic/squat_cross_view_synthesis.md"]
+      "joints": [
+        "left hip",
+        "right hip",
+        "left knee",
+        "right knee",
+        "bilateral ankle-foot"
+      ],
+      "candidateMuscleRegions": [
+        "bilateral quadriceps regions",
+        "gluteal regions",
+        "adductor regions",
+        "calf regions"
+      ],
+      "possibleFascialLines": [
+        "lateral_line",
+        "deep_front_line",
+        "spiral_line"
+      ],
+      "competingExplanations": [
+        "camera rotation",
+        "unequal foot placement",
+        "clothing",
+        "tracking noise",
+        "natural repetition variability"
+      ],
+      "prohibitedConclusions": [
+        "weaker leg",
+        "joint restriction",
+        "neurological deficit",
+        "injury risk"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/squat_joint_muscle_mapping.md",
+        "05_App_Logic/squat_cross_view_synthesis.md"
+      ]
     },
     {
       "metricId": "repetition_consistency",
@@ -285,12 +562,115 @@
       "evidenceType": "temporal_summary",
       "observationTemplate": "Across {count} repetitions, peak-depth variability was {value} degrees.",
       "strategyInterpretation": "This describes how repeatable the recorded strategy was under this protocol.",
-      "joints": ["whole kinetic chain"],
+      "joints": [
+        "whole kinetic chain"
+      ],
       "candidateMuscleRegions": [],
       "possibleFascialLines": [],
-      "competingExplanations": ["learning", "tempo choice", "attention", "tracking noise", "comfort"],
-      "prohibitedConclusions": ["fatigue", "weakness", "motor-control disorder", "poor movement"],
-      "sourceRefs": ["03_Movement_Functions/bodyweight_squat.md", "03_Movement_Functions/temporal_movement_metrics.md"]
+      "competingExplanations": [
+        "learning",
+        "tempo choice",
+        "attention",
+        "tracking noise",
+        "comfort"
+      ],
+      "prohibitedConclusions": [
+        "fatigue",
+        "weakness",
+        "motor-control disorder",
+        "poor movement"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/bodyweight_squat.md",
+        "03_Movement_Functions/temporal_movement_metrics.md"
+      ]
     }
-  ]
+  ],
+  "temporalContextContract": {
+    "evidenceType": "engine_synthesis",
+    "sourceNode": "squat_observability_boundary",
+    "stanceWideRatio": 1.0,
+    "minimumVisibility": 0.65,
+    "maximumGapMs": 200,
+    "persistenceMs": 150,
+    "motionThreshold": 0.05,
+    "rateIncreaseThreshold": 0.15,
+    "boundary": "Stance is task context, not a movement-quality score. Easier or deeper wide-stance squats do not establish better movement. Temporal order and counter-shifts describe associations, not causes or measured balance control. Thresholds are provisional engineering rules, not clinical cutoffs."
+  },
+  "multiRegionClinicalContract": {
+    "version": "1.0.0",
+    "evidenceType": "engine_synthesis",
+    "minimumRepeatedReps": 2,
+    "minimumRepFraction": 0.5,
+    "sourceRefs": [
+      "squat_myofascial_mapping",
+      "squat_observability_boundary",
+      "anatomy_trains_myofascial_thomas_w_myers"
+    ],
+    "boundary": "Candidate lines are assessment hypotheses, not detected fascial problems. Translation does not establish rotation, tissue restriction, muscle activation, loading or causality.",
+    "competingExplanations": [
+      "Camera movement or perspective",
+      "Foot repositioning or a whole-body translation",
+      "Chosen stance, depth or balance strategy",
+      "Tracking error or an unstable standing baseline",
+      "Joint-specific movement options that require direct assessment"
+    ],
+    "lines": [
+      {
+        "lineId": "lateral_line",
+        "why": "Repeated lateral organisation across feet, pelvis and head makes the lateral support pathway a relevant anatomical framework to review. It does not locate an impaired tissue.",
+        "relationship": "The lateral foot and leg, lateral hip region, lateral trunk and neck provide the framework for discussing frontal-plane organisation.",
+        "questions": [
+          "Does the pattern persist with a fixed camera and a comfortable, repeatable stance?",
+          "Can a clinician distinguish whole-body translation from relative hip, trunk and head motion?"
+        ],
+        "retest": "Repeat the same comfortable squat with the camera fixed and stance marked. Compare the same phase and direction. Any change describes task responsiveness, not proof of a line dysfunction."
+      },
+      {
+        "lineId": "deep_front_line",
+        "why": "The repeated foot\u2013pelvis\u2013head pattern also warrants reviewing the deep medial support framework. A knee moving inward is not the only reason to consider this differential.",
+        "relationship": "Within the Anatomy Trains framework, deep lower-leg and adductor regions connect conceptually with pelvic, deep trunk and anterior cervical support. These tissues are not tracked by the video.",
+        "questions": [
+          "Do direct foot-control, hip/adductor and head-on-trunk assessments support a deep-support hypothesis?",
+          "Does the pattern remain when stance and depth are kept consistent?"
+        ],
+        "retest": "A clinician can compare comfortable foot and hip control tasks and head-over-trunk organisation, then repeat the original squat. Assess suspected restrictions or capacity directly; do not infer them from the shift."
+      },
+      {
+        "lineId": "spiral_line",
+        "why": "A repeated multiregion pattern merits a cross-body coordination differential. Same-direction translation alone is not a specific Spiral Line sign and does not demonstrate rotation.",
+        "relationship": "The framework links foot/leg organisation with diagonal trunk and shoulder-girdle continuities, including oblique, serratus and rhomboid regions. The video does not measure their activity.",
+        "questions": [
+          "Is there independently observed foot orientation, pelvic/trunk rotation or diagonal asymmetry?",
+          "Could the apparent whole-chain shift instead be camera motion or translation without twisting?"
+        ],
+        "retest": "Assess foot orientation and pelvis-versus-trunk rotation separately with an appropriate examination or additional view. Retest the original squat after one agreed setup change; a response does not prove a fascial cause."
+      }
+    ]
+  },
+  "sideTemporalContract": {
+    "horizontalThreshold": 0.1,
+    "heelThreshold": 0.01,
+    "horizontalRateThreshold": 0.3,
+    "heelRateThreshold": 0.03,
+    "boundary": "Side-view trajectories describe observed movement, not automatically a deviation or fault. Event order and faster movement do not establish cause, tissue impairment or a fascial driver. Thresholds are provisional engineering rules. Stance width is unavailable from this view."
+  },
+  "sideCoordinationContract": {
+    "evidenceType": "engine_synthesis",
+    "angleThresholdDegrees": 5,
+    "angleRateThreshold": 15,
+    "windowMs": 300,
+    "shinPlateauDegrees": 1,
+    "priorShinProgressDegrees": 2,
+    "trunkChangeDegrees": 3,
+    "riseThreshold": 0.015,
+    "riseDifferenceThreshold": 0.01,
+    "sourceRefs": [
+      "00_Spec/sources/schurr_2d_3d_movement_assessment_2017.md",
+      "00_Spec/sources/straub_powers_squat_biomechanics_2024.md",
+      "05_App_Logic/squat_observability_boundary.md"
+    ],
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5380858/",
+    "boundary": "Schurr et al. studied marker-assisted single-leg squat measurements, not this markerless app or its temporal rules. These are provisional observed pattern candidates, not faults, causes or fascial diagnoses."
+  }
 }

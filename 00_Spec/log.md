@@ -385,3 +385,15 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Reserved `running.landing.relationship` for reviewed initial contact and deprecated `running.alignment.whole_body_lean` as a surfaced viewer label.
 - Required decoded source dimensions and declared running direction for directional image-plane measurements; clarified percent-image-width denominators and anatomical sign conventions.
 - Preserved camera-evidence boundaries: these are 2D descriptors, not kinetics, tissue state, injury risk, centre of pressure, or clinical diagnosis.
+
+2026-09-30: Added provisional stance and temporal image-plane descriptor contract; no causal or tissue inference.
+
+2026-09-30: User-defined stance rule updated: ankle/shoulder ratio >1.0 is wide; <=1.0 is not wide. Removed earlier bands; retained tracking-quality gates.
+
+2026-09-30: Separate displacement from event detection; add ascent and upper-body relative channels; simplify report with progressive disclosure. Validate gaps, upper-body motion and phase selection.
+
+2026-09-30: Clinical context now consumes temporal evidence; repeated same-direction head/pelvis/named-foot translation supports LL/DFL/SPL assessment candidates with explicit uncertainty. Replace generic dashboard scores, normal-line labels and treatment display with evidence-linked review.
+
+2026-09-30: Add side-view temporal story, independent phase traces and source-specific replay. Preserve unknown onset and engineering-threshold boundaries.
+
+2026-09-30: Ingested Schurr et al. 2017 source note and connected squat/observability nodes before implementing aspect-aware sagittal angle trajectories and shin–trunk / hip–shoulder coordination. Temporal gates remain engineering synthesis.

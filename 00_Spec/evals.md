@@ -143,3 +143,21 @@ Whenever an AI agent works on any movement application in this workspace:
    ```
 4. **Living Document Updates**:
    * When a new movement pattern, camera edge case, or biomechanical evaluation criterion is discovered, update this `EVALS.md` in the same session.
+
+
+### Reviewed mesh surface sessions (2026-09-28)
+
+For `scoliosis_workbench` upright/forward-bend surface sessions, require explicit
+units, reviewed orientation and crop, retained OBJ faces, original-triangle-only
+sampling and exclusion of overlapping surface layers. Test pose invariance,
+one-sided/missing coverage, separate posture state, duplicate-geometry rejection,
+and matched within-posture repeat grids. Region names refer to thirds of the
+marked span. Coverage and repeat tolerances are engineering gates, not clinical
+accuracy claims; no combined posture score or exercise-benefit inference.
+
+### Side squat coordination (2026-09-30)
+New angular timing channels require image aspect metadata and selected-side visibility.
+Test mirrored geometry, missing/degenerate segments, baseline-to-phase gaps,
+shin plateau with continuing descent, hip/shoulder vertical travel ordering,
+phase-specific replay and no automatic fascial trigger. Study agreement does not
+validate app thresholds; synthetic verification is not real-video accuracy validation.

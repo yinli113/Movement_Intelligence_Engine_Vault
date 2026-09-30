@@ -48,6 +48,7 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
 - `[[spec]]` - Authoritative project specification.
 - `[[naming_conventions]]` - Standard naming and wikilink conventions.
 - `[[evidence_levels]]` - The 5-level Evidence Hierarchy.
+- [[schurr_2d_3d_movement_assessment_2017]] — Level 3 marker-assisted single-leg squat 2D/3D comparison; app validation boundary.
 - **Evidence Sources** (each carries a `domain` field; Levels 1, 2, and 5 are domain-neutral, Levels 3–4 are parameterised by domain — see [[evidence_levels]]):
   - `[[anatomy_trains_myofascial_thomas_w_myers]]` - Primary fascial-line / structural-model evidence source (domain: all).
   - `[[julie_hammond_breakout]]` - Breakout lecture summary on Anatomy Trains and BodyReading (domain: static posture).
