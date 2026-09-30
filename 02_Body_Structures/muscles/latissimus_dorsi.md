@@ -4,8 +4,8 @@ type: Muscle
 preferred_name: Latissimus Dorsi
 aliases: [latissimus dorsi]
 short_definition: "Broadest back muscle connecting torso and pelvic fascia to the upper limb, driving upper power in the Back Functional Line and Superficial Front Arm Line."
-fma_id: "FMA:13404"
-bodyparts3d_id: "BP3D:FMA13404"
+fma_id: "FMA:13357"
+bodyparts3d_id: "BP3D:FMA13357"
 openstax_ref: "OpenStax A&P 2e §11.5"
 innervation: "Thoracodorsal nerve (C6-C8)"
 origin:
@@ -29,7 +29,7 @@ review_status: active_spec
 relationship_count: 19
 hub_score: 56
 centrality: 0.171
-updated: 2026-09-07
+updated: 2026-09-29
 ---
 
 # Latissimus Dorsi

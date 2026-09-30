@@ -14,7 +14,7 @@ review_status: active_spec
 relationship_count: 55
 hub_score: 149
 centrality: 0.495
-updated: 2026-09-15
+updated: 2026-09-29
 ---
 
 # BodyParts3D & FMA 3D Mesh Mapping Spec
@@ -74,7 +74,7 @@ By grouping discrete BodyParts3D polygon meshes according to Thomas Myers Anatom
 ### 4. Back Functional Line (BFL)
 | Track / Station | Muscle / Structure Node | FMA ID | BodyParts3D Concept | 3D Blender Sub-Mesh |
 |---|---|---|---|---|
-| Upper posterior limb | [[latissimus_dorsi]] | FMA:13404 | BP3D:FMA13404 | LatissimusDorsi_L/R |
+| Upper posterior limb | [[latissimus_dorsi]] | FMA:13357 | BP3D:FMA13357 | LatissimusDorsi_L/R |
 | Fascial bridge | [[thoracolumbar_fascia]] | FMA:20448 | BP3D:FMA20448 | ThoracolumbarFascia_Dorsal |
 | Contralateral pelvis | [[gluteus_maximus]] | FMA:22353 | BP3D:FMA22353 | GluteusMaximus_Contra |
 | Lateral knee continuation | [[vastus_lateralis]] | FMA:22431 | BP3D:FMA22431 | VastusLateralis_Contra |
