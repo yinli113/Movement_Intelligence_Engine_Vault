@@ -186,3 +186,12 @@ Scoring metrics, assessments, and remedial exercises:
 - **Interventions**:
   - `[[glute_max_releases]]` - releases and rolling.
   - `[[glute_max_activations]]` - activation bridges and sling drills.
+
+### Squat article concept graph — verified 2026-10-08
+
+- [[straub_powers_squat_biomechanics_2024]] — existing source expanded with full-text locators.
+- [[squat_trunk_tibia_relationship]] — relative strategy and measurement conventions.
+- [[squat_stance_foot_context]] — source taxonomy versus the existing app convention.
+- [[squat_depth_context]] — depth context and limits of interpretation.
+- [[squat_spinal_loading_correspondence_2026]] — critique and author clarification.
+- [[squat_article_app_contract]] — source-to-app retrieval and acceptance contract.

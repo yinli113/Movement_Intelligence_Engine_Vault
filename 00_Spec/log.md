@@ -397,3 +397,10 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 2026-09-30: Add side-view temporal story, independent phase traces and source-specific replay. Preserve unknown onset and engineering-threshold boundaries.
 
 2026-09-30: Ingested Schurr et al. 2017 source note and connected squat/observability nodes before implementing aspect-aware sagittal angle trajectories and shin–trunk / hip–shoulder coordination. Temporal gates remain engineering synthesis.
+
+## [2026-10-08] Squat | Straub–Powers full-text concept ingestion
+
+- Rechecked the existing 2024 source against publisher full text; preserved article Level 5 versus vault Level 4.
+- Added three linked movement concepts, a 2026 correspondence source node, and a Level 5 app translation contract; indexed all five new nodes.
+- Kept source stance taxonomy distinct from the user-defined app stance convention, and identified unverified causal claims in existing knowledge for separate review.
+- No runtime JSON, scoring, app code or deployment changed; this is canonical vault retrieval knowledge. Existing raw uploads remain unchanged.

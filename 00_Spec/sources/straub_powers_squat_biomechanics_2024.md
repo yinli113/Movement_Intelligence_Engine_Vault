@@ -6,15 +6,20 @@ author: Rachel K. Straub; Christopher M. Powers
 publication_year: 2024
 format: open_access_clinical_commentary
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10987311/
+doi: 10.26603/001c.94600
+pmid: 38576836
+pmcid: PMC10987311
+article_reported_evidence_level: 5
+last_verified: 2026-10-08
 domain: squat
 evidence_level: 4
 source_role: applied_clinical_biomechanics_commentary
 confidence: medium
-review_status: reviewed_for_squat_app_v1
-relationship_count: 6
-hub_score: 9
-centrality: 0.054
-updated: 2026-08-27
+review_status: full_text_rechecked_with_2026_correspondence
+relationship_count: 11
+hub_score: 20
+centrality: 0.097
+updated: 2026-10-08
 ---
 
 # Straub and Powers Squat Biomechanics (2024)
@@ -69,3 +74,19 @@ are promoted into Level 3 canonical thresholds.
 - [[squat_observability_boundary]]
 - [[metric_evidence_classification]]
 
+
+## Full-text verification and reusable graph — 2026-10-08
+
+Bibliography: Straub RK, Powers CM. International Journal of Sports Physical Therapy. 2024;19(4):490–501. DOI [10.26603/001c.94600](https://doi.org/10.26603/001c.94600).
+
+Read the full article body, Figures 1–5 captions, Table 1, conclusion and reference list through the [publisher full text](https://ijspt.scholasticahq.com/article/94600-a-biomechanical-review-of-the-squat-exercise-implications-for-clinical-practice) because PMC presented a browser challenge. Cited primary studies were not independently reviewed in this ingestion. No PDF is claimed to be archived.
+
+| Source locator | Reusable node |
+|---|---|
+| Trunk Inclination; Tibia Inclination; Knee vs. Hip Extensor Biased Squatting; Figure 5 | [[squat_trunk_tibia_relationship]] |
+| Foot Rotation; Stance Width; Tibia Inclination | [[squat_stance_foot_context]] |
+| Squat Depth; Clinical Applications; Table 1 | [[squat_depth_context]] |
+| Trunk Inclination/Figure 2; Squat Depth; Low Back Pain, read with subsequent exchange | [[squat_spinal_loading_correspondence_2026]] |
+| App translation, transfer limits and unresolved existing claims | [[squat_article_app_contract]] |
+
+“Canonical” means a traceable, bounded knowledge source; it does not mean this commentary resolves every squat question. No new primary experiment, camera validation or fascial-line validation was performed by this paper.
