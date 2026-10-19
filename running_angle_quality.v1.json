@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "running-angle-quality.v1",
+  "version": "1.1.0",
+  "updated": "2026-10-14",
+  "evidenceLevel": 5,
+  "validationStatus": "provisional_engineering_not_camera_validated",
+  "source": {
+    "id": "perpina_martinez_pelvic_imu_running_2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36834324/",
+    "table": "Table 2",
+    "groupMeanRangeDeg": [
+      7.81,
+      9.64
+    ],
+    "use": "Research context only; not an individual normal range or an angle acceptance filter."
+  },
+  "temporalWindowMs": 100,
+  "minimumNeighboursEachSide": 2,
+  "maximumGapMs": 100,
+  "maximumCycleGapFraction": 0.2,
+  "endpointToleranceFraction": 0.1,
+  "minimumCycleSamples": 5,
+  "minimumCompleteCycles": 3,
+  "broadCoverageMinimumCycles": 10,
+  "broadCoverageMinimumFraction": 0.7,
+  "coverageWindowMs": 5000,
+  "minimumSegmentPixels": 8,
+  "minimumSegmentToTorsoRatio": 0.15,
+  "temporalReviewResidualDeg": 10,
+  "temporalPolicy": "review_only_preserve_value_and_validity",
+  "geometryPolicy": "resolved_2d_segment_length_not_horizontal_angle_limit"
+}

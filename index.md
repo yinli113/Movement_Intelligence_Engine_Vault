@@ -179,3 +179,23 @@ Scoring metrics, assessments, and remedial exercises:
 - **Interventions**:
   - `[[glute_max_releases]]` - releases and rolling.
   - `[[glute_max_activations]]` - activation bridges and sling drills.
+
+### Running pelvic measurement quality (2026-10-13)
+- [[perpina_martinez_pelvic_imu_running_2023]] — canonical IMU research context.
+- [[running_pelvic_obliquity_measurement]] — separates 2D hip-line excursion from instrumented pelvic motion.
+- [[running_frontal_angle_quality]] — provisional quality gates and time coverage; `running_angle_quality.v1.json` owns the executable policy.
+
+
+### Running canonical analysis
+
+[[running_canonical_knowledge_index]] -> [[running_canonical_measurement_contract]] -> the relevant event and measurement nodes -> [[running_evidence_gate]] -> [[running_reporting_guardrails]]. See [[till_yes_running_literature_foundation]] for source provenance. Camera measurements, repeated patterns, interpretations, and myofascial hypotheses remain separate.
+
+
+## Running relationship reasoning (2026-10-16)
+[[running_reasoning_retrieval_index]] routes measured observations to existing canonical relationships, evidence, alternatives and further assessment. [[running_research_handoff_audit]] classifies all 23 handoff references and records corrections and missing evidence. [[running_body_proportion_comparison]] adds bounded anthropometric context; [[running_preece_speed_2016]] and [[running_halvorsen_vertical_frequency_2012]] preserve distinct experimental/source identities.
+
+## Claim applicability update — 2026-10-19
+[[running_swing_knee_inertia]] → [[running_van_oeveren_running_styles_synthesis]]. Retrieval contract and audit routes: [[running_reasoning_retrieval_index]].
+
+## Running literature audit — 2026-10-19
+All 35 Running literature nodes reviewed for source identity and claim scope: [[running_literature_claim_audit_2026_10_19]]. Source-specific `claim_audit` records distinguish verification depth, applicability and unestablished app validation.

@@ -116,6 +116,7 @@ Every movement analysis pipeline in TillYes is evaluated across four progressive
 | Domain / App | Core Kinematic Invariants | Fascial Line Meridians Evaluated | Primary Eval Thresholds |
 |---|---|---|---|
 | **Squats** (`movement_squats`) | Knee flexion depth, Trunk-tibia parallel angle, Heel rise proxy, Knee-to-foot valgus/varus | Lateral Line, Spiral Line, Deep Front Line, Superficial Back Line, Superficial Front Line | Repetition persistence $\ge 50\%$, Heel rise $>0.015$, Valgus excursion $>0.04$ |
+| **Running** (`movement_running`) | Initial-contact/toe-off timing, cadence, step time, stride time, contact/flight-time proxies | None in V0; myofascial interpretation remains disabled pending validated Level B/C support | Side view, reported frame rate $\ge 30$ FPS, at least 3 complete cycles; no clinical thresholding in V0 |
 | **Static Posture** (`static_posture_app`) | Bilateral shoulder/pelvis level, Head-neck lateral shift, Coronal & Sagittal plumb offsets | Superficial Back Line, Superficial Front Line, Lateral Line, Deep Front Line | Bilateral asymmetry $>1.5\%$ image height, Plumb offset $>2.0\%$ image width |
 | **Gait & Movement** (`movement_assessment`) | Stride length, Cadence, Stance/Swing phase ratio, Pelvic rotation / Trendelenburg | Functional Lines, Spiral Line, Deep Front Line, Lateral Line | Asymmetry index $>5\%$, Ground contact phase duration balance |
 | **Golf Swing** (`00_Spec/` Engine) | 6-Phase swing intervals, Pelvis-torso separation (X-Factor), Lead hip internal rotation | Spiral Line, Functional Lines, Lateral Line, Deep Front Line | Transition sequencing (Pelvis leads Torso leads Arms), Lateral sway vs rotational pivot |
@@ -142,3 +143,31 @@ Whenever an AI agent works on any movement application in this workspace:
    ```
 4. **Living Document Updates**:
    * When a new movement pattern, camera edge case, or biomechanical evaluation criterion is discovered, update this `EVALS.md` in the same session.
+
+
+### Reviewed mesh surface sessions (2026-09-28)
+
+For `scoliosis_workbench` upright/forward-bend surface sessions, require explicit
+units, reviewed orientation and crop, retained OBJ faces, original-triangle-only
+sampling and exclusion of overlapping surface layers. Test pose invariance,
+one-sided/missing coverage, separate posture state, duplicate-geometry rejection,
+and matched within-posture repeat grids. Region names refer to thirds of the
+marked span. Coverage and repeat tolerances are engineering gates, not clinical
+accuracy claims; no combined posture score or exercise-benefit inference.
+
+### Side squat coordination (2026-09-30)
+New angular timing channels require image aspect metadata and selected-side visibility.
+Test mirrored geometry, missing/degenerate segments, baseline-to-phase gaps,
+shin plateau with continuing descent, hip/shoulder vertical travel ordering,
+phase-specific replay and no automatic fascial trigger. Study agreement does not
+validate app thresholds; synthetic verification is not real-video accuracy validation.
+
+### Running frontal-angle quality (2026-10-13)
+Require resolved full 2D source-pixel segments, explicit technical geometry rejection reasons and non-rejecting temporal review flags, shared stride timing validation, complete metric-specific cycle coverage and >=3 retained cycles. Test the 15.9-second false stride and high-visibility near-coincident hips; never filter to IMU group means. Preserve steep resolved lines and temporal changes; test per-side rejection diagnostics and valid right-side fallback. Report time coverage and local-only scope; preserve raw data. Thresholds in canonical `running_angle_quality.v1.json` remain provisional, not camera validation.
+
+### Running event-view and sequence integrity (2026-10-15)
+Do not apply horizontal foot-extremum contact detection to front/back video. Preserve continuous measurements and historical candidates for review, but require reviewed front/back cycle boundaries and suppress front/back contact-duration proxies. Verify that multiple opposite contacts, repeated same-side boundaries, missing alternating contacts in bilateral evidence, and multiple toe-offs cannot yield accepted running cycles. Rebuild legacy session derivatives when the event algorithm changes; retain raw evidence and review annotations. Regress the observed 42.2% / 83.3% front-view timing artifact without substituting population values.
+
+
+### Running shared measurement validity (2026-10-16)
+Canonical policy: `running_measurement_quality.v1.json`; runtime copy: `movement_running/src/knowledge/fixtures/running-measurement-quality.v1.json`. Apply both-limb source-pixel resolution, in-frame geometry and provisional side-camera conflict gates before downstream reporting. Preserve raw values and rejection reasons; never reject solely for large angles or asymmetry. Exclude collapsed torso references, withhold linear signed-angle wrap summaries/comparisons, and quarantine legacy side values without source landmarks. Verify mirror/scale invariance, high-visibility collapsed segments, large resolved angles, camera conflicts, cache migration and wrap boundaries. Engineering thresholds are evidence level 5, not camera-validated.

@@ -349,3 +349,39 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Extended canonical squat knowledge to v1.2 with line-specific anatomical continuity, squat context, and prohibited measurement claims for SBL, SFL, DFL, Lateral Line, and Spiral Line.
 - Required every surfaced line to trace to actual metric findings rather than appearing as a generic Anatomy Trains list.
 - Required the app report to distinguish `engine_synthesis` from measured fascia and treat unsurfaced lines as not evaluated, not normal.
+
+## 2026-10-13 — Running pelvic angle quality
+Added source PMID 36834324, pelvic measurement and frontal-quality nodes. Separated Level 3 IMU context from Level 5 engineering gates. Added versioned policy, invalid-stride/geometry rejection and time-coverage contract; no population clipping or axial score. Website is the current implementation owner. The historical Running directory and V2 vault export referenced by older docs are absent in this checkout; they were not fabricated during this targeted repair.
+
+## 2026-10-14 — Preserve reviewable projected angles
+Corrected frontal validation: full 2D segment resolution replaces horizontal-width gate; temporal deviation and IMU comparison are review-only. Added exact per-cycle diagnostics and right-side fallback. Policy 1.1.0 remains provisional; no new movement metrics or UI redesign.
+
+
+## 2026-10-15 — Restore missing running canonical documents
+
+Restored the complete `Running/` graph and `00_Spec/sources/till_yes_running_literature_foundation.md` from local Git commit `f545a64`, without rewriting their content or replacing existing working-tree edits. Added the running navigation route to the vault index. This restores the documents referenced by the app instructions and the existing running knowledge export; it does not implement the newly approved dashboard changes or promote experimental metrics to validated measurements.
+
+
+## 2026-10-15 — Bilateral event dashboard contracts
+
+Recovered the missing V2 export from the active movement_running V2.2 runtime fixture, preserving its existing entries, and extended it to V2.3 with ankle–knee and shank descriptor contracts. Added reviewed-event, same-frame bilateral sampling and descriptive statistics rules to [[running_canonical_measurement_contract]]. Synchronized the implementation fixture and existing movement_assessment dependent. No claim of validated automated events or kinetics was added.
+
+## 2026-10-15 — Running biomechanics knowledge upgrade for LLM Kiwi retrieval
+
+Upgraded the canonical running biomechanics and myofascial knowledge graph across five prioritized relationship families to support literature-grounded retrieval by LLM Kiwi:
+1. **Shoulder–pelvis coordination (Preece et al., 2016)**: Upgraded [[running_preece_spine_pelvis_2016]], [[running_pelvis_rotation]], [[running_shoulder_rotation]], [[running_pelvis_thorax_rotation]], and [[running_rotational_coupling]] with 3D anti-phase coordination in frontal/sagittal planes, transverse phase lag (pelvis behind thorax), and speed-dependent expansion in elite runners.
+2. **Arm–trunk–pelvis coordination (Arellano & Kram, 2014)**: Upgraded [[running_arellano_arm_swing_2014]], [[running_arm_leg_coordination]], and added [[running_movaia_kiptum_running_form_2023]] detailing angular momentum counterbalancing, the metabolic cost of arm restriction (+3–13%), compensatory axial trunk rotation (+63–102%), and arm-pendulum moment of inertia mechanics (tight elbow angle != less arm swing).
+3. **Cadence–pelvis–thigh coordination (Mesquita et al., 2024)**: Added [[running_mesquita_step_frequency_pelvis_2024]] and integrated with [[running_cadence]], [[running_pelvis_rotation]], and [[running_step_time]], demonstrating that lower cadence/longer stance inherently increases frontal-plane pelvic roll excursion.
+4. **Head–trunk–pelvis movement and repeatability**: Created canonical movement pattern node [[running_head_trunk_pelvis_coordination]]; added [[running_vellucci_sprint_coordination_2025]], [[running_morley_lumbar_restriction_2019]], [[running_dingenen_2d_reliability_2018]], and [[running_reinking_2d_reliability_2018]], establishing multijoint CoM minimization, flight phase posture vs midstance alignment, and the $\ge 7$ valid strides stability requirement.
+5. **Myers' three rotational systems**: Enriched [[myers_three_rotational_systems_2024]], [[running_three_layer_rotation_model]], [[running_functional_lines]] (full limb vastus lateralis continuation to patellar tendon), [[running_spiral_line]] (lateral elastic spring recoil, shoulder tipping, stance-hip elevation, and peroneal stirrup), and [[running_deep_front_line]] (deep plantar arch, popliteus, adductor magnus, psoas, and single-leg axial plumb-line centration).
+6. **Bilateral stance and asymmetry decomposition**: Upgraded [[running_left_right_asymmetry]] with the 4-way asymmetry taxonomy (magnitude, timing, coordination, reliability) and [[running_altered_rotational_coordination]] with six concrete biomechanical pathways for asymmetric coordination. Updated [[running_canonical_knowledge_index]] to register all new nodes.
+
+
+## 2026-10-16 — Evidence audit and relationship retrieval correction
+Audited all 23 handoff references in [[running_research_handoff_audit]]. Reused five priority relationship IDs and the economy guardrail; added bounded body-proportion context and two distinct source notes. Corrected arm-study segment attribution, Preece group comparison, cadence extrapolation and seven-step reliability transfer. Added [[running_reasoning_retrieval_index]] with three graph retrieval checks and a worked observation. Earlier 2026-10-15 log claims are historical and superseded where corrected. No app, runtime export or schema changes.
+
+## Running literature audit — 2026-10-19
+All 35 Running literature nodes reviewed for source identity and claim scope: [[running_literature_claim_audit_2026_10_19]]. Source-specific `claim_audit` records distinguish verification depth, applicability and unestablished app validation.
+
+### 2026-10-19 — Additive Running compact summary definitions
+Registered same-side pose ankle–hip offset and independently known-speed stride length. Existing ankle–pelvis, ankle–knee and temporal formulas remain unchanged; synchronized V2 knowledge copies to movement_running and movement_assessment. Runtime AI retrieval remains unimplemented as described in running_reasoning_retrieval_index.
