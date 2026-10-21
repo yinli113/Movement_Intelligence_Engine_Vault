@@ -385,3 +385,12 @@ All 35 Running literature nodes reviewed for source identity and claim scope: [[
 
 ### 2026-10-19 — Additive Running compact summary definitions
 Registered same-side pose ankle–hip offset and independently known-speed stride length. Existing ankle–pelvis, ankle–knee and temporal formulas remain unchanged; synchronized V2 knowledge copies to movement_running and movement_assessment. Runtime AI retrieval remains unimplemented as described in running_reasoning_retrieval_index.
+
+## 2026-10-19 — Canonical runtime insight export
+Added a generated, content-hashed Running insight graph containing selected canonical relationships, linked sources and guardrails. The standalone running app retrieves relevant node text into on-demand API requests, checks measurement IDs and direct node/source links, and renders generated interpretations separately from measured observations. Automated mock-API tests do not establish scientific validity or semantic entailment. Legacy Vault Agent chains remain separate.
+
+## 2026-10-19 — Plain-language frontal offset definitions
+Added canonical plainLanguage meaning, signed-axis reading and interpretation limits for shoulder-centre, head, bilateral ankle and bilateral knee offsets. Synced both app consumers. Definitions distinguish position relative to moving hip midpoint from step width, joint alignment, phase-specific landing, and inferred dysfunction.
+
+## 2026-10-20 — Recording-specific Kiwi cards
+Expanded the generated insight graph with existing bilateral-asymmetry and canonical-measurement-contract nodes. Runtime card prompts now combine recording evidence with canonical relationship and literature nodes; definitions no longer substitute for interpretation. No canonical biomechanical claims or measurement formulas were changed.

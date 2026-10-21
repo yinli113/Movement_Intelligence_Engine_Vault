@@ -272,7 +272,12 @@
       "view": "front/back",
       "measurementType": "2d_proxy",
       "release": "alignment_viewer",
-      "definition": "Shoulder-centre lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+      "definition": "Shoulder-centre lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width.",
+      "plainLanguage": {
+        "meaning": "This shows where the midpoint between your shoulders appears sideways relative to the midpoint between your hips in the front or back video.",
+        "howToRead": "A negative value is toward your anatomical left; a positive value is toward your anatomical right. Zero means the tracked point lines up with your hip midpoint in this view. The sign describes position, not good or bad movement.",
+        "limits": "A sideways offset alone does not establish how the head, shoulders and pelvis coordinate over time. The hip midpoint also moves. Camera angle, tracking and the phase of the stride can change the apparent position; this measurement alone does not establish a problem."
+      }
     },
     {
       "canonicalId": "running.frontal.head_pelvis_offset",
@@ -281,7 +286,12 @@
       "view": "front/back",
       "measurementType": "2d_proxy",
       "release": "alignment_viewer",
-      "definition": "Nose-landmark lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+      "definition": "Nose-landmark lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width.",
+      "plainLanguage": {
+        "meaning": "This shows where your head appears sideways relative to the midpoint between your hips. The app tracks your nose as the head reference.",
+        "howToRead": "A negative value is toward your anatomical left; a positive value is toward your anatomical right. Zero means the tracked point lines up with your hip midpoint in this view. The sign describes position, not good or bad movement.",
+        "limits": "A sideways offset alone does not establish how the head, shoulders and pelvis coordinate over time. The hip midpoint also moves. Camera angle, tracking and the phase of the stride can change the apparent position; this measurement alone does not establish a problem."
+      }
     },
     {
       "canonicalId": "running.frontal.left_ankle_offset",
@@ -290,7 +300,12 @@
       "view": "front/back",
       "measurementType": "2d_proxy",
       "release": "alignment_viewer",
-      "definition": "Left ankle lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+      "definition": "Left ankle lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width.",
+      "plainLanguage": {
+        "meaning": "This shows where your left ankle appears sideways relative to the midpoint between your hips in the front or back video.",
+        "howToRead": "A negative value is toward your anatomical left; a positive value is toward your anatomical right. Zero means the tracked point lines up with your hip midpoint in this view. The sign describes position, not good or bad movement.",
+        "limits": "An ankle offset is not the distance between both feet or a measure of foot placement at landing unless contact timing is verified. The hip midpoint also moves. Camera angle, tracking and the phase of the stride can change the apparent position; this measurement alone does not establish a problem."
+      }
     },
     {
       "canonicalId": "running.frontal.right_ankle_offset",
@@ -299,7 +314,12 @@
       "view": "front/back",
       "measurementType": "2d_proxy",
       "release": "alignment_viewer",
-      "definition": "Right ankle lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+      "definition": "Right ankle lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width.",
+      "plainLanguage": {
+        "meaning": "This shows where your right ankle appears sideways relative to the midpoint between your hips in the front or back video.",
+        "howToRead": "A negative value is toward your anatomical left; a positive value is toward your anatomical right. Zero means the tracked point lines up with your hip midpoint in this view. The sign describes position, not good or bad movement.",
+        "limits": "An ankle offset is not the distance between both feet or a measure of foot placement at landing unless contact timing is verified. The hip midpoint also moves. Camera angle, tracking and the phase of the stride can change the apparent position; this measurement alone does not establish a problem."
+      }
     },
     {
       "canonicalId": "running.frontal.left_knee_offset",
@@ -308,7 +328,12 @@
       "view": "front/back",
       "measurementType": "2d_proxy",
       "release": "alignment_viewer",
-      "definition": "Left knee lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+      "definition": "Left knee lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width.",
+      "plainLanguage": {
+        "meaning": "This shows where your left knee appears sideways relative to the midpoint between your hips in the front or back video.",
+        "howToRead": "A negative value is toward your anatomical left; a positive value is toward your anatomical right. Zero means the tracked point lines up with your hip midpoint in this view. The sign describes position, not good or bad movement.",
+        "limits": "A knee offset alone does not show whether the knee moves inward relative to the hip and ankle. The hip midpoint also moves. Camera angle, tracking and the phase of the stride can change the apparent position; this measurement alone does not establish a problem."
+      }
     },
     {
       "canonicalId": "running.frontal.right_knee_offset",
@@ -317,7 +342,12 @@
       "view": "front/back",
       "measurementType": "2d_proxy",
       "release": "alignment_viewer",
-      "definition": "Right knee lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width."
+      "definition": "Right knee lateral offset from pelvis centre in an anatomical left-to-right image-plane axis, expressed as percent decoded image width.",
+      "plainLanguage": {
+        "meaning": "This shows where your right knee appears sideways relative to the midpoint between your hips in the front or back video.",
+        "howToRead": "A negative value is toward your anatomical left; a positive value is toward your anatomical right. Zero means the tracked point lines up with your hip midpoint in this view. The sign describes position, not good or bad movement.",
+        "limits": "A knee offset alone does not show whether the knee moves inward relative to the hip and ankle. The hip midpoint also moves. Camera angle, tracking and the phase of the stride can change the apparent position; this measurement alone does not establish a problem."
+      }
     },
     {
       "canonicalId": "running.frontal.step_width",
