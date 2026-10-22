@@ -56,7 +56,7 @@ This table is the implementation bridge. Each linked note owns its calculation, 
 
 ### Video-workspace continuous descriptor set
 
-The video-first Running workspace may expose these Level A image-plane descriptors when decoded source geometry, required landmarks, view, anatomical side, and direction gates are satisfied. Every plotted point remains linked to its raw evidence frame. Gaps remain gaps; the app must not interpolate across missing landmarks or a changed reference. These IDs are canonical app contracts, not normative targets.
+The video-first Running workspace may expose these Level A image-plane descriptors when decoded source geometry, required landmarks, view, anatomical side, and direction gates are satisfied. Every plotted point remains linked to its raw evidence frame. Gaps remain gaps; the app must not interpolate across missing landmarks or a changed reference. These IDs are canonical app contracts, not normative targets. The three-tier rotation model is descriptive, not a good/bad grade.
 
 | Descriptor | Canonical ID | View | Reference and sign | Unit | Boundary |
 |---|---|---|---|---|---|
@@ -65,7 +65,10 @@ The video-first Running workspace may expose these Level A image-plane descripto
 | Head-pelvis offset | `running.position.head_pelvis_offset` | side | nose landmark from moving pelvis centre; positive ahead in declared running direction | percent decoded image width | head landmark proxy |
 | Selected ankle-shoulder inclination | `running.alignment.selected_ankle_shoulder_inclination` | side | selected ankle-to-shoulder line; positive forward in declared running direction | aspect-corrected projected degrees from frame vertical | not whole-body centre-of-mass lean |
 | Trunk inclination | `running.trunk.lean` | side | selected hip-to-shoulder segment; positive forward in declared running direction | aspect-corrected projected degrees from frame vertical | frame vertical is uncalibrated |
+| Upper-arm forward swing | `running.swing.arm` | side | shoulder-to-elbow segment; positive forward in declared running direction | aspect-corrected projected degrees from frame vertical | exploratory phase signal; not a performance grade or joint force |
+| Thigh forward swing | `running.swing.thigh` | side | hip-to-knee segment; positive forward in declared running direction | aspect-corrected projected degrees from frame vertical | exploratory phase signal; not a performance grade or hip-joint force |
 | Knee flexion | `running.knee.flexion` | side | selected hip-knee-ankle included angle subtracted from 180 degrees | aspect-corrected projected degrees | image-plane flexion, not 3D joint angle |
+| Foot pitch at estimated contact | `running.foot.strike_angle` | side | toe relative to heel; positive toe-up, negative toe-down | projected degrees | image-plane foot orientation; not contact force or a good/bad strike grade |
 | Shoulder-centre offset | `running.frontal.shoulder_centre_offset` | front/back | shoulder centre from pelvis centre; positive anatomical right | percent decoded image width | not centre of pressure |
 | Head-pelvis offset | `running.frontal.head_pelvis_offset` | front/back | nose landmark from pelvis centre; positive anatomical right | percent decoded image width | head landmark proxy |
 | Left/right ankle offset | `running.frontal.left_ankle_offset`, `running.frontal.right_ankle_offset` | front/back | named anatomical ankle from pelvis centre; positive anatomical right | percent decoded image width | not step width or physical distance |
@@ -96,3 +99,15 @@ Where possible return mean, median, standard deviation, valid stride count, left
 ## Open Questions
 
 - Operational thresholds, validation datasets, and algorithm versions remain implementation work; this graph intentionally does not invent them.
+
+## Event-angle display extension (2026-10-21)
+
+The integrated website exposes estimated toe-off and initial-contact snapshots without requiring a complete stride or manual confirmation. These are Level A image-plane descriptors, with source event/frame/time provenance and per-angle support.
+
+- `running.shank.inclination`: knee-to-ankle direction from downward image vertical; positive ahead in the declared running direction. This continuous descriptor is distinct from the event-specific `running.landing.tibial_inclination`.
+- `running.leg.inclination`: hip-to-ankle direction from downward image vertical; positive ahead. This is a whole-leg segment descriptor, not a hip-joint angle.
+- Existing `running.swing.thigh`, `running.knee.flexion` and `running.foot.strike_angle` supply thigh direction, knee bend and foot pitch at each event. The smaller angle between the two simultaneous hip-to-knee directions describes projected thigh separation. It requires valid observations of both thighs from the same source frame; no cross-time pairing.
+- Use the nearest source frame within 60 ms of the event and show that offset. Do not search farther for a better-looking measurement or silently interpolate. Apply the existing landmark, geometry, direction and camera checks separately per angle. Missing measurements stay null.
+- Summarise medians and valid counts separately by event type and event leg. Opposite-leg values retain their anatomical identity and are grouped by the event leg. These are descriptive positions; no ideal angle, braking/propulsive force, tissue state or diagnosis follows from them.
+
+This is an engineering display extension, not new validation evidence or an additional clinical claim.

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "running-knowledge.v2",
-  "version": "2.2.0",
-  "updated": "2026-09-14",
+  "version": "2.3.0",
+  "updated": "2026-10-22",
   "domain": "running",
   "canonicalIndex": "running_canonical_knowledge_index",
   "canonicalContract": "running_canonical_measurement_contract",
@@ -161,6 +161,24 @@
       "definition": "Aspect-corrected projected inclination from frame vertical of the selected-side hip-to-shoulder segment; positive is forward in the declared running direction."
     },
     {
+      "canonicalId": "running.swing.arm",
+      "label": "Upper-arm forward swing",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "experimental",
+      "definition": "Aspect-corrected projected inclination from frame vertical of the selected-side shoulder-to-elbow segment; positive is forward in the declared running direction. Used as a phase signal in the experimental three-tier rotation model."
+    },
+    {
+      "canonicalId": "running.swing.thigh",
+      "label": "Thigh forward swing",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "experimental",
+      "definition": "Aspect-corrected projected inclination from frame vertical of the selected-side hip-to-knee segment; positive is forward in the declared running direction. Used as a phase signal in the experimental three-tier rotation model."
+    },
+    {
       "canonicalId": "running.position.shoulder_pelvis_offset",
       "label": "Shoulder-pelvis offset",
       "claimLevel": "A",
@@ -195,6 +213,15 @@
       "measurementType": "2d_proxy",
       "release": "alignment_viewer",
       "definition": "Aspect-corrected projected inclination from frame vertical of the selected-side ankle-to-shoulder line; positive is forward in the declared running direction."
+    },
+    {
+      "canonicalId": "running.foot.strike_angle",
+      "label": "Foot strike pitch",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "alignment_viewer",
+      "definition": "Projected pitch angle between heel and toe at initial contact; positive is dorsiflexed heel-down, negative is plantarflexed toe-down."
     },
     {
       "canonicalId": "running.knee.flexion",
@@ -371,6 +398,24 @@
       "view": "side",
       "measurementType": "derived_proxy",
       "release": "planned_pose_validation"
+    },
+    {
+      "canonicalId": "running.shank.inclination",
+      "label": "Shin forward inclination",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "event_geometry",
+      "definition": "Aspect-corrected knee-to-ankle direction from downward image vertical; positive ahead in the declared running direction. Event snapshots use the nearest source frame within 60 ms. Not tibial loading."
+    },
+    {
+      "canonicalId": "running.leg.inclination",
+      "label": "Hip-to-ankle forward inclination",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "event_geometry",
+      "definition": "Aspect-corrected hip-to-ankle direction from downward image vertical; positive ahead in the declared running direction. Not hip-joint extension, propulsion, or force."
     }
   ],
   "patterns": [

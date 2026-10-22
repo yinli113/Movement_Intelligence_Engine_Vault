@@ -404,3 +404,29 @@ This is an append-only log of all operations performed on the Myofascial Lines v
 - Added three linked movement concepts, a 2026 correspondence source node, and a Level 5 app translation contract; indexed all five new nodes.
 - Kept source stance taxonomy distinct from the user-defined app stance convention, and identified unverified causal claims in existing knowledge for separate review.
 - No runtime JSON, scoring, app code or deployment changed; this is canonical vault retrieval knowledge. Existing raw uploads remain unchanged.
+
+
+## [2026-10-20] Running | Website reliability pilot
+
+Canonicalized the provisional geometry policy imported from movement_running branch 89bf13d as `running_measurement_quality.v1.json`, with unchanged thresholds and explicit non-validated status. Added website-specific reviewed-event release, fixed-grid sampling, source-frame annotation and replay-regression boundaries to running_event_detection. Website runtime copy must remain byte-identical. No automatic event-accuracy or clinical validation claim was added.
+
+2026-10-20: User removed mandatory manual event review from the website running pilot. Automatic event-derived results are preliminary; correction remains optional. Timestamp, sequence and geometry integrity checks remain.
+
+2026-10-20: Added website Running Gemini explanation boundaries to reporting guardrails; source-note retrieval and aggregate-only requests remain separate from measured results.
+
+2026-10-20: Approved website Gold knee-recovery pilot: one-clip curves, peak/timing comparison, exact repetition counts, quality sensitivity and bounded Gemini explanations.
+
+## 2026-10-21 — Running event-angle display extension
+
+Extended the existing measurement contract and v2 export with image-plane shin/whole-leg directions and same-frame thigh-separation rules for estimated landing/toe-off snapshots. No normative or clinical claims added. Updated website runtime, the integrated-capture export copy, and standalone scope documentation.
+
+### 2026-10-22 — Front/back shoulder–pelvis explanation depth
+Extended the existing rotation and reporting-guardrail notes for cycle-versus-window covariation, separate segment excursions, source-localised inspection and geometry/sensitivity boundaries. The website Gold consumer and Streamlit now share a measured coordination story; the Gemini adapter receives bounded numerical cycle detail. This does not validate monocular rotation, timing lead, causal mechanics or clinical norms.
+
+
+2026-10-22: Running consumer explanations now lead with measured findings and coaching comparisons. Review all usable metrics; expose internal metric-to-vault routes and retain one expandable boundary/provenance section. No measurement eligibility or clinical claim boundary changes.
+
+2026-10-22: Separate same-leg exploratory movement intervals from strict bilateral timing cycles, retaining usable motion comparisons without inferred opposite events or relaxing source geometry. Retire unsupported warm-cache/true-millisecond repeat-run advice.
+
+
+2026-10-22: Restored the three existing Running angle metrics (upper-arm swing, thigh swing, and foot pitch at contact) to canonical v2 knowledge, version 2.3.0. They remain projected descriptors; the three-tier rotation model is descriptive and assigns no good/bad grade.
