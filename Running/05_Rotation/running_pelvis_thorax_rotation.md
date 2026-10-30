@@ -37,7 +37,7 @@ The time-varying relationship between declared pelvis- and thorax-orientation pr
 
 ## Why It Matters
 
-This node makes the transition from measurements to a repeatable movement pattern explicit.
+Separate a change in movement timing from a change in how far each segment moves. Similar individual ranges with changing shoulder–pelvis relationships point to a different coordination question than a large range change isolated to one segment. Use only the supplied cycle, excursion and timing comparisons; aggregate correlation alone cannot identify which segment leads.
 
 ## Required Inputs
 
@@ -78,3 +78,10 @@ Do not convert this node into a force, injury, diagnosis, tissue-state, universa
 ## Open Questions
 
 - What validation dataset and minimum repeat count are required before this definition becomes executable app logic?
+
+
+## Website coordination analysis — 2026-10-22
+
+The front/back Gold consumer may compare projected shoulder-line and pelvis-line tilt covariation, their separate excursions, and the timing/location of the largest recorded line separation. A positive interval correlation describes a same-direction tendency in variation, a negative value an opposite-direction tendency; neither establishes what happened at every frame or true axial rotation. Keep projected-cycle results separate from recording windows and disclose duration differences. A sign count is not a count of repeated strides or proof of strong coupling.
+
+A useful synthesis connects the relationship across ordered covered cycles, whether the larger recorded excursion comes from the shoulder or pelvis trace, the source location worth inspecting and sensitivity to frame/boundary checks. When a tracked segment line approaches image vertical, identify that as source geometry to inspect, never confirmed large anatomical rotation. Sensitivity that changes correlation sign prevents a robust repeating-coupling conclusion; retain usable measurements rather than adding a recording rejection. Do not infer which segment leads from an aggregate correlation alone. These summaries are engineering synthesis, not validated clinical or elite-running norms.

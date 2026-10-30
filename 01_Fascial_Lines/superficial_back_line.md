@@ -92,21 +92,13 @@ All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. 
 
 ## Squat Role (Engine Synthesis, Level 5)
 
-In the bodyweight squat, the [[superficial_back_line]] (SBL) acts as the **posterior guy-wire and eccentric braking system**. It controls ankle dorsiflexion, knee flexion derailment, hip extension, and posterior trunk stabilization.
+May provide anatomical context for heel behavior, ankle strategy, selected depth, posterior hip contribution, and sagittal trunk support. This is anatomical context, not a detected line impairment.
 
-See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+| Observed pattern | Why consider this line | Muscle-to-line relationship | Potential clinical issues | Direct assessment/retest | Camera boundary |
+|---|---|---|---|---|---|
+| A supported regional squat observation; retain view, phase, metric and coverage | Heel rise, limited comfortable depth, a hip-dominant strategy, or posterior trunk bracing may indicate a posterior sagittal organisation worth investigating. | Calf and plantar-foot tissues, hamstrings, gluteus maximus, sacral continuity, and spinal extensors may contribute to a coordinated posterior strategy. | Questions only: Compare heel support, stance, ankle options, and active hip-extension control, then retest whether the depth or trunk strategy changes. | If appropriate, compare comfortable flat-foot and heel-elevated trials at similar depth and tempo, recording the heel condition. Assess ankle motion directly. A change does not identify a calf, Achilles or fascial cause. | The camera does not measure SBL tension, restriction, recoil, or loading. |
 
-### Superficial Back Line Dynamic Switches & Misalignment Matrix
-
-| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
-|---|---|---|---|---|
-| **Early Heel Lift** | Calcaneus (Heel Anchor) | [[squat_switch_failure_modes#1-the-knee-switch-sbl-gastrocnemius-hamstring-derailment\|Knee Switch]] / [[squat_switch_failure_modes#5-the-calcaneal-station-elevation-switch-sbl-dfl-ankle-block\|Calcaneal Station Switch]] | Soleus (Local SBL) tightness limits talar transit, forcing calcaneal station elevation to bypass ankle block. | Elevate heels on 20mm wedge. If depth normalizes, confirms distal calf block. |
-| **Butt Wink (Posterior Pelvic Tilt at Depth)** | Ischial Tuberosity / Ramus | Adductor Magnus / Hamstring Length Switch | Biceps Femoris long head (Express SBL) reaches terminal length at deep flexion, tugging ischial tuberosity forward/down. | Widen stance 15% and externally rotate feet 10°. |
-| **Restrained Knee Travel / Excessive Hip Hinge** | Calcaneus / Talus | Ankle Dorsiflexion Lockout Switch | Soleus (Local SBL) tightness blocks forward tibial travel, shifting 100% load to posterior hip hinge. | Elevate heels or measure passive ankle dorsiflexion off-load. |
-| **Excessive Forward Trunk Lean** | Calcaneus / Lumbar Spine | Ankle-Trunk Coupling Switch | Thoracic Erectors (Express SBL) fail to overcome forward gravitational moment caused by blocked ankle. | Retest with goblet dumbbell held in front of chest. |
-| **Forward Head Posture / Chin Jut** | Occipital Ridge / C1-C7 | Suboccipital Gaze Preservation Switch | Suboccipitals (Local SBL) locked short to keep gaze horizontal as trunk leans forward over weak DFL neck flexors. | Cue "double chin" / active neck retraction during squat descent. |
-
-*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+The previous deterministic switch/misalignment table is withdrawn. See [[squat_myofascial_mapping]] for competing explanations and [[squat_switch_failure_modes]] for the anatomical meaning of switches. No inhibited/overactive muscle list, confirmed tissue block or fixed treatment follows from the video.
 
 ## Relationships
 

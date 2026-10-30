@@ -14,49 +14,29 @@ relationships:
   connects_to: [sagittal_plumb_line_alignment, bodyweight_squat, squat_joint_muscle_mapping]
   part_of: [squat_observability_boundary]
 confidence: high
-review_status: reviewed
+review_status: source_checked_app_translation_unvalidated
 relationship_count: 6
 hub_score: 8
 centrality: 0.054
-updated: 2026-09-01
+updated: 2026-10-28
 ---
 
 # Knee-to-Toe Progression Boundary
 
-## Biomechanical Mechanics & Historical Context
+## Source-grounded movement question
 
-The relationship between forward knee travel and the vertical toe line has been a central topic in squat research:
+Forward knee travel interacts with trunk inclination, depth, load and stance. [[schoenfeld_nsca_squat_biomechanics_2010]] and [[straub_powers_squat_biomechanics_2024]] provide context for these interactions; they do not establish a universal toe-line limit.
 
-1. **Historical Myth vs. Biomechanical Reality**:
-   * Traditional dogmatic cues advocated that *"knees should never pass the toes"* during a squat.
-   * Modern instrumented kinetic research (Fry et al., 2003; Schoenfeld, 2010; Straub & Powers, 2024) demonstrated that strictly prohibiting knee travel past the toes reduces patellofemoral torque slightly (~22%), but forces a massive **1000% increase in lumbar and hip extensor load** due to forced excessive forward trunk inclination.
+The Fry et al. (2003) [primary study](https://pubmed.ncbi.nlm.nih.gov/14636100/) compared estimated static hip and knee torques in seven trained men performing externally loaded parallel squats. Its large hip-torque difference is not a measured lumbar shear increase or a patellofemoral contact-force result. Preserve the protocol and outcome rather than transferring its percentages to ordinary bodyweight squats.
 
-2. **The Kinetic Balance Triad**:
-   * **Knee-Dominant / SFL Stress Strategy**: Knees shoot far anteriorly past the toe boundary early in descent, maintaining an upright trunk but placing high shear stress on the patellofemoral joint and *Superficial Front Line*.
-   * **Hip-Dominant / SBL Stress Strategy**: Knees remain far behind the mid-foot, driving an exaggerated hip hinge that shifts high torque into the gluteals, hamstrings, and lumbar erectors (*Superficial Back Line*).
-   * **Balanced Harmonious Strategy**: Knees track naturally toward or slightly past the anterior toe boundary in tandem with a proportional hip hinge, maintaining trunk-tibia parallelism.
+## Camera observation and interpretation
 
-## Clinical App Observational Rules
+Report projected knee position relative to the visible foot with frame, phase, selected side, units, geometry and coverage. Combine with same-view trunk/shin observations where available. Neither knee travel beyond the toes nor limited forward travel independently identifies a fault, passive ankle restriction, soleus stiffness or a fascial stress pattern.
 
-* **Observation, Not Fault**: The engine notes knee-to-toe excursion as a strategy descriptor, not as an automatic technical flaw or pathology indicator.
-* **Ankle Dorsiflexion Interaction**: If the knee cannot approach the toe line while the squatter attempts depth, the engine evaluates ankle dorsiflexion mobility and soleus stiffness before assuming hip preference.
+## Direct assessment and retest
 
-## Related Nodes
+If the observation matters to the person's task or symptoms, compare comfortable trials with one recorded setup change at a time and assess ankle motion directly where appropriate. A wedge/counterweight response changes the task and cannot isolate a causal tissue. Keep passive range results separate from active video measurements.
 
-- [[sagittal_plumb_line_alignment]]
-- [[schoenfeld_nsca_squat_biomechanics_2010]]
-- [[straub_powers_squat_biomechanics_2024]]
-- [[squat_joint_muscle_mapping]]
+## Evidence and related nodes
 
-## Evidence Grounding
-```yaml
-evidence:
-  - source_id: rajagopal_opensim_model_2016
-    level: domain_biomechanics
-    evidence_tier: Level 3
-    description: "Patellofemoral and tibiofemoral shear and compressive forces as knee advances over toes."
-  - source_id: openstax_anatomy_physiology_2e
-    level: foundational_anatomical_framework
-    evidence_tier: Level 1
-    description: "Sagittal excursion limits and cruciate ligament load distribution."
-```
+General demand interactions come from squat biomechanics; this camera translation is Level 5 `engine_synthesis`. The gait OpenSim model and general anatomy references do not validate knee-contact forces in this task. [[squat_observability_boundary]], [[sagittal_plumb_line_alignment]], [[bodyweight_squat]], [[squat_joint_muscle_mapping]].

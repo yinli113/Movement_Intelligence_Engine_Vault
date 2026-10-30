@@ -79,3 +79,7 @@ Do not convert this node into a force, injury, diagnosis, tissue-state, universa
 ## Open Questions
 
 - What validation dataset and minimum repeat count are required before this definition becomes executable app logic?
+
+## Website Gold recovery pilot — 2026-10-20
+
+Gold means prepared movement evidence, not validated clinical truth. The first website slice uses one recording: retain own-foot swing intervals, observed maxima, peak location only where covered, per-phase support and left/right pair identities. Keep partial observations rather than rejecting an entire video. Investigate amplitude and timing separately; any bounded alignment must preserve the original curves. Compare identical pair sets under a higher-visibility subset and adjacent analysis-time boundary shifts. Failed checks limit the interpretation without erasing valid baseline observations. Keep source frames, units, event provenance and policy versions. Repetition counts concern intervals or pairs, never raw-frame counts. Thresholds and pairing/alignment methods are provisional engineering settings; repeatability or sensitivity alone does not validate tracking or establish injury, tissue state or optimal technique.

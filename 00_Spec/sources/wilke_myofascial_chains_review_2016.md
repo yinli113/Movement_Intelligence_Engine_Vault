@@ -3,44 +3,45 @@ id: wilke_myofascial_chains_review_2016
 type: Evidence Source
 preferred_name: "Wilke et al. Systematic Review of Myofascial Chains (2016)"
 aliases: ['Wilke 2016', 'Evidence-Based Myofascial Chains Review']
-short_definition: "Systematic review evaluating anatomical dissection and force-transmission evidence for Thomas Myers' Anatomy Trains myofascial line models."
-author: "Jan Wilke; Robert Schleip; Werner Klingler; Doerthe Stecco"
+short_definition: "Systematic review of human dissection evidence for anatomical continuity in six proposed myofascial chains."
+author: "Jan Wilke; Frieder Krause; Lutz Vogt; Winfried Banzer"
 publication_year: 2016
 format: "peer_reviewed_systematic_review"
 domain: "general_movement"
 evidence_level: 3
 source_role: "domain_biomechanics"
 confidence: high
-review_status: active_spec
+review_status: source_checked_app_translation_unvalidated
 relationships:
   cited_by: []
   connects_to: []
 relationship_count: 0
 hub_score: 0
 centrality: 0.0
-updated: 2026-09-07
+updated: 2026-10-28
 ---
 
-# Wilke et al. Systematic Review of Myofascial Chains (2016)
+# Wilke et al. (2016): Anatomical Evidence for Myofascial Chains
 
-## Evidence Level & Source Role
+## Citation and review scope
 
-- **Evidence Level**: **Level 3 (Domain-Specific Instrumented Biomechanics & Systematic Reviews)**
-- **Source Role**: 
-- **Domain**: 
+Wilke J, Krause F, Vogt L, Banzer W. *What Is Evidence-Based About Myofascial Chains: A Systematic Review.* Arch Phys Med Rehabil. 2016;97(3):454–461. DOI [10.1016/j.apmr.2015.07.023](https://doi.org/10.1016/j.apmr.2015.07.023), [PMID 26281953](https://pubmed.ncbi.nlm.nih.gov/26281953/). Publisher abstract and accessible methods checked 2026-10-28; no local full-text archive claimed.
 
-## Citation
+This review assessed anatomical continuity using 62 included human dissection studies. It examined six proposed lines, not all Anatomy Trains lines.
 
-Wilke, J., Schleip, R., Klingler, W., & Stecco, C. (2016). *What Is Evidence-Based About Myofascial Chains: A Systematic Review.* Archives of Physical Medicine and Rehabilitation, 97(3), 454–461.
+| Examined line | Reported anatomical findings |
+|---|---|
+| Superficial Back Line | Strong evidence; all three examined transitions supported |
+| Back Functional Line | Strong evidence; all three examined transitions supported |
+| Front Functional Line | Strong evidence; both examined transitions supported |
+| Spiral Line | Moderate-to-strong support for parts; five of nine transitions supported |
+| Lateral Line | Moderate-to-strong support for parts; two of five transitions supported |
+| Superficial Front Line | No verified transition in the included studies |
 
-## Key Findings & Relevance to the Vault
+Deep Front Line was not one of the six examined lines. Absence of verified transitions in this review is a statement about its evidence set, not proof that a line cannot exist.
 
-This systematic review rigorously graded the peer-reviewed anatomical and mechanical evidence supporting Thomas Myers' Anatomy Trains pathways:
+## Functional and squat boundary
 
-| Myofascial Line | Evidence Quality | Dissection Continuity Evidence | Force Transmission Evidence |
-|---|---|---|---|
-| **Superficial Back Line (SBL)** | **Strong Evidence** | Confirmed continuity: plantar fascia $\rightarrow$ Achilles $\rightarrow$ gastrocnemius $\rightarrow$ hamstrings $\rightarrow$ sacrotuberous ligament $\rightarrow$ thoracolumbar fascia $\rightarrow$ erector spinae. | Moderate in vivo and cadaveric force transmission verified. |
-| **Back Functional Line (BFL)** | **Strong Evidence** | Confirmed continuity: latissimus dorsi $\rightarrow$ contralateral gluteus maximus $\rightarrow$ vastus lateralis across thoracolumbar fascia. | Cross-body force transmission documented in biomechanical models. |
-| **Front Functional Line (FFL)** | **Strong Evidence** | Confirmed continuity: pectoralis major $\rightarrow$ rectus abdominis sheath $\rightarrow$ contralateral adductor longus. | High anatomical verification across multiple dissection series. |
-| **Spiral Line (SPL)** | **Moderate Evidence** | Verified rhomboid-serratus anterior continuity and lower limb loop (fibularis longus / tibialis anterior). | Moderate mechanical transmission demonstrated. |
-| **Deep Front Line (DFL)** | **Moderate Evidence** | Deep continuity confirmed in lower limb to pelvic floor and psoas; upper mediastinal transitions require further quantification. | Moderate evidence. |
+Anatomical continuity does not establish in-vivo strain transmission, activation, treatment effectiveness or a camera-detected squat impairment. The authors identify functional relevance as a future research question. Do not attribute the former DFL row or graded force-transmission column to this review. A separate mechanical study or review needs its own citation and assessment.
+
+[[squat_myofascial_mapping]] and [[myofascial_interpretive_layer]] retain Level 5 pattern-to-line hypotheses; this source does not validate their thresholds or causal labels.

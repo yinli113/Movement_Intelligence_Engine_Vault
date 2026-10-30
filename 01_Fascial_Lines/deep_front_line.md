@@ -95,21 +95,13 @@ All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. 
 
 ## Squat Role (Engine Synthesis, Level 5)
 
-In the bodyweight squat, the [[deep_front_line]] (DFL) acts as the **3D interior hydraulic cylinder and core stabilizer**. It anchors the medial foot arch ([[tibialis_posterior]]) up through the posterior adductor track ([[adductor_magnus]]), pelvic floor, [[psoas_major]], [[diaphragm]], and deep anterior cervical flexors.
+May provide anatomical context for medial foot-knee organization, adductor-pelvis relationships, depth strategy, and trunk-pelvis support across views. This is anatomical context, not a detected line impairment.
 
-See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+| Observed pattern | Why consider this line | Muscle-to-line relationship | Potential clinical issues | Direct assessment/retest | Camera boundary |
+|---|---|---|---|---|---|
+| A supported regional squat observation; retain view, phase, metric and coverage | Medial knee drift, medial foot collapse, or difficulty maintaining the inner foot and pelvis relationship may bring the deep medial chain into consideration. | Deep foot and lower-leg contributors, adductors, pelvic-floor and psoas region, and deep trunk support may organise the medial relationship between foot, knee, pelvis, and trunk. | Questions only: Assess foot tripod and arch control, adductor length and contraction, hip-rotation options, and whether a medial-chain cue changes the knee path. | Review knee-to-foot trajectories and directly assess relevant hip/ankle motion and symptoms. Compare comfortable stance options one at a time. A response does not identify adductor activity or deep-line restriction. | The camera does not measure DFL support, tension, restriction, or force transmission. |
 
-### Deep Front Line Dynamic Switches & Misalignment Matrix
-
-| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
-|---|---|---|---|---|
-| **Excessive Foot Pronation / Arch Collapse** | Navicular / Medial Malleolus | [[squat_switch_failure_modes#4-the-medial-arch-stirrup-switch-dfl-spl-foot-loop\|Medial Arch Stirrup Switch]] | Tibialis Posterior (Local DFL) arch support fails; Peroneus Longus (Express SPL) pulls 1st metatarsal into eversion. | Place 5mm wedge under 1st metatarsal head or cue active short foot tripod. |
-| **Dynamic Knee Valgus** | Linea Aspera / Femoral Condyle | [[squat_switch_failure_modes#2-the-femoral-adductor-switch-dfl-anterior-vs-posterior-track\|Femoral Adductor Switch]] | Gluteus Medius (Local LL) inhibited; Adductors (DFL) pull femur medially. | Place mini-band above knees; retest if active abduction clears inward path. |
-| **Butt Wink (Posterior Pelvic Tilt at Depth)** | Ischial Tuberosity / Ramus | [[squat_switch_failure_modes#2-the-femoral-adductor-switch-dfl-anterior-vs-posterior-track\|Adductor Magnus Length Switch]] | Adductor Magnus (DFL hybrid) reaches length limit at deep flexion, tugging ischial tuberosity forward/down. | Widen stance 15% and externally rotate feet 10°. |
-| **Anterior Pelvic Tilt ("Duck Butt")** | ASIS / Lesser Trochanter | [[squat_switch_failure_modes#3-the-asis-anchor-switch-sfl-pelvic-station\|ASIS Station Anchor Switch]] | Psoas/Iliacus (Express DFL) pulls ASIS down because Rectus Abdominis (SFL) fails to anchor. | Cue "rib cage down" and active abdominal bracing prior to descent. |
-| **Forward Head Posture / Chin Jut** | Occipital Ridge / C1-C7 | Suboccipital Gaze Preservation Switch | Suboccipitals (Local SBL) locked short over weak Longus Colli / Capitis (Local DFL). | Cue "double chin" / active neck retraction during squat descent. |
-
-*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+The previous deterministic switch/misalignment table is withdrawn. See [[squat_myofascial_mapping]] for competing explanations and [[squat_switch_failure_modes]] for the anatomical meaning of switches. No inhibited/overactive muscle list, confirmed tissue block or fixed treatment follows from the video.
 
 ## Relationships
 

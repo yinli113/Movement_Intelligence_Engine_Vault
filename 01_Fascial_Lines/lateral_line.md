@@ -93,22 +93,13 @@ All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. 
 
 ## Squat Role (Engine Synthesis, Level 5)
 
-In the bodyweight squat, the [[lateral_line]] (LL) acts as the **frontal-plane stabilizing harness**. It controls lateral foot balance ([[peroneus_longus]]), femoral abduction/centration ([[gluteus_medius]], TFL/[[iliotibial_tract]]), lateral pelvic level, and lateral trunk stability ([[quadratus_lumborum]], intercostals).
+May provide anatomical context for pelvic shift, trunk shift, stance organization, and frontal-plane asymmetry in the front view. This is anatomical context, not a detected line impairment.
 
-See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+| Observed pattern | Why consider this line | Muscle-to-line relationship | Potential clinical issues | Direct assessment/retest | Camera boundary |
+|---|---|---|---|---|---|
+| A supported regional squat observation; retain view, phase, metric and coverage | Pelvic or trunk shift, repeated asymmetrical loading, wide-stance dependence, or outward knee drift may indicate a lateral balance strategy. | Lateral foot and lower leg, tensor fasciae latae and IT region, gluteus medius, lateral abdominal wall, and quadratus lumborum may coordinate frontal-plane organisation. | Questions only: Check stance symmetry, compare supported and narrow-stance versions, assess lateral hip and trunk control, and retest pelvis-over-foot organisation. | Review simultaneous pelvis/trunk trajectories, camera stability and stance. If appropriate, compare supported and original tasks at similar depth and tempo. A response does not identify gluteal weakness or QL overactivity. | The camera does not measure Lateral Line balance, restriction, stiffness, or loading. |
 
-### Lateral Line Dynamic Switches & Misalignment Matrix
-
-| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
-|---|---|---|---|---|
-| **Excessive Foot Supination / Rigid High Arch** | Cuboid / 5th Metatarsal Base | Lateral Line Eversion Switch Lock | Peroneus Longus (Express LL) locks foot in inversion, blocking Tibialis Posterior (Local DFL) ground adaptation. | Cue tripod foot grounding (pressing big toe joint into floor). |
-| **Dynamic Knee Valgus** | Linea Aspera / Femoral Condyle | [[squat_switch_failure_modes#2-the-femoral-adductor-switch-dfl-anterior-vs-posterior-track\|Femoral Adductor Switch]] | Gluteus Medius (Local LL) inhibited; Tensor Fasciae Latae (Express LL) and Adductors (DFL) pull femur medially. | Place mini-band above knees; retest if active abduction clears inward path. |
-| **Dynamic Knee Varus** | Gerdy's Tubercle / Fibular Head | Lateral Harness Switch Lock | Biceps Femoris long head (Express SBL) & TFL (Express LL) pull tibia into lateral rotation over DFL. | Squeeze foam roller between knees during descent to engage adductors. |
-| **Pelvic Shift / Lateral Sway** | Greater Trochanter / PSIS | Unilateral Lateral Line Lock | Quadratus Lumborum (Express LL) hikes hip to compensate for weak stance Gluteus Medius (Local LL). | Perform supported split squat to isolate single-leg stability. |
-| **Unlevel Hip Line / Asymmetrical Depth** | Iliac Crest / L1-L5 | Unilateral QL Side-Lock Switch | Quadratus Lumborum (Express LL) holds one iliac crest elevated against opposite Pelvic Floor (Local DFL). | Retest side-plank endurance and QL passive length. |
-| **Trunk Lateral Flexion / Side Bending** | 12th Rib / Iliac Crest | Lateral Line Unilateral Shortening | Intercostals/QL (Express LL) substitute for lack of bilateral intra-abdominal pressure. | Perform suitcase carry retest to evaluate frontal core stability. |
-
-*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+The previous deterministic switch/misalignment table is withdrawn. See [[squat_myofascial_mapping]] for competing explanations and [[squat_switch_failure_modes]] for the anatomical meaning of switches. No inhibited/overactive muscle list, confirmed tissue block or fixed treatment follows from the video.
 
 ## Relationships
 

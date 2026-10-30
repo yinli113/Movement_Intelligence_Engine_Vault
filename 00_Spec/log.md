@@ -2,6 +2,14 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
+## [2026-10-28] Squat Domain | Categorical Foot Setup & 30° Foot-Rotation Benchmark
+- Updated `[[squat_stance_foot_context]]` with the explicit 0° vs. 30° outward foot-rotation benchmark from `[[straub_powers_squat_biomechanics_2024]]` ("Foot Rotation": minimal sagittal moment change, ~50% lower external knee valgus moment, ~80% higher knee varus moment; no universal optimal toe angle) and defined the Level 5 self-reported categorical ETL setup convention (`narrower_than_shoulders` / `equal_to_shoulders` / `wider_than_shoulders`; `toes_forward` / `moderate_turn_out_up_to_30` / `wide_turn_out_over_30` / `toes_inward` per foot), kept explicitly distinct from projected camera stance ratios and passive mobility measurements.
+
+## [2026-10-27] Squat Domain | Pelvifemoral Clearance, Hip IR & Hip Flexor Synthesis (GMoney)
+- Ingested Level 4 applied clinical source note `[[kuljian_gmoneymvmt_hip_ir_squat_correlation]]` ("Hip Internal Rotation & Better Squats—Is There Really a Correlation?").
+- Cross-linked with `[[bodyweight_squat]]`, `[[squat_myofascial_mapping]]`, `[[hip_internal_rotation]]`, `[[straub_powers_squat_biomechanics_2024]]`, and `[[czaprowski_nonstructural_posture_2018]]`.
+- Updated `[[index]]` Evidence Sources list.
+
 ## [2026-09-15] Running Domain | Thomas Myers' 3-Layer Rotational System
 - Created canonical hypothesis node `[[running_three_layer_rotation_model]]` (`running.myofascial.three_layer_rotation`) formalizing Thomas Myers' tri-laminar rotational architecture in the running domain:
   - **Layer 1 (Deep Axial & Hip Rotators / DFL)**: Segmental spinal stability and "fans of the hip".
@@ -430,3 +438,81 @@ Extended the existing rotation and reporting-guardrail notes for cycle-versus-wi
 
 
 2026-10-22: Restored the three existing Running angle metrics (upper-arm swing, thigh swing, and foot pitch at contact) to canonical v2 knowledge, version 2.3.0. They remain projected descriptors; the three-tier rotation model is descriptive and assigns no good/bad grade.
+
+
+## [2026-10-28] Squat evidence correction and export v1.4.0
+- Rechecked Kuljian, Wilke, Rajagopal and knee-travel source attribution; separated applied commentary/anatomical continuity/gait-model scope from app validation.
+- Replaced deterministic squat switch and line tables with regional assessment hypotheses. Removed wedge-confirmation and automatic muscle-state/prescription payloads from the canonical export; retained task-response retest prompts.
+- Retained camera-only, independent-view V2.2 and provisional temporal thresholds. No clinical classifier or new timing algorithm was released.
+
+- Replay evidence audit: replaced pose-derived tension/strain classifications with optional fixed-style schematic paths, default off; retained the website webcam adapter.
+
+- Checkpoint verified: Python 71/71; standalone frontend 107/107 + lint/build; embedded frontend 108/108 + typecheck; consistency 0 fail / 1 known warning; synthetic source-backed rendered report passed. No deployment or real-video accuracy claim.
+
+## [2026-10-28] Same-set manual alignment contract
+- Added two-marker, source-bound recording alignment policy to existing squat nodes and canonical knowledge v1.5.0. Preserved independent measurement clocks and legacy ETL/synthesis behavior.
+
+## [2026-10-28] Phase 3 regional sequence
+- Canonical knowledge v1.6.0 defines browser-owned interval events, shift-centered regional comparisons, Silver import/Gold persistence and optional source-bound aligned event associations. No abnormality or causal tissue classifier.
+
+- 2026-10-28: Added optional footwear, separate heel-wedge placement and external-load SCD2 context; null-preserving migration, unchanged-version reuse and historical links retained. No new camera or symptom claims.
+
+
+## Consumer report contract — 2026-10-29
+
+`movement-reporting/1.0.0` in squat knowledge v1.7.0 defines metric-specific
+meaning, summary basis, limits and vault references. Present front and side
+findings as independent recordings. Show reliable available values with their
+measured-repetition counts; withhold unsupported findings. Missing onset does
+not remove a valid displacement. If the pelvis anchor lacks a reliable onset,
+replace the empty relation table with one explanation and retain the full audit
+inside details. No new clinical thresholds, algorithms or charts are introduced.
+
+Keep timing intervals, raw metrics, exclusions and ETL counts in optional review.
+Literature may support a concept without validating the app's detector or its
+thresholds. Baseline offsets are image descriptors, not normative posture labels.
+The main result includes front pelvis/trunk and knee-foot descriptors alongside
+side heel/shin/trunk observations. SCD2 task context remains separate.
+
+
+## Visual consumer dashboard — 2026-10-29
+
+The movement-focus dashboard leads with charts and at most two supported repeated
+observations per view, following Running's findings-first reporting ladder. It
+does not turn any nonzero offset into a clinical issue. Headlines retain browser
+consistency flags and require at least two and half of all Silver-included
+repetitions to support the observation after exclusions. A missing headline is
+not a negative test. Raw evidence, failed tracking and numerical audits remain
+accessible outside the primary focus.
+
+`data/video_average_profiles.py` owns display-only average curves. Accepted
+continuous channel evidence is mapped to 51 equally spaced positions per phase:
+descent 0–50%, ascent 50–100%, with one shared bottom point. Interpolate only
+between finite observed samples at most 200 ms apart; never extrapolate or bridge
+missing samples/phases. Include a region's repetition only when its entire
+101-point curve is available in compatible units. At least two repetitions are
+required for an average. Each point uses the same contributing repetitions;
+counts can differ between channels. Comparison overlays use those identical
+resampled curves and never change the average. This is a shape comparison, not
+real-time synchronisation, a new onset detector or a clinical norm. Peak review
+filtering does not trim continuous trajectory evidence.
+
+Front panels group hips/upper body and the two knees relative to ankles. Side
+view uses one figure with separate heel, shin and trunk scales. All colors are
+region/comparison identifiers, never tissue states or pass/fail scores. Remove
+the generic onset interval plot from primary focus. Numerical details and
+methods are optional. All public evidence is grouped behind one disclosure and
+names literature title, author, year and source role; internal knowledge paths
+and Obsidian links are not public app content. The knowledge vault remains the
+source of truth behind the app.
+
+Running workflow references: `running_reporting_guardrails` findings-first and
+optional Gemini sections. Future requested LLM explanations must retain metric
+IDs, view, counts, source provenance and known availability; explain only supplied
+facts and retrieved compatible knowledge, reject invented numbers/causes, and
+keep local reports usable without an LLM. Adding or calling an external LLM is
+not part of this dashboard change.
+
+- 2026-10-29: Knowledge v1.9.0 adds coarse average-chart summaries and gated, competing strategy/setup hypotheses; individual causality remains unestablished.
+
+- 2026-10-29: Optional Squat Gemini adapter, knowledge v1.10.0; bounded measurement/literature packet, session-only key entry, mocked transport verification; no deployment.

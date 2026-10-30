@@ -60,14 +60,15 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[bourgain_golf_swing_biomechanics_2022]]` - Peer-reviewed systematic review of 92 instrumented golf-swing kinematics studies (X-factor, crunch factor, swing plane, kinematic sequence, joint angular kinematics) with methodological recommendations (domain: golf).
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
   - `[[straub_powers_squat_biomechanics_2024]]` - Applied clinical commentary on modifiable squat parameters and relative hip/knee extensor bias (domain: squat).
+  - `[[kuljian_gmoneymvmt_hip_ir_squat_correlation]]` - Applied clinical movement commentary on pelvifemoral clearance, superficial hip flexor / anterior pelvic tilt interactions with hip internal rotation, and individualized squat mechanics (domain: squat).
   - `[[till_yes_running_literature_foundation]]` - User-provided running design-literature foundation; a provenance hub whose paper-specific claims are split into linked Level 3 literature nodes (domain: running).
   - `[[schoenfeld_nsca_squat_biomechanics_2010]]` - NSCA review of squat kinematics, joint moments, and knee-to-toe excursion boundaries (domain: squat).
   - `[[openstax_anatomy_physiology_2e]]` - Open-access, peer-reviewed standard anatomical reference providing authoritative tables for muscle origins, insertions, innervations, and joint actions (Level 1, domain: general anatomy).
   - `[[foundational_model_of_anatomy]]` - Open-source computable reference ontology of human anatomy (Level 1, domain: general anatomy).
   - `[[bodyparts3d_dbcls]]` - Open-access 3D anatomical model database and dictionary mapped to FMA ontology IDs (Level 1, domain: 3D computational anatomy).
   - `[[stecco_fascial_system_2015]]` - Cadaveric dissection and histological atlas of deep fascia and myofascial expansions (Level 2, domain: general anatomy).
-  - `[[wilke_myofascial_chains_review_2016]]` - Systematic review evaluating anatomical and force-transmission evidence for myofascial chains (Level 3, domain: general movement).
-  - `[[rajagopal_opensim_model_2016]]` - Validated full-body OpenSim musculoskeletal model with 3D coordinate attachments and moment arms (Level 3, domain: gait / general movement).
+  - `[[wilke_myofascial_chains_review_2016]]` - Systematic review of anatomical continuity in six proposed myofascial chains; does not validate functional transmission or squat diagnosis (Level 3, domain: general movement).
+  - `[[rajagopal_opensim_model_2016]]` - Full-body OpenSim musculoskeletal model tested in walking/running, with anatomical geometry and moment arms; not squat/MediaPipe validation (Level 3, domain: gait / general movement).
   - `[[kendall_muscles_testing_function]]` - Gold-standard clinical reference for sagittal/coronal plumb lines, manual muscle testing, and length-tension balance (Level 4, domain: static posture / general movement).
   - `[[bodyparts3d_fma_mapping]]` - Technical specification mapping vault nodes to BodyParts3D polygon meshes and FMA ontology IDs for 3D visualization.
   - `[[evals]]` - The Medallion Movement Evaluation Architecture (Raw/Bronze/Silver/Gold verification standards).

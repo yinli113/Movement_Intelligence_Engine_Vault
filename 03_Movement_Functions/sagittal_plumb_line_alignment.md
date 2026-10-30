@@ -39,21 +39,21 @@ In the TillYes movement intelligence engine, the sagittal plane is partitioned i
             |                         |                         |
      Dashed Red Line            Solid Red Line           Dashed Red Line
             |                         |                         |
-     Heel Rise & Hip           Center of Mass            Forward Knee Excursion
+     Heel Rise & Hip           Image Reference           Forward Knee Excursion
      Hinge Boundary            Support Axis              & Tibial Progression
 ```
 
 ### 1. Center Solid Red Line: The Mid-Foot Plumb Line (Gravity Axis)
 * **Station**: Passes vertically through the **Lateral Malleolus (Ankle Joint)** and the pivot of the mid-foot tripod.
-* **Function**: Defines the base-of-support center. During a balanced squat, the trunk and pelvis displace in reciprocal equilibrium around this central plumb line.
+* **Function**: Provides an ankle-anchored image reference. It is not necessarily the geometric mid-foot, measured COM, COP or a balance criterion.
 
 ### 2. Anterior Dashed Red Line: The Pointed Toes / Anterior Limit
 * **Station**: Passes vertically through the **Tips of the Toes / Forefoot (Foot Index)**.
-* **Function**: Evaluates **forward tibial progression** and anterior knee excursion. Distinguishes balanced ankle mobility from quad-dominant early knee forward shove.
+* **Function**: Evaluates **forward tibial progression** and anterior knee excursion. Describes projected knee-to-toe excursion; it does not measure passive ankle mobility or quadriceps dominance.
 
 ### 3. Posterior Dashed Red Line: The Calcaneus / Heel Anchor Line
 * **Station**: Passes vertically through the **Posterior Calcaneus (Heel Station)**.
-* **Function**: Visually exposes **calcaneal elevation / early heel rise** (a hallmark tension block in the *Superficial Back Line*) and evaluates posterior hip hinge clearance.
+* **Function**: Visually exposes **calcaneal elevation / early heel rise** (a task descriptor with multiple possible contributors) and evaluates posterior hip hinge clearance.
 
 ## Related Nodes
 
@@ -74,3 +74,7 @@ evidence:
     evidence_tier: Level 2
     description: "Anteroposterior myofascial balance between Superficial Front Line and Superficial Back Line."
 ```
+
+## Squat overlay boundary — 2026-10-28
+
+The three guides are app visualization choices. A static standing plumb-line framework does not validate dynamic COM/COP, tissue-load or muscle-state inference from those guides. See [[squat_observability_boundary]] and [[knee_to_toe_progression_boundary]].

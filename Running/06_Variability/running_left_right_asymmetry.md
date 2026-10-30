@@ -35,7 +35,7 @@ A side-paired difference for comparable, quality-gated cycles using a declared s
 
 ## Why It Matters
 
-This node makes the transition from measurements to a repeatable movement pattern explicit.
+Compare both the direction and spread of the paired paths: does the same side differ repeatedly, or does the side difference reverse between intervals? A persistent side difference gives a coach a specific phase and side to inspect; alternating differences describe variability instead of one consistently different side. Declare the anatomical reference, sign convention and comparable phase before pairing.
 
 ## Required Inputs
 

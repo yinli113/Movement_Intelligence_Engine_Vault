@@ -285,7 +285,11 @@
     "running_evidence_gate",
     "running_measurement_limitations",
     "running_reporting_guardrails",
-    "running_kinematics_are_not_kinetics"
+    "running_kinematics_are_not_kinetics",
+    "running_bramah_pelvic_drop_2018",
+    "running_novacheck_biomechanics_1998",
+    "running_seay_pelvis_thorax_coordination_2011",
+    "running_kunimasa_east_african_kinematics_2014"
   ]
 }
 

@@ -38,7 +38,7 @@ A Level A camera-derived measurement or named proxy. Shoulder-line rotational ex
 
 ## Why It Matters
 
-It contributes a bounded observation to the running coordination graph; it must be interpreted with speed, view, repeated strides, and related measurements.
+Compare shoulder-line excursion with the pelvis trace to distinguish upper-body movement from a change shared by both segments. The useful coaching comparison is whether shoulders tilt with or against the pelvis, which segment contributes the larger recorded range, and whether that relationship returns in the next covered cycle.
 
 ## Required Events
 

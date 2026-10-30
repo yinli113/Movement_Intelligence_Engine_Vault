@@ -4,6 +4,7 @@
 > This specification defines the mandatory, living evaluation (Eval) standards for all movement intelligence and posture applications across the TillYes ecosystem (`tillyes_apps/movement_squats`, `tillyes_apps/movement_assessment`, `tillyes_apps/static_posture_app`, and future motor-control/golf engines).
 >
 > Any AI agent building, modifying, or refactoring movement analysis code **must** strictly adhere to this evaluation pipeline before declaring a feature complete or pushing changes.
+> Squat-specific criteria are copied into [`movement_squats/EVALS.md`](../../../tillyes_apps/movement_squats/EVALS.md); Running-specific criteria are recorded in [`movement_running/EVALS.md`](../../../tillyes_apps/movement_running/EVALS.md).
 
 ---
 
@@ -15,7 +16,7 @@ Every movement analysis pipeline in TillYes is evaluated across four progressive
   ┌────────────────────────────────────────────────────────────────────────┐
   │ 1. RAW LAYER (Ingestion & Capture Telemetry Quality)                   │
   │ Standards: Landmark visibility ≥ 0.45, camera perpendicularity/square, │
-  │            FPS ≥ 24, temporal duration ≤ 45s, occlusion detection.     │
+  │            app-specific FPS and duration, occlusion detection.         │
   └───────────────────────────────────┬────────────────────────────────────┘
                                       │
   ┌───────────────────────────────────▼────────────────────────────────────┐
@@ -49,8 +50,8 @@ Every movement analysis pipeline in TillYes is evaluated across four progressive
   * **Side (Sagittal) View**: Perpendicular angle ($90^\circ \pm 15^\circ$ to sagittal plane). Key side ankle, knee, hip, shoulder, and ear must remain in-frame.
   * **Front (Coronal) View**: Square frontal angle ($0^\circ \pm 15^\circ$). Bilateral ankles, knees, hips, and shoulders must remain in-frame.
 * **Frame Rate & Duration**:
-  * Frame rate must be $\ge 24\text{ FPS}$ (ideal $30–60\text{ FPS}$).
-  * Video duration bounded to $\le 45\text{ seconds}$ to prevent browser memory exhaustion.
+  * Define frame-rate requirements per app from the movement speed and sampling needs; use $\ge 24\text{ FPS}$ (ideal $30–60\text{ FPS}$) only where appropriate to that app.
+  * There is no workspace-wide maximum video duration. Each app sets a duration and resource limit that captures the required task or complete cycles at usable quality. A limit around 45 seconds may suit gait capture when it reliably includes at least three complete cycles; it is not a default for other apps. Browser resource caps are implementation safeguards, not movement-quality criteria.
 
 ---
 
@@ -118,7 +119,7 @@ Every movement analysis pipeline in TillYes is evaluated across four progressive
 | **Squats** (`movement_squats`) | Knee flexion depth, Trunk-tibia parallel angle, Heel rise proxy, Knee-to-foot valgus/varus | Lateral Line, Spiral Line, Deep Front Line, Superficial Back Line, Superficial Front Line | Repetition persistence $\ge 50\%$, Heel rise $>0.015$, Valgus excursion $>0.04$ |
 | **Running** (`movement_running`) | Initial-contact/toe-off timing, cadence, step time, stride time, contact/flight-time proxies | None in V0; myofascial interpretation remains disabled pending validated Level B/C support | Side view, reported frame rate $\ge 30$ FPS, at least 3 complete cycles; no clinical thresholding in V0 |
 | **Static Posture** (`static_posture_app`) | Bilateral shoulder/pelvis level, Head-neck lateral shift, Coronal & Sagittal plumb offsets | Superficial Back Line, Superficial Front Line, Lateral Line, Deep Front Line | Bilateral asymmetry $>1.5\%$ image height, Plumb offset $>2.0\%$ image width |
-| **Gait & Movement** (`movement_assessment`) | Stride length, Cadence, Stance/Swing phase ratio, Pelvic rotation / Trendelenburg | Functional Lines, Spiral Line, Deep Front Line, Lateral Line | Asymmetry index $>5\%$, Ground contact phase duration balance |
+| **Gait & Movement** (`movement_assessment`) | Stride length, Cadence, Stance/Swing phase ratio, Pelvic rotation / Trendelenburg | Functional Lines, Spiral Line, Deep Front Line, Lateral Line | At least 3 complete cycles; a capture limit around 45 seconds may be used if it reliably captures them; asymmetry index $>5\%$, ground-contact phase balance |
 | **Golf Swing** (`00_Spec/` Engine) | 6-Phase swing intervals, Pelvis-torso separation (X-Factor), Lead hip internal rotation | Spiral Line, Functional Lines, Lateral Line, Deep Front Line | Transition sequencing (Pelvis leads Torso leads Arms), Lateral sway vs rotational pivot |
 
 ---
@@ -161,3 +162,25 @@ Test mirrored geometry, missing/degenerate segments, baseline-to-phase gaps,
 shin plateau with continuing descent, hip/shoulder vertical travel ordering,
 phase-specific replay and no automatic fascial trigger. Study agreement does not
 validate app thresholds; synthetic verification is not real-video accuracy validation.
+
+### Claim-to-source grounding for graph RAG
+Treat citation integrity and semantic support as separate checks: a valid node, edge, DOI, or URL does not prove that the cited source passage supports the generated claim. Preserve the retrieved graph path and exact source passage/locator, map each atomic generated claim to its evidence, and rate support, partial support, contradiction, or non-addressal. Separately verify session-specific values against the supplied metric IDs, units, sides, events, views, and evidence status. Keep independent reviewer labels and adjudication, report retrieval failures separately from generation failures, and do not treat automated or LLM-as-judge checks as human source-support judgments.
+
+
+## Squat evidence and local ETL regression checkpoint — 2026-10-28
+
+- Reject automatic switch-failure, inhibited/overactive muscle, palpation-target and release/activation prescription payloads in current camera knowledge/report output. Retain measured observations, regional questions, competing explanations and non-specific retests. Wedge responses cannot confirm a tissue block.
+- Exercise actual DuckDB filter views at strict 50% deviation and 10% rarity boundaries, including nulls, zeros, sign ties, either minority sign, partial windows and independent capture/metric partitions. Preserve original facts and non-iterative baselines.
+- Verify SCD2 profile isolation, unchanged-version reuse, opt-out, protected historical links and repeated migration of active versions. Verify longitudinal first-save ordering, reprocessing and withheld deltas for unknown/different algorithms, policies, filter modes, units or missing values.
+- The optional peak filter is a review choice, not evidence of tracking error. Future timing must retain original continuous trajectories and view-specific baseline/geometry/visibility gates. Engineering thresholds, descriptive set changes and table-screen associations are not clinical validation or fatigue/causal classifiers.
+
+Squat schematic-overlay regression: translated/shifted poses retain the same neutral path style, produce no tissue-state scalar/classification and reject nonfinite/missing landmark paths. The optional overlay defaults off.
+
+
+### Squat paired-recording alignment — 2026-10-28
+
+Require same-set confirmation, four reviewed marker times with positive per-camera uncertainty, source SHA-256 identities and finite durations. Test offset/rate mapping, non-overlapping marker intervals, propagated interval bounds, no extrapolation, source replacement and metadata/marker invalidation, failed/buffering playback and export confirmation gates. Original per-view evidence and legacy ETL `synchronized: false` remain unchanged. A synthetic replay pass is not hardware synchronization or real-video timing validation.
+
+
+### Phase 3 regional sequence regression — 2026-10-28
+Require interval comparisons (including touching bounds), partial/baseline/geometry/channel-history gates, descent vs ascent carry-over, no fake global causal ranking, signed mirror behavior, native replay and complete ±200 ms observation windows. Test source/duration/side mismatches, reviewed-span limits and compounded marker/event uncertainty across different camera repetition indices. Silver validates browser DTOs, quarantines malformed phases, preserves Bronze/legacy peaks and excludes invalid repetitions. Gold persistence uses all included reps and cannot be changed by the peak filter. Tests must include real DuckDB roundtrip, API-to-browser presentation, legacy schema upgrade and revoked-alignment stale-response protection. Synthetic results do not establish real-video accuracy.

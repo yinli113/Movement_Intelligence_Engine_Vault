@@ -1,3 +1,6 @@
 .worktrees/
 .DS_Store
 **/.DS_Store
+
+# Per-device Obsidian navigation state
+/.obsidian/workspace.json

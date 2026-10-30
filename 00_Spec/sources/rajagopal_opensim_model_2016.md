@@ -3,38 +3,34 @@ id: rajagopal_opensim_model_2016
 type: Evidence Source
 preferred_name: "Rajagopal et al. Full-Body Musculoskeletal Model (OpenSim 2016)"
 aliases: ['Rajagopal 2016', 'OpenSim Full-Body Model', 'Rajagopal OpenSim']
-short_definition: "Validated full-body musculoskeletal model developed at Stanford University for OpenSim, providing 3D spatial origin/insertion coordinates, muscle-tendon parameters, and joint moment arms."
-author: "Ajoy Rajagopal; Christopher L. Demers; Matthew S. White; Scott L. Delp"
+short_definition: "Full-body OpenSim musculoskeletal model with anatomical geometry and muscle parameters, tested in healthy walking and running."
+author: "Apoorva Rajagopal; Christopher L. Dembia; Matthew S. DeMers; Denny D. Delp; Jennifer L. Hicks; Scott L. Delp"
 publication_year: 2016
 format: "computational_biomechanics_model"
 domain: "gait"
 evidence_level: 3
 source_role: "domain_biomechanics"
 confidence: high
-review_status: active_spec
+review_status: source_checked_app_translation_unvalidated
 relationships:
   cited_by: []
   connects_to: []
 relationship_count: 0
 hub_score: 0
 centrality: 0.0
-updated: 2026-09-07
+updated: 2026-10-28
 ---
 
-# Rajagopal et al. Full-Body Musculoskeletal Model (OpenSim 2016)
+# Rajagopal et al. (2016): Full-Body Model for Gait Simulation
 
-## Evidence Level & Source Role
+## Citation and scope
 
-- **Evidence Level**: **Level 3 (Domain-Specific Instrumented Biomechanics)**
-- **Source Role**: 
-- **Domain**:  / 
+Rajagopal A, Dembia CL, DeMers MS, Delp DD, Hicks JL, Delp SL. *Full-Body Musculoskeletal Model for Muscle-Driven Simulation of Human Gait.* IEEE Trans Biomed Eng. 2016;63(10):2068–2079. DOI [10.1109/TBME.2016.2586891](https://doi.org/10.1109/TBME.2016.2586891), [PMID 27392337](https://pubmed.ncbi.nlm.nih.gov/27392337/). Abstract and accessible full text checked 2026-10-28.
 
-## Citation
+The model has 37 degrees of freedom, 80 lower-limb muscle-tendon units and 17 upper-body torque actuators. Its geometry and muscle parameters draw on anatomical measurements; the reported simulations and validation concern healthy walking and running.
 
-Rajagopal, A., Demers, C. L., White, M. S., Delp, S. L., et al. (2016). *Full-Body Musculoskeletal Model for Muscle-Driven Simulation of Human Gait.* IEEE Transactions on Biomedical Engineering, 63(10), 2068–2079.
+## Allowed use and transfer boundary
 
-## Key Contributions to the Vault
+Use as a computational musculoskeletal reference with explicit model, scaling, input and validation requirements. Model-derived forces are estimates under assumptions, not camera measurements. Applying this model to another task requires task-specific verification.
 
-1. **3D Coordinate Attachments**: Defines precise mathematical 3D coordinates for muscular origins and insertions across the pelvis, lower limb, and torso.
-2. **Moment Arm & Length-Tension Curves**: Validates geometric lines of action and moment arms as functions of joint angles.
-3. **Ground Truth for 3D AI & MediaPipe**: Serves as the quantitative biomechanical benchmark for verifying whether 2D/3D camera proxies reflect actual anatomical moment arms and muscle excursions.
+This paper does not validate bilateral-squat activation, patellofemoral shear from knee-to-toe excursion, or MediaPipe ground truth. Do not use its gait validation as evidence that TillYes squat kinematics or muscle-state inferences are accurate. [[bodyweight_squat]] and [[knee_to_toe_progression_boundary]] must cite squat-specific sources for their claims.

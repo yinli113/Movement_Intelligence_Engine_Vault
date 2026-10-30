@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "running-measurement-quality.v1",
+  "version": "running-measurement-quality/1.0.0",
+  "updated": "2026-10-16",
+  "evidenceLevel": 5,
+  "validationStatus": "provisional_engineering_not_camera_validated",
+  "minimumSegmentPixels": 8,
+  "minimumSegmentToTorsoRatio": 0.15,
+  "minimumVisibility": 0.5,
+  "sideViewReview": {
+    "minimumShoulderSpanToTorso": 0.5,
+    "minimumHipSpanToTorso": 0.3,
+    "minimumAssessedFrames": 5,
+    "minimumConflictFraction": 0.5
+  },
+  "geometryPolicy": "resolved_source_pixel_segments_no_normal_angle_filter",
+  "cameraPolicy": "flag_conflicting_projection_do_not_classify_or_relabel",
+  "aggregationPolicy": "withhold_linear_summary_across_signed_angle_wrap"
+}

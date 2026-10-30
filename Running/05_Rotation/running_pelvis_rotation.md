@@ -38,7 +38,7 @@ A Level A camera-derived measurement or named proxy. The front-view pelvis-orien
 
 ## Why It Matters
 
-It contributes a bounded observation to the running coordination graph; it must be interpreted with speed, view, repeated strides, and related measurements.
+The pelvis trace provides a reference for comparing the upper body and the two leg paths. Compare its range and direction across covered cycles: a change in shoulder–pelvis separation can come from the pelvis, the shoulders, or both. This helps select the part of the movement to inspect rather than attributing the whole difference to the trunk.
 
 ## Required Events
 

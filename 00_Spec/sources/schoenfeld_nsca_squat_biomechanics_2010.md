@@ -12,48 +12,32 @@ domain: squat
 evidence_level: 3
 source_role: instrumented_biomechanics_review
 confidence: high
-review_status: reviewed
+review_status: source_checked_app_translation_unvalidated
 relationships:
   cited_by: []
   connects_to: [knee_to_toe_progression_boundary, sagittal_plumb_line_alignment, bodyweight_squat, squat_joint_muscle_mapping]
 relationship_count: 5
 hub_score: 7
 centrality: 0.045
-updated: 2026-09-01
+updated: 2026-10-28
 ---
 
-# Schoenfeld NSCA Squat Biomechanics (2010)
+# Schoenfeld (2010): Squat Kinematics and Kinetics
 
-## Source Role
+## Citation and source role
 
-Brad Schoenfeld's 2010 review for the National Strength and Conditioning Association (NSCA) synthesizes instrumented kinematic and kinetic studies across the back squat, front squat, and bodyweight squat. It serves as the primary **Level 3 Instrumented Biomechanics** anchor for:
-1. **Center of Mass / Bar Path Trajectory**: Mechanics of vertical load equilibrium over the mid-foot base of support.
-2. **Knee-to-Toe Forward Excursion**: Quantitative trade-offs between patellofemoral shear and hip/lumbar torque.
-3. **Tibiofemoral & Patellofemoral Joint Moments**: Interaction between trunk angle and tibial angle during descent and ascent.
+Schoenfeld BJ. *Squatting kinematics and kinetics and their application to exercise performance.* J Strength Cond Res. 2010;24(12):3497–3506. DOI [10.1519/JSC.0b013e3181bac2d7](https://doi.org/10.1519/JSC.0b013e3181bac2d7), [PMID 20182386](https://pubmed.ncbi.nlm.nih.gov/20182386/).
 
-## Key Kinematic Principles
+Narrative review of ankle, knee, hip and spinal biomechanics and exercise-performance recommendations. The vault classifies its instrumented-research synthesis at Level 3; that label does not make every recommendation a directly validated app rule. Bibliography/abstract and the Fry primary-study abstract were checked 2026-10-28; a full-text rereading of the Schoenfeld review is not claimed.
 
-### 1. Center of Mass & Mid-Foot Balance
-* The center of mass of the system must stay balanced directly over the **mid-foot base of support** throughout the range of motion.
-* Hips displace posteriorly (hip hinge) while knees and torso displace anteriorly in a reciprocal counterbalancing strategy.
+## Knee-travel example: retain the primary study's outcome
 
-### 2. Knee-to-Toe Progression & Moment Arms (Fry et al. Interaction)
-* Restricting forward knee travel past the toes significantly reduces peak patellofemoral torque (by ~22%), but causes a disproportionate **1000% increase in hip extensor torque and lumbar shear stress** due to excessive forward trunk inclination.
-* Allowing natural forward knee excursion aligned with the foot reduces spinal strain while distributing load harmoniously across the knee extensors and hip extensors.
+Fry AC, Smith JC, Schilling BK (2003), [PMID 14636100](https://pubmed.ncbi.nlm.nih.gov/14636100/), compared restricted and unrestricted parallel barbell squats in seven trained men with an external barbell load equal to body weight. Reported mean static knee torque was 150.1 versus 117.3 N·m, and hip torque 28.2 versus 302.7 N·m (unrestricted versus restricted).
 
-### 3. Frontal Plane Knee Stability (Valgus vs. Neutral Tracking)
-* Medial knee collapse (dynamic knee valgus) increases patellofemoral stress and ACL strain.
-* The patella should track directly in line with the second toe throughout the descent and ascent phases.
+These are estimated hip/knee torques in that protocol. They are not a measured 1,000% increase in lumbar shear, a patellofemoral contact-force measurement or an effect size transferable to unloaded markerless squats. Forward knee travel should be described with trunk, shin, depth and task context; it is not an automatic fault.
 
-## App Translation
+## App boundary
 
-* **3-Line Plumb Reference System**: Grounds the **Anterior Toe Line** (anterior excursion boundary) and **Center Mid-Foot Line** (center-of-mass balance axis) in instrumented kinetic literature.
-* **Trunk-Tibia Parallelism Criteria**: Evaluates whether torso inclination matches tibial angle to confirm balanced hip/knee moment arm distribution.
-* **Observational Safety Boundary**: Clarifies that natural forward knee progression is not inherently pathological, but must be assessed alongside ankle dorsiflexion mobility and trunk stiffness.
+Projected knee/toe position and trunk–tibia geometry remain descriptors. Parallel trunk/shin segments do not prove equal hip/knee moments. A landmark midpoint or plumb guide is not measured COM/COP. Anatomical line loading, passive mobility, muscle activity and tissue safety remain unavailable from these observations.
 
-## Related Nodes
-
-- [[knee_to_toe_progression_boundary]]
-- [[sagittal_plumb_line_alignment]]
-- [[straub_powers_squat_biomechanics_2024]]
-- [[bodyweight_squat]]
+[[knee_to_toe_progression_boundary]], [[sagittal_plumb_line_alignment]], [[straub_powers_squat_biomechanics_2024]], [[bodyweight_squat]].

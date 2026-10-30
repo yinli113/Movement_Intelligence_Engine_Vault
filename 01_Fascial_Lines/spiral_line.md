@@ -92,22 +92,13 @@ All mappings are `engine_synthesis` (C); not measured kinetics or causal proof. 
 
 ## Squat Role (Engine Synthesis, Level 5)
 
-In the bodyweight squat, the [[spiral_line]] governs dynamic **rotational tracking, foot-to-hip alignment, and cross-trunk diagonal stability**. It connects the foot stirrup loop ([[tibialis_anterior]] and [[peroneus_longus]]) up through the lateral thigh ([[biceps_femoris_long_head]]), across the pelvis and sacrum to the opposite [[external_oblique]], [[internal_oblique]], [[serratus_anterior]], and [[rhomboids]].
+May provide anatomical context when knee-to-foot, pelvis, and trunk observations suggest a coupled frontal or rotational image-plane strategy. This is anatomical context, not a detected line impairment.
 
-See [[squat_switch_failure_modes]] and [[squat_myofascial_mapping]] for the complete 21-misalignment taxonomy and evidence boundaries.
+| Observed pattern | Why consider this line | Muscle-to-line relationship | Potential clinical issues | Direct assessment/retest | Camera boundary |
+|---|---|---|---|---|---|
+| A supported regional squat observation; retain view, phase, metric and coverage | Foot rotation coupled with knee-to-foot tracking, pelvic rotation or shift, and trunk or shoulder orientation may indicate a diagonal rotational strategy. | Tibialis anterior and peroneus longus relate foot orientation to the lower limb; biceps femoris long head relates the posterolateral thigh toward the pelvis; obliques relate pelvis to rib cage; serratus anterior and rhomboids relate trunk to shoulder girdle. | Questions only: Test foot angle and tibial rotation options, compare pelvis and thorax control independently, assess oblique and scapular coordination, and retest after changing the setup. | Retain the person’s comfortable recorded foot setup; examine rotational questions directly where relevant. Translation alone does not establish rotation, hip IR restriction or a spiral-line cause. | The camera cannot isolate transverse-plane rotation or measure Spiral Line restriction or loading. |
 
-### Spiral Line Dynamic Switches & Misalignment Matrix
-
-| Misalignment Pattern | Bony Station | Associated Switch Failure Mode | Express vs. Local Dynamics | Retest Protocol |
-|---|---|---|---|---|
-| **Excessive Foot Pronation / Arch Collapse** | Navicular / 1st Metatarsal Base | [[squat_switch_failure_modes#4-the-medial-arch-stirrup-switch-dfl-spl-foot-loop\|Medial Arch Stirrup Switch]] | DFL Tibialis Posterior arch support fails; Peroneus Longus (Express SPL) pulls 1st metatarsal into eversion. | Place 5mm wedge under 1st metatarsal head or cue active short foot tripod. |
-| **Asymmetrical Foot Flare** | Greater Trochanter / Sacrum | Asymmetric Transverse Sling Switch | Deep Rotators (Locals) locked short on one side to bypass unilateral hip/ankle dorsiflexion block. | Align both feet to 0° forward facing and measure hip depth asymmetry. |
-| **Single-Knee Valgus / Knee Asymmetry** | Opposite ASIS / Rib Cage | Rotational Sling Torque Failure | Cross-body Obliques (Express SPL) overload stance leg Gluteus Medius (Local LL). | Retest thoracic rotation and single-leg balance stability. |
-| **Pelvic Rotation / Yaw Asymmetry** | ASIS / Sacroiliac Joint | Asymmetric Spiral Sling Switch | Obliques (Express SPL) twist pelvis over femoral heads due to asymmetrical hip internal rotation. | Measure seated passive hip internal/external rotation differential. |
-| **Trunk Rotation / Rib Cage Twisting** | Ribs 5-9 / Linea Alba | Diagonal Rotational Sling Imbalance | Obliques (Express SPL) drive ribcage rotation relative to pelvis. | Perform seated thoracic rotation test with locked pelvis. |
-| **Scapular Winging / Elevation** | Coracoid / Scapular Spine | Scapular Anchoring Switch Failure | Levator Scapulae / Pec Minor overpower Serratus Anterior (Local SPL) thoracic pin. | Cue "bend the bar over your upper back" to engage Lats/Serratus. |
-
-*This is a candidate assessment hypothesis, not a tissue diagnosis. Camera data describes 2D/3D image-plane orientation and timing; it does not measure fascial tension, force transmission, or muscle activation.*
+The previous deterministic switch/misalignment table is withdrawn. See [[squat_myofascial_mapping]] for competing explanations and [[squat_switch_failure_modes]] for the anatomical meaning of switches. No inhibited/overactive muscle list, confirmed tissue block or fixed treatment follows from the video.
 
 ## Relationships
 

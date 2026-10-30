@@ -13,8 +13,8 @@ directly_measured: false
 camera_views: [front, back]
 requires_clinical_correlation: true
 confidence_required: contextual
-related_nodes: [running_deep_front_line, running_spiral_line, running_functional_lines, running_pelvis_thorax_rotation, running_cross_body_coordination, running_rotational_reversal]
-source_nodes: [anatomy_trains_myofascial_thomas_w_myers]
+related_nodes: [running_deep_front_line, running_spiral_line, running_functional_lines, running_pelvis_thorax_rotation, running_cross_body_coordination, running_rotational_reversal, running_bramah_pelvic_drop_2018, running_novacheck_biomechanics_1998, running_seay_pelvis_thorax_coordination_2011, running_kunimasa_east_african_kinematics_2014]
+source_nodes: [anatomy_trains_myofascial_thomas_w_myers, running_bramah_pelvic_drop_2018, running_novacheck_biomechanics_1998, running_seay_pelvis_thorax_coordination_2011, running_kunimasa_east_african_kinematics_2014]
 relationships:
   required_inputs: [running_pelvis_thorax_rotation, running_cross_body_coordination, running_rotational_reversal]
   contains_hypotheses: [running_deep_front_line, running_spiral_line, running_functional_lines]
@@ -98,9 +98,25 @@ Apply [[running_evidence_gate]].
 * Forbidden: "Superficial functional lines are generating 40% of propulsion force."
 * Any diagnostic or prescriptive treatment claim derived from camera kinematics alone (see [[running_reporting_guardrails]] and [[running_kinematics_are_not_kinetics]]).
 
+## Canonical Literature Foundations Supporting the 3-Tier Design
+
+Each tier's benchmark and interpretive boundary is anchored in published peer-reviewed sports biomechanics:
+
+### Tier 1 (Deep Front Line / Coronal Pelvic Stability): `< ±4.0°` Excursion Benchmark
+* **[[running_bramah_pelvic_drop_2018|Bramah et al. (2018, BJSM)]]**: Systematic review establishing that each 1° increase in contralateral pelvic drop confers an 80% increased odds of soft-tissue running injury (PFPS, ITBS, tibial stress) in recreational runners.
+* **[[running_novacheck_biomechanics_1998|Novacheck (1998, Gait & Posture)]]**: Established that normative coronal pelvic tilt remains bounded within 3° to 5° during single-leg mid-stance in healthy runners.
+
+### Tier 2 (Spiral Line / Helical Recoil): `12° – 18°` Dissociation & `< 11°` Block Rotation
+* **[[running_seay_pelvis_thorax_coordination_2011|Seay et al. (2011, Clin Biomech)]]**: Demonstrates that healthy runners maintain out-of-phase pelvis-thorax transverse counter-rotation ($12^\circ - 18^\circ$ envelope). Runners with low back pain and restricted mobility demonstrate in-phase "block rotation" ($< 11^\circ$), shunting torsional stress into the lumbar spine.
+* **[[running_schache_lumbopelvic_1999|Schache (1999)]]**: Reviews coordinated lumbo-pelvic-hip rotation, proving thorax and pelvis must be analyzed as coupled counter-rotating segments rather than isolated angles.
+
+### Tier 3 (Functional Lines / Dynamic "X") & Elite Signature Guardrail
+* **[[running_kunimasa_east_african_kinematics_2014|Kunimasa et al. (2014, J Appl Physiol)]] & Folland et al. (2017)**: Demonstrates that elite distance runners (e.g., Kelvin Kiptum) often exhibit pronounced lateral oscillation and asymmetrical arm carriage as active dynamic counterweighting and self-optimized tendon recoil, not passive muscular weakness. Directly underpins the core reporting guardrail: `"Asymmetry is not dysfunction."`
+
 ## Relationships
 
 * **Framework Source**: [[anatomy_trains_myofascial_thomas_w_myers]]
+* **Literature Sources**: [[running_bramah_pelvic_drop_2018]], [[running_novacheck_biomechanics_1998]], [[running_seay_pelvis_thorax_coordination_2011]], [[running_kunimasa_east_african_kinematics_2014]], [[running_schache_lumbopelvic_1999]]
 * **Sub-hypotheses**: [[running_deep_front_line]], [[running_spiral_line]], [[running_functional_lines]]
 * **Biomechanics Foundations**: [[running_pelvis_thorax_rotation]], [[running_cross_body_coordination]], [[running_rotational_reversal]], [[running_arm_leg_coordination]]
 * **Guardrails**: [[running_reporting_guardrails]], [[running_evidence_levels]], [[running_kinematics_are_not_kinetics]]

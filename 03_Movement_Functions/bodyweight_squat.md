@@ -79,14 +79,13 @@ muscle weakness, activation, pathology, pain source, or fascial tension. See
 - [[gray_cook_movement_2010]] - whole-pattern and screen-versus-diagnosis framework.
 - [[straub_powers_squat_biomechanics_2024]] - modifiable squat parameters and applied
   biomechanical interpretation.
+- [[kuljian_gmoneymvmt_hip_ir_squat_correlation]] - pelvifemoral clearance, superficial hip flexor and anterior pelvic tilt interactions with hip internal rotation, and individualized squat equilibrium.
 
 ## Evidence Grounding
+
+Squat descriptors are supported by the squat-specific sources above. The Rajagopal gait model does not establish bilateral-squat activation or validate this app.
 ```yaml
 evidence:
-  - source_id: rajagopal_opensim_model_2016
-    level: domain_biomechanics
-    evidence_tier: Level 3
-    description: "Lower extremity joint kinematics, moments, and multi-joint muscle activations during bilateral squatting."
   - source_id: openstax_anatomy_physiology_2e
     level: foundational_anatomical_framework
     evidence_tier: Level 1
@@ -186,3 +185,133 @@ No candidate does not mean no movement. Per-repetition observations do not becom
 persistent clinical/fascial triggers; no new line assignment or treatment follows.
 
 New video processing retains image aspect metadata; existing side summary angles and new angular trajectories use the same corrected geometry. Older imported frames retain legacy normalized-coordinate summary calculations for compatibility, but new angular timing remains unavailable. Reanalysis is required for the updated geometry.
+
+
+## Schematic replay overlay — 2026-10-28
+
+Replay paths are optional educational drawings with fixed neutral styling and default off. Landmark displacement must never produce a fascial tension score, slack/balanced/high-strain classification, activation state or tissue-loading color. Paths are schematic, not localized patient anatomy. Omit paths with unsupported landmarks. The pose, angle and measurement layers retain their own evidence and units.
+
+
+## Optional same-set recording alignment — 2026-10-28
+
+Separate trials remain independent and cannot be aligned by repetition index. A phone and computer may instead record the same physical squat set with overlapping footage. Start either device first; make the same visible gesture before and after the set in both views. This is a manually reviewed alignment workflow, not hardware synchronization.
+
+The user must confirm the same set, mark both matching events in each original video, enter positive per-camera marker-time uncertainty estimates and review the correspondence. Preserve SHA-256 file identities, durations, filmed side, marker intervals and method/version. Any source, duration, filmed-side or marker/uncertainty change invalidates the review. Never infer anatomical left/right from mirroring.
+
+Two marker pairs define a linear side-to-front media-time mapping. Use interpolation only inside the marker intervals; do not extrapolate. The difference between start/end offsets is reported as an observed offset change, not a calibrated clock-drift measurement. Propagate marker intervals through the mapping; these are user-estimated bounds and exclude unknown nonlinear drift, dropped-frame and event-detection errors. Linked playback follows the side media clock and cannot alter measurement evidence.
+
+Alignment metadata uses `video-alignment/1.0.0`. A future cross-view event comparison must include event-time uncertainty, use the same source pair and withhold order when intervals overlap or events lie outside the reviewed span. This workflow does not match repetitions automatically, validate joint sequences or change existing per-view numerical summaries. Existing cross-view synthesis and DuckDB ETL retain `synchronized: false`; manually reviewed metadata is separate from that legacy contract.
+
+
+## Phase 3: shift-centered regional sequence — 2026-10-28
+
+Level 5 engineering policy, not a literature-validated abnormality detector. The existing browser trajectory engine owns the numerical event detection. Its versioned `within-squat-sequence/1.0.0` export carries phase windows, preceding baseline evidence, per-channel status, signed peaks, threshold, samples, native onset time and uncertainty interval. Silver validates and retains these browser-derived facts; it does not invent onset from per-repetition peaks or silently recompute a second detector. Older exports lacking this contract require reanalysis for sequence evidence; peaks remain usable.
+
+Use descent and ascent separately with the same pre-repetition standing baseline. Require continuous baseline-to-phase coverage, reliable channel landmarks, stable scale, finite monotonic timestamps, at least five phase samples and 500 ms, maximum 200 ms gaps, and 150 ms sustained threshold crossing. Angular channels also require stable image aspect metadata. A channel gap before the selected phase withholds that channel's onset. Missing head tracking must not suppress reliable knees/pelvis. Keep partial observed peaks with a reason; never call them confirmed full-phase peaks. Do not create a new ascent onset for a displacement already present at the bottom.
+
+For each front phase, use pelvis translation as the shift anchor. Compare other measured regions with it using interval bounds: earlier, later, timing overlaps/order uncertain, already changed/unknown onset, no sustained onset, or unavailable. Onset uncertainty is a provisional engineering interval of at least ±150 ms or the largest phase sample interval, covering sample selection/smoothing conservatively; it is not calibrated measurement accuracy. Show signed offset and before-to-after change around the shift (±200 ms) only when the complete interval is observed. These are observed threshold changes, not clinical deviations. Report the interval at the native camera clock and allow replay.
+
+Gold retains every channel/phase status and counts ordered/uncertain relationships with the denominator of all Silver-included repetitions, separating phase, view, region and direction. A repeated review candidate requires at least two supporting repetitions and at least 50% of included repetitions. This is descriptive persistence, not proof of a fault. The optional peak magnitude/direction filter never filters trajectory/event evidence.
+
+Cross-view shift comparisons are optional. Require matching SHA-256 source identities/durations and reviewed same-set alignment; do not join repetition indices. Select side event windows by mapped media-time overlap with the selected front phase, preserving both original repetition numbers. Include event intervals and propagated marker intervals; withhold order outside the reviewed span or when intervals overlap. A side phase already displaced has unknown onset. Unmapped or missing evidence remains visible. Alignment never upgrades these observations into causes, abnormal joint states, force, activation or fascial restriction. Legacy cross-view summary and ETL `synchronized: false` remain unchanged; aligned event associations are an explicitly separate layer.
+
+
+## Consumer report contract — 2026-10-29
+
+`movement-reporting/1.0.0` in squat knowledge v1.7.0 defines metric-specific
+meaning, summary basis, limits and vault references. Present front and side
+findings as independent recordings. Show reliable available values with their
+measured-repetition counts; withhold unsupported findings. Missing onset does
+not remove a valid displacement. If the pelvis anchor lacks a reliable onset,
+replace the empty relation table with one explanation and retain the full audit
+inside details. No new clinical thresholds, algorithms or charts are introduced.
+
+Keep timing intervals, raw metrics, exclusions and ETL counts in optional review.
+Literature may support a concept without validating the app's detector or its
+thresholds. Baseline offsets are image descriptors, not normative posture labels.
+The main result includes front pelvis/trunk and knee-foot descriptors alongside
+side heel/shin/trunk observations. SCD2 task context remains separate.
+
+
+## Visual consumer dashboard — 2026-10-29
+
+The movement-focus dashboard leads with charts and at most two supported repeated
+observations per view, following Running's findings-first reporting ladder. It
+does not turn any nonzero offset into a clinical issue. Headlines retain browser
+consistency flags and require at least two and half of all Silver-included
+repetitions to support the observation after exclusions. A missing headline is
+not a negative test. Raw evidence, failed tracking and numerical audits remain
+accessible outside the primary focus.
+
+`data/video_average_profiles.py` owns display-only average curves. Accepted
+continuous channel evidence is mapped to 51 equally spaced positions per phase:
+descent 0–50%, ascent 50–100%, with one shared bottom point. Interpolate only
+between finite observed samples at most 200 ms apart; never extrapolate or bridge
+missing samples/phases. Include a region's repetition only when its entire
+101-point curve is available in compatible units. At least two repetitions are
+required for an average. Each point uses the same contributing repetitions;
+counts can differ between channels. Comparison overlays use those identical
+resampled curves and never change the average. This is a shape comparison, not
+real-time synchronisation, a new onset detector or a clinical norm. Peak review
+filtering does not trim continuous trajectory evidence.
+
+Front panels group hips/upper body and the two knees relative to ankles. Side
+view uses one figure with separate heel, shin and trunk scales. All colors are
+region/comparison identifiers, never tissue states or pass/fail scores. Remove
+the generic onset interval plot from primary focus. Numerical details and
+methods are optional. All public evidence is grouped behind one disclosure and
+names literature title, author, year and source role; internal knowledge paths
+and Obsidian links are not public app content. The knowledge vault remains the
+source of truth behind the app.
+
+Running workflow references: `running_reporting_guardrails` findings-first and
+optional Gemini sections. Future requested LLM explanations must retain metric
+IDs, view, counts, source provenance and known availability; explain only supplied
+facts and retrieved compatible knowledge, reject invented numbers/causes, and
+keep local reports usable without an LLM. Adding or calling an external LLM is
+not part of this dashboard change.
+
+
+## Plain-language chart summaries and competing explanations — 2026-10-29
+
+Consumer dashboard contract v1.1.0 (knowledge v1.9.0) adds short descriptions of
+complete average curves. Describe start/bottom/finish relationships or the phase
+containing the largest absolute departure from standing. These are coarse shape
+descriptions, not monotonicity, sustained-onset, repetition-persistence, abnormality
+or anatomical left/right claims. Zero curves do not generate movement claims.
+
+Optional explanations require an existing gated persistent finding in the same
+view. For a trunk-lean finding, consider a hip-oriented strategy using
+[[squat_trunk_tibia_relationship]], with ankle–foot/setup as a competing assessment
+question using [[squat_stance_foot_context]]. Keep the observed relationship,
+source mechanism, personal hypothesis and distinguishing assessment separate.
+The source is [[straub_powers_squat_biomechanics_2024]], particularly Tibia
+Inclination and Knee vs. Hip Extensor Biased Squatting; application to the person
+is Level 5 engine synthesis. Do not rank causes, infer calf tightness, assign
+measured loading, infer symptoms or generate treatment. A wedge response alone
+cannot identify restricted tissue. No front hypothesis is generated merely from
+an average sideways offset. Public evidence names literature, not vault paths.
+No external LLM calls or new measurements are introduced.
+
+
+## Optional Squat Gemini explanation — 2026-10-29
+
+Knowledge v1.10.0 adds `squat-explanation/1.0.0` as an opt-in Streamlit explanation
+layer. Reuse Running's allowlisted evidence, curated retrieval and provider
+separation, with squat-specific gates. A local packet reconstructs only
+average-shape anchors/counts, supported repeated findings and their eligible
+curated hypotheses/source reasoning. Independent views remain separate. No
+video, raw landmarks, capture/person identifiers, timestamps, SCD2 screens or
+user notes are sent. A preview shows the exact packet before explicit Generate.
+
+Generated prose references supplied observation and eligible hypothesis IDs.
+Attach original observations, public literature metadata and curated
+distinguishing checks independently of model wording. Format, reference and
+conservative language checks are not semantic or clinical validation. Reject
+unknown references, numerical/causal/tissue/prescription claims, links and HTML.
+Retain model, prompt/evidence/knowledge provenance and label output unverified.
+Errors never replace the deterministic report. A password key stays in local
+Streamlit session memory or server environment (`SQUATS_GEMINI_API`), never ETL,
+files, model prompts or exports. No call on page load or key entry. This release
+uses a mocked provider for verification; no real credential or live generation
+is required. No deployment or chat agent is part of this addition.

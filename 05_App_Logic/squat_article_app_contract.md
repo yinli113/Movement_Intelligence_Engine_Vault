@@ -38,13 +38,11 @@ This is the canonical retrieval and future implementation contract for [[straub_
 
 Store the measured value separately from its interpretation. Preserve `unavailable_from_this_view` when geometry is unsupported. No source category becomes an injury-risk threshold, normality score, weakness diagnosis, force estimate or treatment recommendation.
 
-## Existing-knowledge conflicts to keep visible
+## Resolved evidence conflicts — 2026-10-28
 
-The existing `squat_knowledge.v1.json` contains a heel-wedge retest statement claiming confirmation of a distal SBL/Achilles block. This paper cannot establish that causal inference. A wedge changes the task and any response has multiple explanations.
+The reviewed canonical notes and export v1.4.0 withdraw wedge-confirmed tissue blocks, deterministic switch failures and automatic muscle-state/prescription fields. Wedge responses remain task responses with competing explanations. Existing saved reports are not rewritten.
 
-The existing [[knee_to_toe_progression_boundary]] attributes large numerical load changes and fascial stress interpretations to multiple sources. This ingestion does not verify those numbers, tissue labels or attributions. Do not propagate them as findings of this article; review their primary sources separately.
-
-These are recorded provenance gaps, not silently certified by adding the article. Existing runtime JSON and app behaviour have not been changed in this vault-only ingestion.
+The knee-to-toe note now preserves Fry's measured hip/knee torque outcomes and loaded protocol; it does not substitute lumbar shear or fascial stress. The Wilke source now separates anatomical continuity from functional transmission, and the Rajagopal source preserves its walking/running validation scope. The Kuljian note separates source discussion from withdrawn camera/IMU classifiers. None validates onset thresholds or clinical event labels.
 
 ## Future app acceptance checks
 
@@ -55,3 +53,48 @@ These are recorded provenance gaps, not silently certified by adding the article
 - Do not infer passive ankle restriction or tissue causality from heel rise or a wedge response.
 - Preserve clinical and spinal disagreements in retrieval; suppress unsupported causal wording.
 - When implementing, change canonical JSON first, then use the supported knowledge synchronization command and verify both runtime copies. This note does not itself release new runtime thresholds.
+
+
+## Plain-language chart summaries and competing explanations — 2026-10-29
+
+Consumer dashboard contract v1.1.0 (knowledge v1.9.0) adds short descriptions of
+complete average curves. Describe start/bottom/finish relationships or the phase
+containing the largest absolute departure from standing. These are coarse shape
+descriptions, not monotonicity, sustained-onset, repetition-persistence, abnormality
+or anatomical left/right claims. Zero curves do not generate movement claims.
+
+Optional explanations require an existing gated persistent finding in the same
+view. For a trunk-lean finding, consider a hip-oriented strategy using
+[[squat_trunk_tibia_relationship]], with ankle–foot/setup as a competing assessment
+question using [[squat_stance_foot_context]]. Keep the observed relationship,
+source mechanism, personal hypothesis and distinguishing assessment separate.
+The source is [[straub_powers_squat_biomechanics_2024]], particularly Tibia
+Inclination and Knee vs. Hip Extensor Biased Squatting; application to the person
+is Level 5 engine synthesis. Do not rank causes, infer calf tightness, assign
+measured loading, infer symptoms or generate treatment. A wedge response alone
+cannot identify restricted tissue. No front hypothesis is generated merely from
+an average sideways offset. Public evidence names literature, not vault paths.
+No external LLM calls or new measurements are introduced.
+
+
+## Optional Squat Gemini explanation — 2026-10-29
+
+Knowledge v1.10.0 adds `squat-explanation/1.0.0` as an opt-in Streamlit explanation
+layer. Reuse Running's allowlisted evidence, curated retrieval and provider
+separation, with squat-specific gates. A local packet reconstructs only
+average-shape anchors/counts, supported repeated findings and their eligible
+curated hypotheses/source reasoning. Independent views remain separate. No
+video, raw landmarks, capture/person identifiers, timestamps, SCD2 screens or
+user notes are sent. A preview shows the exact packet before explicit Generate.
+
+Generated prose references supplied observation and eligible hypothesis IDs.
+Attach original observations, public literature metadata and curated
+distinguishing checks independently of model wording. Format, reference and
+conservative language checks are not semantic or clinical validation. Reject
+unknown references, numerical/causal/tissue/prescription claims, links and HTML.
+Retain model, prompt/evidence/knowledge provenance and label output unverified.
+Errors never replace the deterministic report. A password key stays in local
+Streamlit session memory or server environment (`SQUATS_GEMINI_API`), never ETL,
+files, model prompts or exports. No call on page load or key entry. This release
+uses a mocked provider for verification; no real credential or live generation
+is required. No deployment or chat agent is part of this addition.

@@ -50,4 +50,4 @@ The lead hip must accept internal rotation so the pelvis can open without slidin
 - The trunk or neck braces to create a sense of rotation.
 
 ## Reasoning Prompt
-If transition sequencing breaks down, check [[toe_loading]] and lead [[hip_internal_rotation]] before interpreting the issue as purely upper-body timing.
+If transition sequencing breaks down, check [[toe_loading]] and lead [[hip_internal_rotation]] before interpreting the issue as purely upper-body timing. In bilateral squatting ([[bodyweight_squat]]), evaluate [[hip_internal_rotation]] alongside superficial hip flexor tone and anterior pelvic tilt clearance ([[kuljian_gmoneymvmt_hip_ir_squat_correlation]], [[squat_myofascial_mapping]]).
