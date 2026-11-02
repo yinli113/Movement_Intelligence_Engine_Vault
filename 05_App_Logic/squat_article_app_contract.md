@@ -127,3 +127,8 @@ external LLM request or personal assessment record is introduced.
 ### 2026-11-02 — One concise movement overview
 
 The vault consumerDashboardContract.overview owns the number-free language. data/video_average_profiles.py selects supported descriptions from validated average trajectories; data/video_dashboard_data.py includes the shared movement_summary payload in every fresh read/ETL response. Streamlit My summary and the synced web Gold Medallion summary render the same text without separate view sections or visible numeric metrics. Details remain in Movement focus and closed measurement disclosures. Front and side remain independent recordings.
+
+
+### 2026-11-02 — Compact context guidance
+
+The contextGuidance contract supplies one closed optional assessment question in Setup & context. It requires an existing reviewed persistent pelvis-shift or side trunk-lean finding; an average offset alone cannot trigger it. Matching-view saved ankle measurements choose missing-both, missing-one or already-recorded wording. The action opens the existing editor without saving or inferring results. [[crowe_unilateral_ankle_dorsiflexion_squat_asymmetry_2020]] supports experimental force asymmetry, not visible hip-shift causation; [[straub_powers_squat_biomechanics_2024]] supplies setup context. Personal applicability remains engine synthesis.

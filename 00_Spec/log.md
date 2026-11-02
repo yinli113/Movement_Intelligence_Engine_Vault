@@ -525,3 +525,8 @@ not part of this dashboard change.
 ### 2026-11-02 — Shared concise squat overview
 
 The canonical overview contract supplies number-free wording selected from complete average trajectories. The ETL read model owns selection and evidence provenance; Streamlit My summary and the web Gold Medallion summary render the same payload. One overview includes supported observations across available recordings without claiming synchronization. Detailed anchors, values and research remain in Movement focus and closed evidence disclosures. This is local curated wording, not free-form LLM inference.
+
+
+### 2026-11-02 — Compact context guidance
+
+The contextGuidance contract supplies one closed optional assessment question in Setup & context. It requires an existing reviewed persistent pelvis-shift or side trunk-lean finding; an average offset alone cannot trigger it. Matching-view saved ankle measurements choose missing-both, missing-one or already-recorded wording. The action opens the existing editor without saving or inferring results. [[crowe_unilateral_ankle_dorsiflexion_squat_asymmetry_2020]] supports experimental force asymmetry, not visible hip-shift causation; [[straub_powers_squat_biomechanics_2024]] supplies setup context. Personal applicability remains engine synthesis.

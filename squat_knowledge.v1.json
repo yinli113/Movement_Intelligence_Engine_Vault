@@ -1,5 +1,5 @@
 {
-  "version": "1.12.0",
+  "version": "1.13.0",
   "domain": "bodyweight_squat",
   "sourceNode": "03_Movement_Functions/bodyweight_squat.md",
   "globalBoundary": "Camera metrics describe a recorded movement strategy. They do not diagnose pathology, identify a weak or tight muscle, measure passive joint mobility, or measure fascial-line loading.",
@@ -921,6 +921,58 @@
         "ascent": "The largest {subject} is during rising."
       },
       "basis": "Complete eligible average curves, with the same contributor set at every point in each channel. Descriptive comparisons only; no abnormality threshold, causal inference, synchronized cross-view claim, or peak-filter substitution. Exact maximum departure from standing determines the phase when no grouped anchor description applies."
+    },
+    "contextGuidance": {
+      "version": "squat-context-guidance/1.0.0",
+      "title": "What could help explain this pattern?",
+      "itemTitle": "Ankle movement may be worth checking",
+      "triggers": [
+        {
+          "view": "front",
+          "finding": "pelvic_lateral_shift",
+          "observation": "Your front recording supports a repeated sideways hip-shift finding.",
+          "reason": "Research shows that restricting ankle dorsiflexion—the ankle movement that lets your knee travel forward over your foot—can change how force is shared between the legs during a squat. This makes ankle movement a possible contributor to investigate when reviewing a sideways hip shift."
+        },
+        {
+          "view": "side",
+          "finding": "trunk_lean",
+          "observation": "Your side recording supports a repeated trunk–shin lean pattern.",
+          "reason": "Forward shin travel can depend on ankle movement and heel setup. Comparing ankle range with your recorded setup can help distinguish available movement from the squat strategy you chose."
+        }
+      ],
+      "fields": [
+        "left_ankle_ktw_cm",
+        "right_ankle_ktw_cm"
+      ],
+      "states": {
+        "missing_both": "Useful next information: left and right knee-to-wall measurements, taken using the same method.",
+        "missing_left": "Your right ankle measurement is saved. Add the left measurement using the same method to allow a comparison.",
+        "missing_right": "Your left ankle measurement is saved. Add the right measurement using the same method to allow a comparison.",
+        "recorded": "Both ankle measurements are already saved for this recording. Review whether they were taken using the same method before comparing them."
+      },
+      "interpretation": "A repeatable difference would support investigating an ankle contribution. It would not confirm the cause of your shift or lean; similar measurements would leave other explanations open.",
+      "boundary": "The video does not measure force or establish a restricted ankle. No anatomical side is inferred from image direction.",
+      "actionMissing": "Review missing ankle measurements",
+      "actionRecorded": "Review saved ankle measurements",
+      "editHelp": "This opens the existing mobility fields. Values are saved only when you press Save context to this assessment.",
+      "researchTitle": "Supporting research",
+      "sources": [
+        {
+          "title": "Restricted Unilateral Ankle Dorsiflexion Movement Increases Interlimb Vertical Force Asymmetries in Bilateral Bodyweight Squatting",
+          "authors": "Crowe, Bampouras, Walker-Small and Howe",
+          "year": 2020,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31425458/",
+          "role": "Experiment in twenty healthy adults using an artificial forefoot restriction during barefoot bodyweight squats. It supports an effect on force asymmetry; it did not directly test sideways pelvis displacement or diagnose the cause of an individual hip shift."
+        },
+        {
+          "title": "A Biomechanical Review of the Squat Exercise: Implications for Clinical Practice",
+          "authors": "Straub and Powers",
+          "year": 2024,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10987311/",
+          "role": "Clinical commentary on squat setup and trunk–shin mechanics. It provides context for ankle movement and heel setup; it does not validate a personal causal diagnosis."
+        }
+      ],
+      "policy": "Optional context question only, selected from existing same-view persistent findings after review. No suggestion from a nonzero average, no new detector or clinical threshold. Current assessment and matching view screen values only; unknown stays missing. The personal screening rationale is engine synthesis. No external LLM call, automatic save or cause ranking."
     }
   },
   "consumerGeminiContract": {
