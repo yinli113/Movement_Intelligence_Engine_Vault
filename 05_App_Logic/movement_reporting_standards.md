@@ -96,3 +96,24 @@ Lint report text for forbidden labels; require the seven-question structure; att
 
 - Should forbidden-label detection be an automated lint stage in the report pipeline with a clinician-override list?
 - What is the clearest plain-language template for the "cannot conclude" section for consumer users?
+
+
+## Audience views and preserved reports — 2026-11-03
+
+For bodyweight-squat ETL reports, Personal user, Coach and Clinician are
+presentation audiences over one evidence packet. The default personal summary
+shows context/goal, observed movement, an explicit compatible-session comparison
+and recorded next steps. Closed professional review adds repetition detail for
+coaches and saved assessment entries plus already-eligible hypotheses for
+clinicians. Audience selection does not increase measurement certainty, establish
+professional identity or grant access to another person. Existing observation
+and hypothesis gates in [[bodyweight_squat]] and [[squat_observability_boundary]]
+remain authoritative.
+
+App observations, person-reported information and professional interpretation
+retain distinct labels. Human entries have a named recorder and save time and
+never become camera findings. Preserve completed report editions with the actual
+evidence, context versions, comparison basis, knowledge/analysis identifiers and
+notes used at save time. Reprocessing creates new editions; it does not rewrite
+what was known in an earlier report. This is Level 5 presentation and provenance
+policy, not a new clinical rule or a validation claim.

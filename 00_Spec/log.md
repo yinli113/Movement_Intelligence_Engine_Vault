@@ -530,3 +530,11 @@ The canonical overview contract supplies number-free wording selected from compl
 ### 2026-11-02 — Compact context guidance
 
 The contextGuidance contract supplies one closed optional assessment question in Setup & context. It requires an existing reviewed persistent pelvis-shift or side trunk-lean finding; an average offset alone cannot trigger it. Matching-view saved ankle measurements choose missing-both, missing-one or already-recorded wording. The action opens the existing editor without saving or inferring results. [[crowe_unilateral_ankle_dorsiflexion_squat_asymmetry_2020]] supports experimental force asymmetry, not visible hip-shift causation; [[straub_powers_squat_biomechanics_2024]] supplies setup context. Personal applicability remains engine synthesis.
+
+
+### 2026-11-03 — Squat audience report policy
+
+Added personal/coach/clinician presentation and preserved-edition policy to
+`movement_reporting_standards.md`. Existing observation/hypothesis gates and
+canonical JSON remain unchanged. App implementation: `data/video_reports.py`,
+`scripts/squat_report_ui.py`, `scripts/squat_report_export.py` and `scripts/squat_report_pdf.py`. Released 3 November 2026 as Squat source `1810228fdb94`, website `34027498d520` and Cloud Run revision `squat-etl-00007-5bd`. Synthetic authenticated saves, PDF downloads and preserved editions passed; these are engineering checks.
