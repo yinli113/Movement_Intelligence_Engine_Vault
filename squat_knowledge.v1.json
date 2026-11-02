@@ -1,5 +1,5 @@
 {
-  "version": "1.10.0",
+  "version": "1.12.0",
   "domain": "bodyweight_squat",
   "sourceNode": "03_Movement_Functions/bodyweight_squat.md",
   "globalBoundary": "Camera metrics describe a recorded movement strategy. They do not diagnose pathology, identify a weak or tight muscle, measure passive joint mobility, or measure fascial-line loading.",
@@ -738,7 +738,7 @@
     ]
   },
   "consumerDashboardContract": {
-    "version": "visual-movement-summary/1.1.0",
+    "version": "visual-movement-summary/1.2.0",
     "averageMethod": "51 samples per phase, descent 0-50%, ascent 50-100%; no extrapolation or gaps over 200 ms",
     "patternMessages": {
       "trunk_lean": "Your upper body leans more than your shin at the bottom, repeatedly.",
@@ -791,6 +791,136 @@
       "side_heel": "Heel",
       "side_angle_shin": "Shin",
       "side_angle_trunk": "Upper body"
+    },
+    "narrative": {
+      "version": "squat-curve-story/1.0.0",
+      "introduction": "Here is how your average squat changes as you lower, reach the bottom and rise. Each region uses its own complete, usable repetitions; an average does not show that every squat followed the same path.",
+      "frontGuide": "Above zero means toward the right side of the video; below zero means toward the left. Values are percentages of your standing shoulder width. Zero is your own standing reference, not an ideal alignment. Identifying body-left or body-right requires a separately confirmed recording orientation.",
+      "sideGuide": "These side-view curves show changes from your standing reference. Heel movement uses a percentage of standing height; shin and upper-body lean use degrees. Each panel has its own scale.",
+      "template": "During lowering, {subject} {reach} {descent}. At the bottom, {pronoun} {be} {bottom}. During rising, {pronoun} {reach} {ascent}. At the finish, {pronoun} {be} {finish}.",
+      "count": "Based on {count} complete repetition curves for this region.",
+      "zero": "at the standing reference",
+      "frontPositive": "{amount}% of shoulder width toward the right side of the video",
+      "frontNegative": "{amount}% of shoulder width toward the left side of the video",
+      "heelPositive": "{amount}% of standing height above the standing heel-to-forefoot reference",
+      "heelNegative": "{amount}% of standing height below the standing heel-to-forefoot reference",
+      "anglePositive": "{amount}° more inclined from vertical than the standing reference",
+      "angleNegative": "{amount}° less inclined from vertical than the standing reference",
+      "small": "less than 0.1",
+      "channels": {
+        "pelvis": {
+          "title": "How your hips move sideways",
+          "movement": "hip offset",
+          "meaning": "This follows the midpoint between your two hip landmarks. It describes sideways position in the video and does not measure weight distribution.",
+          "subject": "your hips",
+          "pronoun": "they",
+          "reach": "reach",
+          "be": "are"
+        },
+        "trunk_relative": {
+          "title": "How your upper body moves relative to your hips",
+          "movement": "upper-body offset relative to your hips",
+          "meaning": "This compares the shoulder midpoint with the hip midpoint. It is a relative offset, so it cannot be read as the absolute path of your upper body or proof of counterbalancing.",
+          "subject": "your upper body relative to your hips",
+          "pronoun": "it",
+          "reach": "reaches",
+          "be": "is"
+        },
+        "left_knee": {
+          "title": "Left-labelled knee relative to its ankle",
+          "movement": "left-labelled knee-to-ankle offset",
+          "meaning": "This follows the knee relative to its own ankle in the image, compared with standing. It does not measure knee rotation or establish valgus or varus.",
+          "subject": "your left-labelled knee relative to its ankle",
+          "pronoun": "it",
+          "reach": "reaches",
+          "be": "is"
+        },
+        "right_knee": {
+          "title": "Right-labelled knee relative to its ankle",
+          "movement": "right-labelled knee-to-ankle offset",
+          "meaning": "This follows the knee relative to its own ankle in the image, compared with standing. Opposite signs for the two knees alone do not establish an imbalance or identify a worse side.",
+          "subject": "your right-labelled knee relative to its ankle",
+          "pronoun": "it",
+          "reach": "reaches",
+          "be": "is"
+        },
+        "side_heel": {
+          "title": "How your heel moves through the squat",
+          "movement": "heel-to-forefoot change",
+          "meaning": "This is the tracked heel relative to the forefoot and its standing reference. A change does not establish an ankle restriction or identify a tight tissue.",
+          "subject": "your heel relative to the forefoot",
+          "pronoun": "it",
+          "reach": "reaches",
+          "be": "is"
+        },
+        "side_angle_shin": {
+          "title": "How your shin lean changes",
+          "movement": "shin lean change",
+          "meaning": "This is the change in projected shin inclination from standing, not a passive ankle-range test.",
+          "subject": "your shin",
+          "pronoun": "it",
+          "reach": "reaches",
+          "be": "is"
+        },
+        "side_angle_trunk": {
+          "title": "How your upper-body lean changes",
+          "movement": "upper-body lean change",
+          "meaning": "This is the change in projected shoulder-to-hip inclination from standing. It does not measure lumbar curvature, muscle activity or joint loading.",
+          "subject": "your upper body",
+          "pronoun": "it",
+          "reach": "reaches",
+          "be": "is"
+        }
+      },
+      "shapeMessages": {
+        "crosses_reference": "The average is on opposite sides of the standing reference at the start and bottom, and changes side again by the finish. A single peak-direction count cannot describe this whole path.",
+        "bottom_excursion": "The average is farther from its standing reference at the bottom than at the plotted start or finish.",
+        "side_heel_bottom": "The average heel-to-forefoot change is higher at the bottom than at the start and decreases by the finish.",
+        "side_lean_bottom": "The average lean change is greater at the bottom than at the start or finish.",
+        "peak_descent": "The largest departure from standing on this average curve occurs during lowering.",
+        "peak_bottom": "The largest departure from standing on this average curve occurs at the bottom.",
+        "peak_ascent": "The largest departure from standing on this average curve occurs during rising."
+      },
+      "peakGuide": "The peak review below selects one largest signed value per squat using the recording-level standing reference. The average movement story uses each squat’s preceding standing reference and shoulder-width scale. These are different summaries and should not be compared as identical measurements. A leftward peak does not mean the entire squat stayed left.",
+      "comparisonGuide": "Use individual squat overlays in Movement focus to check how much the repetitions differ. The average alone cannot establish persistence, a fault, an exact onset or a cause.",
+      "researchNotes": [
+        {
+          "sourceIndex": 1,
+          "text": "Schurr and colleagues compared marker-assisted single-leg squats in 26 healthy adults. Their study provides context for 2D measurements and their limitations; it did not validate this bilateral markerless app, its sideways offsets or timing rules."
+        },
+        {
+          "sourceIndex": 0,
+          "text": "Straub and Powers discuss trunk and shin inclination, depth, stance and foot rotation as interacting squat parameters. Their clinical commentary supports considering task setup when reviewing a movement strategy; it cannot identify the cause of an individual’s sideways shift from this chart."
+        }
+      ]
+    },
+    "overview": {
+      "version": "squat-overview/1.0.0",
+      "title": "Your squat pattern",
+      "boundary": "This describes the average movement. The recordings are reviewed independently.",
+      "unavailable": "A movement overview is not available from these exports. Open Recording quality for details, or reanalyse the original clips.",
+      "messages": {
+        "hips_crosses": "Your hips shift from side to side as you lower and rise.",
+        "hips_bottom": "Your hips are farther from their standing position around the bottom, and closer to it at the finish.",
+        "knees_bottom": "Your knees show larger sideways offsets relative to your ankles around the bottom.",
+        "lean_bottom": "Your upper body and shins lean farther from their standing positions around the bottom.",
+        "heel_bottom": "Your heel is higher relative to the forefoot around the bottom than at the start or finish."
+      },
+      "subjects": {
+        "pelvis": "hip movement",
+        "trunk_relative": "upper-body movement relative to your hips",
+        "left_knee": "left knee-to-ankle movement",
+        "right_knee": "right knee-to-ankle movement",
+        "side_heel": "heel movement relative to the forefoot",
+        "side_angle_shin": "shin lean change",
+        "side_angle_trunk": "upper-body lean change"
+      },
+      "phaseMessages": {
+        "descent": "The largest {subject} is during lowering.",
+        "bottom": "The largest {subject} is at the bottom.",
+        "ascent": "The largest {subject} is during rising."
+      },
+      "basis": "Complete eligible average curves, with the same contributor set at every point in each channel. Descriptive comparisons only; no abnormality threshold, causal inference, synchronized cross-view claim, or peak-filter substitution. Exact maximum departure from standing determines the phase when no grouped anchor description applies."
     }
   },
   "consumerGeminiContract": {

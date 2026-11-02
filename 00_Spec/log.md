@@ -516,3 +516,12 @@ not part of this dashboard change.
 - 2026-10-29: Knowledge v1.9.0 adds coarse average-chart summaries and gated, competing strategy/setup hypotheses; individual causality remains unestablished.
 
 - 2026-10-29: Optional Squat Gemini adapter, knowledge v1.10.0; bounded measurement/literature packet, session-only key entry, mocked transport verification; no deployment.
+
+
+## [2026-11-02] Squat reporting | Detailed movement story
+- Added canonical knowledge v1.11.0 narrative templates, explicit average-versus-peak references, counts, source-role explanations and shared summary/chart language. Numerical engines, SCD2, original recordings and clinical boundaries are preserved.
+
+
+### 2026-11-02 — Shared concise squat overview
+
+The canonical overview contract supplies number-free wording selected from complete average trajectories. The ETL read model owns selection and evidence provenance; Streamlit My summary and the web Gold Medallion summary render the same payload. One overview includes supported observations across available recordings without claiming synchronization. Detailed anchors, values and research remain in Movement focus and closed evidence disclosures. This is local curated wording, not free-form LLM inference.

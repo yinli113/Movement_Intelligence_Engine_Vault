@@ -98,3 +98,32 @@ Streamlit session memory or server environment (`SQUATS_GEMINI_API`), never ETL,
 files, model prompts or exports. No call on page load or key entry. This release
 uses a mocked provider for verification; no real credential or live generation
 is required. No deployment or chat agent is part of this addition.
+
+
+## Detailed average-curve movement story — 2026-11-02
+
+Knowledge v1.12.0 / visual-movement-summary v1.2.0 adds a deterministic
+`squat-curve-story/1.0.0` presentation contract. Movement focus provides detailed descriptions of complete 101-point averages: each phase's largest absolute
+average offset, bottom and finish, with native signs, units and contributing
+counts. Start/bottom/finish or phase extrema describe sampled average shape;
+they do not establish monotonic movement, sustained onset, repetition persistence
+or a clinical fault. Nonfinite, partial, all-zero and fewer-than-two contributor
+curves do not produce movement narratives. Small nonzero values remain explicitly
+below display precision rather than becoming zero. Opposite knee signs do not
+establish an imbalance. Upper-body-relative-to-hips is not absolute trunk travel.
+
+The primary story precedes a separate peak/filter review. Distinguish the
+per-repetition preceding-standing/shoulder-width average contract from legacy
+recording-reference/body-scale peak summaries, and disclose original sign counts
+and excluded repetitions. The peak filter does not trim continuous curves.
+Both views offer individual overlays while preserving the fixed average.
+Supporting research retains task/population and source roles from
+[[schurr_2d_3d_movement_assessment_2017]] and
+[[straub_powers_squat_biomechanics_2024]]. Optional hypotheses retain their
+existing same-view persistent-finding gates. No new detector, clinical rule,
+external LLM request or personal assessment record is introduced.
+
+
+### 2026-11-02 — One concise movement overview
+
+The vault consumerDashboardContract.overview owns the number-free language. data/video_average_profiles.py selects supported descriptions from validated average trajectories; data/video_dashboard_data.py includes the shared movement_summary payload in every fresh read/ETL response. Streamlit My summary and the synced web Gold Medallion summary render the same text without separate view sections or visible numeric metrics. Details remain in Movement focus and closed measurement disclosures. Front and side remain independent recordings.
