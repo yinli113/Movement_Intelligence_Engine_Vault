@@ -1,7 +1,7 @@
 {
   "schemaVersion": "running-knowledge.v2",
   "version": "2.3.0",
-  "updated": "2026-10-15",
+  "updated": "2026-11-03",
   "domain": "running",
   "canonicalIndex": "running_canonical_knowledge_index",
   "canonicalContract": "running_canonical_measurement_contract",
@@ -448,6 +448,15 @@
       "release": "experimental",
       "unit": "degrees",
       "reference": "frame vertical"
+    },
+    {
+      "canonicalId": "running.leg.inclination",
+      "label": "Hip-to-ankle forward inclination",
+      "claimLevel": "A",
+      "view": "side",
+      "measurementType": "2d_proxy",
+      "release": "event_geometry",
+      "definition": "Aspect-corrected hip-to-ankle direction from downward image vertical; positive ahead in the declared running direction. Not hip-joint extension, propulsion, or force."
     },
     {
       "canonicalId": "running.position.ankle_hip_offset",

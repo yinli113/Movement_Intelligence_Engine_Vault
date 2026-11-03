@@ -394,3 +394,18 @@ Added canonical plainLanguage meaning, signed-axis reading and interpretation li
 
 ## 2026-10-20 — Recording-specific Kiwi cards
 Expanded the generated insight graph with existing bilateral-asymmetry and canonical-measurement-contract nodes. Runtime card prompts now combine recording evidence with canonical relationship and literature nodes; definitions no longer substitute for interpretation. No canonical biomechanical claims or measurement formulas were changed.
+
+## 2026-11-03 — Restore current Squat runtime knowledge export
+
+Restored `squat_knowledge.v1.json` from the committed and tested
+`movement_squats` v1.13.0 runtime copy after the vault was found to contain only
+the historical v1.2.0 export. This restores the later consumer, recording-alignment,
+temporal, side-coordination, within-repetition and multi-region contracts already
+implemented by the app; it does not add new claims or change app behaviour.
+
+## 2026-11-03 — Restore Running event leg-inclination metric
+
+Merged the existing tested `running.leg.inclination` event-geometry metric from
+the website runtime into the v2.3.0 canonical export while retaining the vault's
+newer plain-language and compact-summary entries. This repairs a divergent runtime
+registry; it does not establish hip-joint extension, propulsion or force.
