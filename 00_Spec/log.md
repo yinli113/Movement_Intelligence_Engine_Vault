@@ -538,3 +538,7 @@ Added personal/coach/clinician presentation and preserved-edition policy to
 `movement_reporting_standards.md`. Existing observation/hypothesis gates and
 canonical JSON remain unchanged. App implementation: `data/video_reports.py`,
 `scripts/squat_report_ui.py`, `scripts/squat_report_export.py` and `scripts/squat_report_pdf.py`. Released 3 November 2026 as Squat source `1810228fdb94`, website `34027498d520` and Cloud Run revision `squat-etl-00007-5bd`. Synthetic authenticated saves, PDF downloads and preserved editions passed; these are engineering checks.
+
+### 2026-11-09 — Manual toe-angle entry bins
+
+Knowledge 1.14.0 adds manualSetupCategories: forward 0°–<15°, moderate 15°–30°, with 15° assigned to moderate. This is user-requested app organisation (engine synthesis), not a literature-derived threshold. Legacy categories retain their original IDs and ranges; no historical migration. Runtime labels are synchronized to Squat and website knowledge copies.
