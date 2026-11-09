@@ -542,3 +542,5 @@ canonical JSON remain unchanged. App implementation: `data/video_reports.py`,
 ### 2026-11-09 — Manual toe-angle entry bins
 
 Knowledge 1.14.0 adds manualSetupCategories: forward 0°–<15°, moderate 15°–30°, with 15° assigned to moderate. This is user-requested app organisation (engine synthesis), not a literature-derived threshold. Legacy categories retain their original IDs and ranges; no historical migration. Runtime labels are synchronized to Squat and website knowledge copies.
+
+- 2026-11-09: Squat knowledge 1.15.0 adds curated results-question passages, explicit provider preview, both-knee/pelvis evidence and noncausal boundaries.

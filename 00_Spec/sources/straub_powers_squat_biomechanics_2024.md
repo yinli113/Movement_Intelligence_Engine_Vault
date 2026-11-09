@@ -90,3 +90,11 @@ Read the full article body, Figures 1–5 captions, Table 1, conclusion and refe
 | App translation, transfer limits and unresolved existing claims | [[squat_article_app_contract]] |
 
 “Canonical” means a traceable, bounded knowledge source; it does not mean this commentary resolves every squat question. No new primary experiment, camera validation or fascial-line validation was performed by this paper.
+
+## Anterior-load passage recheck — 2026-11-09
+
+Publisher full text, Knee vs. Hip Extensor Biased Squatting, paragraph after Figure 5:
+anterior load placement (front/goblet squat) is generally associated with a more
+upright trunk. This sagittal-plane context does not explain an individual frontal
+knee displacement or establish camera-measured joint moments. The question-answer
+export uses a short paraphrase with this applicability limit.

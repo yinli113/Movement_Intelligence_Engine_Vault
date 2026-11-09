@@ -132,3 +132,23 @@ The vault consumerDashboardContract.overview owns the number-free language. data
 ### 2026-11-02 — Compact context guidance
 
 The contextGuidance contract supplies one closed optional assessment question in Setup & context. It requires an existing reviewed persistent pelvis-shift or side trunk-lean finding; an average offset alone cannot trigger it. Matching-view saved ankle measurements choose missing-both, missing-one or already-recorded wording. The action opens the existing editor without saving or inferring results. [[crowe_unilateral_ankle_dorsiflexion_squat_asymmetry_2020]] supports experimental force asymmetry, not visible hip-shift causation; [[straub_powers_squat_biomechanics_2024]] supplies setup context. Personal applicability remains engine synthesis.
+
+## Results questions — 2026-11-09
+
+The optional `consumerQuestionContract` exports curated, paraphrased passages for
+question answering. This is bounded retrieval from the reviewed export, not a search
+of the whole vault. Questions may use current profile-owned saved sessions, an
+explicit reference, eligible average-curve anchors for pelvis and both knees, saved
+setup, and separately opted-in numerical mobility measurements. No notes, custom
+names, person/recording IDs, raw geometry or video are included. Question text and
+bounded follow-up history are explicitly previewed before sending to Google.
+
+Keep measurements, literature context, tentative personal hypotheses and limits
+separate. Pelvis and knee offsets concern different landmarks; smaller pelvis
+offset does not establish overall improvement. Extrema of average curves must not
+be described as mean repetition peaks or persistent repetition findings. Missing
+measurements remain unknown. Anterior-load literature (Straub & Powers, section
+after Figure 5, rechecked 2026-11-09) concerns sagittal mechanics and cannot explain
+a personal frontal knee shift. User-entered chest load placement is context only.
+Output checks validate format and supplied references, not clinical correctness.
+No provider call occurs until an explicit send of a current preview.
