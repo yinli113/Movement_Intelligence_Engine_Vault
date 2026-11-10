@@ -44,3 +44,7 @@ OpenStax *Anatomy and Physiology 2e* serves as the vault's open-access anatomica
 ## Integration in TillYes Engine
 
 OpenStax provides the physical substrate (muscles, bones, innervations), while Thomas Myers' *Anatomy Trains* provides the myofascial longitudinal continuum connecting these individual components into functional lines.
+
+## Joint action terminology for static posture
+
+Section 9.5, Types of Body Movements, defines medial/internal and lateral/external rotation as turning the limb around its long axis. This distinguishes the anatomical action from a projected line angle in a front/back image. Source: https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements . Used by [[bodyreading_static_posture]] for terminology only; this chapter does not validate the TillYes detector or its screening thresholds.

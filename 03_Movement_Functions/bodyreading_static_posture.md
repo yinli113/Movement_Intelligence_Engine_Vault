@@ -127,3 +127,13 @@ evidence:
     evidence_tier: Level 2
     description: "Postural fault classification and muscle length-tension analysis."
 ```
+
+### Hip-to-knee image alignment reporting — 2026-11-10
+
+The current posterior camera metric historically named `femur_internal_external_rotation_proxy` computes the projected hip-to-knee line angle relative to image vertical. This is an image descriptor and does not determine axial femoral internal/external rotation, version, tissue state or cause. Present it as hip-to-knee alignment in the image, retaining the legacy identifier for saved-data compatibility. The aggregate flag lists app-threshold observations; it is not itself a bilateral asymmetry measurement. Public wording and supporting-reference roles are owned by `fascial_knowledge.json` measurement_presentation. [[openstax_anatomy_physiology_2e]] section 9.5 supports the anatomical definition of axial rotation, not detector or threshold validation.
+
+Implementation audit also found the posterior thigh endpoints had been supplied knee-first to the vertical-angle function. Hip-first ordering corrects the near-180-degree artifact. Saved values above 90 degrees are retained but labelled for reassessment in the browser. New client analyses identify algorithm v0.2. This software correction does not validate the geometry or the existing thresholds.
+
+### Side-view image geometry audit — 2026-11-10
+
+The website side-view calculation requires original image width and height, selected-side visible landmarks and valid vertical ordering. Angles use image pixels; overlays consume the same angle owner. Nose relative to the selected-side ear supplies facing direction only when available; otherwise use image-left/right descriptors. Ear–shoulder–hip and shoulder–hip–knee are unsigned projected included angles, not anatomical shoulder rotation, pelvic tilt or psoas state. Knee and ankle included angles and foot pitch are descriptive, without new normative cutoffs; the side foot line does not measure turnout. Do not clamp detected forefoot height to manufacture a floor reference. Historical records retain original values and images and are marked for reanalysis rather than silently migrated. The browser algorithm is posture-v0.3-client-js-image-geometry. This audit concerns the website side-view engine; the older Python CLI side path is a different prototype and is not represented as equivalent.

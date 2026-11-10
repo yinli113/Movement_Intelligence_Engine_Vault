@@ -544,3 +544,7 @@ canonical JSON remain unchanged. App implementation: `data/video_reports.py`,
 Knowledge 1.14.0 adds manualSetupCategories: forward 0°–<15°, moderate 15°–30°, with 15° assigned to moderate. This is user-requested app organisation (engine synthesis), not a literature-derived threshold. Legacy categories retain their original IDs and ranges; no historical migration. Runtime labels are synchronized to Squat and website knowledge copies.
 
 - 2026-11-09: Squat knowledge 1.15.0 adds curated results-question passages, explicit provider preview, both-knee/pelvis evidence and noncausal boundaries.
+
+- 2026-11-10: Added posture measurement presentation contract distinguishing hip-to-knee image alignment from axial femoral rotation, and app flags from confirmed clinical abnormalities. OpenStax 9.5 supports anatomical terminology only. Legacy IDs and calculations retained.
+
+- 2026-11-10: Website side-view geometry now requires image dimensions, uses one visible anatomical side, shares angles with overlays and removes inferred pelvic/psoas/turnout claims. Added canonical public labels and legacy-result warning; no validation of existing screening thresholds is implied.

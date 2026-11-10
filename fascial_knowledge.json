@@ -9546,5 +9546,54 @@
       ],
       "integrated_mechanism": "Different foot angles from the back may reflect hip rotation strategy, tibial rotation, foot comfort, stance habit, or compensation. The most useful next step is to see whether this relationship remains present during comfortable movement. Different foot angles from the back may reflect hip rotation strategy, tibial rotation, foot comfort, stance habit, or compensation. This should be considered as a whole-body positioning hypothesis involving foot, ankle, knee, hip, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone."
     }
-  ]
+  ],
+  "measurement_presentation": {
+    "version": "posture-observation-language/1.0.0",
+    "thighLabel": "hip-to-knee alignment in the image",
+    "thighDescription": "This value describes the projected hip-to-knee line relative to image vertical. It does not measure rotation around the thigh bone and cannot distinguish internal from external hip rotation.",
+    "legacyThighWarning": "This stored angle was calculated with reversed endpoints and may have produced an inflated flag. Reanalyse the image for corrected hip-to-knee alignment; internal/external hip rotation remains undetermined.",
+    "summaryLabel": "Combined posture observations",
+    "summaryPrefix": "Image-based checks flagged for review",
+    "summaryLimit": "These flags reflect app thresholds, not confirmed clinical abnormalities. Internal or external hip rotation cannot be determined from the hip-to-knee line.",
+    "categories": {
+      "thigh": "Hip-to-knee alignment",
+      "heel": "Ankle-to-heel alignment",
+      "foot": "Foot direction",
+      "footDifference": "Difference in foot direction"
+    },
+    "researchHeading": "How to read this & supporting research",
+    "researchIntroduction": "The report separates visible image alignment from anatomical rotation. The reference below supports that anatomical distinction; it does not validate this camera estimator or its flag thresholds.",
+    "references": [
+      {
+        "sourceId": "openstax_anatomy_physiology_2e",
+        "title": "Betts et al. — Anatomy and Physiology 2e, section 9.5: Types of Body Movements",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+        "role": "Foundational anatomy",
+        "supports": "Internal and external rotation turn the femur about its long axis. A projected hip-to-knee line angle is a different quantity.",
+        "limitation": "No validation of the app detector, severity thresholds, tissue state or diagnosis."
+      }
+    ],
+    "sideGeometryNote": "Projected image-plane geometry using original image dimensions; not a 3D anatomical joint measurement. Flag thresholds are app screening choices.",
+    "sideLegacyWarning": "Stored result predates corrected side-view image geometry. Reanalyse the original image; the stored value and image are retained.",
+    "sideLabels": {
+      "shoulder_angle": "Ear–shoulder–hip included angle",
+      "neck_angle": "Ear-to-shoulder line angle",
+      "shoulder_protraction_proxy": "Shoulder position relative to hip",
+      "pelvic_anterior_posterior_tilt_proxy": "Shoulder–hip–knee included angle"
+    },
+    "sideFindingOverrides": {
+      "shoulder_protraction_proxy": {
+        "name": "Shoulder position relative to hip",
+        "description": "The shoulder is offset from the hip reference in the side image. This does not measure scapular protraction/retraction, chest loading or muscle activity."
+      },
+      "neck_angle": {
+        "name": "Ear-to-shoulder line alignment",
+        "description": "The ear-to-shoulder line differs from image vertical. This is a projected landmark relationship, not a measurement of cervical joint rotation or deep cervical muscle function."
+      },
+      "forward_head_posture": {
+        "name": "Head position relative to hip",
+        "description": "The head landmark is offset from the hip reference in the side image. This does not establish a neck disorder or measure head position relative to the shoulder."
+      }
+    }
+  }
 }
