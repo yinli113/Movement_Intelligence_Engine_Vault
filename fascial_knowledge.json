@@ -6,7 +6,10 @@
     {
       "switch_id": "suboccipital_cervical_switch",
       "name": "Suboccipital Cervical Switch (SBL vs DFL Neck Flexors)",
-      "line_pair": ["Superficial Back Line", "Deep Front Line"],
+      "line_pair": [
+        "Superficial Back Line",
+        "Deep Front Line"
+      ],
       "bony_station": "Occipital Ridge / C1-C7",
       "mechanism": "Suboccipitals (SBL Local) hyper-extend upper neck over weak Longus Colli (Local DFL) to keep eyes horizontal.",
       "retest_protocol": "Cue 'double chin' neck retraction in standing posture."
@@ -14,7 +17,10 @@
     {
       "switch_id": "asis_pelvic_sagittal_switch",
       "name": "ASIS Pelvic Sagittal Switch (SFL Rectus Femoris vs SFL Abdominal Wall)",
-      "line_pair": ["Superficial Front Line", "Deep Front Line"],
+      "line_pair": [
+        "Superficial Front Line",
+        "Deep Front Line"
+      ],
       "bony_station": "Anterior Superior Iliac Spine (ASIS)",
       "mechanism": "Rectus Femoris (SFL Express) and Psoas (DFL) pull ASIS down against weak Rectus Abdominis anchor.",
       "retest_protocol": "Cue posterior pelvic tuck and active core engagement."
@@ -22,7 +28,10 @@
     {
       "switch_id": "lumbar_erector_psoas_switch",
       "name": "Lumbar Erector / Psoas Switch (SBL Lumbar vs DFL Psoas)",
-      "line_pair": ["Superficial Back Line", "Deep Front Line"],
+      "line_pair": [
+        "Superficial Back Line",
+        "Deep Front Line"
+      ],
       "bony_station": "Lumbar Spine (L1-L5)",
       "mechanism": "SBL lumbar erectors and DFL psoas lose lordotic tone (Flat-Back) or over-pull pelvic shift (Sway-Back).",
       "retest_protocol": "Cue active thoracic extension or pelvis-over-foot realignment."
@@ -30,7 +39,10 @@
     {
       "switch_id": "calcaneal_navicular_tripod_switch",
       "name": "Calcaneal-Navicular Tripod Switch (DFL Arch vs LL Peroneal Track)",
-      "line_pair": ["Deep Front Line", "Lateral Line"],
+      "line_pair": [
+        "Deep Front Line",
+        "Lateral Line"
+      ],
       "bony_station": "Navicular / Medial Malleolus",
       "mechanism": "Tibialis Posterior (Local DFL) arch support fails; Peroneus Longus (Express SPL) pulls 1st metatarsal into eversion.",
       "retest_protocol": "Place 5mm wedge under 1st metatarsal head or active short foot grip."
@@ -3847,10 +3859,8 @@
       "caution_note": "Neck angle from a static image cannot diagnose cervical dysfunction or fascial restriction.",
       "whole_body_summary": "The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position. This should be considered as a whole-body positioning hypothesis involving neck, head, thorax, not as an isolated tissue diagnosis.",
       "confirmation_checks": [
-        "Repeat the image with standardised camera height, stance, gaze, and relaxed breathing to confirm that the observation is repeatable.",
-        "Compare the same regions during comfortable active movement and note whether the visible relationship changes.",
-        "Compare comfortable cervical flexion, extension, rotation, and side-bending, with and without the shoulder girdle supported.",
-        "Observe quiet breathing and gentle trunk flexion, extension, side-bending, and rotation without assuming a breathing restriction."
+        "Compare comfortable head turning with the shoulders relaxed.",
+        "Observe the ear-to-shoulder relationship after a small change in upper-trunk position."
       ],
       "limitations": [
         "Neck angle from a static image cannot diagnose cervical dysfunction or fascial restriction.",
@@ -4028,8 +4038,8 @@
       ],
       "observed_pattern": "The image shows neck angle relative to the available body and image-plane references.",
       "priority_region": "Head and neck",
-      "client_summary": "The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position. The most useful next step is to see whether this relationship remains present during comfortable movement.",
-      "compensation_summary": "The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position. This should be considered as a whole-body positioning hypothesis involving neck, head, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "client_summary": "This pattern directs attention to comfortable head turning and the way neck movement coordinates with the shoulders and upper back.",
+      "compensation_summary": "The neck may be adapting to upper-thorax and shoulder position to maintain comfortable gaze. Deep cervical, scalene and posterior cervical regions are candidate contributors to this coordination.",
       "structural_concerns": [
         {
           "structure": "Cervical spine and anterior neck relationship",
@@ -4047,7 +4057,7 @@
           "why_it_matters": "Checking the thorax and shoulders helps distinguish a local head position from a broader compensation."
         }
       ],
-      "integrated_mechanism": "The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position. The most useful next step is to see whether this relationship remains present during comfortable movement. The neck angle can be influenced by head position, thoracic posture, gaze strategy, breathing strategy, and shoulder girdle position. This should be considered as a whole-body positioning hypothesis involving neck, head, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone."
+      "integrated_mechanism": "The ear-to-shoulder relationship connects head position with upper-trunk organisation and gaze. Posterior cervical support and anterior neck pathways may share the postural task as the head and thorax change position."
     },
     {
       "finding_id": "ear_shoulder_hip_alignment",
@@ -4292,10 +4302,8 @@
       "caution_note": "A static shoulder protraction proxy cannot diagnose pectoral tightness, scapular dysfunction, or fascial restriction.",
       "whole_body_summary": "A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage. This should be considered as a whole-body positioning hypothesis involving shoulder, scapula, thorax, not as an isolated tissue diagnosis.",
       "confirmation_checks": [
-        "Repeat the image with standardised camera height, stance, gaze, and relaxed breathing to confirm that the observation is repeatable.",
-        "Compare the same regions during comfortable active movement and note whether the visible relationship changes.",
-        "Observe quiet breathing and gentle trunk flexion, extension, side-bending, and rotation without assuming a breathing restriction.",
-        "Compare comfortable reaching and arm elevation while observing scapular and trunk contribution."
+        "Compare relaxed arm carriage with a comfortable forward reach.",
+        "Observe whether a small change in upper-trunk position changes the shoulder relationship."
       ],
       "limitations": [
         "A static shoulder protraction proxy cannot diagnose pectoral tightness, scapular dysfunction, or fascial restriction.",
@@ -4477,8 +4485,8 @@
       ],
       "observed_pattern": "The image shows shoulder protraction relative to the available body and image-plane references.",
       "priority_region": "Shoulder girdle and arms",
-      "client_summary": "A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage. The most useful next step is to see whether this relationship remains present during comfortable movement.",
-      "compensation_summary": "A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage. This should be considered as a whole-body positioning hypothesis involving shoulder, scapula, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone.",
+      "client_summary": "This relationship is relevant to the starting position for reaching and lifting the arms, and to how easily the shoulder moves with the rib cage.",
+      "compensation_summary": "The shoulder girdle may be adapting to the way the upper trunk and head are stacked. Anterior chest and posterior scapular regions are useful candidate regions to explore together.",
       "structural_concerns": [
         {
           "structure": "Scapula and thoracic-wall relationship",
@@ -4496,7 +4504,7 @@
           "why_it_matters": "The shoulder girdle works from the rib cage, so trunk organisation can alter apparent shoulder symmetry."
         }
       ],
-      "integrated_mechanism": "A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage. The most useful next step is to see whether this relationship remains present during comfortable movement. A forward shoulder position may relate to thoracic posture, rib cage position, breathing strategy, or arm carriage. This should be considered as a whole-body positioning hypothesis involving shoulder, scapula, thorax, not as an isolated tissue diagnosis. Nearby regions may therefore be sharing the postural task rather than one structure acting alone."
+      "integrated_mechanism": "Shoulder position can be considered together with rib-cage orientation and arm carriage. Pectoral and anterior arm pathways may participate in this relationship, while posterior scapular tissues may provide complementary support."
     },
     {
       "finding_id": "scapular_position_proxy",
@@ -9548,13 +9556,13 @@
     }
   ],
   "measurement_presentation": {
-    "version": "posture-observation-language/1.0.0",
+    "version": "posture-observation-language/1.1.0",
     "thighLabel": "hip-to-knee alignment in the image",
-    "thighDescription": "This value describes the projected hip-to-knee line relative to image vertical. It does not measure rotation around the thigh bone and cannot distinguish internal from external hip rotation.",
+    "thighDescription": "The hip-to-knee line is angled relative to image vertical.",
     "legacyThighWarning": "This stored angle was calculated with reversed endpoints and may have produced an inflated flag. Reanalyse the image for corrected hip-to-knee alignment; internal/external hip rotation remains undetermined.",
     "summaryLabel": "Combined posture observations",
-    "summaryPrefix": "Image-based checks flagged for review",
-    "summaryLimit": "These flags reflect app thresholds, not confirmed clinical abnormalities. Internal or external hip rotation cannot be determined from the hip-to-knee line.",
+    "summaryPrefix": "Observed alignment differences",
+    "summaryLimit": "",
     "categories": {
       "thigh": "Hip-to-knee alignment",
       "heel": "Ankle-to-heel alignment",
@@ -9562,7 +9570,7 @@
       "footDifference": "Difference in foot direction"
     },
     "researchHeading": "How to read this & supporting research",
-    "researchIntroduction": "The report separates visible image alignment from anatomical rotation. The reference below supports that anatomical distinction; it does not validate this camera estimator or its flag thresholds.",
+    "researchIntroduction": "Angles describe projected landmark geometry in the image. Screening flags use app thresholds. The structure and fascial explanations apply anatomical frameworks to the observed pattern; they do not establish muscle strength, tension, activation or a pain source. Hip-to-knee alignment does not distinguish internal from external hip rotation, and the shoulder-hip-knee angle is not pelvic tilt.",
     "references": [
       {
         "sourceId": "openstax_anatomy_physiology_2e",
@@ -9571,6 +9579,14 @@
         "role": "Foundational anatomy",
         "supports": "Internal and external rotation turn the femur about its long axis. A projected hip-to-knee line angle is a different quantity.",
         "limitation": "No validation of the app detector, severity thresholds, tissue state or diagnosis."
+      },
+      {
+        "sourceId": "anatomy_trains_myofascial_thomas_w_myers",
+        "title": "Thomas W. Myers — Anatomy Trains (2009)",
+        "url": "https://www.anatomytrains.com/",
+        "role": "Foundational anatomical framework",
+        "supports": "Myofascial continuity and connected regional interpretation. The individual report mappings are app hypotheses.",
+        "limitation": "The framework does not validate this camera estimator or identify an individual tissue impairment."
       }
     ],
     "sideGeometryNote": "Projected image-plane geometry using original image dimensions; not a 3D anatomical joint measurement. Flag thresholds are app screening choices.",
@@ -9584,15 +9600,80 @@
     "sideFindingOverrides": {
       "shoulder_protraction_proxy": {
         "name": "Shoulder position relative to hip",
-        "description": "The shoulder is offset from the hip reference in the side image. This does not measure scapular protraction/retraction, chest loading or muscle activity."
+        "description": "The shoulder landmark is offset from the hip reference in the side image."
       },
       "neck_angle": {
         "name": "Ear-to-shoulder line alignment",
-        "description": "The ear-to-shoulder line differs from image vertical. This is a projected landmark relationship, not a measurement of cervical joint rotation or deep cervical muscle function."
+        "description": "The ear-to-shoulder line differs from image vertical."
       },
       "forward_head_posture": {
         "name": "Head position relative to hip",
-        "description": "The head landmark is offset from the hip reference in the side image. This does not establish a neck disorder or measure head position relative to the shoulder."
+        "description": "The head landmark is offset from the hip reference in the side image."
+      },
+      "shoulder_angle": {
+        "name": "Ear–shoulder–hip relationship",
+        "description": "The ear–shoulder–hip included angle differs from a straight line in the side image."
+      }
+    },
+    "reportNotice": "Image alignment is measured from the supplied views. Structure and fascial-line explanations are literature-informed possibilities, not tissue diagnoses.",
+    "sagittalReport": {
+      "integratedMechanism": "The head, trunk and hip relationships describe how the body stacks in side view. A change in one region may be balanced by a position change elsewhere: the neck helps maintain gaze, the trunk positions the rib cage, and the hip region supports the upper body over the legs.",
+      "compensationSummary": "Posterior cervical and spinal tissues may share support with the anterior neck and trunk. The Deep Front Line provides a useful anatomical framework for considering the neck, diaphragm region, spine and hip together; the Superficial Back Line provides a complementary posterior support pathway.",
+      "clientSummary": "This pattern helps identify which regions to explore together when working on comfortable standing, head turning and reaching, rather than focusing on one angle in isolation.",
+      "structuralConcerns": [
+        {
+          "structure": "Posterior cervical and thoracic support",
+          "possible_role": "Neck and upper-back tissues may share the task of supporting the head and maintaining gaze as the trunk position changes.",
+          "why_it_matters": "Their relationship is relevant to comfortable head turning and sustained upright posture."
+        },
+        {
+          "structure": "Rib cage, diaphragm region and deep spinal support",
+          "possible_role": "The deep anterior pathway links the neck, rib cage and lumbar-hip region as an interpretive framework for the observed stacking pattern.",
+          "why_it_matters": "This connects upper-body positioning with breathing-linked rib movement and trunk control."
+        },
+        {
+          "structure": "Hip region and anterior-posterior trunk support",
+          "possible_role": "Hip flexor, abdominal and posterior trunk regions may participate in the way the torso is supported over the legs.",
+          "why_it_matters": "Considering these regions together can make a movement comparison more informative than an isolated hip angle."
+        }
+      ],
+      "confirmationChecks": [
+        "Compare the head and trunk relationship during comfortable head turning and reaching.",
+        "Observe whether relaxed rib-cage movement changes the standing pattern."
+      ],
+      "lineAnalyses": [
+        {
+          "lineName": "Deep Front Line",
+          "role": "support",
+          "mechanismSteps": [
+            "The deep anterior pathway connects cervical, diaphragm and lumbar-hip regions in the Anatomy Trains framework.",
+            "These regions may share the organisation of the observed head-trunk-hip relationship."
+          ],
+          "interactionWithLines": "Deep anterior support may complement posterior support through the Superficial Back Line.",
+          "clientRelevance": "A useful framework for exploring trunk organisation and breathing-linked rib movement.",
+          "confirmationChecks": [
+            "Compare rib movement and trunk position during comfortable breathing."
+          ]
+        },
+        {
+          "lineName": "Superficial Back Line",
+          "role": "support",
+          "mechanismSteps": [
+            "Posterior cervical and spinal tissues form a continuous anatomical support pathway.",
+            "That pathway may participate in maintaining gaze and upright orientation as the torso position changes."
+          ],
+          "interactionWithLines": "Posterior support may balance the anterior trunk and deep support pathways.",
+          "clientRelevance": "Connects the head and upper-back relationship with the broader standing pattern.",
+          "confirmationChecks": [
+            "Compare comfortable head turning with a change in trunk position."
+          ]
+        }
+      ]
+    },
+    "findingTemplates": {
+      "foot_ankle_alignment": {
+        "front": "foot_turnout_asymmetry",
+        "back": "foot_turnout_asymmetry_back"
       }
     }
   }

@@ -548,3 +548,7 @@ Knowledge 1.14.0 adds manualSetupCategories: forward 0°–<15°, moderate 15°�
 - 2026-11-10: Added posture measurement presentation contract distinguishing hip-to-knee image alignment from axial femoral rotation, and app flags from confirmed clinical abnormalities. OpenStax 9.5 supports anatomical terminology only. Legacy IDs and calculations retained.
 
 - 2026-11-10: Website side-view geometry now requires image dimensions, uses one visible anatomical side, shares angles with overlays and removes inferred pelvic/psoas/turnout claims. Added canonical public labels and legacy-result warning; no validation of existing screening thresholds is implied.
+
+
+## 2026-11-10 — Posture report interpretation and PDF parity
+Restored useful structure and fascial-line interpretation in the presentation contract, with one shared evidence explanation. Preserved corrected image geometry and anatomical labels; no tissue-state or pelvic-tilt inference. Dashboard and PDF consume the same report selection and wording.
