@@ -15,14 +15,14 @@ relationships:
   active_during: []
   assessed_by: [bodyreading_static_posture]
   improved_by: []
-  supported_by: [anatomy_trains_myofascial_thomas_w_myers, julie_hammond_breakout]
+  supported_by: [anatomy_trains_myofascial_thomas_w_myers, julie_hammond_breakout, trovato_postural_evaluation_2022]
   relevant_to: [fascial_knowledge_json, static_posture_app, golf_swing]
 confidence: high
 review_status: source_extracted
 relationship_count: 25
 hub_score: 58
 centrality: 0.225
-updated: 2026-07-06
+updated: 2026-11-11
 ---
 
 # BodyReading of Static Posture
@@ -94,6 +94,8 @@ See [[posture_switch_failure_modes]] for the foundational dynamic switch derailm
 ## App Integration
 
 The app's `fascial_knowledge.json` encodes this method: each static finding carries `possible_myofascial_lines`, `possible_related_structures`, cautious `report_language`, and a `caution_note` that static posture cannot confirm restriction. The mapper (`fascial_mapper.py`) matches engine measurements to these findings by name, alias, and `left_`/`right_` prefix-stripped fallback, filtered by view. Output is hypothesis-level only.
+
+Shoulder height asymmetry is operationalised by [[static_shoulder_alignment_measurement]] as the original-image pixel angle between shoulder landmarks and horizontal. [[trovato_postural_evaluation_2022]] supplies the healthy young-adult reference (1.5° ± 1.2°; ICC 0.93); the app's reporting bands remain an explicit Level 5 display policy.
 
 ## Confidence and Limits
 

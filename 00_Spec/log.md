@@ -2,6 +2,13 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
+## [2026-11-11] Static Posture | Literature-Grounded Shoulder Alignment
+
+- Added the open-access primary source `[[trovato_postural_evaluation_2022]]`, documenting posterior shoulder alignment of 1.5° ± 1.2° and ICC 0.93 in 100 healthy young adults.
+- Added `[[static_shoulder_alignment_measurement]]` as the canonical original-image angular metric and Level 5 reporting policy.
+- Replaced the unsupported 2.5%-of-image-height shoulder rule with degree bands at 2.7°/3.9°/5.1° while retaining `shoulder_height_difference` as the compatible metric id.
+- Updated `[[bodyreading_static_posture]]` and `fascial_knowledge.json` v1.3.1; synchronized app implementations are required by the workspace consistency map.
+
 ## [2026-09-07] Engine Update | Complete Anatomical Grounding & Literature Harmonization
 - **Step 1 (Schema & Literature Ingestion)**:
   - Updated `[[naming_conventions]]` (§3.1) with anatomical metadata standards: `origin`, `insertion`, `innervation`, `fma_id`, `bodyparts3d_id`, and `openstax_ref`.

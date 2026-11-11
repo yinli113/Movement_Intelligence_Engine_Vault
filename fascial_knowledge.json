@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Knowledge mapping between posture measurements and possible Anatomy Trains / myofascial line interpretations.",
   "global_caution": "Static posture analysis cannot diagnose fascial restriction, pain source, or pathology. Findings are pattern suggestions only and should be confirmed by clinical assessment and movement testing.",
   "posture_switch_failure_modes": [
@@ -911,10 +911,22 @@
       ],
       "interpretation_template": "Shoulder height difference may suggest asymmetrical thorax, scapular, or neck loading.",
       "clinical_reasoning": "Uneven shoulder height may be consistent with side-bending, rib cage shift, scapular elevation/depression, or compensation from pelvic asymmetry.",
+      "measurement_definition": {
+        "metric": "Acute angle between the visible left-right shoulder landmark line and image horizontal, calculated in original-image pixel geometry.",
+        "unit": "degrees_from_horizontal",
+        "reference": "Trovato et al. (2022): posterior shoulder alignment 1.5° ± 1.2° in 100 healthy young adults; ICC 0.93.",
+        "reporting_bands": {
+          "normal": "<2.7°",
+          "mild": "2.7° to <3.9°",
+          "moderate": "3.9° to <5.1°",
+          "significant": "≥5.1°"
+        },
+        "policy_note": "Study-derived Level 5 reporting bands; not diagnostic cutoffs. Do not use percentage of total image height for this metric."
+      },
       "severity_notes": {
-        "mild": "Mild shoulder height difference is common and may reflect habitual stance.",
-        "moderate": "Moderate difference may suggest a stronger asymmetrical loading pattern through the upper trunk.",
-        "significant": "Significant difference should be interpreted with back and side views and clinical assessment."
+        "mild": "A 2.7° to <3.9° shoulder-line angle is above the healthy young-adult reference mean plus one standard deviation and is retained as a visible difference.",
+        "moderate": "A 3.9° to <5.1° shoulder-line angle is above the reference mean plus two standard deviations and is included in Measurement Details.",
+        "significant": "A shoulder-line angle of 5.1° or more is above the reference mean plus three standard deviations and receives higher report priority."
       },
       "report_language": "One shoulder appears higher than the other. This may suggest asymmetrical loading through the neck, rib cage, and shoulder girdle.",
       "caution_note": "Static shoulder height cannot determine whether a muscle or fascial line is tight, weak, or painful.",
@@ -931,6 +943,8 @@
       ],
       "source_refs": [
         "03_Movement_Functions/bodyreading_static_posture.md",
+        "05_App_Logic/static_shoulder_alignment_measurement.md",
+        "00_Spec/sources/trovato_postural_evaluation_2022.md",
         "01_Fascial_Lines/myofascial_interpretive_layer.md",
         "05_App_Logic/movement_reporting_standards.md",
         "01_Fascial_Lines/lateral_line.md",

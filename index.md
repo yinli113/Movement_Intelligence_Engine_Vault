@@ -51,6 +51,7 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[chambers_sutherland_gait_analysis_2002]]` - Peer-reviewed gait-cycle, kinematics, kinetics, and observational-vs-instrumented boundary reference; the gait-domain anchor (domain: gait).
   - `[[perry_burnfield_gait_analysis]]` - Foundational eight-phase gait taxonomy (Level 1, **framework-cited** via Chambers & Sutherland; full text not yet in vault) (domain: gait).
   - `[[czaprowski_nonstructural_posture_2018]]` - Open-access review of the four sagittal posture types and the Bergmark/Richardson stabilizer/mobilizer classification; the vault's static-posture literature and canonical app-philosophy source (domain: static posture).
+  - `[[trovato_postural_evaluation_2022]]` - Healthy young-adult digital-posture reference for angular posterior shoulder alignment (1.5° ± 1.2°; ICC 0.93) (domain: static posture).
   - `[[dr_kwon_golfer_ground_interaction]]` - Research-program dossier for Dr Young-Hoo Kwon's golfer-ground interaction mechanics, primary sources, and claim anchors (domain: golf).
   - `[[bourgain_golf_swing_biomechanics_2022]]` - Peer-reviewed systematic review of 92 instrumented golf-swing kinematics studies (X-factor, crunch factor, swing plane, kinematic sequence, joint angular kinematics) with methodological recommendations (domain: golf).
   - `[[golf_decoded_six_phases_swing]]` - Biomechanical 6-phase swing reference (domain: golf).
@@ -167,6 +168,7 @@ Scoring metrics, assessments, and remedial exercises:
 - `[[golf_kinetics_observability_boundary]]` - Authoritative boundary between instrumented kinetics, camera-observable descriptors, and Level 5 hypotheses.
 - `[[metric_evidence_classification]]` - Every metric declares its claim type, source, view/landmark needs, confidence limits, and dimensionality validity.
 - `[[movement_reporting_standards]]` - Non-judgmental reporting vocabulary and the seven-question report structure.
+- `[[static_shoulder_alignment_measurement]]` - Original-image shoulder-line angle and study-derived reporting bands for front/back static posture.
 - `[[squat_observability_boundary]]` - Side/front camera allow-list and prohibited squat inferences.
 - `[[squat_cross_view_synthesis]]` - Cross-view relationship types, quality gates, themes, and non-upgrade rules.
 - `[[ai_movement_analysis_layer]]` - Historical record of TGS, CCS, FLLI, and ETE—retired, unvalidated historical Level 5 concepts controlled by [[golf_kinetics_observability_boundary]], not a current metrics framework:
