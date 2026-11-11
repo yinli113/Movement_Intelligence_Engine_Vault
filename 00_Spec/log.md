@@ -16,6 +16,13 @@ This is an append-only log of all operations performed on the Myofascial Lines v
   - `[[hii_mediapipe_gait_validation_2023]]` (*Sensors* 2023, PMC10383186 / PMID 37510793): MediaPipe Pose vs. Vicon 3D validation for temporal/spatial gait parameters.
 - Registered all five new Level 3 gait sources in `[[index]]`, linked the 2D MediaPipe validation boundary in `[[gait_observability_boundary]]`, and updated the eight gait phase nodes (`[[initial_contact]]`, `[[loading_response]]`, `[[mid_stance]]`, `[[terminal_stance]]`, `[[preswing]]`, `[[initial_swing]]`, `[[midswing]]`, `[[terminal_swing]]`) to include sagittal ankle dorsiflexion/plantarflexion, knee/hip angular ranges, subtalar pronation/supination across stance, and explicit 2D observability boundaries.
 
+## [2026-11-11] Static Posture | Literature-Grounded Shoulder Alignment
+
+- Added the open-access primary source `[[trovato_postural_evaluation_2022]]`, documenting posterior shoulder alignment of 1.5° ± 1.2° and ICC 0.93 in 100 healthy young adults.
+- Added `[[static_shoulder_alignment_measurement]]` as the canonical original-image angular metric and Level 5 reporting policy.
+- Replaced the unsupported 2.5%-of-image-height shoulder rule with degree bands at 2.7°/3.9°/5.1° while retaining `shoulder_height_difference` as the compatible metric id.
+- Updated `[[bodyreading_static_posture]]` and `fascial_knowledge.json` v1.3.1; synchronized app implementations are required by the workspace consistency map.
+
 ## [2026-10-28] Squat Domain | Categorical Foot Setup & 30° Foot-Rotation Benchmark
 - Updated `[[squat_stance_foot_context]]` with the explicit 0° vs. 30° outward foot-rotation benchmark from `[[straub_powers_squat_biomechanics_2024]]` ("Foot Rotation": minimal sagittal moment change, ~50% lower external knee valgus moment, ~80% higher knee varus moment; no universal optimal toe angle) and defined the Level 5 self-reported categorical ETL setup convention (`narrower_than_shoulders` / `equal_to_shoulders` / `wider_than_shoulders`; `toes_forward` / `moderate_turn_out_up_to_30` / `wide_turn_out_over_30` / `toes_inward` per foot), kept explicitly distinct from projected camera stance ratios and passive mobility measurements.
 
