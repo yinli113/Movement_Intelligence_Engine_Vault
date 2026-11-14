@@ -42,7 +42,8 @@ It is the cycle's zero-point and the start of weight acceptance. Its 2D-observab
 
 ## Joint involvement
 
-[[ankle_joint]] (heel strike position), [[knee_joint]] (near extension), [[hip_joint]] (flexed).
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] near neutral (~0° [[ankle_dorsiflexion]]/plantarflexion), [[knee_joint]] near full extension (~0°–5° [[knee_flexion]]), [[hip_joint]] flexed (~20°–25° [[hip_flexion]]) ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]). Contact can initiate at the heel, midfoot, or forefoot depending on gait pattern.
+- **Frontal/Triplanar (3D instrumented reference):** [[subtalar_joint]] typically contacts slightly inverted/supinated (~2°–4° [[ankle_inversion]]) before transitioning into loading pronation ([[leardini_multisegment_foot_kinematics_2007]]).
 
 ## Muscle involvement
 
@@ -64,11 +65,12 @@ These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 
-- The foot-strike event and contact posture (heel vs flat foot) from a 2D side view.
+- The foot-strike event and contact posture (heel, midfoot, or forefoot contact) plus sagittal ankle/knee/hip descriptor proxies from a 2D side view.
+- Subtalar pronation/supination is triplanar and **cannot** be measured from a 2D side view ([[leardini_multisegment_foot_kinematics_2007]], [[kadaba_lower_extremity_kinematics_1990]]).
 
 ## What the app must not infer
 
-- Heel-strike kinetics, impact force, or muscle activation.
+- Heel-strike kinetics, impact force, muscle activation, or triplanar subtalar pronation/supination from 2D side-view landmarks.
 
 ## Related concepts
 
@@ -78,6 +80,9 @@ These are candidate line roles, not measured tissue loading.
 
 - [[perry_burnfield_gait_analysis]] — eight-phase model (framework-cited via Chambers & Sutherland).
 - [[chambers_sutherland_gait_analysis_2002]] — p.2 (Table 2).
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D sagittal lower-limb kinematics at initial contact (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
+- [[leardini_multisegment_foot_kinematics_2007]] — multi-segment foot / rearfoot alignment at stance onset (Level 3).
 
 ## Evidence-separation rules
 

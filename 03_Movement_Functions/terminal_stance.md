@@ -42,7 +42,8 @@ It is the roll-over / propulsion-preparation window. Heel-rise is a clean 2D-obs
 
 ## Joint involvement
 
-[[ankle_joint]] dorsiflexion over forefoot, [[knee_joint]] extension, [[hip_joint]] extension, metatarsophalangeal (toe) joint loading.
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] reaches peak [[ankle_dorsiflexion]] (~10°) before heel-rise ("forefoot rocker"), [[knee_joint]] reaches full extension (~0°), [[hip_joint]] extends to ~10°–20° [[hip_extension]] behind the pelvis, with metatarsophalangeal extension ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]).
+- **Frontal/Triplanar (3D instrumented reference):** [[subtalar_joint]] continues **supinating** (calcaneal [[ankle_inversion]]), locking the midtarsal joint into a rigid propulsive lever prior to push-off ([[leardini_multisegment_foot_kinematics_2007]]).
 
 ## Muscle involvement
 
@@ -79,6 +80,9 @@ These are candidate line roles, not measured tissue loading.
 
 - [[perry_burnfield_gait_analysis]] — eight-phase model (framework-cited via Chambers & Sutherland).
 - [[chambers_sutherland_gait_analysis_2002]] — p.2 (Table 2).
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D lower-limb kinematics during terminal stance (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
+- [[leardini_multisegment_foot_kinematics_2007]] — multi-segment rearfoot re-supination / rigid-lever mechanics in late stance (Level 3).
 
 ## Evidence-separation rules
 

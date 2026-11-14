@@ -42,7 +42,8 @@ It is the weight-transfer-off / propulsion-preparation window, ending stance and
 
 ## Joint involvement
 
-[[ankle_joint]] plantarflexion (toe-off), [[knee_joint]] flexion, [[hip_joint]] extension for propulsion.
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] rapidly [[ankle_plantarflexion|plantarflexes]] from ~10° dorsiflexion to ~15° plantarflexion at toe-off, [[knee_joint]] rapidly flexes to ~35°–40° [[knee_flexion]], [[hip_joint]] returns from extension toward ~0° neutral ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]).
+- **Frontal/Triplanar (3D instrumented reference):** [[subtalar_joint]] remains **supinated** (calcaneal [[ankle_inversion]]) as the foot unloads and prepares for toe-off ([[leardini_multisegment_foot_kinematics_2007]]).
 
 ## Muscle involvement
 
@@ -79,6 +80,9 @@ These are candidate line roles, not measured tissue loading.
 
 - [[perry_burnfield_gait_analysis]] — eight-phase model (framework-cited via Chambers & Sutherland).
 - [[chambers_sutherland_gait_analysis_2002]] — p.2 (Table 2).
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D lower-limb kinematics during pre-swing (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
+- [[leardini_multisegment_foot_kinematics_2007]] — multi-segment rearfoot supination prior to toe-off (Level 3).
 
 ## Evidence-separation rules
 

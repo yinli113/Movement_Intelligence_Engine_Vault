@@ -42,7 +42,8 @@ It is the weight-acceptance / shock-absorption window. Its duration is a 2D-obse
 
 ## Joint involvement
 
-[[ankle_joint]] plantarflexion, [[knee_joint]] flexion (shock absorption), [[hip_joint]] extension moment.
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] rapidly [[ankle_plantarflexion|plantarflexes]] (~5°–10°) to foot-flat ("heel rocker"), [[knee_joint]] flexes (~15°–20° [[knee_flexion]]) for shock absorption, [[hip_joint]] stabilizes at ~20° flexion moving toward extension ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]).
+- **Frontal/Triplanar (3D instrumented reference):** [[subtalar_joint]] rapidly **pronates** (calcaneal [[ankle_eversion]], ~4°–8° excursion), unlocking the midtarsal joint to act as a flexible shock absorber and terrain adapter ([[leardini_multisegment_foot_kinematics_2007]]).
 
 ## Muscle involvement
 
@@ -65,11 +66,12 @@ These are candidate line roles, not measured tissue loading.
 
 ## What a 2D app can observe
 
-- Period bounds (initial contact to opposite toe-off), knee-flexion proxy, foot contact pattern from a 2D side view.
+- Period bounds (initial contact to opposite toe-off), sagittal knee-flexion shock-absorption proxy, sagittal ankle plantarflexion toward foot-flat, and foot contact pattern from a 2D side view.
+- Subtalar pronation (calcaneal eversion) is triplanar and **cannot** be measured from a 2D side view; posterior/anterior views can only observe coarse rearfoot eversion or arch-drop proxies ([[leardini_multisegment_foot_kinematics_2007]], [[kadaba_lower_extremity_kinematics_1990]]).
 
 ## What the app must not infer
 
-- Shock-absorption kinetics, joint moments, or muscle activation.
+- Shock-absorption kinetics, joint moments, muscle activation, or triplanar subtalar pronation from 2D side-view landmarks.
 
 ## Related concepts
 
@@ -79,6 +81,9 @@ These are candidate line roles, not measured tissue loading.
 
 - [[perry_burnfield_gait_analysis]] — eight-phase model (framework-cited via Chambers & Sutherland).
 - [[chambers_sutherland_gait_analysis_2002]] — p.2 (Table 2).
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D sagittal lower-limb kinematics during loading response (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
+- [[leardini_multisegment_foot_kinematics_2007]] — multi-segment rearfoot eversion / pronation during early stance (Level 3).
 
 ## Evidence-separation rules
 

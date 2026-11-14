@@ -243,3 +243,14 @@ This hub mixes directly source-supported claims with engine synthesis. The app a
 - **(A)** Source-derived framework (SSC, controlled falling, rotational organisation, line membership, "Spiral Line is especially significant") — directly from Myers/Earls, Ch. 10.
 - **(B)** Cross-links to gait phase nodes — same Level 1 domain (Chambers & Sutherland / Perry & Burnfield).
 - **(C)** All four edge-type tables (line→phase role, line→restriction pattern, line→compensation signature, view→line observability) are `engine_synthesis`. They are the vault's Anatomy Trains-based interpretation, not measured kinetics or causal proof. No table entry upgrades a 2D proxy to a measured variable.
+
+
+## App translation — continuous observations without contact timing
+
+2026-11-13 app translation (C / engine synthesis): frontal pelvis orientation, lateral trunk position, shoulder–pelvis displacement and projected foot placement can be retained as whole-recording observations when foot contacts are unclear. These observations do not require segmented cycles and do not establish a support side, abnormality, compensation, weakness or line restriction. Usable sections may contribute even when whole-recording landmark coverage is low; counts and image/angle definitions remain available for review.
+
+The Lateral Line may be offered as an optional anatomical review model for these frontal descriptors. The Spiral Line may be offered as a question about diagonal organisation when shoulder–pelvis relationships are visible; a frontal trace does not measure transverse rotation or prove a coordination failure. Side-view hip/knee descriptors can similarly link to superficial front/back line context without being labelled a restriction. None of these links claims measured tissue loading, impaired recoil, shortening or muscle activity. They do not automatically establish DFL involvement or justify treatment.
+
+Cross-view presentation should retain each recording's observations and provenance, including front + back without a side recording. Similar descriptors in separate passes are not synchronized evidence or proof of a shared biomechanical cause. Legacy causal pattern IDs are not prerequisites for displaying available observations and model review questions.
+
+Runtime translation: movement_assessment movement-knowledge.v1.json 1.4.0; existing LL/SPL entries plus sagittal movement-context entry. The anatomical role statements above remain source/framework context; their application to these camera descriptors is C, not detector validation.

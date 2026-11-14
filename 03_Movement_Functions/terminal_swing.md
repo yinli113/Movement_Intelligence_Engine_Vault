@@ -42,7 +42,7 @@ It sets up foot strike and stance; the limb's deceleration and extension here de
 
 ## Joint involvement
 
-[[knee_joint]] extension, [[hip_joint]] extension, [[ankle_joint]] positioning for contact.
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] holds ~0° neutral [[ankle_dorsiflexion]] to position the foot for contact, [[knee_joint]] extends toward full extension (~0°–5°), [[hip_joint]] remains at ~20°–25° [[hip_flexion]] ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]).
 
 ## Muscle involvement
 
@@ -71,6 +71,8 @@ Engine synthesis (C) — see [[gait_myofascial_mapping]]. During terminal swing:
 ## Sources
 
 - [[chambers_sutherland_gait_analysis_2002]] — p.2.
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D sagittal kinematics during terminal swing (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
 
 ## Evidence-separation rules
 

@@ -42,7 +42,8 @@ It is the first half of single-limb support — the gait analogue of single-leg 
 
 ## Joint involvement
 
-[[ankle_joint]] dorsiflexion (over stationary foot), [[knee_joint]] stable, [[hip_joint]] extension, pelvis and trunk control.
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] progresses from plantarflexion into ~5° [[ankle_dorsiflexion]] ("ankle rocker") as the tibia rotates forward over the stationary foot, [[knee_joint]] extends toward neutral (~0° [[knee_extension]]), [[hip_joint]] moves from ~20° flexion toward 0° neutral ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]).
+- **Frontal/Triplanar (3D instrumented reference):** [[subtalar_joint]] reaches peak pronation early in midstance and begins reversing toward **re-supination** (calcaneal [[ankle_inversion]]), beginning to lock the midtarsal joint for stability ([[leardini_multisegment_foot_kinematics_2007]]). Frontal-plane pelvis/trunk control stabilizes the stance hip.
 
 ## Muscle involvement
 
@@ -78,6 +79,9 @@ These are candidate line roles, not measured tissue loading.
 
 - [[perry_burnfield_gait_analysis]] — eight-phase model (framework-cited via Chambers & Sutherland).
 - [[chambers_sutherland_gait_analysis_2002]] — p.2 (Table 2).
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D lower-limb kinematics during midstance (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
+- [[leardini_multisegment_foot_kinematics_2007]] — multi-segment foot transition from pronation to re-supination in midstance (Level 3).
 
 ## Evidence-separation rules
 

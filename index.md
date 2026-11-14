@@ -55,6 +55,11 @@ Authoritative guidelines governing vault schemas, evidence levels, and source da
   - `[[gray_cook_movement_2010]]` - Functional Movement Screen (FMS) and Selective Functional Movement Assessment (SFMA) framework; the vault's general movement-screening and squat-assessment anchor (domain: general movement / squat).
   - `[[chambers_sutherland_gait_analysis_2002]]` - Peer-reviewed gait-cycle, kinematics, kinetics, and observational-vs-instrumented boundary reference; the gait-domain anchor (domain: gait).
   - `[[perry_burnfield_gait_analysis]]` - Foundational eight-phase gait taxonomy (Level 1, **framework-cited** via Chambers & Sutherland; full text not yet in vault) (domain: gait).
+  - `[[fukuchi_walking_kinematics_dataset_2018]]` - Open-access PeerJ 3D walking kinematics and kinetics dataset in healthy adults covering sagittal hip, knee, and ankle angles (Level 3, domain: gait).
+  - `[[kadaba_lower_extremity_kinematics_1990]]` - Classic 3D instrumented walking kinematics reference for pelvis, hip, knee, and ankle waveforms across the gait cycle (Level 3, domain: gait).
+  - `[[leardini_multisegment_foot_kinematics_2007]]` - 3D multi-segment foot kinematics study (Rizzoli Foot Model) covering rearfoot eversion/inversion (pronation/supination proxy) during stance (Level 3, domain: gait).
+  - `[[yang_park_mediapipe_gait_camera_location_2024]]` - Smartphone 2D MediaPipe BlazePose vs. marker-based gait validation showing lateral view is best for ankle angles and perspective dependence (Level 3, domain: gait).
+  - `[[hii_mediapipe_gait_validation_2023]]` - MediaPipe Pose vs. Vicon 3D validation for automated temporal and spatial gait parameters (Level 3, domain: gait).
   - `[[czaprowski_nonstructural_posture_2018]]` - Open-access review of the four sagittal posture types and the Bergmark/Richardson stabilizer/mobilizer classification; the vault's static-posture literature and canonical app-philosophy source (domain: static posture).
   - `[[dr_kwon_golfer_ground_interaction]]` - Research-program dossier for Dr Young-Hoo Kwon's golfer-ground interaction mechanics, primary sources, and claim anchors (domain: golf).
   - `[[bourgain_golf_swing_biomechanics_2022]]` - Peer-reviewed systematic review of 92 instrumented golf-swing kinematics studies (X-factor, crunch factor, swing plane, kinematic sequence, joint angular kinematics) with methodological recommendations (domain: golf).
@@ -196,3 +201,8 @@ Scoring metrics, assessments, and remedial exercises:
 - [[squat_depth_context]] — depth context and limits of interpretation.
 - [[squat_spinal_loading_correspondence_2026]] — critique and author clarification.
 - [[squat_article_app_contract]] — source-to-app retrieval and acceptance contract.
+
+
+## Phase-aware gait reporting — 13 November 2026
+
+Canonical app reporting contract: `gait_reporting.v1.json` (engine synthesis). It owns honest projected-angle labels, phase-functional context, view gates and nonclinical display gates. Primary method sources: [[stenum_video_gait_pose_estimation_2021]], [[yang_park_mediapipe_gait_camera_location_2024]] and [[bergamini_walking_symmetry_2024]]. Compare matching phases for left/right descriptions; simultaneous traces describe coordination. No normative band or tissue cause is inferred.

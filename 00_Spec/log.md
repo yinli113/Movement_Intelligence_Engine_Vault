@@ -2,6 +2,20 @@
 
 This is an append-only log of all operations performed on the Myofascial Lines vault.
 
+## [2026-11-14] Gait Domain | Temporal Rhythm, Cadence, Bilateral Stance/Swing Symmetry & 8-Phase 3D-to-2D Proxy Table
+- Expanded `[[gait_temporal_parameters]]` with adult comfortable-walking benchmarks for cadence (~100–120 steps/min), stance/swing split (~60–62% stance / ~38–40% swing), double/single support intervals, and bilateral timing symmetry (`[[bergamini_walking_symmetry_2024]]`, `[[stenum_video_gait_pose_estimation_2021]]`).
+- Added the 8-Phase 3D Reference Progression vs. 2D Camera Proxy Translation table to `[[gait_kinematics]]` for Ankle, Knee, and Hip across Initial Contact through Terminal Swing.
+- Synchronized `gait_reporting.v1.json` and `movement-knowledge.v1.json` across `movement_assessment` and `tillyes_web`.
+
+## [2026-11-13] Gait Domain | Normative Sagittal Kinematics, Ankle Angles & Subtalar Pronation/Supination Literature
+- Added three Level 3 peer-reviewed gait biomechanics source notes under `00_Spec/sources/`:
+  - `[[fukuchi_walking_kinematics_dataset_2018]]` (*PeerJ* 2018, PMC5922232 / PMID 29707431): normative 3D lower-extremity sagittal kinematics & kinetics across walking speeds.
+  - `[[kadaba_lower_extremity_kinematics_1990]]` (*J Orthop Res* 1990, PMID 2324857): normative 3D waveforms for pelvis, hip, knee, and ankle across 0–100% gait cycle and out-of-sagittal-plane alignment sensitivity.
+  - `[[leardini_multisegment_foot_kinematics_2007]]` (*Gait & Posture* 2007, PMID 16839757): 3D multi-segment foot kinematics (Rizzoli Foot Model) for rearfoot eversion/inversion (pronation/supination proxy) across stance.
+  - `[[yang_park_mediapipe_gait_camera_location_2024]]` (*Bioengineering* 2024, PMC10856011 / PMID 38339750): 2D MediaPipe BlazePose vs. marker-based gait validation (lateral view best for sagittal ankle angle; camera-placement sensitivity).
+  - `[[hii_mediapipe_gait_validation_2023]]` (*Sensors* 2023, PMC10383186 / PMID 37510793): MediaPipe Pose vs. Vicon 3D validation for temporal/spatial gait parameters.
+- Registered all five new Level 3 gait sources in `[[index]]`, linked the 2D MediaPipe validation boundary in `[[gait_observability_boundary]]`, and updated the eight gait phase nodes (`[[initial_contact]]`, `[[loading_response]]`, `[[mid_stance]]`, `[[terminal_stance]]`, `[[preswing]]`, `[[initial_swing]]`, `[[midswing]]`, `[[terminal_swing]]`) to include sagittal ankle dorsiflexion/plantarflexion, knee/hip angular ranges, subtalar pronation/supination across stance, and explicit 2D observability boundaries.
+
 ## [2026-10-28] Squat Domain | Categorical Foot Setup & 30° Foot-Rotation Benchmark
 - Updated `[[squat_stance_foot_context]]` with the explicit 0° vs. 30° outward foot-rotation benchmark from `[[straub_powers_squat_biomechanics_2024]]` ("Foot Rotation": minimal sagittal moment change, ~50% lower external knee valgus moment, ~80% higher knee varus moment; no universal optimal toe angle) and defined the Level 5 self-reported categorical ETL setup convention (`narrower_than_shoulders` / `equal_to_shoulders` / `wider_than_shoulders`; `toes_forward` / `moderate_turn_out_up_to_30` / `wide_turn_out_over_30` / `toes_inward` per foot), kept explicitly distinct from projected camera stance ratios and passive mobility measurements.
 
@@ -552,3 +566,16 @@ Knowledge 1.14.0 adds manualSetupCategories: forward 0°–<15°, moderate 15°�
 
 ## 2026-11-10 — Posture report interpretation and PDF parity
 Restored useful structure and fascial-line interpretation in the presentation contract, with one shared evidence explanation. Preserved corrected image geometry and anatomical labels; no tissue-state or pelvic-tilt inference. Dashboard and PDF consume the same report selection and wording.
+
+
+## 2026-11-13 — Gait report evidence and research
+
+Added Stenum 2021 and Bergamini 2024 primary-source notes with explicit method-transfer limits; corrected Yang/Park PMID and PMCID. Added canonical gait_reporting.v1.json for event-aware, view-specific client insight wording and honest unsigned/raw-angle labels; synchronized movement_assessment fixture. Source studies do not validate app display thresholds or diagnose observed movement. No new myofascial causal mapping.
+
+
+2026-11-13 gait reporting refinement: updated canonical contract to v1.1.0 with all eight phase purposes, view-specific observation questions and functional explanations. Added within-phase waveform feature policy and excluded routine side-view pelvis travel from headlines. No cycle detection, eligibility or phase-boundary changes; synchronized movement_assessment runtime copy.
+
+
+### 2026-11-13 — Restore gait observation-to-model review
+
+Added continuous observation translation to existing gait_myofascial_mapping hub: front/back observations need no contact timing; optional LL/SPL and sagittal SFL/SBL model context is engine synthesis, not a line dysfunction or causal diagnosis. Cross-view review preserves independent view evidence. Bundled movement_assessment knowledge updated to 1.4.0 in the same session.

@@ -1,0 +1,398 @@
+{
+  "version": "1.1.0",
+  "updated": "2026-11-13",
+  "evidenceRole": "engine_synthesis",
+  "limits": "Single-view image projections describe movement; they do not establish tissue state, muscle activity, joint loading, diagnosis or treatment. Numerical angles depend on camera geometry and tracking. No normative bands are supplied.",
+  "gates": {
+    "minimumSamples": 3,
+    "minimumCoverage": 0.7,
+    "maximumGapMs": 100,
+    "minimumRepeatedCycles": 3,
+    "agreementFraction": 0.7,
+    "minimumNetChangeDegrees": 5,
+    "minimumNetChangeImageUnits": 0.01
+  },
+  "gateRole": "App display choices: a 5 degree or 0.01 image-unit excursion identifies reportable curve features; three tracked cycles and 70% agreement support repetition wording. These are not validated clinical cutoffs or measurement-error bounds, and never set cycle eligibility or phase boundaries.",
+  "sources": [
+    {
+      "id": "chambers_sutherland_gait_analysis_2002",
+      "title": "A practical guide to gait analysis",
+      "authors": "Chambers HG, Sutherland DH",
+      "year": 2002,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12041944/",
+      "role": "Observational framework and limits; eight-phase terminology via Perry"
+    },
+    {
+      "id": "stenum_video_gait_pose_estimation_2021",
+      "title": "Two-dimensional video-based analysis of human gait using pose estimation",
+      "authors": "Stenum J, Rossi C, Roemmich RT",
+      "year": 2021,
+      "url": "https://doi.org/10.1371/journal.pcbi.1008935",
+      "role": "Primary validation of an OpenPose workflow; does not validate this MediaPipe pipeline"
+    },
+    {
+      "id": "yang_park_mediapipe_gait_camera_location_2024",
+      "title": "Improving Gait Analysis Techniques with Markerless Pose Estimation Based on Smartphone Location",
+      "authors": "Yang J, Park K",
+      "year": 2024,
+      "url": "https://doi.org/10.3390/bioengineering11020141",
+      "role": "Primary camera-placement comparison; controlled setup, not app accuracy validation"
+    },
+    {
+      "id": "bergamini_walking_symmetry_2024",
+      "title": "Walking symmetry is speed and index dependent",
+      "authors": "Bergamini E, Cereatti A, Pavei G",
+      "year": 2024,
+      "url": "https://doi.org/10.1038/s41598-024-69461-w",
+      "role": "Primary instrumented symmetry-index comparison; no camera asymmetry cutoff"
+    }
+  ],
+  "regions": [
+    {
+      "id": "ankle",
+      "title": "Ankle / foot",
+      "views": [
+        "side"
+      ],
+      "ids": [
+        "left_ankle_flexion_proxy",
+        "right_ankle_flexion_proxy"
+      ],
+      "axis": "Knee–ankle–toe angle (°)",
+      "meaning": "The foot–shank relationship changes as the body progresses over the foot and the limb prepares for clearance.",
+      "limit": "Raw projected angle; zero is not neutral dorsiflexion. It does not measure subtalar pronation or supination.",
+      "followUp": "Review heel and forefoot contact at the marked events; check whether shoes or occlusion alter the toe landmark."
+    },
+    {
+      "id": "knee",
+      "title": "Knee",
+      "views": [
+        "side"
+      ],
+      "ids": [
+        "left_knee_flexion_proxy",
+        "right_knee_flexion_proxy"
+      ],
+      "axis": "Knee-bend projection (°)",
+      "meaning": "Knee bending contributes to weight acceptance in loading response and shortens the limb during swing.",
+      "limit": "Projected knee bend is not a measurement of shock absorption, muscle strength or joint force.",
+      "followUp": "Review the phase video alongside foot clearance and compare the same phase on the other side.",
+      "phaseMeanings": {
+        "loading_response": "Knee bending during weight acceptance contributes to accommodating the incoming load; the angle alone does not measure shock absorption.",
+        "initial_swing": "Knee bending shortens the swinging limb and contributes to space for the foot to pass the ground.",
+        "midswing": "Knee extension advances the lower leg while the foot must remain clear of the ground.",
+        "terminal_swing": "Knee extension positions the limb for the next contact; the video does not measure muscular deceleration."
+      }
+    },
+    {
+      "id": "hip",
+      "title": "Hip / thigh",
+      "views": [
+        "side"
+      ],
+      "ids": [
+        "left_hip_flexion_proxy",
+        "right_hip_flexion_proxy"
+      ],
+      "axis": "Unsigned trunk–thigh bend (°)",
+      "meaning": "The thigh changes position relative to the trunk during stance progression and forward limb advancement.",
+      "limit": "This unsigned projection cannot distinguish hip flexion from extension; it is not a clinical hip angle.",
+      "followUp": "Review thigh position relative to the pelvis at contact and late stance; keep camera direction consistent."
+    },
+    {
+      "id": "pelvis",
+      "title": "Pelvis",
+      "views": [
+        "side",
+        "front",
+        "back"
+      ],
+      "ids": [
+        "pelvis_midpoint_horizontal_displacement"
+      ],
+      "frontalIds": [
+        "pelvic_levelness_projection"
+      ],
+      "axis": "Pelvis horizontal position (image units)",
+      "frontalAxis": "Hip-line tilt, anatomical right lower + (°)",
+      "meaning": "Pelvic movement provides context for support transfer and body progression through the cycle.",
+      "limit": "Side-view horizontal position is progression, not lateral sway. Front/back hip-line tilt is an image projection, not a Trendelenburg diagnosis.",
+      "followUp": "Use a level front or back recording to review pelvic levelness during single-limb support."
+    },
+    {
+      "id": "trunk",
+      "title": "Upper body",
+      "views": [
+        "side",
+        "front",
+        "back"
+      ],
+      "ids": [
+        "trunk_inclination"
+      ],
+      "frontalIds": [
+        "trunk_lateral_lean_projection"
+      ],
+      "axis": "Unsigned trunk angle from vertical (°)",
+      "frontalAxis": "Trunk lean from vertical, image right + (°)",
+      "meaning": "Upper-body position provides context for how the person progresses and transfers support between the legs.",
+      "limit": "These projections do not establish balance capacity, compensation or muscle weakness. Frontal displacement follows image left/right.",
+      "followUp": "Review trunk and pelvis together during each side’s support phase with a fixed, level camera."
+    }
+  ],
+  "phaseGuides": [
+    {
+      "id": "initial_contact",
+      "purpose": "Prepare the limb for first ground contact.",
+      "visualChecks": {
+        "side": [
+          "Review whether heel, midfoot or forefoot contacts first.",
+          "Review knee posture and trunk position at the marked contact."
+        ],
+        "front": [
+          "Review trunk position and visible pelvic level at contact."
+        ],
+        "back": [
+          "Review trunk position and visible pelvic level at contact."
+        ]
+      },
+      "context": {
+        "knee": "Knee posture at contact describes how the limb is positioned for weight acceptance.",
+        "ankle": "Foot-contact pattern requires visual review of which part touches first; the raw included angle does not identify it.",
+        "hip": "Thigh position helps describe preparation for contact; this unsigned bend does not distinguish hip flexion from extension.",
+        "pelvis": "A frontal hip-line projection can describe levelness at contact; side-view travel does not measure pelvic drop.",
+        "trunk": "Upper-body position at contact describes the posture entering weight acceptance."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/initial_contact.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    },
+    {
+      "id": "loading_response",
+      "purpose": "Accept support on the newly grounded leg until the opposite foot leaves the ground.",
+      "visualChecks": {
+        "side": [
+          "Review the transition toward foot-flat without assuming a heel-first strike.",
+          "Review knee bending while the foot accepts contact."
+        ],
+        "front": [
+          "Review pelvic and trunk movement during transfer onto this limb."
+        ],
+        "back": [
+          "Review pelvic and trunk movement during transfer onto this limb."
+        ]
+      },
+      "context": {
+        "knee": "Knee bending during weight acceptance contributes to accommodating the incoming load. Limited visible change alone does not establish poor shock attenuation.",
+        "ankle": "The foot transitions through early contact; heel-to-flat progression applies only when the heel contacts first. The included angle is not calibrated plantarflexion.",
+        "hip": "Thigh–trunk positioning provides context for weight acceptance, without establishing hip stability or muscle activity.",
+        "pelvis": "Frontal pelvic movement describes support transfer; it does not identify hip weakness.",
+        "trunk": "Upper-body movement during weight acceptance can be reviewed alongside knee and foot motion in the same frames."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/loading_response.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    },
+    {
+      "id": "midstance",
+      "purpose": "Progress over the supporting foot during single-limb support.",
+      "visualChecks": {
+        "side": [
+          "Review knee straightening and the body passing over the foot.",
+          "Review pelvis-over-ankle alignment as a geometric cue, separately from heel-rise timing."
+        ],
+        "front": [
+          "Review pelvic levelness and trunk lean together during this limb’s single support."
+        ],
+        "back": [
+          "Review pelvic levelness and trunk lean together during this limb’s single support."
+        ]
+      },
+      "context": {
+        "knee": "Knee straightening contributes to stance progression; its timing should be read within this person’s marked support events.",
+        "ankle": "Shank progression over the foot is relevant to stance rollover; this raw included angle does not establish clinical dorsiflexion.",
+        "hip": "The thigh changes position relative to the trunk as the person progresses over the foot. Signed hip extension is unavailable from this metric.",
+        "pelvis": "Frontal hip-line movement can describe visible pelvic levelness during single support; it is not a Trendelenburg test or a diagnosis.",
+        "trunk": "Trunk position during single support can be compared with the pelvis at the same timestamps; tilt alone does not establish a compensatory cause."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/mid_stance.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    },
+    {
+      "id": "terminal_stance",
+      "purpose": "Progress beyond the supporting foot before opposite-foot contact.",
+      "visualChecks": {
+        "side": [
+          "Review heel rise while the forefoot remains in contact.",
+          "Review the trailing thigh position relative to the pelvis."
+        ],
+        "front": [
+          "Review trunk and pelvis positioning as the opposite foot approaches contact."
+        ],
+        "back": [
+          "Review trunk and pelvis positioning as the opposite foot approaches contact."
+        ]
+      },
+      "context": {
+        "knee": "Knee posture contributes to the trailing-limb configuration during late stance.",
+        "ankle": "Heel rise and forefoot contact need visual confirmation; an ankle curve does not measure push-off force.",
+        "hip": "Trailing thigh position is relevant to late stance. The unsigned trunk–thigh angle cannot quantify peak hip extension.",
+        "pelvis": "Pelvic progression provides late-stance context; horizontal side-view travel is not lateral instability.",
+        "trunk": "Upper-body orientation during late stance can be inspected with the heel-rise and opposite-contact frames; it does not measure center-of-mass control."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/terminal_stance.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    },
+    {
+      "id": "pre_swing",
+      "purpose": "Transition support to the other limb and prepare this foot to leave the ground.",
+      "visualChecks": {
+        "side": [
+          "Review knee bending as the trailing limb prepares to swing.",
+          "Review forefoot contact and the final ground-departure frame."
+        ],
+        "front": [
+          "Review visible transfer between limbs around opposite contact and foot departure."
+        ],
+        "back": [
+          "Review visible transfer between limbs around opposite contact and foot departure."
+        ]
+      },
+      "context": {
+        "knee": "Knee bending prepares the limb to shorten for swing. Its curve does not measure the speed of weight transfer or unloading force.",
+        "ankle": "Foot orientation changes before departure; the raw ankle angle does not quantify plantarflexion or propulsive force.",
+        "hip": "Thigh movement provides context for the transition into swing without identifying an active muscular drive.",
+        "pelvis": "Pelvic movement can describe the visible support transition, without measuring how much weight each limb carries.",
+        "trunk": "Upper-body orientation can be reviewed across the transfer events; hesitation or unloading cannot be inferred from an isolated angle."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/preswing.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    },
+    {
+      "id": "initial_swing",
+      "purpose": "Advance the limb after foot departure until the ankles pass each other.",
+      "visualChecks": {
+        "side": [
+          "Review knee bending and the timing of its swing peak.",
+          "Review whether the foot visibly clears the ground."
+        ],
+        "front": [
+          "Review hip hiking, outward swing or stance-leg rise as visible movement descriptors."
+        ],
+        "back": [
+          "Review hip hiking, outward swing or stance-leg rise as visible movement descriptors."
+        ]
+      },
+      "context": {
+        "knee": "Knee bending shortens the swinging limb and contributes to space for the foot to pass the ground. The peak may occur in a different marked phase in this recording.",
+        "ankle": "The foot–shank relationship contributes to foot positioning, but this included angle and toe image y do not establish calibrated dorsiflexion or ground clearance.",
+        "hip": "Thigh advancement contributes to swing progression; unsigned bend does not establish hip flexor activation or acceleration.",
+        "pelvis": "A frontal view can support review of hip hiking during swing; side-view progression cannot establish it.",
+        "trunk": "Upper-body movement is described during this swing interval. Review those same swing frames before proposing any relationship to limb advancement."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/initial_swing.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    },
+    {
+      "id": "midswing",
+      "purpose": "Advance the swinging limb from feet adjacent until the shin reaches vertical.",
+      "visualChecks": {
+        "side": [
+          "Review knee straightening and the shin reaching vertical.",
+          "Review the foot–ground relationship directly in the video."
+        ],
+        "front": [
+          "Review lateral limb path and visible pelvic movement during swing."
+        ],
+        "back": [
+          "Review lateral limb path and visible pelvic movement during swing."
+        ]
+      },
+      "context": {
+        "knee": "Knee extension advances the lower leg while the foot needs room to pass the ground.",
+        "ankle": "Foot orientation during midswing is relevant to clearance review. The current metric does not establish neutral dorsiflexion or diagnose foot drop.",
+        "hip": "The thigh continues its swing positioning; the unsigned angle cannot separate flexion from extension.",
+        "pelvis": "Frontal pelvic movement provides context for the swinging limb’s path; it does not identify the cause of a clearance concern.",
+        "trunk": "Trunk movement during this swing interval can be reviewed alongside the visible foot and limb path."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/midswing.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    },
+    {
+      "id": "terminal_swing",
+      "purpose": "Position the limb for its next ground contact after the shin reaches vertical.",
+      "visualChecks": {
+        "side": [
+          "Review knee straightening toward the next contact.",
+          "Review foot presentation and forward foot reach in the final swing frames."
+        ],
+        "front": [
+          "Review visible forward reach and trunk position before contact; perspective limits step-length comparison."
+        ],
+        "back": [
+          "Review visible forward reach and trunk position before contact; perspective limits step-length comparison."
+        ]
+      },
+      "context": {
+        "knee": "Knee extension prepares the limb for the next contact; the video does not measure hamstring activity or eccentric deceleration.",
+        "ankle": "Foot presentation before contact needs visual review. The included angle does not establish neutral dorsiflexion or require a heel-first contact.",
+        "hip": "Thigh position contributes to preparation for contact; signed hip flexion and extension remain unavailable from this projection.",
+        "pelvis": "Pelvic position provides context for approach to the next contact; image position alone is not physical step length.",
+        "trunk": "Trunk orientation immediately before contact describes the posture entering the next cycle."
+      },
+      "sourceIds": [
+        "chambers_sutherland_gait_analysis_2002"
+      ],
+      "sourceRefs": [
+        "03_Movement_Functions/terminal_swing.md"
+      ],
+      "evidenceRole": "framework-informed app synthesis"
+    }
+  ],
+  "reportPolicy": {
+    "headlineExcluded": [
+      {
+        "region": "pelvis",
+        "view": "side",
+        "reason": "Horizontal image progression alone is routine context, not a client finding."
+      }
+    ],
+    "shapeDefinitions": "Interior extrema require a display-sized excursion from both phase endpoints. Plateau extrema are described as the first and last tracked occurrence; no precise physiological peak is inferred. No continuous monotonicity is assumed.",
+    "referenceBoundary": "Approximate percentages and 3D reference angles are educational context only, never personal phase timing, angle thresholds or automatic diagnoses.",
+    "phaseBoundaryBoundary": "Initial contact is an instant. Heel excursion is a provisional contact proxy; pelvis-over-ankle alignment is distinct from the current heel-rise phase boundary.",
+    "mixedShapes": "Equal-frequency cycle shapes are labelled mixed, never an arbitrary dominant pattern. Small ambiguous reversals without a net or prominent interior feature remain chart detail rather than client headlines."
+  }
+}

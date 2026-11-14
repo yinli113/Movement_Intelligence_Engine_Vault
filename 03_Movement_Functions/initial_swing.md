@@ -42,7 +42,7 @@ It is the limb-acceleration window; knee flexion here is a clean 2D-observable d
 
 ## Joint involvement
 
-[[hip_joint]] flexion, [[knee_joint]] flexion, [[ankle_joint]] dorsiflexion begins.
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] begins [[ankle_dorsiflexion|dorsiflexing]] from ~15° plantarflexion toward ~5° plantarflexion to assist clearance, [[knee_joint]] reaches peak [[knee_flexion]] (~60°), [[hip_joint]] flexes toward ~15°–20° [[hip_flexion]] ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]).
 
 ## Muscle involvement
 
@@ -77,6 +77,8 @@ These are candidate line roles, not measured tissue loading.
 ## Sources
 
 - [[chambers_sutherland_gait_analysis_2002]] — p.2.
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D sagittal kinematics during initial swing (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
 
 ## Evidence-separation rules
 

@@ -42,7 +42,7 @@ Foot clearance during midswing is one of the most clinically salient and 2D-obse
 
 ## Joint involvement
 
-[[knee_joint]] extension begins, [[ankle_joint]] dorsiflexion for clearance, [[hip_joint]] flexion.
+- **Sagittal (3D instrumented reference):** [[ankle_joint]] reaches ~0° neutral [[ankle_dorsiflexion]] to maintain toe ground clearance, [[knee_joint]] extends from ~60° toward ~25°, [[hip_joint]] flexes up to ~25° [[hip_flexion]] ([[kadaba_lower_extremity_kinematics_1990]], [[fukuchi_walking_kinematics_dataset_2018]]).
 
 ## Muscle involvement
 
@@ -71,6 +71,8 @@ Engine synthesis (C) — see [[gait_myofascial_mapping]]. During midswing: [[sup
 ## Sources
 
 - [[chambers_sutherland_gait_analysis_2002]] — p.2.
+- [[kadaba_lower_extremity_kinematics_1990]] — normative 3D sagittal kinematics during midswing (Level 3).
+- [[fukuchi_walking_kinematics_dataset_2018]] — normative walking kinematics dataset (Level 3).
 
 ## Evidence-separation rules
 

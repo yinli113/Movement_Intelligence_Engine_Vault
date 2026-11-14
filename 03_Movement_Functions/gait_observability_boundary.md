@@ -77,9 +77,24 @@ Inferring fascial tension/shortening from gait observation is forbidden by this 
 ## Sources
 
 - [[chambers_sutherland_gait_analysis_2002]] — p.4-6.
+- [[yang_park_mediapipe_gait_camera_location_2024]] — 2D MediaPipe camera-placement sensitivity for ankle/knee/hip angles (Level 3).
+- [[hii_mediapipe_gait_validation_2023]] — MediaPipe vs. Vicon temporal/spatial gait validation boundary (Level 3).
 
 ## Evidence-separation rules
 
 - **(A)** The boundary statement and the instrumentation requirement — directly from Chambers & Sutherland.
 - **(B)** Cross-link to [[golf_kinetics_observability_boundary]] — same principle, golf domain (Level 1 Kwon source).
 - **(C)** None; this node is a rule, not a synthesis.
+
+
+## Phase-aware gait reporting — 13 November 2026
+
+Canonical app reporting contract: `gait_reporting.v1.json` (engine synthesis). It owns honest projected-angle labels, phase-functional context, view gates and nonclinical display gates. Primary method sources: [[stenum_video_gait_pose_estimation_2021]], [[yang_park_mediapipe_gait_camera_location_2024]] and [[bergamini_walking_symmetry_2024]]. Compare matching phases for left/right descriptions; simultaneous traces describe coordination. No normative band or tissue cause is inferred.
+
+
+Report geometry clarification (13 November 2026): fresh workbench metrics use a hip-line tilt projection with anatomical-right-lower positive and a shoulder/pelvis-midpoint trunk lean with image-right positive. These use normalized image coordinates, not calibrated physical angles. Legacy shoulder-line tilt is not trunk lean; old wrapped pelvic angles are not reused as the new levelness metric. Unsigned hip bend and raw knee–ankle–toe angle are relabelled rather than treated as clinical flexion/extension or neutral dorsiflexion. Toe y is image position, not ground clearance.
+
+
+### Phase-specific interpretation refinement — 13 November 2026
+
+`gait_reporting.v1.json` v1.1 adds eight phase-specific observation questions and functional context. Actual tracked curve extrema, plateau spans and phase-specific shapes support descriptive summaries; visible little knee change does not establish poor shock absorption, toe image position does not establish ground clearance or foot drop, and knee extension does not measure hamstring eccentric control. Side-view horizontal pelvic travel remains chart context, not a highlighted deficit. Contact pattern, heel-rise/forefoot contact and foot–ground clearance remain explicitly labelled visual-review questions unless measured by an eligible dedicated method. Reference ratios/3D angles are never individual timing or clinical pass/fail rules.
