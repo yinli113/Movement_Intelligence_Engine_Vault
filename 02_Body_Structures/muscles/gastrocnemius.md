@@ -72,4 +72,8 @@ This muscle participates in the following **myofascial lines**:
 - **Fascial Lines**: [[superficial_back_line]]
 - **Joints**: [[ankle_joint]], [[knee_joint]]
 - **Joint Actions**: [[ankle_plantarflexion]], [[knee_flexion]]
-- **Back to Index**: 
+- **Back to Index**:
+
+## Joint-angle and muscle research — 2026-11-16
+
+Gastrocnemius can influence knee and hip movement through dynamic coupling during walking; effects vary with phase and model geometry. Sources: [[goldberg_double_support_knee_velocity_2004]], [[lenhart_gastrocnemius_soleus_walking_2014]]. See [[gait_kinematics]].

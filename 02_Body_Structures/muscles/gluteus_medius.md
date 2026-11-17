@@ -107,3 +107,7 @@ ightarrow$ splenius capitis / SCM.
 - **Joint Actions**: [[hip_abduction]], [[hip_internal_rotation]], [[hip_external_rotation]]
 - **Connective Structures**: [[iliotibial_tract]]
 - **Back to Index**:
+
+## Joint-angle and muscle research — 2026-11-16
+
+Walking demand can change hip-abductor activity and pelvis/trunk positioning together. Pelvic tilt alone does not establish weakness. Sources: [[graber_hip_trunk_unilateral_weight_2021]]. See [[gait_kinematics]].

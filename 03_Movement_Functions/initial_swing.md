@@ -7,7 +7,7 @@ short_definition: "The first swing phase (~62-75% of the gait cycle), from toe-o
 domain: gait
 evidence_level: 2
 source_role: foundational_domain_taxonomy
-supported_by: [chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis]
+supported_by: [chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis, anderson_swing_knee_flexion_2004, goldberg_double_support_knee_velocity_2004, fox_swing_initiation_walking_speeds_2010]
 status: reviewed
 reviewed_date: 2026-07-24
 contains: []
@@ -85,3 +85,7 @@ These are candidate line roles, not measured tissue loading.
 - **(A)** Phase bounds and acceleration role — directly from Chambers & Sutherland.
 - **(B)** Cross-links to [[swing_phase]], [[gait_cycle]] — same Level 1 source.
 - **(C)** Any fascial-line mapping is `engine_synthesis`.
+
+## Joint-angle and muscle research — 2026-11-16
+
+Swing knee bending depends on the preceding transition and multiple muscle contributions; the peak alone does not localize a muscle deficit. Sources: [[anderson_swing_knee_flexion_2004]], [[goldberg_double_support_knee_velocity_2004]], [[fox_swing_initiation_walking_speeds_2010]]. See [[gait_kinematics]].

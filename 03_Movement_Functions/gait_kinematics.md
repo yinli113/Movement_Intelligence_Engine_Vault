@@ -7,7 +7,7 @@ short_definition: "The measurement of gait motion (joint angles, segment positio
 domain: gait
 evidence_level: 3
 source_role: foundational_domain_taxonomy
-supported_by: [chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis, kadaba_lower_extremity_kinematics_1990, fukuchi_walking_kinematics_dataset_2018, stenum_video_gait_pose_estimation_2021, yang_park_mediapipe_gait_camera_location_2024, bergamini_walking_symmetry_2024]
+supported_by: [chambers_sutherland_gait_analysis_2002, perry_burnfield_gait_analysis, kadaba_lower_extremity_kinematics_1990, fukuchi_walking_kinematics_dataset_2018, stenum_video_gait_pose_estimation_2021, yang_park_mediapipe_gait_camera_location_2024, bergamini_walking_symmetry_2024, anderson_swing_knee_flexion_2004, goldberg_double_support_knee_velocity_2004, fox_swing_initiation_walking_speeds_2010, lenhart_gastrocnemius_soleus_walking_2014, kerrigan_hip_flexor_stretch_gait_2003, graber_hip_trunk_unilateral_weight_2021]
 status: reviewed
 reviewed_date: 2026-11-14
 contains: []
@@ -50,8 +50,8 @@ Kinematics is the closest instrumented category to what a 2D app observes, so th
 | **2. Loading Response (0–12%)** | Plantarflexes ~5–10° (first rocker / foot-flat lowering) | Flexes to ~15–20° (loading knee bend) | Holds ~20–25° flexion, begins extending | Check whether **knee bend proxy increases** during weight acceptance and **foot–shank included angle opens**; compare L vs R loading excursion. |
 | **3. Midstance (12–31%)** | Dorsiflexes to ~5° as tibia advances (second rocker) | Extends from ~15° back toward ~0–5° | Extends from ~20° toward ~0° neutral | Check whether **knee bend proxy decreases** (straightens) and **foot–shank angle closes** as the tibia progresses over the planted foot. |
 | **4. Terminal Stance (31–50%)** | Dorsiflexes to ~10° peak as heel rises (third rocker) | Remains near ~0–5° extension, begins flexing late | Reaches ~10–20° hyperextension (trailing thigh) | Check continued ankle closure prior to heel rise and trailing-limb progression; note that unsigned 2D trunk–thigh angle increases again as the thigh trails behind vertical. |
-| **5. Pre-Swing (50–62%)** | Rapidly plantarflexes to ~15–20° at toe-off | Rapidly flexes to ~35–40° (unloading for swing) | Moves from extension back toward ~0° neutral | Check rapid **knee bend proxy increase** (~30–40°) and **foot–shank angle opening** during unloading. |
-| **6. Initial Swing (62–75%)** | Plantarflexion reduces from ~20° toward ~5–10° | Reaches peak swing flexion (~60°; 55–65°) for toe clearance | Flexes to ~15–20° | Check **peak swing knee bend proxy** (typically ~50–65° in 2D side view) and L vs R swing-peak symmetry. |
+| **5. Pre-Swing (50–62%)** | Rapidly plantarflexes to ~15–20° at toe-off | Rapidly flexes to ~35–40° (unloading for swing) | Moves from extension back toward ~0° neutral | Check rapid **knee bend proxy increase** and **foot–shank angle opening** during unloading. |
+| **6. Initial Swing (62–75%)** | Plantarflexion reduces from ~20° toward ~5–10° | Reaches peak swing flexion (~60°; 55–65°) for toe clearance | Flexes to ~15–20° | Check **peak swing knee bend proxy**, without a validated 2D normative band and L vs R swing-peak symmetry. |
 | **7. Midswing (75–87%)** | Reaches ~0° neutral dorsiflexion for foot clearance | Begins extending from ~60° toward ~25–30° | Flexes to ~25° (near peak advancement) | Check **knee straightening progression** and **foot–shank angle closure** for midswing foot clearance. |
 | **8. Terminal Swing (87–100%)** | Holds ~0° neutral (or slight plantarflexion) for contact | Extends to ~0–5° in preparation for heel strike | Holds ~20–25° flexion | Check **terminal knee extension** (knee bend proxy returning near minimum before contact) and L vs R terminal reach. |
 
@@ -102,3 +102,16 @@ None directly. Fascial-line mapping is an engine synthesis (C).
 - **(A)** Kinematics definition, 3D eight-phase progressions, and 2D camera projection properties — directly from the cited Level 1 and Level 3 sources.
 - **(B)** Cross-links to [[gait_cycle]], [[gait_observability_boundary]], and the eight phase nodes.
 - **(C)** Any fascial-line mapping is `engine_synthesis`.
+
+## Joint-angle and muscle research — 2026-11-16
+
+Joint curves support questions about movement strategy and available mobility; they do not identify an individual muscle cause.
+
+- [[anderson_swing_knee_flexion_2004]]: The simulation attributed much of swing knee flexion to knee flexion velocity at toe-off. Muscle contributions interacted rather than mapping one joint peak to one muscle.
+- [[goldberg_double_support_knee_velocity_2004]]: In this model, iliopsoas and gastrocnemius increased knee flexion velocity before swing; vasti, rectus femoris and soleus decreased it. The effects depend on limb configuration and model assumptions.
+- [[fox_swing_initiation_walking_speeds_2010]]: Hip flexors contributed substantially to preswing knee acceleration, with contributions changing across walking speeds. Passive dynamics and multiple muscles also contributed to swing initiation.
+- [[lenhart_gastrocnemius_soleus_walking_2014]]: Gastrocnemius stimulation induced hip and knee flexion; midstance stimulation also induced ankle dorsiflexion. Soleus stimulation in midstance induced knee extension and plantarflexion. Responses depended on stimulation timing; gastrocnemius model predictions were sensitive to moment-arm assumptions.
+- [[kerrigan_hip_flexor_stretch_gait_2003]]: Static hip extension improved within the intervention group. Comfortable-speed and fast-speed dynamic hip-extension changes were trends (P=.103 and .093), not statistically significant improvements. Available passive movement and walking excursion are distinct outcomes.
+- [[graber_hip_trunk_unilateral_weight_2021]]: Contralateral to the carried weight, hip abductor activity increased while pelvic drop decreased and trunk lean increased. Ipsilateral hip abductor activity did not change. Pelvis, trunk and muscle activity respond to task context.
+
+The canonical `gait_reporting.v1.json` literatureHypotheses connects repeated screening observations to these mechanisms. Screening thresholds are app choices, not literature-defined abnormal ROM. Preserve each source population, method and review scope. The unsigned hip proxy cannot measure signed hip extension; ankle included angles cannot be interpreted as calibrated dorsiflexion. Direct active/passive movement, task context and phase replay distinguish possibilities.

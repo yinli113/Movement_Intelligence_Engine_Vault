@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "updated": "2026-11-13",
+  "version": "1.2.0",
+  "updated": "2026-11-16",
   "evidenceRole": "engine_synthesis",
   "limits": "Single-view image projections describe movement; they do not establish tissue state, muscle activity, joint loading, diagnosis or treatment. Numerical angles depend on camera geometry and tracking. No normative bands are supplied.",
   "gates": {
@@ -45,6 +45,102 @@
       "year": 2024,
       "url": "https://doi.org/10.1038/s41598-024-69461-w",
       "role": "Primary instrumented symmetry-index comparison; no camera asymmetry cutoff"
+    },
+    {
+      "id": "anderson_swing_knee_flexion_2004",
+      "title": "Contributions of muscle forces and toe-off kinematics to peak knee flexion during the swing phase of normal gait: an induced position analysis",
+      "authors": "Anderson FC, Goldberg SR, Pandy MG, Delp SL",
+      "year": 2004,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15047002/",
+      "role": "Primary induced-position simulation; mechanism, not a personal muscle test",
+      "doi": "10.1016/j.jbiomech.2003.09.018",
+      "population": "Normal walking represented by a three-dimensional muscle-actuated simulation",
+      "reviewScope": "Online abstract and bibliographic metadata",
+      "finding": "The simulation attributed much of swing knee flexion to knee flexion velocity at toe-off. Muscle contributions interacted rather than mapping one joint peak to one muscle.",
+      "boundary": "A model contribution is not measured muscle activity or a validated camera cutoff.",
+      "sourceRefs": [
+        "00_Spec/sources/anderson_swing_knee_flexion_2004.md"
+      ]
+    },
+    {
+      "id": "goldberg_double_support_knee_velocity_2004",
+      "title": "Muscles that influence knee flexion velocity in double support: implications for stiff-knee gait",
+      "authors": "Goldberg SR, Anderson FC, Pandy MG, Delp SL",
+      "year": 2004,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15212924/",
+      "role": "Primary forward-dynamics simulation",
+      "doi": "10.1016/j.jbiomech.2003.12.005",
+      "population": "Normal walking simulation; muscle-force perturbations during double support",
+      "reviewScope": "Online author full text, methods and results",
+      "finding": "In this model, iliopsoas and gastrocnemius increased knee flexion velocity before swing; vasti, rectus femoris and soleus decreased it. The effects depend on limb configuration and model assumptions.",
+      "boundary": "These dynamic effects do not establish tightness, weakness or activation from a knee curve.",
+      "sourceRefs": [
+        "00_Spec/sources/goldberg_double_support_knee_velocity_2004.md"
+      ]
+    },
+    {
+      "id": "fox_swing_initiation_walking_speeds_2010",
+      "title": "Contributions of muscles and passive dynamics to swing initiation over a range of walking speeds",
+      "authors": "Fox MD, Delp SL",
+      "year": 2010,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20236644/",
+      "role": "Primary subject-specific musculoskeletal simulations in a paediatric cohort",
+      "doi": "10.1016/j.jbiomech.2010.02.009",
+      "population": "Eight unimpaired children and adolescents, ages 7–18; four walking speeds",
+      "reviewScope": "Online full text, methods and results",
+      "finding": "Hip flexors contributed substantially to preswing knee acceleration, with contributions changing across walking speeds. Passive dynamics and multiple muscles also contributed to swing initiation.",
+      "boundary": "Paediatric model findings supply mechanistic context, not adult normative angles or individual muscle attribution.",
+      "sourceRefs": [
+        "00_Spec/sources/fox_swing_initiation_walking_speeds_2010.md"
+      ]
+    },
+    {
+      "id": "lenhart_gastrocnemius_soleus_walking_2014",
+      "title": "Empirical evaluation of gastrocnemius and soleus function during walking",
+      "authors": "Lenhart RL, Francis CA, Lenz AL, Thelen DG",
+      "year": 2014,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25107666/",
+      "role": "Primary experimental stimulation with instrumented gait and modelling",
+      "doi": "10.1016/j.jbiomech.2014.07.007",
+      "population": "Twenty healthy young adults; brief electrical stimulation during stance",
+      "reviewScope": "Online full text, methods and results",
+      "finding": "Gastrocnemius stimulation induced hip and knee flexion; midstance stimulation also induced ankle dorsiflexion. Soleus stimulation in midstance induced knee extension and plantarflexion. Responses depended on stimulation timing; gastrocnemius model predictions were sensitive to moment-arm assumptions.",
+      "boundary": "Anatomical action labels alone cannot predict whole-limb walking effects. This study did not test clinical calf tightness.",
+      "sourceRefs": [
+        "00_Spec/sources/lenhart_gastrocnemius_soleus_walking_2014.md"
+      ]
+    },
+    {
+      "id": "kerrigan_hip_flexor_stretch_gait_2003",
+      "title": "Effect of a hip flexor-stretching program on gait in the elderly",
+      "authors": "Kerrigan DC, Xenopoulos-Oddsson A, Sullivan MJ, Lelas JJ, Riley PO",
+      "year": 2003,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12589613/",
+      "role": "Primary randomized intervention study; separate static and dynamic outcomes",
+      "doi": "10.1053/apmr.2003.50056",
+      "population": "Ninety-six healthy older adults; randomized ten-week stretching comparison",
+      "reviewScope": "Online abstract and bibliographic metadata",
+      "finding": "Static hip extension improved within the intervention group. Comfortable-speed and fast-speed dynamic hip-extension changes were trends (P=.103 and .093), not statistically significant improvements. Available passive movement and walking excursion are distinct outcomes.",
+      "boundary": "Small walking excursion does not establish hip-flexor shortening. The trial does not support promising that stretching changes this app pattern.",
+      "sourceRefs": [
+        "00_Spec/sources/kerrigan_hip_flexor_stretch_gait_2003.md"
+      ]
+    },
+    {
+      "id": "graber_hip_trunk_unilateral_weight_2021",
+      "title": "Hip and Trunk Muscle Activity and Mechanics During Walking With and Without Unilateral Weight",
+      "authors": "Graber KA, Loverro KL, Baldwin M, Nelson-Wong E, Tanor J, Lewis CL",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34051700/",
+      "role": "Primary EMG, motion-capture and force-plate experiment",
+      "doi": "10.1123/jab.2020-0273",
+      "population": "Twenty-six healthy adults; treadmill walking with and without unilateral hand-held weight",
+      "reviewScope": "Online full text, methods and results",
+      "finding": "Contralateral to the carried weight, hip abductor activity increased while pelvic drop decreased and trunk lean increased. Ipsilateral hip abductor activity did not change. Pelvis, trunk and muscle activity respond to task context.",
+      "boundary": "A frontal tilt or lean does not identify hip abductor weakness. Loaded treadmill results do not prescribe an exercise for an unweighted recording.",
+      "sourceRefs": [
+        "00_Spec/sources/graber_hip_trunk_unilateral_weight_2021.md"
+      ]
     }
   ],
   "regions": [
@@ -101,9 +197,8 @@
     },
     {
       "id": "pelvis",
-      "title": "Pelvis",
+      "title": "Pelvic levelness",
       "views": [
-        "side",
         "front",
         "back"
       ],
@@ -138,6 +233,36 @@
       "meaning": "Upper-body position provides context for how the person progresses and transfers support between the legs.",
       "limit": "These projections do not establish balance capacity, compensation or muscle weakness. Frontal displacement follows image left/right.",
       "followUp": "Review trunk and pelvis together during each side’s support phase with a fixed, level camera."
+    },
+    {
+      "id": "shoulder",
+      "title": "Shoulder-line tilt",
+      "views": [
+        "front",
+        "back"
+      ],
+      "ids": [
+        "shoulder_levelness_projection"
+      ],
+      "axis": "Shoulder-line tilt, anatomical right lower + (°)",
+      "meaning": "Shoulder-line tilt provides context for upper-trunk alignment during support transfer and swing.",
+      "limit": "Shoulder-line tilt is a 2D image projection and does not establish structural asymmetry or compensation.",
+      "followUp": "Review shoulder-line tilt alongside pelvic levelness and lateral trunk lean during single-limb support."
+    },
+    {
+      "id": "ankle-separation",
+      "title": "Projected ankle separation",
+      "views": [
+        "front",
+        "back"
+      ],
+      "ids": [
+        "step_width_proxy"
+      ],
+      "axis": "Horizontal separation in image units",
+      "meaning": "Horizontal ankle separation tracks the visible sideways spacing between the feet through stance and swing.",
+      "limit": "This is not calibrated step width or a measure of stance stability.",
+      "followUp": "Review foot placement at contact and swing passage with a centred front or back camera."
     }
   ],
   "phaseGuides": [
@@ -394,5 +519,72 @@
     "referenceBoundary": "Approximate percentages and 3D reference angles are educational context only, never personal phase timing, angle thresholds or automatic diagnoses.",
     "phaseBoundaryBoundary": "Initial contact is an instant. Heel excursion is a provisional contact proxy; pelvis-over-ankle alignment is distinct from the current heel-rise phase boundary.",
     "mixedShapes": "Equal-frequency cycle shapes are labelled mixed, never an arbitrary dominant pattern. Small ambiguous reversals without a net or prominent interior feature remain chart detail rather than client headlines."
+  },
+  "literatureHypotheses": {
+    "version": "gait-literature-hypotheses/1.0.0",
+    "evidenceRole": "engine_synthesis",
+    "policy": "Apply only to recurring eligible screening observations. Source mechanisms do not validate detector thresholds or identify muscle states. Keep exact contributor identities, denominator, view and side; do not infer simultaneous events across recordings. Omit flat/nonfinite curves. No personal likelihood ranking or normative ROM band.",
+    "templates": [
+      {
+        "id": "knee_swing_preparation",
+        "findingIds": [
+          "gait-sagittal-knee-flexion-restriction-left",
+          "gait-sagittal-knee-flexion-restriction-right"
+        ],
+        "views": [
+          "side"
+        ],
+        "title": "Knee bending: preparation for swing",
+        "observation": "The knee-bend curve repeatedly meets the app’s screening rule in these cycles.",
+        "hypothesis": "Preparation before foot-off may help explain the knee-bending pattern. Hip flexors, knee extensors and the calf muscles can all influence how the leg enters swing.",
+        "alternatives": "Walking pace, available knee movement and event placement are other possibilities to compare.",
+        "check": "Replay the transition through foot-off at a comparable pace; assess active and passive knee bending, hip movement and calf function separately.",
+        "sourceIds": [
+          "anderson_swing_knee_flexion_2004",
+          "goldberg_double_support_knee_velocity_2004",
+          "fox_swing_initiation_walking_speeds_2010",
+          "lenhart_gastrocnemius_soleus_walking_2014"
+        ],
+        "phaseUse": "Review question spanning preswing and initial swing; the screening trigger measures whole-cycle peak, not a diagnosed swing-phase deficit."
+      },
+      {
+        "id": "hip_available_motion",
+        "findingIds": [
+          "gait-sagittal-hip-flexion-restriction-left",
+          "gait-sagittal-hip-flexion-restriction-right"
+        ],
+        "views": [
+          "side"
+        ],
+        "title": "Thigh excursion: mobility or walking strategy?",
+        "observation": "The thigh–trunk curve repeatedly meets the app’s small-excursion screening rule.",
+        "hypothesis": "Available hip movement is one possibility to assess alongside walking strategy. The movement used while walking can differ from the movement available during a direct examination.",
+        "alternatives": "Walking pace and trunk/pelvis positioning can also change the projected excursion.",
+        "check": "Compare direct active/passive hip movement with the late-stance replay at a similar pace. Include pelvic position when examining hip extension.",
+        "sourceIds": [
+          "kerrigan_hip_flexor_stretch_gait_2003"
+        ],
+        "phaseUse": "Whole-cycle unsigned trunk–thigh excursion; signed hip extension and a hip-flexor restriction are not measured."
+      },
+      {
+        "id": "pelvic_trunk_strategy",
+        "findingIds": [
+          "gait-pelvic-obliquity-asymmetry"
+        ],
+        "views": [
+          "front",
+          "back"
+        ],
+        "title": "Pelvis and trunk: a support strategy",
+        "observation": "Pelvic tilt and lateral trunk movement repeatedly meet the combined screening rule.",
+        "hypothesis": "Hip abductor and trunk coordination may help explain this support strategy. Research shows that pelvic movement, trunk lean and muscle activity change together when walking demands change.",
+        "alternatives": "Carried load, pace and camera alignment should be checked before attributing the pattern to strength.",
+        "check": "Review pelvis and trunk together during single support; compare direct hip-abductor strength and supported single-leg control with the walking replay.",
+        "sourceIds": [
+          "graber_hip_trunk_unilateral_weight_2021"
+        ],
+        "phaseUse": "Whole-cycle co-occurrence, not simultaneous peaks or verified stance-side weakness. Inspect single-support frames before a phase-specific interpretation."
+      }
+    ]
   }
 }

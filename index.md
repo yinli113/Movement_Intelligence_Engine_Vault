@@ -206,3 +206,14 @@ Scoring metrics, assessments, and remedial exercises:
 ## Phase-aware gait reporting — 13 November 2026
 
 Canonical app reporting contract: `gait_reporting.v1.json` (engine synthesis). It owns honest projected-angle labels, phase-functional context, view gates and nonclinical display gates. Primary method sources: [[stenum_video_gait_pose_estimation_2021]], [[yang_park_mediapipe_gait_camera_location_2024]] and [[bergamini_walking_symmetry_2024]]. Compare matching phases for left/right descriptions; simultaneous traces describe coordination. No normative band or tissue cause is inferred.
+
+### Gait joint-angle and muscle research (2026-11-16)
+
+- [[anderson_swing_knee_flexion_2004]] — Primary induced-position simulation; mechanism, not a personal muscle test.
+- [[goldberg_double_support_knee_velocity_2004]] — Primary forward-dynamics simulation.
+- [[fox_swing_initiation_walking_speeds_2010]] — Primary subject-specific musculoskeletal simulations in a paediatric cohort.
+- [[lenhart_gastrocnemius_soleus_walking_2014]] — Primary experimental stimulation with instrumented gait and modelling.
+- [[kerrigan_hip_flexor_stretch_gait_2003]] — Primary randomized intervention study; separate static and dynamic outcomes.
+- [[graber_hip_trunk_unilateral_weight_2021]] — Primary EMG, motion-capture and force-plate experiment.
+
+Route: [[gait_kinematics]] → phase or muscle → primary source → direct assessment question.

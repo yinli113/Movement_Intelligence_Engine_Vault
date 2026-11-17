@@ -7,7 +7,7 @@ short_definition: "The ~50-60% stance phase from opposite foot strike to toe-off
 domain: gait
 evidence_level: 2
 source_role: foundational_domain_taxonomy
-supported_by: [perry_burnfield_gait_analysis, chambers_sutherland_gait_analysis_2002]
+supported_by: [perry_burnfield_gait_analysis, chambers_sutherland_gait_analysis_2002, anderson_swing_knee_flexion_2004, goldberg_double_support_knee_velocity_2004, fox_swing_initiation_walking_speeds_2010]
 status: reviewed
 reviewed_date: 2026-07-24
 contains: []
@@ -89,3 +89,7 @@ These are candidate line roles, not measured tissue loading.
 - **(A)** Phase definition, ~50-60%, unload/propulsion-prep role — cited via Chambers & Sutherland (read in full).
 - **(B)** Cross-links to [[stance_phase]], [[second_double_limb_support]] — same Level 1 domain.
 - **(C)** Any fascial-line mapping is `engine_synthesis`.
+
+## Joint-angle and muscle research — 2026-11-16
+
+Review preparation for swing, including knee flexion velocity at foot-off, rather than assigning a swing peak to one muscle. Sources: [[anderson_swing_knee_flexion_2004]], [[goldberg_double_support_knee_velocity_2004]], [[fox_swing_initiation_walking_speeds_2010]]. See [[gait_kinematics]].

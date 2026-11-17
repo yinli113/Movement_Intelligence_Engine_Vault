@@ -11,7 +11,7 @@ supported_by: [anatomy_trains_myers_2009]
 status: reviewed
 reviewed_date: 2026-07-26
 contains: []
-connects_to: [gait_cycle, stance_phase, swing_phase, initial_contact, loading_response, mid_stance, terminal_stance, preswing, initial_swing, midswing, terminal_swing, superficial_front_line, superficial_back_line, lateral_line, spiral_line, deep_front_line, back_functional_line, front_functional_line, gait_observability_boundary]
+connects_to: [gait_cycle, stance_phase, swing_phase, initial_contact, loading_response, mid_stance, terminal_stance, preswing, initial_swing, midswing, terminal_swing, superficial_front_line, superficial_back_line, lateral_line, spiral_line, deep_front_line, back_functional_line, front_functional_line, gait_observability_boundary, goldberg_double_support_knee_velocity_2004, lenhart_gastrocnemius_soleus_walking_2014, graber_hip_trunk_unilateral_weight_2021]
 directly_supported_claims:
   - "Anatomy Trains (Myers) contains a dedicated 'Anatomy Trains in Gait' section by James Earls mapping myofascial meridians onto the gait cycle."
   - "Earls states the Spiral Line is 'especially significant in the dynamic anatomy of walking, as walking is very much a movement derived from rotational forces.'"
@@ -197,8 +197,8 @@ A side-walking gait shows restricted knee flexion. Traversal:
 2. **Edge type 1 confirmation:** SFL anterior tissues lengthen / elastically load during [[loading_response]] (knee flexes ~15° for shock absorption) and during [[terminal_stance]]/[[preswing]] (hip extension tensions anterior tissues for swing recoil). Both gait moments require SFL to yield. (Muscle action is often isometric per Earls' SSC framing, not eccentric.)
 3. **Edge type 3 prediction:** expect hip hike / circumduction / vaulting as compensations, driven by [[lateral_line]], [[spiral_line]], [[superficial_back_line]] overwork.
 4. **Disambiguation:**
-   - If hip extension is also limited → confirms SFL (rectus femoris biarticular).
-   - If passive knee flexion is normal but gait flexion is restricted → suspect [[spiral_line]] (rotational coupling, not sagittal).
+   - If direct hip extension is also limited → assess anterior hip and biarticular rectus femoris mobility as possibilities; this does not confirm SFL restriction.
+   - If passive knee flexion is available but walking bending remains small → compare walking pace, swing preparation and trunk/pelvis strategy. Consider [[spiral_line]] only as an optional model alongside an independently observed rotation pattern.
    - If knee is "locked" from full extension with dropped medial arch → suspect [[deep_front_line]] (popliteus; (C) general DFL anatomy, not Earls gait).
    - **Spine-driver differential (see Whole-chain insight):** if knee flexion is restricted but the SFL looks fine on direct test, the upstream issue is **reduced elastic loading**, not distal ROM restriction. A restricted **thoracic extension** (SFL/DFL) or a **forward head** (SFL/DFL cervical) can reduce the DFL/SFL **elastic recoil** at toe-off (source-supported, (A)). The mechanism is loss of elastic contribution to hip flexion into swing — **not** cervical-causes-lumbar ROM restriction (unsupported). Side view catches thoracic/cervical sagittal angle; front view catches cervical rotation.
 
@@ -254,3 +254,7 @@ The Lateral Line may be offered as an optional anatomical review model for these
 Cross-view presentation should retain each recording's observations and provenance, including front + back without a side recording. Similar descriptors in separate passes are not synchronized evidence or proof of a shared biomechanical cause. Legacy causal pattern IDs are not prerequisites for displaying available observations and model review questions.
 
 Runtime translation: movement_assessment movement-knowledge.v1.json 1.4.0; existing LL/SPL entries plus sagittal movement-context entry. The anatomical role statements above remain source/framework context; their application to these camera descriptors is C, not detector validation.
+
+## Joint-angle and muscle research — 2026-11-16
+
+Primary muscle/joint studies are a separate mechanistic layer from Anatomy Trains line models. [[goldberg_double_support_knee_velocity_2004]] and [[lenhart_gastrocnemius_soleus_walking_2014]] show configuration-dependent, coupled leg effects; [[graber_hip_trunk_unilateral_weight_2021]] adds task-dependent pelvis/trunk context. These studies do not validate the line-restriction mappings above. A restricted-looking curve is a screening observation, not confirmation of muscle shortening or a restricted fascial line. Direct mobility or a changed retest narrows assessment questions, without confirming a line cause. See [[gait_kinematics]] and the source-specific transfer boundaries.

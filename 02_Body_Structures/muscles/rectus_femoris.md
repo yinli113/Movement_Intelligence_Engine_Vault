@@ -70,4 +70,8 @@ This muscle participates in the following **myofascial lines**:
 - **Fascial Lines**: [[superficial_front_line]]
 - **Joints**: [[hip_joint]], [[knee_joint]]
 - **Joint Actions**: [[hip_flexion]], [[knee_extension]]
-- **Back to Index**: 
+- **Back to Index**:
+
+## Joint-angle and muscle research — 2026-11-16
+
+Knee-extensor contributions during double support can influence subsequent knee bending; camera curves do not measure rectus femoris timing. Sources: [[goldberg_double_support_knee_velocity_2004]]. See [[gait_kinematics]].

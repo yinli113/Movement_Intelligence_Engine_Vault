@@ -70,4 +70,8 @@ This muscle participates in the following **myofascial lines**:
 - **Fascial Lines**: [[superficial_back_line]]
 - **Joints**: [[ankle_joint]]
 - **Joint Actions**: [[ankle_plantarflexion]]
-- **Back to Index**: 
+- **Back to Index**:
+
+## Joint-angle and muscle research — 2026-11-16
+
+Soleus and gastrocnemius have different whole-limb effects during walking despite sharing plantarflexion as an anatomical action. Sources: [[goldberg_double_support_knee_velocity_2004]], [[lenhart_gastrocnemius_soleus_walking_2014]]. See [[gait_kinematics]].

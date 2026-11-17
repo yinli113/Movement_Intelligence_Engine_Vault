@@ -579,3 +579,7 @@ Added Stenum 2021 and Bergamini 2024 primary-source notes with explicit method-t
 ### 2026-11-13 — Restore gait observation-to-model review
 
 Added continuous observation translation to existing gait_myofascial_mapping hub: front/back observations need no contact timing; optional LL/SPL and sagittal SFL/SBL model context is engine synthesis, not a line dysfunction or causal diagnosis. Cross-view review preserves independent view evidence. Bundled movement_assessment knowledge updated to 1.4.0 in the same session.
+
+## 2026-11-16 — Gait joint-angle/muscle hypothesis research
+
+Added six primary sources with population/method/review scopes; linked existing gait, phase and muscle nodes. Reporting contract v1.2.0 defines three recurring-pattern assessment hypotheses. Static/dynamic hip outcomes remain distinct; pediatric simulations retain their population. No normal-ROM cutoff, muscle-state detection or treatment rule added. App and website contract copies synchronized.
